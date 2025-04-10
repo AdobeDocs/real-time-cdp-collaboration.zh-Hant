@@ -1,0 +1,129 @@
+---
+title: 字彙
+description: 瞭解Real-Time CDP Collaboration的重要術語
+audience: admin, publisher, advertiser
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
+source-git-commit: b929cf9d75b4fc844ba03799f07a5e372b8f9052
+workflow-type: tm+mt
+source-wordcount: '815'
+ht-degree: 2%
+
+---
+
+# 字彙
+
+{{limited-availability-release-note}}
+
+本辭彙表提供Adobe Real-Time CDP Collaboration產品與檔案中識別之重要辭彙的定義。 瞭解這些術語將有助於您更好地利用產品及其功能。
+
+## A
+
+### 廣告商
+
+任何實體將會花費行銷預算來觸及跨發佈商或其他品牌合作夥伴的對象，以實現品牌認知度、潛在客戶、重新參與和轉換的目標。
+
+## C
+
+### 雲端儲存空間
+
+雲端儲存是雲端運算解決方案，可透過雲端運算提供者在網際網路上儲存資料和檔案，幾乎永遠是組織資料棧疊的一部分。 範例包括Amazon Web Services (AWS)、Microsoft Azure和Google Cloud Platform (GCP)。
+
+### 聯機請求
+
+連接請求是從組織發送到另一個組織以建立數據共享連接的正式請求。 一旦被接受，它允許雙方安全地協作和共用對象數據。
+
+### 連線設定
+
+接受連線要求後，該要求的發起者會將連線設定傳送給共同作業人員以供核准。 這些連線設定會控管共同作業人員處理專案的方式，並包含要使用的相符金鑰、帳單所有權等等。
+
+<!--
+
+### Crosswalk
+
+An identity crosswalk is a tool used to connect different identifiers across datasets to enrich your audience data with additional attributes or dimensions. It creates a bridge between different data points, allowing for a more comprehensive and cohesive view of the data.
+
+-->
+
+## D
+
+### 資料潔淨室
+
+安全的共同作業環境，可讓兩個或多個參與者將資料資產用於特定、相互同意的使用，同時保證實施嚴格的資料存取限制。 此基礎架構層通常由雲端儲存提供者及/或Snowflake和Databricks等資料倉儲提供，最適合技術使用者，例如精通SQL等技能的資料工程師和資料科學家。
+
+### 資料協作
+
+資料共同作業涉及結合和分析公司內部或合作夥伴的資料，以達到各種目的，例如對象目標定位、測量和見解。 資料共同作業平台提供安全的環境，可安全地共用資料，同時符合隱私權和安全考量。
+
+### 資料連線
+
+資料連線是您可以將資料匯入Real-Time CDP Collaboration的來源。 目前Experience Platform是唯一可用的資料連線。 深入瞭解[管理資料連線](/help/guide/setup/manage-data-connection.md)。
+
+### 資料共用協定
+
+資料共用協定是兩個或多個當事人之間的正式合約，概述共用資料的條款與條件。 它可確保各方遵守法律和隱私權要求，並建立資料使用和保護的准則。
+
+### 裝置識別碼
+
+裝置識別碼是與裝置（例如智慧型手機或平板電腦）相關聯的唯一數字。 它可用來追蹤及識別各種平台與服務中的裝置，實現個人化使用者體驗及鎖定目標的廣告。
+
+## I
+
+### 邀請
+
+即時 CDP 協作中的邀請Adobe Systems是指發送給其他用戶或組織以加入專案或數據共同作業工作的請求。 邀請有助於促進對共用數據和資源的安全和受控訪問。
+
+<!--
+
+## J
+
+### Join key
+
+In the context of identity crosswalks, a join key is a unique identifier used to match and link different identifiers across datasets, enabling the integration and unification of audience data from various sources. For example, a hashed email (HEM) can be a join key.
+
+-->
+
+## M
+
+### 比對索引鍵
+
+比對索引鍵是用於連結不同資料集記錄的唯一識別碼。 它們有助於確保來自不同來源的資料能夠準確比對和整合，進而促進更好的資料分析和受眾細分。
+
+## O
+
+### 重疊
+
+重疊（或受眾重疊）是指存在於不同資料集之間的常見受眾區段。 瞭解對象重疊有助於識別潛在的共同作業機會，並可運用共用的對象資料，進行更具針對性的行銷工作。
+
+## P
+
+### 專案
+
+Adobe Real-Time CDP Collaboration中的專案是工作區，使用者可在其中共同作業特定資料整合和受眾細分任務。 專案有助於組織並管理資料共用工作，讓共同作業更有效率且更簡化。
+
+### 公開對象
+
+在專案的內容中，這是共同作業人員可探索的對象。 對象可為私人、自訂或公用。 任何其他共同作業人員都無法探索私人對象。 自訂對象只能由某些共同作業人員探索，而公開對象則可由所有共同作業人員探索。
+
+### 發佈者
+
+發佈者是線上內容或服務的所有者或運營商，其中個人數據是在徵得同意的情況下收集的，並可供其他實體用于數位廣告和對象衡量。
+
+## S
+
+### 草圖 {#sketches}
+
+草圖（或數據草圖）是即時 CDP 協作中使用的對象數據的簡化摘要。 它們可讓品牌和發佈商分析受眾重疊和見解，而不需要共用實際客戶資料。 將其視為匿名人數，而不是詳細的客戶檔案。
+在Adobe Real-Time CDP Collaboration中，資料草圖：
+
+* 協助判斷兩個對象是否相似
+* 在啟用共同作業的同時維護隱私權
+* 至少每7天需要重新整理才能保持有效
+
+如果未定期重新整理草圖，對象重疊報表會顯示零值，且對象共用可能會暫時無法使用。 每當Real-Time CDP Collaboration中的對象成員資格更新時，資料草圖都會自動更新。
+
+## U
+
+### 使用實例
+
+使用案例會定義可使用Adobe Real-Time CDP Collaboration解決的特定業務案例或問題。 在Real-Time CDP Collaboration中，受眾探索或行銷活動測量等範例使用案例可用來協助達成特定目標。
