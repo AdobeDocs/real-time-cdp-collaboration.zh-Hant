@@ -17,7 +17,7 @@ ht-degree: 0%
 
 透過Experience Cloud [許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"}介面管理Real-Time CDP Collaboration中個別元件的許可權和使用者存取權。 許可權可讓系統和產品管理員定義[角色](./manage-roles.md)，以管理使用者對特定功能和資源的存取權。
 
-## 設定許可權的訪問許可權 {#permissions-access}
+## 設定存取許可權 {#permissions-access}
 
 若要存取許可權，您必須同時擁有產品管理員和使用者對Adobe Experience Platform產品的存取權。 系統管理員需要設定產品管理員許可權，而使用者許可權可由系統或產品管理員設定。 如需有關管理角色的詳細資訊，請閱讀[存取控制階層](./overview.md#hierarchy)指南。
 
@@ -117,8 +117,8 @@ Adobe Experience Platform控制面板隨即顯示。 選取&#x200B;**[!UICONTROL
 
 設定個人對Real-Time CDP Collaboration的存取權時，您將從Collaborations資源指派包含許可權的使用者角色。 您可以使用[管理角色](./manage-roles.md)指南來尋找下列相關資訊：
 
-- 這兩個標準角色](./manage-roles.md#standard-roles)及其[授予即時CDP協作的訪問許可權級別
-- 使用協作資源創建自定義[角色](./manage-roles.md#specific-access-roles)
+- [兩個標準角色](./manage-roles.md#standard-roles)及其授與Real-Time CDP Collaboration的存取權層級
+- 使用Collaboration資源建立[自訂角色](./manage-roles.md#specific-access-roles)
 - Collaborations資源中包含的許可權清單
 
 >[!NOTE]

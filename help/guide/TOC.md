@@ -5,7 +5,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration可讓廣告商與發�
 source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -13,10 +13,10 @@ ht-degree: 21%
 # Real-Time Customer Data Platform Collaboration {#using}
 
 * [Real-Time CDP Collaboration首頁](./home.md)
-* 概觀 {#overview}
+* {#overview} 總覽
    * [使用案例和優點](./use-cases-benefits.md)
    * [端對端工作流程](./end-to-end-workflow.md)
-* 設定 {#setup}
+* 設定{#setup}
    * [設定區段概觀](./setup/setup-overview.md)
    * [加入並管理您的組織](./setup/onboard-organization.md)
    * [匯入和管理對象](./setup/onboard-audiences.md)
@@ -25,11 +25,11 @@ ht-degree: 21%
    * [身分識別交叉對照表](./setup/identity-crosswalk.md)
    * [新增及管理測量資料](./setup/onboard-measurement-data.md)
    * [稽核記錄](./setup/audit-logs.md)
-* 與發佈商或廣告商連線 {#connect}
+* 與發佈者或廣告商{#connect}連線
    * [探索發佈者](./connect/discover-publishers.md)
    * [探索廣告商](./connect/discover-advertisers.md)
    * [與廣告商或發佈商連結](./connect/establishing-connections.md)
-* 協作 {#collaborate}
+* 共同作業{#collaborate}
    * [管理專案](./collaborate/manage-projects.md)
    * [探索](./collaborate/discover.md)
    * [共用](./collaborate/share.md)
@@ -39,7 +39,7 @@ ht-degree: 21%
    * [概觀](/help/guide/permissions/overview.md)
    * [管理使用者存取權](/help/guide/permissions/manage-user-access.md)
    * [管理角色](/help/guide/permissions/manage-roles.md)
-* 範例使用案例 {#use-cases}
+* 範例使用案例{#use-cases}
    * [行銷活動衡量](./use-cases/campaign-measurement.md)
    * [潛在客戶](./use-cases/prospecting.md)
    * [重新鎖定](./use-cases/retargeting.md)

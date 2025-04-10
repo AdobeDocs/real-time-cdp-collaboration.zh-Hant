@@ -1,6 +1,6 @@
 ---
 title: 行銷活動衡量
-description: 衡量不同渠道的促銷活動績效
+description: 衡量不同管道中行銷活動的績效
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
@@ -14,6 +14,6 @@ ht-degree: 25%
 
 # 行銷活動衡量
 
-**進行中的工作**
+**工作進行中**
 
-要追隨的內容
+要關注的內容

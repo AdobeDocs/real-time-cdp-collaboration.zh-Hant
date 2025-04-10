@@ -1,6 +1,6 @@
 ---
 title: 常見問題
-description: 查找有關即時 CDP 協作Adobe Systems常見問題的解答
+description: 尋找有關Adobe Real-Time CDP Collaboration最常見問題的解答
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 07fa043a-ce42-494d-a262-fa1d5cad7476
@@ -15,18 +15,18 @@ ht-degree: 4%
 
 {{limited-availability-release-note}}
 
-此檔提供了有關即時 CDP 協作Adobe Systems常見問題的解答。 無論您是剛剛入門還是需要瞭解特定功能，都可以在此處找到所需的資訊。
+本檔案提供Adobe Real-Time CDP Collaboration常見問題的解答。 無論您是剛開始使用還是需要具體功能的說明，您可以在這裡找到所需的資訊。
 
-## 缺少許可權且無法訪問產品
+## 缺少許可權且無法存取產品
 
-嘗試存取即時 CDP 協同作業時看到此螢幕。 如何獲得使用該產品所需的許可權？
+我在嘗試存取Real-Time CDP Collaboration時看到此畫面。 我如何取得使用產品的必要許可權？
 
-![存取即時 CDP 協同作業時，許可權無法使用畫面](/help/assets/reference/common-questions/permissions-missing-screen.png)
+存取Real-Time CDP Collaboration時![許可權無法使用畫面](/help/assets/reference/common-questions/permissions-missing-screen.png)
 
-+++選擇要視圖答案
++++選取以檢視答案
 
-如果您是一般消費者，則需要聯絡公司的系統或產品管理員。
+如果您是一般使用者，則需要聯絡公司的系統或產品管理員。
 
-如果您是系統或產品管理員，請閱讀許可權指南，瞭解如何授予您自己和同事使用即時 CDP 協作的正確許可權。 開始存取控制 [概述](/help/guide/permissions/overview.md)。
+如果您是系統或產品管理員，請閱讀許可權指南以瞭解如何授予您自己和同事正確的許可權來使用Real-Time CDP Collaboration。 從[存取控制總覽](/help/guide/permissions/overview.md)開始。
 
 +++

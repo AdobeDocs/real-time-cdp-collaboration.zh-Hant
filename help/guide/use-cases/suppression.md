@@ -1,6 +1,6 @@
 ---
 title: 禁止
-description: 抑制說明
+description: 隱藏說明
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
@@ -15,6 +15,6 @@ ht-degree: 26%
 
 # 禁止
 
-**進行中的工作**
+**工作進行中**
 
-要追隨的內容
+要關注的內容

@@ -27,7 +27,7 @@ ht-degree: 1%
 4. 廣告商會傳送連線設定，包括比對索引鍵和其他。 這些連線設定代表共同作業的產品內條款。
 5. 發行者接受連線設定。 如果需要，發佈者可以拒絕初始連線設定，並要求廣告商提交修訂後的連線設定。
 
-![廣告商 — 發佈商連線程式的高階圖表。](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png)
+![廣告商 — 發佈商連線程式的高階圖表。](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png){zoomable="yes"}
 
 完成上述專案後，共同作業人員即可繼續[建立專案](/help/guide/collaborate/manage-projects.md#create-project)至[執行重疊報表](/help/guide/collaborate/discover.md)，並展開廣告行銷活動。
 
@@ -39,11 +39,11 @@ ht-degree: 1%
 
 若要設定連線，請在探索發行者畫面中瀏覽發行者詳細目錄時選取&#x200B;**[!UICONTROL 連線]**。
 
-![連線選擇器](/help/assets/connect/establish-connection/connect-selection.png)
+![連線選擇器](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 此時，邀請已退出，您可以預覽連線設定，但無法編輯。 您可以在&#x200B;**[!UICONTROL 我的連線]**&#x200B;標籤中檢視擱置中的邀請。 連線的狀態為&#x200B;**[!UICONTROL 已傳送邀請]**。
 
-![傳送給發行者的擱置邀請會顯示在[我的連線]檢視中。](/help/assets/connect/establish-connection/pending-invite-sent.png)
+![傳送給發行者的擱置邀請會顯示在[我的連線]檢視中。](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
 共同作業人員接受邀請後，您就可以設定連線設定，並傳送給共同作業人員檢閱和接受。
 
@@ -76,23 +76,23 @@ ht-degree: 1%
 
 傳送邀請後，您可以預覽連線設定。 您必須先接受邀請，才能完成連線的設定。
 
-![處於預覽狀態的連線設定檢視。](/help/assets/connect/establish-connection/preview-connection-settings.png)
+![處於預覽狀態的連線設定檢視。](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
 
 您的共同作業人員接受連線後，您現在就可以開始設定連線的連線設定。 連線設定可定義共同作業的條款，例如要一起完成的使用案例、要在專案中使用的比對索引鍵等等。
 
 若要設定連線設定並與您的共同作業人員共用，請瀏覽至&#x200B;**[!UICONTROL 我的連線]**。 對於狀態為&#x200B;**[!UICONTROL 擱置中]**&#x200B;的任何連線，您可以選取&#x200B;**[!UICONTROL 設定連線]**&#x200B;來設定連線設定。
 
-![我的連線檢視（具有擱置中的連線）及其[設定連線]選項已反白顯示。](/help/assets/connect/establish-connection/pending-connection.png)
+![我的連線檢視（具有擱置中的連線）及其[設定連線]選項已反白顯示。](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
 您可以編輯並定義下列欄位：
 
-![設定連線檢視](/help/assets/connect/establish-connection/connection-view.png)
+![設定連線檢視](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
 
 +++使用案例
 
 使用案例已預先填入所有可用的使用案例。 您可以選取&#x200B;**[!UICONTROL 編輯]**&#x200B;並切換任何您不想要的使用案例，以選擇連線將使用的使用案例。 選取的使用案例會影響專案中[可用的檢視和選項](../collaborate/manage-projects.md#project-use-cases)。
 
-![使用案例](/help/assets/connect/establish-connection/view-use-cases.png)
+![使用案例](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 +++
 
@@ -131,9 +131,9 @@ ht-degree: 1%
 1. 瀏覽至&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 我的連線]**。
 2. 選取[連線卡]上的[檢視連線]，以存取您要刪除的連線。****
 3. 選取刪除圖示![刪除圖示](/help/assets/common/delete.svg)以開啟刪除連線確認對話方塊。
-   ![刪除醒目提示的連線圖示。](/help/assets/connect/establish-connection/delete-icon-highlighted.png)
+   ![刪除醒目提示的連線圖示。](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
 4. 選取&#x200B;**[!UICONTROL 刪除]**以確認刪除。
-   ![確認刪除連線的對話方塊。](/help/assets/connect/establish-connection/delete-connection-dialog.png)
+   ![確認刪除連線的對話方塊。](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
 >

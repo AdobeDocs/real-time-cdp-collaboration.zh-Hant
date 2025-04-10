@@ -19,11 +19,11 @@ ht-degree: 2%
 
 若要探索發行者，請前往&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 探索發行者]**&#x200B;標籤。
 
-![探索發佈者頁面](/help/assets/connect/discover-publishers/discover-publishers-overview.png)
+![探索發佈者頁面](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
 選取&#x200B;**[!UICONTROL 檢視發行者]**&#x200B;以進一步瞭解發行者。 您也可以檢視及檢查發佈者決定共用的任何公開對象。
 
-![檢視發行者設定檔](/help/assets/connect/discover-publishers/view-publisher-profile.png)
+![檢視發行者設定檔](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 
 ## 我的連線
 
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 在&#x200B;**[!UICONTROL 需要動作]**&#x200B;底下，您可以看到已傳送邀請但尚未建立連線的所有連線清單。 您可能需要來自您的組織或共同作業人員的動作。
 
-![我的連線畫面中需要動作檢視](/help/assets/connect/discover-publishers/action-required-view.png)
+![我的連線畫面中需要動作檢視](/help/assets/connect/discover-publishers/action-required-view.png){zoomable="yes"}
 
 在&#x200B;**[!UICONTROL 需要動作]**&#x200B;檢視中顯示連線的部分原因如下：
 
@@ -42,4 +42,4 @@ ht-degree: 2%
 
 在&#x200B;**[!UICONTROL 現有連線]**&#x200B;檢視中，您可以探索與共同作業人員的現有連線，並繼續建立專案以開始共同作業行銷活動。
 
-在[我的連線]畫面中![現有的連線檢視](/help/assets/connect/discover-publishers/existing-connections-view.png)
+在[我的連線]畫面中![現有的連線檢視](/help/assets/connect/discover-publishers/existing-connections-view.png){zoomable="yes"}

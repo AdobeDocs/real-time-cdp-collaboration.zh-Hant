@@ -1,6 +1,6 @@
 ---
-title: 跟踪您的積分消耗活動
-description: 了解如何在即時 CDP 協作中跟踪組織的配額消耗活動。
+title: 追蹤您的信用沖銷活動
+description: 瞭解如何在Real-Time CDP Collaboration中追蹤貴組織的信用消耗活動。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
@@ -23,15 +23,15 @@ ht-degree: 0%
 
 若要存取您的預估信用消耗活動，請瀏覽至主要導覽中的&#x200B;**[!UICONTROL 設定]**，然後選取&#x200B;**[!UICONTROL 我的活動]**&#x200B;索引標籤。
 
-![顯示積分消耗詳細資訊的「我的活動」儀錶板](/help/assets/setup/my-activity-credits/activity-dashboard.png)
+![我的活動儀表板顯示信用消耗詳細資料](/help/assets/setup/my-activity-credits/activity-dashboard.png)
 
 >[!TIP]
 >
->“ **[!UICONTROL 我的活動]** 視圖不包括有關實時協作 CDP 用戶界面不同部分中用戶作的信息。 [使用審核日誌](/help/guide/setup/audit-logs.md)功能獲取該資訊。
+>**[!UICONTROL 我的活動]**&#x200B;檢視未包含在Real-Time Collaboration CDP使用者介面不同部分中的使用者動作相關資訊。 使用[稽核記錄](/help/guide/setup/audit-logs.md)功能來取得該資訊。
 
-## 了解您的活動控制面板
+## 瞭解您的活動儀表板
 
-活動儀表板显示組織内所有耗資作的綜合清單。 每一行代表一個不同的活動，並提供有關配額使用方式的關鍵信息：
+活動儀表板會顯示貴組織內所有銷退折讓作業的完整清單。 每一列代表不同的活動，並提供有關信用使用方式的主要資訊：
 
 >[!NOTE]
 >
@@ -40,9 +40,9 @@ ht-degree: 0%
 | 欄 | 說明 |
 |--------|-------------|
 | **[!UICONTROL 日期]** | 活動發生的日期，以YYYY/MM/DD格式顯示。 |
-| **[!UICONTROL 連線ID]** | 與信用消耗活動關聯的每個連接的唯一標識符，表示為字母數位字符串。 |
-| **[!UICONTROL 線上名稱]** | 與連接關聯的協作者的名稱以及消耗配額活動。 |
-| **[!UICONTROL 活動]** | 執行的活動類型，例如&#x200B;**Activation - 共享**、**Activation – 傳出****或觀眾管理**。 |
+| **[!UICONTROL 連線ID]** | 與信貸消費活動相關之每個連線的唯一識別碼，以英數字串表示。 |
+| **[!UICONTROL 連線名稱]** | 與連線和信貸消費活動相關聯的共同作業人員名稱。 |
+| **[!UICONTROL 活動]** | 執行的活動型別，例如&#x200B;**啟動 — 共用**、**啟動 — 輸出**&#x200B;或&#x200B;**對象管理**。 |
 | **[!UICONTROL 已使用的積分總數]** | 活動沖銷的銷退折讓總數。 |
 | **[!UICONTROL 我的信用份額]** | 貴組織用於活動的積分部分。 |
 
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 **[!UICONTROL 活動]**&#x200B;資料行顯示不同的信用消耗作業型別。
 
-* **[!UICONTROL 受眾管理]**：將受眾導入即時 CDP 協作時會消耗配額。 積分會根據在Real-Time CDP Collaboration中為所有對象編制索引的ID數量（以百萬為單位），以及該索引在整個計費期間的頻率（每日、每三天或每週）來使用。 閱讀更多有關匯入和管理物件](/help/guide/setup/onboard-audiences.md)的資訊[。
-* **[!UICONTROL Activation - 共享]** – 積分消耗作為整個帳單期間從即時 CDP 協作激活的 ID 數量的函數。 閱讀有關在即時CDP協作中共用](/help/guide/collaborate/share.md)和[啟動受眾](/help/guide/collaborate/activate.md)的更多資訊[。
-* **[!UICONTROL Activation - 出口]** – 積分消耗作為整個帳單期間從即時 CDP 協作激活的 ID 數量的函數。 閱讀有關在即時CDP協作中共用](/help/guide/collaborate/share.md)和[啟動受眾](/help/guide/collaborate/activate.md)的更多資訊[。
+* **[!UICONTROL 對象管理]**：將對象匯入Real-Time CDP Collaboration時會使用積分。 積分會根據在Real-Time CDP Collaboration中為所有對象編制索引的ID數量（以百萬為單位），以及該索引在整個計費期間的頻率（每日、每三天或每週）來使用。 深入瞭解[匯入及管理對象](/help/guide/setup/onboard-audiences.md)。
+* **[!UICONTROL 啟用 — 共用]** — 在整個帳單期間，積分會根據從Real-Time CDP Collaboration啟用的識別碼數目來使用。 深入瞭解Real-Time CDP Collaboration中的[共用](/help/guide/collaborate/share.md)和[啟用對象](/help/guide/collaborate/activate.md)。
+* **[!UICONTROL 啟用 — 輸出]** — 在整個帳單期間，積分會根據從Real-Time CDP Collaboration啟用的ID數量來使用。 深入瞭解Real-Time CDP Collaboration中的[共用](/help/guide/collaborate/share.md)和[啟用對象](/help/guide/collaborate/activate.md)。
 
 
 <!--
@@ -70,7 +70,7 @@ Collaboration Measurement – Credits are consumed as a function of the number o
 
 若要有效管理您的信用沖銷，請執行下列步驟：
 
-1. **瞭解**&#x200B;與每個活動相關聯的信用消耗。 檢查[Real-Time CDP Collaboration產品說明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}，取得每個活動使用的共同作業信用額表。
+1. **瞭解**&#x200B;與每個活動相關聯的信用消耗。 檢查[Real-Time CDP Collaboration產品說明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}，以取得每個活動使用的共同作業積分表格。
 2. **定期監視**：請經常檢查您的活動儀表板，以瞭解使用模式。
 3. **依連線追蹤**：使用連線名稱，識別哪些合作關係消耗的點數最多。
 
