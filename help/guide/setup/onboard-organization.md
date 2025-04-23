@@ -4,9 +4,9 @@ description: 瞭解如何在Real-Time CDP Collaboration中建立和管理組織�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a93ba1bc2aa043fcc1519ec2e1cc79435175d71c
+source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 ![符合索引鍵選取步驟。](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
-最多選取五個您計畫使用的相符金鑰。 稍後，在設定連線時，您可以移除不需要的相符金鑰，但無法新增金鑰。 為每個選取的相符金鑰設定身分計數臨界值（最小計數）。 在某些使用案例中，小於最小計數的相符金鑰將不會出現在身分劃分中。
+最多選取五個您計畫使用的相符金鑰。 稍後，在設定連線時，您可以移除不需要的相符金鑰，但無法新增金鑰。
 
 Real-Time CDP Collaboration中可用的相符索引鍵可以是三種型別：
 
