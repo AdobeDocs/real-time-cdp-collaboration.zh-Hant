@@ -6,8 +6,8 @@ badgelimitedavailability: label="有限可用性" type="Informative" url="https:
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="比對索引鍵"
->abstract="比對索引鍵會決定如何比對來自不同來源的資料。 選擇與您的使用案例和隱私權指引最相關的相符金鑰。"
+>abstract="比對索引鍵會決定如何比對來自不同來源的資料。選擇與您的使用案例和隱私權準則最相關的比對索引鍵。"
 
-比對索引鍵是用來調解來自不同資料來源之對象中成員的識別碼。 可用的比對索引鍵包括：
+比對索引鍵是用於調和來自不同資料來源之客群成員的識別碼。可用的比對索引鍵包括：
 
 - **雜湊電子郵件**
 
@@ -50,12 +50,12 @@ ht-degree: 4%
 
 ![資料連線工作區中反白了比對索引鍵區段。](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
-### 正在安排 {#scheduling}
+### 排程 {#scheduling}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
->title="正在安排"
->abstract="此檢視會顯示您一開始為資料連線選取的排程選項。"
+>title="排程"
+>abstract="此視圖會顯示您最初為資料連線所選取的排程選項。"
 
 您無法編輯您一開始為資料連線選取的排程選項。 如需排程選項的詳細資訊，請檢視對象匯入工作流程檔案中的[排程區段](/help/guide/setup/onboard-audiences.md#schedule)。
 

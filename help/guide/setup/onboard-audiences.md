@@ -6,8 +6,8 @@ badgelimitedavailability: label="有限可用性" type="Informative" url="https:
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
-source-wordcount: '2642'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 您可在此檔案頁面上找到以下內容：
 
 * [將受眾匯入Real-Time CDP Collaboration](#import-audiences)
-* [檢視受眾控制面板](#view-audiences-dashboard)
+* [檢視客群儀表板](#view-audiences-dashboard)
 * [檢視個別對象](#view-individual-audiences)
 
 >[!ENDSHADEBOX]
@@ -50,7 +50,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="行銷動作"
->abstract="<p>使用行銷動作來控制要將哪些對象資料從Experience Platform匯入Real-Time CDP Collaboration。 <strong>資料Collaboration</strong>行銷動作支援C4、C5和C9資料使用標籤。 <strong>資料科學</strong>行銷動作支援C9資料使用標籤。</p> <p> <ul><li> 核取方塊<em>已啟用</em>後，任何在Experience Platform中標示為上述標籤的資料都會被排除，且<strong>不會</strong>帶入Real-Time CDP Collaboration。</li><li> 核取方塊<em>已停用</em>，因此對於可從Experience Platform匯入Real-Time CDP Collaboration的資料沒有限制。</li></ul></p>"
+>abstract="<p>使用行銷動作來控制要從 Experience Platform 匯入哪一些客群資料到 Real-Time CDP Collaboration。<strong>資料共同作業</strong>行銷動作支援 C4、C5 和 C9 資料使用情況標籤。<strong>資料科學</strong>行銷動作支援 C9 資料使用情況標籤。</p> <p> <ul><li> 核取方塊<em>啟用</em>後，Experience Platform 中標有上述標籤的任何資料都將被排除，並且<strong>不會</strong>帶入 Real-Time CDP Collaboration 中。</li><li> 核取方塊<em>停用</em>後，可以從 Experience Platform 匯入 Real-Time CDP Collaboration 的資料沒有任何限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hant" text="資料使用標籤概觀"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="資料使用標籤字彙表"
 
@@ -89,12 +89,12 @@ ht-degree: 2%
 
 接下來，您必須確定已針對匯入的資料設定正確的行銷動作。 從Real-Time CDP匯入的資料若要用於資料共同作業，您也必須提供同意。
 
-使用行銷動作來控制要將哪些對象資料從Experience Platform匯入Real-Time CDP Collaboration。 **資料Collaboration**&#x200B;行銷動作支援C4、C5和C9資料使用標籤。 **資料科學**&#x200B;行銷動作支援C9資料使用標籤。
+使用行銷動作來控制要從 Experience Platform 匯入哪一些客群資料到 Real-Time CDP Collaboration。**資料共同作業**&#x200B;行銷動作支援 C4、C5 和 C9 資料使用情況標籤。**資料科學**&#x200B;行銷動作支援 C9 資料使用情況標籤。
 
 深入瞭解[C4、C5和C9資料使用標籤](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
-* 核取方塊&#x200B;*已啟用*&#x200B;後，任何在Experience Platform中標示為上述標籤的資料都會被排除，且&#x200B;*不會*&#x200B;帶入Real-Time CDP Collaboration。
-* 核取方塊&#x200B;*已停用*，因此對於可從Experience Platform匯入Real-Time CDP Collaboration的資料沒有限制。
+* 核取方塊&#x200B;*啟用*&#x200B;後，Experience Platform 中標有上述標籤的任何資料都將被排除，並且&#x200B;*不會*&#x200B;帶入 Real-Time CDP Collaboration 中。
+* 核取方塊&#x200B;*停用*&#x200B;後，可以從 Experience Platform 匯入 Real-Time CDP Collaboration 的資料沒有任何限制。
 
 在Experience Platform檔案中進一步瞭解資料使用標籤：
 
@@ -120,29 +120,29 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="來源欄位"
->abstract="Source欄位是指您現有Real-Time CDP實作的身分名稱空間和屬性。 您可以將這些對應至Real-Time CDP Collaboration中定義的目標欄位。"
+>abstract="來源欄位是來自您現有 Real-Time CDP 實施的身分識別命名空間和屬性。您可以將這些欄位對應到 Real-Time CDP Collaboration 中所定義的目標欄位。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="目標欄位"
->abstract="目標欄位對應於您在加入公司時選取的相符金鑰。 目前，雜湊電子郵件是唯一受支援的相符金鑰。"
+>abstract="目標欄位與您在公司上線時所選取的比對索引鍵相對應。目前，雜湊電子郵件是唯一支援的比對索引鍵。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
->title="套用轉換 "
->abstract="從您的來源匯入&#x200B;*非雜湊*&#x200B;欄位時，使用此選項可讓Real-Time CDP Collaboration套用雜湊，並將純欄位轉換為雜湊欄位。"
+>title="套用轉換"
+>abstract="從來源匯入&#x200B;*非雜湊*&#x200B;欄位時，使用此選項讓 Real-Time CDP Collaboration 套用雜湊，並將純文字欄位轉換為雜湊欄位。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身分識別命名空間"
->abstract="從您的Experience Platform組織中可用的標準和自訂身分名稱空間中選取身分名稱空間。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform中的標準和身分識別名稱空間"
+>abstract="從 Experience Platform 組織中可用的標準和自訂身分識別命名空間中，選取一個身分識別命名空間。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的標準和身分識別命名空間"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="輪廓屬性"
->abstract="在Experience Platform中，從設定檔類別的聯合結構描述中選取屬性。 此檢視顯示存在於聯合結構描述中且屬於XDM個別設定檔類別的屬性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform中的聯合結構描述"
+>abstract="從聯集結構中選取 Experience Platform 輪廓類別屬性。此視圖會顯示存在於聯集結構中，且屬於 XDM 個體輪廓類別的屬性。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的聯集結構"
 
 ![顯示對應到目標欄位之來源欄位的對應欄位畫面。](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -241,12 +241,12 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 在最終確定對象新增之前，請檢閱所有配置和設定。 請確定所有詳細資料都正確無誤，並選取&#x200B;**[!UICONTROL 完成]**&#x200B;以完成程式。
 
-## 檢視受眾控制面板 {#view-audiences-dashboard}
+## 檢視客群儀表板 {#view-audiences-dashboard}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
->title="缺少身分"
->abstract="在對象匯入Real-Time CDP Collaboration後的前24小時，身分計數會顯示`-`。 在此時間範圍後，身分計數將隨著對象中存在的設定檔數量而更新。"
+>title="缺少身分識別"
+>abstract="將客群匯入 Real-Time CDP Collaboration 後，身分識別計數會在大約前 24 小時內顯示 `-`。過了此時間範圍之後，身分識別計數會根據客群中現有的輪廓數量進行更新。"
 
 將受眾匯入Real-Time CDP Collaboration後，您可以在控制面板檢視中取得有關他們的資訊。 **[!UICONTROL 我的對象]**&#x200B;頁面中的預設檢視會顯示貴組織目前匯入Real-Time CDP Collaboration的所有對象。
 
@@ -309,7 +309,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="身分識別"
->abstract="取得組成此對象的身分的劃分檢視，以及包含個別身分的設定檔總數。"
+>abstract="取得構成這個客群的身分識別的劃分視圖，以及具有相應身分識別之輪廓的總計數。"
 
 此區段會指出在對象中存在的設定檔數目，以及您在匯入對象時指定的任何身分。 區段也包含身分劃分，以便您分辨哪些身分構成最多受眾群體。
 
@@ -318,7 +318,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
 >title="類別"
->abstract="標籤您的對象以方便組織、篩選和擷取。 您可以標籤具有多個類別的受眾，然後使用這些類別標籤來篩選產品其他區域中您需要的受眾。"
+>abstract="標記您的客群，以便於組織、篩選和檢索。您可以使用多個類別標記客群，然後可以使用這些類別標記在產品的其他方面篩選所需的客群。"
 
 為了輕鬆進行對象組織、篩選和擷取，您可以標籤對象。 您可以標籤具有多個類別的受眾，然後在執行受眾重疊報表時，可以使用這些類別標籤在[探索](/help/guide/collaborate/discover.md)產品區域中篩選您想要的受眾。
 
@@ -327,7 +327,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="連線存取權"
->abstract="<p>對象可以是三種型別：公用、私人和自訂。</p><p> 根據連線存取設定，他們可用於與共同作業人員合作的專案的可用性會有所不同。 您一律可以將連線存取權從私人變更為公開，但在將對象與共同作業人員共用後，您就無法再變更該設定。</p>"
+>abstract="<p>客群可以分為三種類型：公開、私人和自訂。</p><p> 這些客群在協作者的專案中是否可以使用，取決於連線存取權設定。您可以隨時將連線存取權從私人變更為公開，但一旦與協作者共用客群，便無法變更該設定。</p>"
 
 選取對象是否為您私人，或在連線中是否可用和可探索。 三個可用選項包括：
 
@@ -339,14 +339,14 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >
 >無論存取狀態（公用、私人或自訂）為何，任何對象的母體都會貢獻至「對象探索」重疊分析檢視中的&#x200B;**[!UICONTROL 所有對象]**&#x200B;母體。<br> ![在對象探索重疊分析中，系統產生的&#x200B;**所有對象**&#x200B;對象包含具有所有連線存取狀態（公開、私人、自訂）的對象。](/help/assets/setup/add-manage-audiences/all-audiences-view.png "在**對象探索**重疊分析中，系統產生的**所有對象**對象包含具有所有連線存取狀態（公用、私用、自訂）的對象。"){width="100" zoomable="yes"}
 
-用於合作者專案中的對象可用性會因連線存取設定而異。 您一律可以將連線存取權從私人變更為公開，但在將對象與共同作業人員共用後，您就無法再變更該設定。
+用於合作者專案中的對象可用性會因連線存取設定而異。 您可以隨時將連線存取權從私人變更為公開，但一旦與協作者共用客群，便無法變更該設定。
 
 ### 中繼資料可見度 {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="中繼資料可見度"
->abstract="<p>指示其他組織在連線至您的組織之前，可以看見哪些對象中繼資料資訊。 </p> <p> **身分計數**&#x200B;控制您的合作夥伴在探索索引標籤中檢視重疊報告時，是否可以檢視您對象的身分計數。 **對象重疊%**&#x200B;會控制共同作業人員是否能夠發現其對象與您之間的重疊百分比。"
+>abstract="<p>表示其他組織在與您的組織建立連線之前，可以看到哪些客群中繼資料資訊。 </p> <p> **身分識別計數**&#x200B;控制您的合作夥伴在探索索引標籤中檢視重疊報告時，是否可以檢視您客群的身分識別計數。**客群重疊百分比**&#x200B;控制協作者是否能夠探索其客群與您的客群之間的重疊百分比。"
 
 >[!NOTE]
 >

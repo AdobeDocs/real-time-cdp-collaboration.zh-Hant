@@ -6,8 +6,8 @@ badgelimitedavailability: label="有限可用性" type="Informative" url="https:
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -55,9 +55,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measure_metricsovertime"
 >title="一段時間內的量度"
->abstract="使用一段時間的量度檢視來瞭解整個行銷活動期間您的創意所顯示的曝光總數。 您最多可以選取兩個要在報表中顯示的維度。"
+>abstract="透過一段時間內的量度視圖，了解您的創意在整個行銷活動期間所顯示的印象總數量。您可以選擇在報告中顯示最多兩個維度。"
 
-使用一段時間的量度檢視來瞭解整個行銷活動期間您的創意所顯示的曝光總數。 請注意，您最多可以選取兩個量度，以在報表中顯示和分析。
+透過一段時間內的量度視圖，了解您的創意在整個行銷活動期間所顯示的印象總數量。請注意，您最多可以選取兩個量度，以在報表中顯示和分析。
 
 ![一段時間檢視中的量度。](/help/assets/collaborate/measure/metrics-over-time.png)
 

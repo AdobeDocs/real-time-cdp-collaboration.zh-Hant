@@ -6,8 +6,8 @@ badgelimitedavailability: label="有限可用性" type="Informative" url="https:
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,27 +46,27 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
 >title="比較客群"
->abstract="探索您和共同作業人員的對象之間的重疊。 您可以調整下拉式選擇器中的設定，以探索一或多個對象與一或多個共同作業人員對象之間的重疊。"
+>abstract="探索您和協作者之客群間的重疊處。您可以調整下拉式選單選擇器中的設定，找出您的一個或多個客群與協作者的一個或多個客群之間的重疊部分。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
->title="您的身分計數"
->abstract="屬於您所選對象的具有所選身分的設定檔數"
+>title="您的身分識別計數"
+>abstract="屬於您所選的客群，且具有所選身分識別的輪廓數量"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
->title="共同作業人員身分計數"
->abstract="共同作業人員所選對象中具有所選身分的設定檔數"
+>title="協作者身分識別計數"
+>abstract="屬於您的協作者所選客群，且具有所選身分識別的輪廓數量"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
->title="重疊身分計數"
->abstract="您和共同作業人員的對象中，同時存在的具有所選身分的設定檔數"
+>title="重疊的身分識別計數"
+>abstract="在您和您的協作者之客群中同時存在，且具有所選身分識別的輪廓數量"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
->title="重疊身分百分比"
->abstract="您的和共同作業人員選取之對象之間重疊的設定檔百分比。"
+>title="重疊身分識別百分比"
+>abstract="您和您的協作者所選客群間的輪廓重疊百分比。"
 
 使用比較受眾卡片，取得您和共同作業人員的受眾之間重疊的豐富資訊。 您可以選取比較下列任何對象組合：
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 | **[!UICONTROL 身分計數]** （您的） | 屬於您所選對象的具有所選身分的設定檔數。 |
 | **[!UICONTROL 身分計數]** （您的共同作業人員） | 共同作業人員所選對象中具有所選身分的設定檔數。 |
 | **[!UICONTROL 重疊的身分]** | 所選身分同時存在於您和共同作業人員的對象中的設定檔數。 |
-| **[!UICONTROL 重疊百分比]** | 您的和共同作業人員選取之對象之間重疊的設定檔百分比。 |
+| **[!UICONTROL 重疊百分比]** | 您和您的協作者所選客群間的輪廓重疊百分比。 |
 | **[!UICONTROL 依比對索引鍵劃分的身分]** | 根據您和您的共同作業人員針對專案議定的相符金鑰，依個別相符金鑰檢視重疊計算中的身分組成。 |
 
 {style="table-layout:auto"}
@@ -96,7 +96,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="相關客群"
->abstract="根據重疊百分比，這些發佈商對象可能非常適合您的行銷活動。 <br><br> <b>身分計數</b>是發行者的對象人數。<br><br> <b>重疊的身分</b>代表建議的發佈者對象與所有廣告商對象之間的重疊。 <br><br> <b>重疊%</b>代表重疊身分的數目除以<i>所有</i>廣告商對象的大小。"
+>abstract="根據重疊百分比，這些發佈者客群可能非常適合您的行銷活動。<br><br><b>身分識別計數</b>為發佈者的客群大小。<br><br> <b>重疊的身分識別</b>代表建議的發佈者客群與所有廣告商客群之間的重疊部分。<br><br><b>重疊百分比</b>表示重疊之身分識別的數量，除以<i>所有</i>廣告商客群之大小的數值。"
 
 **[!UICONTROL Discover]**&#x200B;模組中的&#x200B;**[!UICONTROL 相關對象]**&#x200B;檢視會根據重疊百分比，提供前五個對象的精選清單。 此功能可協助您快速找出與您目前資料重疊程度最高的對象，讓您更有效地鎖定行銷活動。
 
@@ -110,8 +110,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
->title="探索與個別對象的重疊"
->abstract="深入瞭解此對象的母體以及其和共同作業人員的身分識別範圍重疊。"
+>title="探索與個別客群的重疊處"
+>abstract="深入了解此客群之群體，及其與協作者身分識別範圍的重疊部分。"
 
 ![探索與不同對象檢視的重疊](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 

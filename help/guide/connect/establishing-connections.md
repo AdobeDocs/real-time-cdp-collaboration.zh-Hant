@@ -6,8 +6,8 @@ badgelimitedavailability: label="有限可用性" type="Informative" url="https:
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,27 +52,27 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
 >title="使用案例"
->abstract="使用案例已預先填入所有選項。 您可以在提交連線設定之前編輯使用案例。"
+>abstract="使用案例會預先填入所有選項。您可以在提交連線設定之前編輯使用案例。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="比對索引鍵"
->abstract="相符索引鍵會預先填入您在組織層級選取的索引鍵。 您可以關閉任何您不想要在此連線中使用的相符鍵。"
+>abstract="比對索引鍵會預先填入您在組織層級選取的內容。您可以將不想於此連線中使用的任何比對索引鍵切換為關閉。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="點數分割"
->abstract="本節會決定哪些人要為Real-Time CDP Collaboration中的對應活動付款。 目前，只能設定對象共用使用案例。"
+>abstract="此區段會決定誰要為 Real-Time CDP Collaboration 中的相應活動付費。目前，只有客群共用使用案例是可設定的。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="客群共用"
->abstract="對象共用是協力廠商請求其相符資料由其共同作業合作夥伴啟動時所採取的活動。"
+>abstract="客群共用是指一方請求合作夥伴啟動其相符的資料時所進行的活動。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
->title="法律協定"
->abstract="確認雙方之間存在資料共用協定。"
+>title="法律協議"
+>abstract="驗證雙方之間是否存在資料共用協議。"
 
 傳送邀請後，您可以預覽連線設定。 您必須先接受邀請，才能完成連線的設定。
 

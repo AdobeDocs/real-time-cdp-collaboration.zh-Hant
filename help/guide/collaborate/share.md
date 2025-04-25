@@ -6,8 +6,8 @@ badgelimitedavailability: label="有限可用性" type="Informative" url="https:
 exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -102,8 +102,8 @@ The banner at the top of the page shows figures across all audience sharing acti
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_share_edit_audiences_usecases"
->title="鎖定或隱藏使用案例"
->abstract="<p>如果您想要對象中的設定檔在行銷活動中顯示廣告，請選取&#x200B;**Target**。</p> <p>如果您要將對象中的設定檔從行銷活動訊息中排除，請選取&#x200B;**隱藏**。</p>"
+>title="目標或隱藏使用案例"
+>abstract="<p>如果您希望在行銷活動中對客群中的輪廓展示廣告，請選取「**目標**」。</p> <p>如果您傳送行銷活動訊息的對象要排除客群中的輪廓，請選取「**隱藏**」。</p>"
 
 選取「**[!UICONTROL 編輯對象]**」以變更對象共用模組中的對象，以及變更與對象共用方式相關的數個設定。
 

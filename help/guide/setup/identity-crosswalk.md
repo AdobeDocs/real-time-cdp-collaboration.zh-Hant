@@ -8,8 +8,8 @@ hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -63,11 +63,11 @@ In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_crosswalk_join_key"
 >title="聯結索引鍵"
->abstract="聯結索引鍵是唯一的識別碼，用來比對和連結不同資料集中的記錄。 它可確保將來自各種來源的資料準確地關聯到相同的個人或實體。 所選交叉通路中的任何欄標題都可以做為聯結索引鍵。"
+>abstract="聯結索引鍵是用於比對和連結不同資料集間之記錄的唯一識別碼。可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。所選取之交叉對照表中任何欄標題都可以做為聯結索引鍵。"
 
-聯結索引鍵是唯一的識別碼，用來比對和連結不同資料集中的記錄。 它可確保將來自各種來源的資料準確地關聯到相同的個人或實體。 藉由選取適當的聯結索引鍵，您可以有效地合併與調解資料，進而提高行銷活動的正確性與完整性。
+聯結索引鍵是用於比對和連結不同資料集間之記錄的唯一識別碼。可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。藉由選取適當的聯結索引鍵，您可以有效地合併與調解資料，進而提高行銷活動的正確性與完整性。
 
-所選交叉通路中的任何欄標題都可以做為聯結索引鍵。
+所選取之交叉對照表中任何欄標題都可以做為聯結索引鍵。
 
 選取交叉分析表所需的聯結索引鍵，並選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以繼續執行下一個步驟。
 
