@@ -4,10 +4,10 @@ description: 瞭解如何在Real-Time CDP Collaboration中建立和管理組織�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
+source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 1%
+source-wordcount: '830'
+ht-degree: 14%
 
 ---
 
@@ -40,6 +40,11 @@ ht-degree: 1%
 
 ### 設定詳細資料 {#set-up-details}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_contact_email"
+>title="聯絡人電子郵件"
+>abstract="請提供團隊或角色型電子郵件，例如`collaboration@yourcompany.com`。 不應使用個人或個人電子郵件地址。"
+
 ![設定組織的詳細資訊和使用案例步驟](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
 1. 為您的公司新增&#x200B;**[!UICONTROL 組織名稱]**。
@@ -59,22 +64,22 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="比對索引鍵"
->abstract="比對索引鍵是用來調解來自不同資料來源之對象中成員的識別碼。 包含貴公司可使用的任何相符金鑰。"
+>abstract="比對索引鍵是用於調和來自不同資料來源之客群成員的識別碼。包括您的公司可以使用的任何比對索引鍵。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="第一方人員ID"
->abstract="第一方人員ID （例如雜湊電子郵件地址或電話號碼）會直接連線至個別設定檔。 目前支援的ID為雜湊電子郵件和電話號碼。"
+>title="第一方人員 ID"
+>abstract="第一方人員 ID (例如雜湊電子郵件或電話號碼) 會直接與個體輪廓連線。目前支援的 ID 是雜湊電子郵件和電話號碼。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="第一方裝置 ID"
->abstract="ECID或IP位址等第一方裝置ID會直接連線至裝置，並可由多人共用。 IPv4是目前唯一支援的第一方裝置識別碼。"
+>abstract="第一方裝置 ID (例如 ECID 或 IP 位址) 會直接與裝置連線，這些裝置可能與數個個體共用。IPv4 是目前唯一支援的第一方裝置 ID。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
->title="支援的合作夥伴ID"
->abstract="與設定檔相關聯的合作夥伴ID可將觸及範圍擴大至特定設定檔。"
+>title="支援的合作夥伴 ID"
+>abstract="與輪廓關聯的合作夥伴 ID 可擴充特定輪廓的觸及範圍。"
 
 匹配索引鍵（例如電子郵件地址、裝置ID或客戶ID），可啟用準確且符合隱私權規範的資料同步，進而協助廣告商和發佈商共同作業，進而實現更精確的對象定位和測量。
 
@@ -88,7 +93,7 @@ ht-degree: 1%
 
 Real-Time CDP Collaboration中可用的相符索引鍵可以是三種型別：
 
-* 第一方人員ID
+* 第一方人員 ID
 * 第一方裝置 ID
 * 合作夥伴 ID
 
