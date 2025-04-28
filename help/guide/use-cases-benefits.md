@@ -4,7 +4,7 @@ description: 瞭解Adobe Real-Time CDP Collaboration的主要優點和使用案�
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
+source-git-commit: 89a966d6487c309fd29f3183513fc48518b85089
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time CDP Collaboration提供基本功能，讓您能有效探索、啟用和測量對象，確保您的行銷策略穩健且以資料為導向，這一切都放在隱私權優先的空間。
+Adobe Real-Time CDP Collaboration提供必要功能，讓您能有效探索、啟用和測量對象，確保您的行銷策略穩定且以資料為導向，這一切都在一個以隱私權為中心的空間內。
 
 ![Real-Time CDP Collaboration的優點和使用案例](/help/assets/benefits-use-cases/discover-activate-measure.png)
 

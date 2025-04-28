@@ -4,9 +4,9 @@ description: 瞭解如何使用Adobe Real-Time Customer Data Platform (CDP) Coll
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 ## 概觀
 
-有了Adobe Real-Time Customer Data Platform (CDP) Collaboration，您就可以探索、啟用及測量高價值受眾，而不需依賴第三方Cookie。 此解決方案可啟用廣告商與發佈商之間的進階資料共同作業，協助您在隱私權安全、集中的環境中建立個人化且具影響力的客戶體驗。
+有了Adobe Real-Time Customer Data Platform (CDP) Collaboration，您就可以探索、啟用及測量高價值受眾，而不需依賴第三方Cookie。 此解決方案可啟用廣告商與發佈商之間的進階資料共同作業，協助您在一個以隱私權為中心的集中式環境中，建立個人化且具影響力的客戶體驗。
 
 ![Real-Time CDP Collaboration首頁](/help/assets/overview/homepage.png){zoomable="yes"}
 
 ## 透過信任的合作夥伴識別對象
 
-發佈商和廣告商可在隱私權安全的環境中共同作業，以符合受眾、探索潛在的新客戶，並最大化可用庫存的廣告回報。 簡單易用的介面可讓您在無程式碼環境中呈現這些對象，連線頂級發佈商和廣告商，以創造資料共同作業的機會。
+發佈者和廣告商可以在以隱私權為中心的環境中共同作業，以符合受眾、發掘潛在的新客戶，並最大化可用庫存的廣告回報。 簡單易用的介面可讓您在無程式碼環境中呈現這些對象，連線頂級發佈商和廣告商，以創造資料共同作業的機會。
 
 ## 擴大觸及範圍並提供跨頻道行銷活動
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 瞭解彙總行銷活動績效
 
-使用合作測量工具來追蹤行銷活動的影響。 發佈者可以向品牌報告行銷活動績效，協助改善目前和未來的廣告，並調整廣告支出。 廣告商可共用隱私權保護的參與和轉換深入分析、整合曝光、管道和轉換資料，並使用偏好的測量合作夥伴以獲得完整的深入分析。 請注意，某些測量自動化在第一個版本中無法使用。
+使用合作測量工具來追蹤行銷活動的影響。 發佈者可以向品牌報告行銷活動績效，協助改善目前和未來的廣告，並調整廣告支出。 廣告商可分享以隱私權為中心的參與和轉換深入分析、整合曝光、管道和轉換資料，並使用偏好的測量合作夥伴來獲得完整的深入分析。 請注意，某些測量自動化在第一個版本中無法使用。
 
 ## 以隱私權為中心
 
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## 快速入門 {#get-started}
 
-若要開始使用Real-Time CDP Collaboration，系統管理員需要提供自己、產品管理員和一般使用者存取權。 根據所需的使用者和存取層級，有多個所需的步驟。 請參閱[存取控制總覽](/help/guide/permissions/overview.md){target=_"blank"}指南以開始。
+若要開始使用Real-Time CDP Collaboration，系統管理員需要提供自己、產品管理員和一般使用者存取權。 根據所需的使用者和存取層級，有多個所需的步驟。 請參閱[存取控制總覽](/help/guide/permissions/overview.md){target=_&quot;blank&quot;}指南以開始。
 
 當您擁有存取權後，便可設定組織，並將資料來源連線至Adobe Real-Time CDP Collaboration以匯入對象。 閱讀[廣告商和發佈商端對端工作流程](/help/guide/end-to-end-workflow.md)以開始。
 

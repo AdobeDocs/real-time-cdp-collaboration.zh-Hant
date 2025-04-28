@@ -4,10 +4,10 @@ description: 瞭解如何在Real-Time CDP Collaboration中建立和管理組織�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '830'
+ht-degree: 14%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 >title="支援的合作夥伴 ID"
 >abstract="與輪廓關聯的合作夥伴 ID 可擴充特定輪廓的觸及範圍。"
 
-匹配索引鍵（例如電子郵件地址、裝置ID或客戶ID），可啟用準確且符合隱私權規範的資料同步，進而協助廣告商和發佈商共同作業，進而實現更精確的對象定位和測量。
+匹配索引鍵（例如電子郵件地址、裝置ID或客戶ID），可啟用準確且以隱私權為中心的資料同步，進而協助廣告商和發佈商共同作業，進而實現更精確的受眾目標定位和測量。
 
 ![投影片顯示Real-Time CDP Collaboration第一版的可用識別碼。](/help/assets/setup/manage-organization/available-identifiers.png)
 
