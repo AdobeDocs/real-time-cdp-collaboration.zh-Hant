@@ -4,9 +4,9 @@ description: 瞭解如何在Real-Time CDP Collaboration中追蹤貴組織的信�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: a69d4405c47824c8afabc84782dc9f8a9d70763a
+source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 | **[!UICONTROL 連線ID]** | 與信貸消費活動相關之每個連線的唯一識別碼，以英數字串表示。 |
 | **[!UICONTROL 連線名稱]** | 與連線和信貸消費活動相關聯的共同作業人員名稱。 |
 | **[!UICONTROL 活動]** | 執行的活動型別，例如&#x200B;**啟動 — 共用**、**啟動 — 輸出**&#x200B;或&#x200B;**對象管理**。 |
-| 已處理&#x200B;**[!UICONTROL 個輸入]** | 為活動處理的輸入總數（例如ID或列），以百萬為測量單位。 這可協助您瞭解活動的成本，方法是將其與您的CPM （每千成本）建立關聯，以計算粗略成本。 |
+| 已處理&#x200B;**[!UICONTROL 個輸入]** | 為活動處理的輸入總數（例如ID或列）。 |
 | **[!UICONTROL 已使用的積分總數]** | 活動沖銷的銷退折讓總數。 |
 | **[!UICONTROL 我的信用份額]** | 貴組織用於活動的積分部分。 |
 
