@@ -4,9 +4,9 @@ description: 瞭解如何使用Adobe Real-Time Customer Data Platform (CDP) Coll
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
+source-git-commit: 6b4409bede04e9f4c94060ce98bc7680cdcdfc58
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## 快速入門 {#get-started}
 
-若要開始使用Real-Time CDP Collaboration，系統管理員需要提供自己、產品管理員和一般使用者存取權。 根據所需的使用者和存取層級，有多個所需的步驟。 請參閱[存取控制總覽](/help/guide/permissions/overview.md){target=_&quot;blank&quot;}指南以開始。
+若要開始使用Real-Time CDP Collaboration，系統管理員需要提供自己、產品管理員和一般使用者存取權。 根據所需的使用者和存取層級，有多個所需的步驟。 請參閱[存取控制總覽](/help/guide/permissions/overview.md){target="_blank"}指南以開始。
 
 當您擁有存取權後，便可設定組織，並將資料來源連線至Adobe Real-Time CDP Collaboration以匯入對象。 閱讀[廣告商和發佈商端對端工作流程](/help/guide/end-to-end-workflow.md)以開始。
 
