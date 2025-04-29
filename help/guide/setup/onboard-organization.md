@@ -4,9 +4,9 @@ description: 瞭解如何在Real-Time CDP Collaboration中建立和管理組織�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
+source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '853'
 ht-degree: 14%
 
 ---
@@ -52,10 +52,11 @@ ht-degree: 14%
 3. 選取您的&#x200B;**[!UICONTROL 公司角色]**。 您可以選取&#x200B;**[!UICONTROL 廣告商]**&#x200B;與&#x200B;**[!UICONTROL 發佈者]**&#x200B;之間。 請閱讀[端對端工作流程檔案](/help/guide/end-to-end-workflow.md)，瞭解兩種組織角色型別之間的工作流程異同和細微差異。
 4. 為您的組織選取&#x200B;**[!UICONTROL 產業]**。 某些範例包括&#x200B;**[!UICONTROL 零售業]**、**[!UICONTROL 電信業]**&#x200B;或&#x200B;**[!UICONTROL 金融服務]**。
 5. 為您的組織選取&#x200B;**[!UICONTROL 地區]**。 在目前的產品版本中，**[!UICONTROL 北美洲]**&#x200B;為預設預設的預設選取範圍。
-6. <span class="preview">僅發行者</span>：設定發行者組織時，您必須閱讀並認可發行者目錄中的廣告商可找到您。
+6. 為您的組織新增&#x200B;**[!UICONTROL 連絡人電子郵件]**。 這應為團隊或角色型電子郵件地址。 不應提供個人電子郵件地址。
+7. <span class="preview">僅發行者</span>：設定發行者組織時，您必須閱讀並認可發行者目錄中的廣告商可找到您。
    ![發佈者特定的選擇加入訊息。](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-7. 上傳貴公司的&#x200B;**[!UICONTROL 標誌]**。 目前支援SVG型別的影像。
-8. 選取公司標題圖片的影像。
+8. 上傳貴公司的&#x200B;**[!UICONTROL 標誌]**。 目前支援SVG型別的影像。
+9. 選取公司標題圖片的影像。
 
 對您的選擇感到滿意時，請使用&#x200B;**[!UICONTROL 下一步]**&#x200B;繼續下一頁，並選取貴組織應使用的相符金鑰。
 
