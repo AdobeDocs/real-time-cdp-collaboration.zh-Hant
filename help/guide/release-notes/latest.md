@@ -4,7 +4,7 @@ description: 遵循Real-Time CDP Collaboration的最新發行版本
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: c71e63df166a061b1585cff4b5eac4605f741eb4
+source-git-commit: 5b331e2de1c91dd566f1139e57d44a47dd01dba5
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 5%
@@ -17,9 +17,19 @@ ht-degree: 5%
 
 **上次更新日期**：2025年3月。
 
+<!--**Last update**: April, 2025. uncomment when ready to release and delete line above-->
+
 下列發行說明涵蓋Real-Time Customer Data Platform Collaboration中發行的功能。 Real-Time CDP Collaboration版本會在持續傳遞模式上運作，允許大約每月發行。 這些發行說明會經常更新，請務必定期檢視。
 
-## 2025 年 3 月
+<!--
+
+## April 2025 {#april-2025}
+
+* A new **Inputs Processed** column has been added to the credit consumption activity table. This column displays the total number of inputs (for example, IDs or rows) processed for each activity. [Read more](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Inputs processed column highighted in My activity view.](/help/assets/release-notes/2025/inputs-processed-column.png "Inputs processed column highighted in My activity view."){width="250" align="center" zoomable="yes"}
+
+-->
+
+## 2025 年 3 月 {#march-2025}
 
 * 當[將對象](/help/guide/setup/onboard-audiences.md)匯入Real-Time CDP Collaboration時，您現在可以將對象重新整理頻率設定為每隔&#x200B;**1到6天**，以便更妥善地管理[對象管理信用活動](/help/guide/setup/my-activity.md#types-of-activities)。 [閱讀更多資訊](/help/guide/setup/onboard-audiences.md#schedule)。<br> ![排程畫面，顯示更新對象成員資格的不同頻率間隔。](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png "排程畫面，顯示更新對象成員資格的不同頻率間隔。"){width="250" align="center" zoomable="yes"}
 * 與共同作業人員建立連線時，您現在可以從預先定義的&#x200B;**使用案例**&#x200B;中進行選取。 所選的使用案例決定哪些專案區段和產品功能可供使用。 [閱讀全文](/help/guide/collaborate/manage-projects.md#project-use-cases)。
@@ -29,7 +39,7 @@ ht-degree: 5%
 * 您現在可以刪除與不想再使用的共同作業人員之間的連線。 [閱讀全文](/help/guide/connect/establishing-connections.md#delete-connections)。
 
 
-## 2025年2月 — 美國客戶一般可用性
+## 2025年2月 — 美國客戶一般可用性 {#february-2025-ga}
 
 Real-Time CDP Collaboration是專為讓廣告商和發佈商能夠探索、啟用和測量高價值受眾而不使用第三方Cookie所打造，現在美國已正式推出。
 
