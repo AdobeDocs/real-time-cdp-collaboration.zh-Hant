@@ -56,7 +56,7 @@ ht-degree: 0%
 * **[!UICONTROL 對象管理]**：將對象匯入Real-Time CDP Collaboration時會使用積分。 積分會根據在Real-Time CDP Collaboration中為所有對象編制索引的ID數量（以百萬為單位），以及該索引在整個計費期間的頻率（每日、每三天或每週）來使用。 深入瞭解[匯入及管理對象](/help/guide/setup/onboard-audiences.md)。
 * **[!UICONTROL 啟用 — 共用]** — 在整個帳單期間，積分會根據從Real-Time CDP Collaboration啟用的識別碼數目來使用。 深入瞭解Real-Time CDP Collaboration中的[共用](/help/guide/collaborate/share.md)和[啟用對象](/help/guide/collaborate/activate.md)。
 * **[!UICONTROL 啟用 — 輸出]** — 在整個帳單期間，積分會根據從Real-Time CDP Collaboration啟用的ID數量來使用。 深入瞭解Real-Time CDP Collaboration中的[共用](/help/guide/collaborate/share.md)和[啟用對象](/help/guide/collaborate/activate.md)。
-* **[!UICONTROL 對象重疊]** — 使用資料草圖分析對象重疊時會使用積分。 資料草圖是受眾資料的簡化摘要，可協助判斷兩個受眾的相似程度，同時維護資料隱私權。 在探索標籤](/help/guide/collaborate/discover.md)中閱讀有關[對象重疊的詳細資訊。
+* **[!UICONTROL 對象重疊]** — 使用資料草圖分析對象重疊時會使用積分。 資料草圖是受眾資料的簡化摘要，可協助判斷兩個受眾的相似程度，同時維護資料隱私權。 在探索標籤[&#128279;](/help/guide/collaborate/discover.md)中閱讀有關對象重疊的詳細資訊。
 * **[!UICONTROL 對象測量]** — 在Real-Time CDP Collaboration中執行活動，以產生行銷活動績效報表和深入分析。 銷退折讓是根據所有行銷活動的行銷活動報告列數和報告頻率（每日、每三天或每週）。
 
 

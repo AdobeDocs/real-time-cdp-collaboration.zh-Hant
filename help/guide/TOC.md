@@ -13,7 +13,7 @@ ht-degree: 20%
 # Real-Time Customer Data Platform Collaboration {#using}
 
 * [Real-Time CDP Collaboration首頁](./home.md)
-* {#overview} 總覽
+* 總覽{#overview}
    * [使用案例和優點](./use-cases-benefits.md)
    * [端對端工作流程](./end-to-end-workflow.md)
 * 設定{#setup}
@@ -25,7 +25,7 @@ ht-degree: 20%
    * [身分識別交叉對照表](./setup/identity-crosswalk.md)
    * [新增及管理測量資料](./setup/onboard-measurement-data.md)
    * [稽核記錄](./setup/audit-logs.md)
-* 與發佈者或廣告商{#connect}連線
+* 與發佈者或廣告商連線{#connect}
    * [探索發佈者](./connect/discover-publishers.md)
    * [探索廣告商](./connect/discover-advertisers.md)
    * [與廣告商或發佈商連結](./connect/establishing-connections.md)

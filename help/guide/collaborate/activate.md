@@ -17,7 +17,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 啟用]**&#x200B;工作區僅可在您是發行者且在連線程式](../connect/establishing-connections.md#connection-settings)期間[已啟用&#x200B;**對象共用與啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 啟用]**&#x200B;工作區僅可在您是發行者且在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間已啟用&#x200B;**對象共用與啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 身為發佈者，瞭解如何使用Adobe Real-Time CDP Collaboration啟用對象。 目前，您可以在Amazon S3位置啟用對象。 已規劃其他啟用管道。
 

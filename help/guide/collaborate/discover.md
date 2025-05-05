@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式](../connect/establishing-connections.md#connection-settings)期間已啟用[的&#x200B;**對象探索**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**對象探索**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 在廣告商與發佈商之間的共同作業空間內[建立專案](/help/guide/collaborate/manage-projects.md)後，您現在可以將您的對象與共同作業人員的對象進行比較。 如此一來，您便可探索對象之間的重疊，並取得依比對索引鍵或身分劃分的深入分析。 這可協助廣告商決定要將哪些受眾與發佈者共用以進行啟用。
 

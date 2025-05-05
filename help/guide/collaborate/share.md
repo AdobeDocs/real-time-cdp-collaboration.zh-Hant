@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 共用]**&#x200B;工作區只有在連線程式](../connect/establishing-connections.md#connection-settings)期間[啟用&#x200B;**對象共用與啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 共用]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間啟用&#x200B;**對象共用與啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 作為廣告商，瞭解如何與您的發佈者共用對象，以便他們能夠執行行銷活動。 如果您的共同作業已啟用&#x200B;**探索對象**&#x200B;使用案例，請先在[探索標籤](/help/guide/collaborate/discover.md)執行重疊報表，以識別要共用的最佳對象。
 
