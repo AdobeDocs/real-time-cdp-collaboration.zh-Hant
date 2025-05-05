@@ -4,10 +4,10 @@ description: 在發現潛在的共同作業人員後，瞭解如何建立連線�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
+source-git-commit: ee434f1bb8119e2a378580a02ffa0b9efb93cf28
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '938'
+ht-degree: 13%
 
 ---
 
@@ -68,6 +68,11 @@ ht-degree: 0%
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="客群共用"
 >abstract="客群共用是指一方請求合作夥伴啟動其相符的資料時所進行的活動。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
+>title="衡量"
+>abstract="此使用案例可讓您在Real-Time CDP Collaboration中執行活動，以產生行銷活動績效報表和深入分析。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
