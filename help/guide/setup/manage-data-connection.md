@@ -2,7 +2,7 @@
 title: 管理資料連線
 description: 瞭解如何在Real-Time CDP Collaboration中管理資料連線，包括比對索引鍵、排程、使用案例和對象篩選
 audience: administrator, data engineer
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Real-Time CDP Collaboration使用者介面目前不支援刪除資料連線。 若要刪除資料連線，請聯絡您的Adobe代表或[建立客戶支援票證](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}。
+>Real-Time CDP Collaboration使用者介面目前不支援刪除資料連線。 若要刪除資料連線，請聯絡您的Adobe代表或[建立客戶支援票證](https://experienceleague.adobe.com/home?lang=zh-Hant&amp;support-tab=open-ticket#support){target="_blank"}。
 
 若要檢視現有的資料連線，請瀏覽至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 我的對象]**，然後選取&#x200B;**[!UICONTROL 管理資料連線]**。
 
