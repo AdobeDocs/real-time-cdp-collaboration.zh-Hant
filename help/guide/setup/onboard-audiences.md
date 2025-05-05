@@ -264,9 +264,9 @@ After selecting the desired use cases for each identity, proceed to the next ste
 | **[!UICONTROL 已建立]** | 指出此對象何時匯入Real-Time CDP Collaboration。 |
 | **[!UICONTROL 上次更新時間]** | 表示上次更新此對象任何方面的日期和時間。 |
 
-選取「管理資料連線」****以檢視及編輯您已設定的所有資料連線。
-選取省略符號和**[!UICONTROL 刪除]**以移除對象。
-選取省略符號和**[!UICONTROL 編輯類別]**&#x200B;以新增不同的類別標籤至對象。 在下面的[類別](/#categories)區段中取得更多資訊。
+選取「管理資料連線」**&#x200B;**&#x200B;以檢視及編輯您已設定的所有資料連線。
+選取省略符號和&#x200B;**[!UICONTROL 刪除]**&#x200B;以移除對象。
+選取省略符號和&#x200B;**[!UICONTROL 編輯類別]**&#x200B;以新增不同的類別標籤至對象。 在下面的[類別](/#categories)區段中取得更多資訊。
 選取對象名稱，以檢查或編輯個別對象。
 
 ## 檢視個別對象 {#view-individual-audiences}
@@ -337,7 +337,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 >[!IMPORTANT]
 >
->無論存取狀態（公用、私人或自訂）為何，任何對象的母體都會貢獻至「對象探索」重疊分析檢視中的&#x200B;**[!UICONTROL 所有對象]**&#x200B;母體。<br> ![在對象探索重疊分析中，系統產生的&#x200B;**所有對象**&#x200B;對象包含具有所有連線存取狀態（公開、私人、自訂）的對象。](/help/assets/setup/add-manage-audiences/all-audiences-view.png "在**對象探索**重疊分析中，系統產生的**所有對象**對象包含具有所有連線存取狀態（公用、私用、自訂）的對象。"){width="100" zoomable="yes"}
+>無論存取狀態（公用、私人或自訂）為何，任何對象的母體都會貢獻至「對象探索」重疊分析檢視中的&#x200B;**[!UICONTROL 所有對象]**&#x200B;母體。<br> ![在對象探索重疊分析中，系統產生的&#x200B;**所有對象**&#x200B;對象包含具有所有連線存取狀態（公開、私人、自訂）的對象。](/help/assets/setup/add-manage-audiences/all-audiences-view.png "在&#x200B;**對象探索**&#x200B;重疊分析中，系統產生的&#x200B;**所有對象**&#x200B;對象包含具有所有連線存取狀態（公用、私用、自訂）的對象。"){width="100" zoomable="yes"}
 
 用於合作者專案中的對象可用性會因連線存取設定而異。 您可以隨時將連線存取權從私人變更為公開，但一旦與協作者共用客群，便無法變更該設定。
 
