@@ -2,12 +2,12 @@
 title: 加入及管理組織
 description: 瞭解如何在Real-Time CDP Collaboration中建立和管理組織的各個層面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
+source-git-commit: 27faef284a07be114ea0a9a7beeae75ec6265d53
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 14%
+source-wordcount: '827'
+ht-degree: 17%
 
 ---
 
@@ -31,19 +31,19 @@ ht-degree: 14%
 
 設定組織的工作流程包含下列兩個頁面：
 
-* [設定詳細資料](#set-up-details)
+* [設定詳細資訊](#set-up-details)
 * [設定相符金鑰](#set-up-match-keys)
 
 >[!IMPORTANT]
 >
 >您在組織層級選取的任何&#x200B;*相符金鑰*&#x200B;將向下滲透至廣告商與發佈商共同作業中的[專案層級](/help/guide/collaborate/manage-projects.md)。 在專案層級，您可以移除任何相符金鑰，但您&#x200B;*無法*&#x200B;新增此畫面中組織層級未選取的任何其他金鑰。
 
-### 設定詳細資料 {#set-up-details}
+### 設定詳細資訊 {#set-up-details}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="聯絡人電子郵件"
->abstract="請提供團隊或角色型電子郵件，例如`collaboration@yourcompany.com`。 不應使用個人或個人電子郵件地址。"
+>abstract="請提供團隊或角色型電子郵件，例如 `collaboration@yourcompany.com`。不應使用個人或個體的電子郵件地址。"
 
 ![設定組織的詳細資訊和使用案例步驟](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
@@ -53,10 +53,8 @@ ht-degree: 14%
 4. 為您的組織選取&#x200B;**[!UICONTROL 產業]**。 某些範例包括&#x200B;**[!UICONTROL 零售業]**、**[!UICONTROL 電信業]**&#x200B;或&#x200B;**[!UICONTROL 金融服務]**。
 5. 為您的組織選取&#x200B;**[!UICONTROL 地區]**。 在目前的產品版本中，**[!UICONTROL 北美洲]**&#x200B;為預設預設的預設選取範圍。
 6. 為您的組織新增&#x200B;**[!UICONTROL 連絡人電子郵件]**。 這應為團隊或角色型電子郵件地址。 不應提供個人電子郵件地址。
-7. <span class="preview">僅發行者</span>：設定發行者組織時，您必須閱讀並認可發行者目錄中的廣告商可找到您。
-   ![發佈者特定的選擇加入訊息。](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-8. 上傳貴公司的&#x200B;**[!UICONTROL 標誌]**。 目前支援SVG型別的影像。
-9. 選取公司標題圖片的影像。
+7. 上傳貴公司的&#x200B;**[!UICONTROL 標誌]**。 目前支援SVG型別的影像。
+8. 選取公司標題圖片的影像。
 
 對您的選擇感到滿意時，請使用&#x200B;**[!UICONTROL 下一步]**&#x200B;繼續下一頁，並選取貴組織應使用的相符金鑰。
 
