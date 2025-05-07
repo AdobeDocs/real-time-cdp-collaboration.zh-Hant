@@ -2,7 +2,7 @@
 title: 與廣告商或發佈商連結
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
 workflow-type: tm+mt
