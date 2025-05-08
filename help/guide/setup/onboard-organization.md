@@ -2,11 +2,11 @@
 title: 加入及管理組織
 description: 瞭解如何在Real-Time CDP Collaboration中建立和管理組織的各個層面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 27faef284a07be114ea0a9a7beeae75ec6265d53
+source-git-commit: 12e73a9bf64f5746748d1a8c81827c50000a6428
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '842'
 ht-degree: 17%
 
 ---
@@ -79,6 +79,11 @@ ht-degree: 17%
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="支援的合作夥伴 ID"
 >abstract="與輪廓關聯的合作夥伴 ID 可擴充特定輪廓的觸及範圍。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_activation_matchkeys"
+>title="啟用比對索引鍵"
+>abstract="啟動比對金鑰會根據貴組織選擇的比對金鑰而顯示。"
 
 匹配索引鍵（例如電子郵件地址、裝置ID或客戶ID），可啟用準確且以隱私權為中心的資料同步，進而協助廣告商和發佈商共同作業，進而實現更精確的受眾目標定位和測量。
 
