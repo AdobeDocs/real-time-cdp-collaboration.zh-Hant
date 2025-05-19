@@ -139,10 +139,10 @@ ht-degree: 16%
 您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線：
 
 1. 瀏覽至&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 我的連線]**。
-2. 選取[連線卡]上的[檢視連線]，以存取您要刪除的連線。****
+2. 選取[連線卡]上的[檢視連線]，以存取您要刪除的連線。**&#x200B;**
 3. 選取刪除圖示![刪除圖示](/help/assets/common/delete.svg)以開啟刪除連線確認對話方塊。
    ![刪除醒目提示的連線圖示。](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. 選取&#x200B;**[!UICONTROL 刪除]**以確認刪除。
+4. 選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認刪除。
    ![確認刪除連線的對話方塊。](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
