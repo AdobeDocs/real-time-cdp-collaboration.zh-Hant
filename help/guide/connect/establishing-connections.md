@@ -2,12 +2,12 @@
 title: 與廣告商或發佈商連結
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 16%
+source-wordcount: '1191'
+ht-degree: 12%
 
 ---
 
@@ -82,7 +82,8 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="廣告商名稱"
->abstract="表示發佈者所知的廣告商別名。 "
+>abstract="<p>選擇性設定。 表示發佈者知道廣告商的名稱和ID。</p><p>您在此新增的廣告商名稱將會預先填入建立專案步驟。</p><ul><li>如果發行者設定了多個名稱，請從清單中選取一個名稱。</li><li>如果只設定一個名稱，則會自動預先選取該名稱。</li><li>如果未設定名稱，則欄位會預先填入Real-Time CDP Collaboration中的廣告商帳戶名稱。</li></ul>"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="建立專案"
 
 傳送邀請後，您可以預覽連線設定。 您必須先接受邀請，才能完成連線的設定。
 
@@ -130,6 +131,22 @@ ht-degree: 16%
 
 +++
 
++++廣告商名稱
+
+身為處理連線設定的發佈者，您可以選取新增在您的系統中您知道該廣告商的任何廣告商名稱。 身為發佈商，您可以將多個廣告商名稱新增至連線，例如您所處理的廣告商出現在多個地理位置時。 在程式後面的步驟中，當[建立要共同作業的專案](/help/guide/collaborate/manage-projects.md#create-project)時，您或您的共同作業人員將能夠選取要與專案關聯的廣告商名稱。
+
+![新增廣告商名稱模式。](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+
+廣告商名稱選取在建立專案時的運作方式如下：
+
+1. **未設定廣告商名稱**：如果未新增廣告商名稱，Real-Time CDP Collaboration預設會使用廣告商名稱做為廣告商名稱。
+2. **一個廣告商名稱集**：如果新增了單一廣告商名稱，Real-Time CDP Collaboration會自動使用該名稱作為專案的廣告商名稱。
+3. **設定多個廣告商名稱**：如果新增多個廣告商名稱，您或您的共同作業人員可以在建立專案時選取任何提供的名稱。
+
+![廣告商名稱。](/help/assets/connect/establish-connection/advertiser-names.png)
+
++++
+
 完成選取後，選取&#x200B;**[!UICONTROL 提交]**&#x200B;將建議的設定傳送給共同作業人員檢閱。
 
 如果您從共同作業人員收到提議的連線設定，您可以&#x200B;**[!UICONTROL 接受]**&#x200B;或&#x200B;**[!UICONTROL 拒絕]**&#x200B;這些設定。 接受連線設定前，您必須確認並確認您與共同作業人員之間已有法律協定。 如果您拒絕連線設定，請在產品外部聯絡您的共同作業人員，討論他們應如何修訂連線設定以讓您接受。
@@ -139,10 +156,10 @@ ht-degree: 16%
 您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線：
 
 1. 瀏覽至&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 我的連線]**。
-2. 選取[連線卡]上的[檢視連線]，以存取您要刪除的連線。**&#x200B;**
+2. 選取[連線卡]上的[檢視連線]，以存取您要刪除的連線。****
 3. 選取刪除圖示![刪除圖示](/help/assets/common/delete.svg)以開啟刪除連線確認對話方塊。
    ![刪除醒目提示的連線圖示。](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. 選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認刪除。
+4. 選取&#x200B;**[!UICONTROL 刪除]**以確認刪除。
    ![確認刪除連線的對話方塊。](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]

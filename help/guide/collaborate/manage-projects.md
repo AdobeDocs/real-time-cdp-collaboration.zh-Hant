@@ -2,12 +2,12 @@
 title: 建立和管理專案
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中建立和管理專案
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 10%
+source-wordcount: '452'
+ht-degree: 5%
 
 ---
 
@@ -32,13 +32,18 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
 >title="廣告商名稱"
->abstract="從下拉式選單中選取廣告商名稱。此選項由廣告商在連線設定中預先設定，以確保與發佈者系統的相容性。"
+>abstract="從下拉式選單中選取廣告商名稱。發行者會在連線設定中預先設定這些選項，以確保與其系統的相容性。"
 
 若要建立專案，請選取右上角的加號&#x200B;**+**&#x200B;符號。 或者，如果這是您的第一個專案，請瀏覽至&#x200B;**[!UICONTROL 共同作業]** > **[!UICONTROL 我的專案]**，然後選取&#x200B;**[!UICONTROL 建立專案]**。
 
 ![選取加號或建立專案以設定新專案。](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-接著，選取您建立專案的共同作業人員。 提供專案的&#x200B;**[!UICONTROL 專案名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**，選取影像標題以輕鬆區分專案，並確認您的選擇。
+接著，選取下列設定：
+
+* 您正在建立專案的共同作業人員
+* 如果發行者已在連線設定中設定多個廣告商名稱，請選取廣告商名稱。 否則，廣告商的名稱會預先選取為廣告商名稱。 或者，如果發佈者在連線設定中設定了單一廣告商名稱，則此選取範圍會預先填入該名稱。 [閱讀更多有關廣告商名稱的](/help/guide/connect/establishing-connections.md#connection-settings)。
+* 提供專案的&#x200B;**[!UICONTROL 專案名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**
+* 選取影像標題以輕鬆區分專案，並確認您的選取範圍。
 
 ![設定新專案所需的選項](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
