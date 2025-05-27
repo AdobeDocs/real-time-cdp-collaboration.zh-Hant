@@ -2,12 +2,12 @@
 title: 與廣告商或發佈商連結
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
+source-git-commit: e4826c777d9d1df1dac7cd894536b7fd51be8a39
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 12%
+source-wordcount: '1272'
+ht-degree: 11%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 12%
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="廣告商名稱"
 >abstract="<p>選擇性設定。 表示發佈者知道廣告商的名稱和ID。</p><p>您在此新增的廣告商名稱將會預先填入建立專案步驟。</p><ul><li>如果發行者設定了多個名稱，請從清單中選取一個名稱。</li><li>如果只設定一個名稱，則會自動預先選取該名稱。</li><li>如果未設定名稱，則欄位會預先填入Real-Time CDP Collaboration中的廣告商帳戶名稱。</li></ul>"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="建立專案"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="建立專案"
 
 傳送邀請後，您可以預覽連線設定。 您必須先接受邀請，才能完成連線的設定。
 
@@ -111,23 +111,26 @@ ht-degree: 12%
 
 相符金鑰已預先填入您在組織層級[選取的金鑰](/help/guide/setup/onboard-organization.md#set-up-match-keys)。 您可以關閉不在此連線中使用的任何相符金鑰，但無法新增在設定組織時未選取的任何相符金鑰。
 
-![相符金鑰](/help/assets/connect/establish-connection/match-keys.png)
+![相符金鑰](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
 +++信用分割
 
-使用信用分割區段來決定兩個共同作業關係人中哪一個會涵蓋活動的成本。
+使用信用分割區段來決定兩個共同作業關係人中哪一個會涵蓋活動的成本。 評分分割選項由連線選取的使用案例決定。 雖然&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例需要一方支付成本，但&#x200B;**[!UICONTROL 對象啟用]**&#x200B;使用案例提供額外的選項，讓每個一方支付自己的成本。 如需有關成本明細的資訊，請閱讀[信用活動型別](/help/guide/setup/my-activity.md#types-of-activities)指南。
 
-![信用分割](/help/assets/connect/establish-connection/edit-billing-ownership.png)
+>[!NOTE]
+>
+>對象 — 輸出一律由接收對象的共同作業人員涵蓋，因此不需要選取。
 
+![具有連線工作區中選項的[信用分割]對話方塊。](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 +++
 
 +++協定
 
 在繼續進行此連線之前，您必須確認雙方之間存在資料共用協定。
 
-![法律協定。](/help/assets/connect/establish-connection/legal-agreement.png)
+![法律協定。](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
 
@@ -156,10 +159,10 @@ ht-degree: 12%
 您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線：
 
 1. 瀏覽至&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 我的連線]**。
-2. 選取[連線卡]上的[檢視連線]，以存取您要刪除的連線。**&#x200B;**
+2. 選取[連線卡]上的[檢視連線]，以存取您要刪除的連線。****
 3. 選取刪除圖示![刪除圖示](/help/assets/common/delete.svg)以開啟刪除連線確認對話方塊。
    ![刪除醒目提示的連線圖示。](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. 選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認刪除。
+4. 選取&#x200B;**[!UICONTROL 刪除]**以確認刪除。
    ![確認刪除連線的對話方塊。](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
