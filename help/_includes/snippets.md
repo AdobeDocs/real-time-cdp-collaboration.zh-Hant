@@ -1,8 +1,8 @@
 ---
-source-git-commit: a5df7cef7cd022ea705bdde3cee76de4c69e9aa4
+source-git-commit: b253588d8960757ed2023031bc95a7e3e0a0f65b
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 1%
+source-wordcount: '42'
+ht-degree: 2%
 
 ---
 # 程式碼片段
@@ -11,6 +11,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration目前可供美國客戶使用，全球即將推出。 擁有[健康資料使用案例](https://business.adobe.com/industries/healthcare.html)的客戶目前無法使用Real-Time CDP Collaboration。 如需詳細資訊，請聯絡您的Adobe代表。 瞭解如何[開始](/help/guide/home.md#get-started)。
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration目前可供美國、澳洲和紐西蘭的客戶使用，全球即將推出。 如需詳細資訊，請聯絡您的Adobe代表。 瞭解如何[開始](/help/guide/home.md#get-started)。
+
 
 

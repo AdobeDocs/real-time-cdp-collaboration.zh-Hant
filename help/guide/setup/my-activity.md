@@ -2,11 +2,11 @@
 title: 追蹤您的信用沖銷活動
 description: 瞭解如何在Real-Time CDP Collaboration中追蹤貴組織的信用消耗活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 7e9e6ae51d9741891e916c0dfd5ec0047a995c21
+source-git-commit: b253588d8960757ed2023031bc95a7e3e0a0f65b
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-使用「我的活動&#x200B;**[!UICONTROL 」標籤]**，監視並追蹤貴組織在所有共同作業活動中的預估信用耗用量。 此功能提供在不同連線和活動中如何使用積分的詳細深入分析，可幫助您有效管理資源。
+>[!BEGINSHADEBOX]
+
+**90天無超額期間**：符合資格地區的客戶可享用從其地區的可用日期開始的90天無超額期間。 在此期間，客戶不會因超出其信用權益而產生超額費用。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -62,7 +66,7 @@ ht-degree: 0%
 
 若要有效管理您的信用沖銷，請執行下列步驟：
 
-1. **瞭解**&#x200B;與每個活動相關聯的信用消耗。 檢查[Real-Time CDP Collaboration產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}，取得每個活動使用的共同作業信用額表。
+1. **瞭解**&#x200B;與每個活動相關聯的信用消耗。 檢查[Real-Time CDP Collaboration產品說明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}，取得每個活動使用的共同作業信用額表。
 2. **定期監視**：請經常檢查您的活動儀表板，以瞭解使用模式。
 3. **依連線追蹤**：使用連線名稱，識別哪些合作關係消耗的點數最多。
 
