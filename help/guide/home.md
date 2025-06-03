@@ -2,9 +2,9 @@
 title: 概觀
 description: 瞭解如何使用Adobe Real-Time Customer Data Platform (CDP) Collaboration來探索、啟用和測量高價值受眾，而不需依賴第三方Cookie。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: 6b4409bede04e9f4c94060ce98bc7680cdcdfc58
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## 資源
 
-探索[字彙表](/help/guide/glossary.md)，以取得產品中所使用字彙的詳細資訊。 如需支援，請存取Adobe [客戶支援](https://experienceleague.adobe.com/home?lang=zh-Hant&amp;support-tab=open-ticket#support){target="_blank"}頁面。
+探索[字彙表](/help/guide/glossary.md)，以取得產品中所使用字彙的詳細資訊。 如需支援，請存取Adobe [客戶支援](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}頁面。
 
 ## 聯絡我們
 
