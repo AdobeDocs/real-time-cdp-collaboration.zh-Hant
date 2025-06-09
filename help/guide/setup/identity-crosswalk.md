@@ -2,13 +2,13 @@
 title: 身分識別交叉對照表
 description: 瞭解Real-Time CDP Collaboration中身分交叉通路的所有資訊，包括如何從不同來源引進身分交叉通路，以及如何管理身分交叉通路
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 22%
 
 ---
@@ -34,7 +34,7 @@ In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences
 
 ## 將身分交叉通路匯入Real-Time CDP Collaboration {#import-crosswalk}
 
-導覽至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 身分互動通道]**&#x200B;標籤，選取加號&#x200B;**+**&#x200B;符號，然後選取&#x200B;**[!UICONTROL 身分互動通道]**
+導覽至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 身分互動通道]**&#x200B;標籤，選取新增圖示(![新增圖示。](/help/assets/icons/plus.png))，並選取&#x200B;**[!UICONTROL 身分交叉通道]**
 
 ![錄製如何進入熒幕以新增身分交叉通道](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 

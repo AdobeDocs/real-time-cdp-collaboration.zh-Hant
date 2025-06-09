@@ -2,9 +2,9 @@
 title: 管理資料連線
 description: 瞭解如何在Real-Time CDP Collaboration中管理資料連線，包括比對索引鍵、排程、使用案例和對象篩選
 audience: administrator, data engineer
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 16%
@@ -65,7 +65,7 @@ ht-degree: 16%
 
 ## 管理對象 {#manage-audiences}
 
-附加至資料連線的對象清單會顯示在工作區底部。 此清單會顯示每個對象的簡短概觀，包括其狀態、來源和連線存取。 若要編輯對象的類別、連線存取或中繼資料可見性，請選取對象名稱。 如需管理對象的完整指南，請參閱[檢視個別對象](./onboard-audiences.md#view-individual-audiences)指南。
+附加至資料連線的對象清單會顯示在工作區底部。 清單會顯示每個對象的簡短概觀，包括其狀態、來源和連線存取。 若要編輯對象的類別、連線存取或中繼資料可見性，請選取對象名稱。 如需管理對象的完整指南，請參閱[檢視個別對象](./onboard-audiences.md#view-individual-audiences)指南。
 
 ![標示受眾的資料連線工作區。](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 

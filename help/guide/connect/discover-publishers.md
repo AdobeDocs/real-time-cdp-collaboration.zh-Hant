@@ -2,11 +2,11 @@
 title: 探索發佈者
 description: 作為廣告商，瞭解如何使用Adobe Real-Time CDP Collaboration探索潛在的發佈者以進行合作
 audience: admin, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ![探索發佈者頁面](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
-選取&#x200B;**[!UICONTROL 檢視發行者]**&#x200B;以進一步瞭解發行者。 您也可以檢視及檢查發佈者決定共用的任何公開對象。
+選取&#x200B;**[!UICONTROL 檢視發行者]**&#x200B;以進一步瞭解發行者。 您也可以檢視和檢查發行者[設定為public](/help/guide/setup/onboard-audiences.md#metadata-visibility)的任何對象。
 
 ![檢視發行者設定檔](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 

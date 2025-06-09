@@ -2,11 +2,11 @@
 title: 概觀
 description: 瞭解如何使用Adobe Real-Time Customer Data Platform (CDP) Collaboration來探索、啟用和測量高價值受眾，而不需依賴第三方Cookie。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 有了Adobe Real-Time Customer Data Platform (CDP) Collaboration，您就可以探索、啟用及測量高價值受眾，而不需依賴第三方Cookie。 此解決方案可啟用廣告商與發佈商之間的進階資料共同作業，協助您在一個以隱私權為中心的集中式環境中，建立個人化且具影響力的客戶體驗。
 
-![Real-Time CDP Collaboration首頁](/help/assets/overview/homepage.png){zoomable="yes"}
+![Real-Time CDP Collaboration設定頁面，顯示組織。](/help/assets/overview/set-up.png){zoomable="yes"}
 
 ## 透過信任的合作夥伴識別對象
 
@@ -37,20 +37,6 @@ ht-degree: 1%
 
 內嵌式控制項可確保符合控管和隱私權要求，進而指導您在工作流程的每個步驟負責任地使用受眾資料。
 
-<!--
-
-## Additional benefits
-
-### Agnostic and interoperable
-
-Bring in audiences from various sources such as Real-Time CDP, data warehouses (available in an upcoming release), and other partners, efficiently connecting your data collaboration application to other Adobe Experience Platform tools.
-
-### Built-in reputation
-
-Trusted by leading global brands, Adobe brings a strong foundation in identity, audience collaboration, and activation, offering closed-loop and marketer-friendly workflows for data collaboration.
-
--->
-
 ## 快速入門 {#get-started}
 
 若要開始使用Real-Time CDP Collaboration，系統管理員需要提供自己、產品管理員和一般使用者存取權。 根據所需的使用者和存取層級，有多個所需的步驟。 請參閱[存取控制總覽](/help/guide/permissions/overview.md){target="_blank"}指南以開始。
@@ -61,7 +47,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## 資源
 
-探索[字彙表](/help/guide/glossary.md)，以取得產品中所使用字彙的詳細資訊。 如需支援，請存取Adobe [客戶支援](https://experienceleague.adobe.com/home?lang=zh-Hant&amp;support-tab=open-ticket#support){target="_blank"}頁面。
+探索[字彙表](/help/guide/glossary.md)，以取得產品中所使用字彙的詳細資訊。 如需支援，請存取Adobe [客戶支援](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}頁面。
 
 ## 聯絡我們
 

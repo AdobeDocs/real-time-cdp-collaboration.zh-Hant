@@ -2,10 +2,10 @@
 user-guide-title: Real-Time Customer Data Platform Collaboration
 breadcrumb-title: Real-Time Customer Data Platform Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration可讓廣告商與發佈商之間順暢且安全的資料共用及共同作業，促進即時受眾深入分析和個人化行銷策略。
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 19%
+source-wordcount: '130'
+ht-degree: 21%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 19%
    * [加入並管理您的組織](./setup/onboard-organization.md)
    * [匯入和管理對象](./setup/onboard-audiences.md)
    * [管理資料連線](./setup/manage-data-connection.md)
+   * [設定和管理目的地](./setup/manage-destinations.md)
    * [追蹤您的信用沖銷活動](/help/guide/setup/my-activity.md)
    * [身分識別交叉對照表](./setup/identity-crosswalk.md)
    * [新增及管理測量資料](./setup/onboard-measurement-data.md)
@@ -32,9 +33,11 @@ ht-degree: 19%
 * 協作 {#collaborate}
    * [管理專案](./collaborate/manage-projects.md)
    * [探索](./collaborate/discover.md)
-   * [共用](./collaborate/share.md)
    * [啟動](./collaborate/activate.md)
    * [衡量](./collaborate/measure.md)
+* 目標 {#destinations}
+   * [概觀](./destinations/overview.md)
+   * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 權限 {#permissions}
    * [概觀](/help/guide/permissions/overview.md)
    * [管理使用者存取權](/help/guide/permissions/manage-user-access.md)

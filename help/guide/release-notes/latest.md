@@ -2,11 +2,11 @@
 title: 最新Real-Time CDP Collaboration發行說明
 description: 遵循Real-Time CDP Collaboration的最新發行版本
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '392'
 ht-degree: 5%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 5%
 
 ## 2025 年 3 月 {#march-2025}
 
-* 當[將對象](/help/guide/setup/onboard-audiences.md)匯入Real-Time CDP Collaboration時，您現在可以將對象重新整理頻率設定為每隔&#x200B;**1到6天**，以便更妥善地管理[對象管理信用活動](/help/guide/setup/my-activity.md#types-of-activities)。 [閱讀更多資訊](/help/guide/setup/onboard-audiences.md#schedule)。<br> ![排程畫面，顯示更新對象成員資格的不同頻率間隔。](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png "排程畫面，顯示更新對象成員資格的不同頻率間隔。"){width="250" align="center" zoomable="yes"}
+* 當[將對象](/help/guide/setup/onboard-audiences.md)匯入Real-Time CDP Collaboration時，您現在可以設定對象重新整理頻率，從&#x200B;**每一天到六天**，以便更妥善地管理[對象管理信用活動](/help/guide/setup/my-activity.md#types-of-activities)。 [閱讀更多資訊](/help/guide/setup/onboard-audiences.md#schedule)。<br> ![排程畫面，顯示更新對象成員資格的不同頻率間隔。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "排程畫面，顯示更新對象成員資格的不同頻率間隔。"){width="250" align="center" zoomable="yes"}
 * 與共同作業人員建立連線時，您現在可以從預先定義的&#x200B;**使用案例**&#x200B;中進行選取。 所選的使用案例決定哪些專案區段和產品功能可供使用。 [閱讀全文](/help/guide/collaborate/manage-projects.md#project-use-cases)。
    * *促銷活動測量*&#x200B;啟用&#x200B;**測量**&#x200B;專案區段。
    * *對象探索*&#x200B;啟用&#x200B;**探索**&#x200B;專案區段。
-   * *對象共用與啟用*&#x200B;會啟用&#x200B;**共用**&#x200B;和&#x200B;**啟用** *（僅限發佈者）*&#x200B;專案區段。<br> ![連線檢視中反白顯示的使用案例。](/help/assets/release-notes/2025/use-cases.png "連線檢視中反白顯示的使用案例。"){width="250" align="center" zoomable="yes"}
+   * *對象啟用*&#x200B;會啟用&#x200B;**啟用**&#x200B;專案區段<br>
 * 您現在可以刪除與不想再使用的共同作業人員之間的連線。 [閱讀全文](/help/guide/connect/establishing-connections.md#delete-connections)。
 
 

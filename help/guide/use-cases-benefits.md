@@ -2,9 +2,9 @@
 title: Adobe Real-Time CDP Collaboration的主要優點和使用案例
 description: 瞭解Adobe Real-Time CDP Collaboration的主要優點和使用案例
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
@@ -21,8 +21,7 @@ Adobe Real-Time CDP Collaboration提供必要功能，讓您能有效探索、�
 
 ## 探索 {#discover}
 
-使用儀表板和報表來探索品牌對發佈者共同作業的受眾。
-作為使用Real-Time CDP Collaboration的廣告商，存取並瞭解對象重疊，以從眾多發佈商中解鎖重新目標定位、隱藏和潛在潛在的發展機會。
+使用儀表板和報表來探索品牌對發佈者共同作業的受眾。 作為使用Real-Time CDP Collaboration的廣告商，存取並瞭解對象重疊，以從眾多發佈商中解鎖重新目標定位、隱藏和潛在潛在的發展機會。
 
 ## 啟動 {#activate}
 
@@ -31,5 +30,4 @@ Adobe Real-Time CDP Collaboration提供必要功能，讓您能有效探索、�
 
 ## 衡量 {#measure}
 
-結合併探索來自各種來源的已知客戶參與，例如網頁印象等。
-在簡化且可自訂的報表中檢視促銷活動績效。
+結合併探索來自各種來源的已知客戶參與，例如網頁印象等。 在簡化且可自訂的報表中檢視促銷活動績效。

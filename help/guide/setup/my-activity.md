@@ -2,9 +2,9 @@
 title: 追蹤您的信用沖銷活動
 description: 瞭解如何在Real-Time CDP Collaboration中追蹤貴組織的信用消耗活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 | **[!UICONTROL 日期]** | 活動發生的日期，以YYYY/MM/DD格式顯示。 |
 | **[!UICONTROL 連線ID]** | 與信貸消費活動相關之每個連線的唯一識別碼，以英數字串表示。 |
 | **[!UICONTROL 連線名稱]** | 與連線和信貸消費活動相關聯的共同作業人員名稱。 |
-| **[!UICONTROL 活動]** | 執行的活動型別，例如&#x200B;**啟動 — 共用**、**啟動 — 輸出**&#x200B;或&#x200B;**對象管理**。 |
+| **[!UICONTROL 活動]** | 執行的活動型別，例如&#x200B;**啟動 — 符合**、**啟動 — 輸出**&#x200B;或&#x200B;**對象管理**。 |
 | 已處理&#x200B;**[!UICONTROL 個輸入]** | 為活動處理的輸入總數（例如ID或列）。 |
 | **[!UICONTROL 已使用的積分總數]** | 活動沖銷的銷退折讓總數。 |
 | **[!UICONTROL 我的信用份額]** | 貴組織用於活動的積分部分。 |
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 若要有效管理您的信用沖銷，請執行下列步驟：
 
-1. **瞭解**&#x200B;與每個活動相關聯的信用消耗。 檢查[Real-Time CDP Collaboration產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}，取得每個活動使用的共同作業信用額表。
+1. **瞭解**&#x200B;與每個活動相關聯的信用消耗。 檢查[Real-Time CDP Collaboration產品說明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}，取得每個活動使用的共同作業信用額表。
 2. **定期監視**：請經常檢查您的活動儀表板，以瞭解使用模式。
 3. **依連線追蹤**：使用連線名稱，識別哪些合作關係消耗的點數最多。
 

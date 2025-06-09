@@ -2,11 +2,11 @@
 title: 端對端工作流程
 description: 瞭解使用Real-Time CDP Collaboration作為廣告商或發佈商的端對端工作流程
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration可讓廣告商和發�
 
 作為廣告商，首先請[將您的公司](/help/guide/setup/onboard-organization.md)上線到Real-Time CDP Collaboration。 使用[設定頁面](/help/guide/setup/setup-overview.md)來提交並編輯您的公司設定、新增您將會使用的偏好比對金鑰，以及決定要引入哪些資料。 在第一個版本中，產品僅允許您[從Adobe Experience Platform匯入對象](/help/guide/setup/onboard-audiences.md)。
 
-![廣告商的探索、共用、測量。](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+![為廣告商探索、啟用、測量。](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
 使用[discover標籤來尋找您想要用於行銷活動的發行者](/help/guide/connect/discover-publishers.md)。 請連絡發佈者，並在產品外部討論共同作業條款。 在同意一組條款後，您可以[傳送連線邀請](/help/guide/connect/establishing-connections.md)，並提議與發行者連線的共同作業設定。
 
 在發佈者接受您的連線要求後，您就可以探索組織與其對象之間的重疊對象。 設定行銷活動的專案並[執行重疊報表](/help/guide/collaborate/discover.md)，以根據共同作業使用案例（目標定位、隱藏等），探索您下一個廣告行銷活動的最佳對象。
 
-一旦您發現理想的對象，就應該[與發佈者](/help/guide/collaborate/share.md)共用對象，讓他們啟動對象，進而展開行銷活動。
+一旦您發現理想的對象，就應該[啟用它們](/help/guide/collaborate/activate.md)。
 
 共同作業回圈中的最後一個步驟是[測量](/help/guide/collaborate/measure.md)。 若要測量或瞭解您的業務結果，請上傳如廣告記錄檔之類的測量資料，然後執行程式中提供的報表，以瞭解您的對象如何執行。
 
 ## 發佈者端對端工作流程 {#publisher}
 
-作為發行者，首先請[將您的公司](/help/guide/setup/onboard-organization.md)上線到Real-Time CDP Collaboration。 使用[設定頁面](/help/guide/setup/setup-overview.md)編輯各種公司設定。 例如，請務必加入您公司合作的身分識別。
+作為發行者，首先請[將您的公司](/help/guide/setup/onboard-organization.md)上線到Real-Time CDP Collaboration。 使用[設定頁面](/help/guide/setup/setup-overview.md)編輯各種公司設定。
 
 決定要在產品的&#x200B;**[!UICONTROL 連線]**&#x200B;區域中匯入哪些對象資料，以及讓希望與您連線的廣告商能夠找到和檢視哪些對象。
 
@@ -43,7 +43,7 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration可讓廣告商和發�
 
 在您接受他們的連線要求後，您就可以探索您與共同作業人員之間的重疊對象。 廣告商會為行銷活動設定專案，並根據您的對象和您的對象期望的目標（潛在客戶、隱藏等等）執行重疊報表。
 
-一旦廣告商發現行銷活動要定位的理想受眾並與您分享，您就可以啟用這些受眾，進而展開行銷活動。
+一旦廣告商發現行銷活動要定位的理想受眾並將這些受眾傳送給您後，您就可以啟用這些受眾並啟動行銷活動。
 
 協同合作回圈的最後一步是測量。 若要瞭解您的行銷活動作為最後步驟如何上傳（廣告記錄）等測量資料，然後執行方案中提供的報表，以瞭解對象執行的情形。
 
