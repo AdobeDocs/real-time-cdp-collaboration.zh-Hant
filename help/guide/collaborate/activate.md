@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 啟用]**&#x200B;工作區只有在連線程式](../connect/establishing-connections.md#connection-settings)期間[啟用&#x200B;**對象啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 啟用]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間啟用&#x200B;**對象啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 Audience Activation可讓您在行銷活動中啟用對象。 啟動程式是廣告商與發佈商之間的共同作業。 在[為您的行銷活動](./discover.md)探索到最佳對象之後，對象可以啟動鎖定目標的對象。 啟用的對象會傳送至發佈者預先設定的目的地(例如Adobe Experience Platform)，以用於行銷活動。 如需設定目的地的詳細資訊，請參閱[目的地概觀](../destinations/overview.md)指南。
 
