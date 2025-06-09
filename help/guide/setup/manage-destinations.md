@@ -2,7 +2,7 @@
 title: 設定和管理目的地
 description: 瞭解如何在Real-Time CDP Collaboration中設定和管理目的地。
 audience: admin, publisher
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
 workflow-type: tm+mt
 source-wordcount: '384'

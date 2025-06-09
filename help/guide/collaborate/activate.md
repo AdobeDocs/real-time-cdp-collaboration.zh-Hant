@@ -2,7 +2,7 @@
 title: 啟用客群
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中啟用對象。
 audience: admin, publisher
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
 workflow-type: tm+mt

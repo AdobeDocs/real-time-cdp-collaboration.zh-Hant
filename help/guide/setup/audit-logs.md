@@ -2,7 +2,7 @@
 title: 稽核記錄
 description: 瞭解如何使用Real-Time CDP Collaboration中的稽核記錄功能來追蹤使用者活動和變更。
 audience: admin
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![稽核記錄功能的高階概觀畫面](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-如需稽核記錄的完整資訊，請瀏覽[Adobe Experience Platform稽核記錄檔案](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}。
+如需稽核記錄的完整資訊，請瀏覽[Adobe Experience Platform稽核記錄檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}。
 
 ## 存取稽核記錄
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 * **資源**：已修改或已建立的資源。
 * **時間戳記**：執行動作的時間。
 
-這些記錄會建立Real-Time CDP Collaboration執行個體中所有活動的完整追蹤，這對資料控管和法規遵循非常有用。 深入瞭解[如何在UI](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)中管理稽核記錄。
+這些記錄會建立Real-Time CDP Collaboration執行個體中所有活動的完整追蹤，這對資料控管和法規遵循非常有用。 深入瞭解[如何在UI](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)中管理稽核記錄。
 
 ### 篩選稽核記錄
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 * **狀態**：動作的狀態（例如：允許、拒絕）。
 * **日期範圍**：您要檢視其記錄檔的日期範圍。
 
-深入瞭解[篩選稽核記錄](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)。
+深入瞭解[篩選稽核記錄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)。
 
 ### 用法範例
 

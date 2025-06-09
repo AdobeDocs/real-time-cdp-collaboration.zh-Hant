@@ -2,7 +2,7 @@
 title: 設定概述
 description: 瞭解Adobe Real-Time CDP Collaboration設定區段中的所有可用選項和工作流程
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 title: 最新Real-Time CDP Collaboration發行說明
 description: 遵循Real-Time CDP Collaboration的最新發行版本
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
