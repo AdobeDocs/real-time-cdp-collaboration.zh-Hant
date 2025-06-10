@@ -2,12 +2,12 @@
 title: 管理資料連線
 description: 瞭解如何在Real-Time CDP Collaboration中管理資料連線，包括比對索引鍵、排程、使用案例和對象篩選
 audience: administrator, data engineer
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 16%
+source-wordcount: '598'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +34,10 @@ ht-degree: 16%
 
 比對索引鍵是用於調和來自不同資料來源之客群成員的識別碼。您無法編輯您最初為資料連線選取的相符金鑰。
 
+>[!IMPORTANT]
+> 
+>建立資料連線後，就無法編輯相符金鑰。 若要更新相符金鑰，您必須建立新的資料連線。
+
 可用的比對索引鍵包括：
 
 - **雜湊電子郵件**
@@ -45,11 +49,27 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="排程"
->abstract="此視圖會顯示您最初為資料連線所選取的排程選項。"
+>abstract="檢視資料連線的排程詳細資料，並視需要編輯重新整理頻率。"
 
-您無法編輯您一開始為資料連線選取的排程選項。 如需排程選項的詳細資訊，請檢視對象匯入工作流程檔案中的[排程區段](/help/guide/setup/onboard-audiences.md#schedule)。
+檢視及管理資料連線的排程設定。 排程決定重新整理對象的頻率。
 
-![強調顯示[排程]區段的資料連線工作區。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+建立資料連線後，您可以直接從資料連線工作區的&#x200B;**[!UICONTROL 排程]**&#x200B;區段更新其重新整理頻率。
+
+>[!NOTE]
+>
+>從Adobe Experience Platform獲取對象時，對象在資料連線建立後24小時內即可使用。 初次匯入後，對象資料會根據定義的頻率重新整理。
+
+如需排程的詳細資訊，請參閱入門對象指南中的[排程區段](/help/guide/setup/onboard-audiences.md#schedule)。
+
+![資料連線的工作區中，排程區段反白顯示。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+
+#### 編輯排程 {#edit-scheduling}
+
+您可以編輯現有資料連線的頻率，以更能控制對象重新整理的頻率。 若要編輯排程，請從排程卡片內的資料連線中選取&#x200B;**[!UICONTROL 編輯]**。
+
+在&#x200B;**[!UICONTROL 排程]**&#x200B;對話方塊中，選取下拉式功能表以更新&#x200B;**[!UICONTROL 頻率]**。 將重新整理頻率設定為每日或每兩到六天執行一次。 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以套用您的變更。
+
+![排程對話方塊，顯示設定頻率和日期範圍的選項。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
 
 ## 刪除資料連線
 
