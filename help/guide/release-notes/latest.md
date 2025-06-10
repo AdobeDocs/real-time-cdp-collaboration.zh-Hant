@@ -2,7 +2,7 @@
 title: 最新Real-Time CDP Collaboration發行說明
 description: 遵循Real-Time CDP Collaboration的最新發行版本
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 source-git-commit: 691161cdc1f9338a470373988fbc0dee9a5be6db
 workflow-type: tm+mt
@@ -24,7 +24,7 @@ ht-degree: 3%
 * Real-Time CDP Collaboration現在可供&#x200B;**澳洲**&#x200B;和&#x200B;**紐西蘭**&#x200B;的客戶使用。 它會自動提供給這些地區的Real-Time CDP Prime和Ultimate客戶。
 * Real-Time CDP Collaboration現在透過&#x200B;**[!UICONTROL 設定]**&#x200B;區段中的&#x200B;**[!UICONTROL 我的目的地]**&#x200B;索引標籤，提供[自助目的地](../setup/manage-destinations.md)。 目的地可讓您在第三方平台（例如廣告網路或資料管理平台）中啟用對象，以便透過各種管道觸及您的客戶。 目前僅支援Adobe Experience Platform目的地。 如果您有興趣設定不同的目的地，請聯絡您的Adobe代表。 若要深入瞭解目的地，請閱讀[目的地概觀](../destinations/overview.md)指南。
 
-   * 目的地也新增支援，以便在[Real-Time CDP Collaboration對象入口網站](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.)中檢視Adobe Experience Platform對象。
+   * 目的地也新增支援，以便在[Real-Time CDP Collaboration對象入口網站](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.)中檢視Adobe Experience Platform對象。
 
 * 您現在可以在Real-Time CDP Collaboration中編輯現有資料連線的對象重新整理頻率。 目前，您可以選擇每天或每兩到六天重新整理一次對象。 若要深入瞭解如何編輯對象重新整理頻率，請參閱[管理資料連線](../setup/manage-data-connection.md#scheduling)指南。
 * 現在已針對連線中選取的每個使用案例，設定共同作業人員之間的評分分割。 您可以針對每個使用案例設定不同的信用沖銷規則，以便更妥善地控制信用額的使用方式。 若要深入瞭解信用分割功能，請閱讀[連線設定](../connect/establishing-connections.md#connection-settings)指南。 若要進一步瞭解如何使用信用額度，請閱讀[信用活動型別](../setup/my-activity.md#types-of-activities)指南。<br> ![顯示信用分割功能的連線設定畫面。](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
