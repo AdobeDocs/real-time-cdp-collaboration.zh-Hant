@@ -2,9 +2,9 @@
 title: 與廣告商或發佈商連結
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: c9b96753a9a78bd85002ede3369c5f20eb430548
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 6%
@@ -83,7 +83,7 @@ ht-degree: 6%
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="廣告商名稱"
 >abstract="<p>選擇性設定。 表示發佈者知道廣告商的名稱和ID。</p><p>您在此新增的廣告商名稱將會預先填入建立專案步驟。</p><ul><li>如果發行者設定了多個名稱，請從清單中選取一個名稱。</li><li>如果只設定一個名稱，則會自動預先選取該名稱。</li><li>如果未設定名稱，則欄位會預先填入Real-Time CDP Collaboration中的廣告商帳戶名稱。</li></ul>"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="建立專案"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="建立專案"
 
 傳送邀請後，您可以預覽連線設定。 您必須先接受邀請，才能完成連線的設定。
 
@@ -119,7 +119,7 @@ ht-degree: 6%
 
 +++信用分割
 
-使用信用分割區段來決定兩個共同作業關係人中哪一個會涵蓋活動的成本。 評分分割選項由連線選取的使用案例決定。 雖然&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例需要一方支付成本，但&#x200B;**[!UICONTROL 對象啟用]**&#x200B;使用案例提供額外的選項，讓每個一方支付自己的成本。 如需有關成本明細的資訊，請閱讀[信用活動型別](/help/guide/setup/my-activity.md#types-of-activities)指南。
+使用信用分割區段來決定兩個共同作業關係人中哪一個會涵蓋活動的成本。 評分分割選項由連線選取的使用案例決定。 雖然&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例需要一方支付成本，但&#x200B;**[!UICONTROL 啟用 — 比對]**&#x200B;使用案例會提供額外的選項，讓各方支付各自的成本。 如需有關成本明細的資訊，請閱讀[信用活動型別](/help/guide/setup/my-activity.md#types-of-activities)指南。
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ ht-degree: 6%
 
 ## 刪除連線 {#delete-connections}
 
-您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線，請瀏覽至&#x200B;**[!UICONTROL 連線]**。 然後廣告商應該導覽至&#x200B;**[!UICONTROL 我的連線]**。 選取[連線卡]上的[檢視連線]，以開啟您要刪除的連線。**&#x200B;**
+您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線，請瀏覽至&#x200B;**[!UICONTROL 連線]**。 然後廣告商應該導覽至&#x200B;**[!UICONTROL 我的連線]**。 選取[連線卡]上的[檢視連線]，以開啟您要刪除的連線。****
 
 ![[我的連線]檢視中反白顯示的[檢視]連線選項。](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 
