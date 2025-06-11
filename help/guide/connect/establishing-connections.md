@@ -179,7 +179,7 @@ ht-degree: 11%
 
 ## 刪除連線 {#delete-connections}
 
-您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線，請瀏覽至&#x200B;**[!UICONTROL 連線]**。 然後廣告商應該導覽至&#x200B;**[!UICONTROL 我的連線]**。 選取[連線卡]上的[檢視連線]，以開啟您要刪除的連線。****
+您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線，請瀏覽至&#x200B;**[!UICONTROL 連線]**。 然後廣告商應該導覽至&#x200B;**[!UICONTROL 我的連線]**。 選取[連線卡]上的[檢視連線]，以開啟您要刪除的連線。**&#x200B;**
 
 ![[我的連線]檢視中反白顯示的[檢視]連線選項。](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 
