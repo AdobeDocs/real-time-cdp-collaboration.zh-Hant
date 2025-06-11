@@ -2,12 +2,12 @@
 title: 與廣告商或發佈商連結
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="廣告商名稱"
->abstract="<p>選擇性設定。 表示發佈者知道廣告商的名稱和ID。</p><p>您在此新增的廣告商名稱將會預先填入建立專案步驟。</p><ul><li>如果發行者設定了多個名稱，請從清單中選取一個名稱。</li><li>如果只設定一個名稱，則會自動預先選取該名稱。</li><li>如果未設定名稱，則欄位會預先填入Real-Time CDP Collaboration中的廣告商帳戶名稱。</li></ul>"
+>abstract="<p>選擇性設定。表示發佈者所知的廣告商名稱和 ID。</p><p>您於此處新增的廣告商名稱，會在建立專案的步驟中預先填入。</p><ul><li>若發佈者設定有多個名稱，請從清單中選取一個。</li><li>若僅設定一個名稱，則會自動預先選取該名稱。</li><li>若未設定名稱，則該欄位會預先填入 Real-Time CDP Collaboration 中的廣告商帳戶名稱。</li></ul>"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="建立專案"
 
 >[!CONTEXTUALHELP]
@@ -179,7 +179,7 @@ ht-degree: 6%
 
 ## 刪除連線 {#delete-connections}
 
-您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線，請瀏覽至&#x200B;**[!UICONTROL 連線]**。 然後廣告商應該導覽至&#x200B;**[!UICONTROL 我的連線]**。 選取[連線卡]上的[檢視連線]，以開啟您要刪除的連線。**&#x200B;**
+您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線，請瀏覽至&#x200B;**[!UICONTROL 連線]**。 然後廣告商應該導覽至&#x200B;**[!UICONTROL 我的連線]**。 選取[連線卡]上的[檢視連線]，以開啟您要刪除的連線。****
 
 ![[我的連線]檢視中反白顯示的[檢視]連線選項。](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 

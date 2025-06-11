@@ -2,12 +2,12 @@
 title: 建立和管理專案
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中建立和管理專案
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
 >title="廣告商名稱"
->abstract="從下拉式選單中選取廣告商名稱。發行者會在連線設定中預先設定這些選項，以確保與其系統的相容性。"
+>abstract="從下拉式選單中選取廣告商名稱。此選項由發佈者在連線設定中預先設定，以確保與其系統的相容性。"
 
 導覽至&#x200B;**[!UICONTROL 共同作業]**，然後導覽至&#x200B;**[!UICONTROL 我的專案]**。 如果這是您的第一個專案，您可以選取&#x200B;**[!UICONTROL 建立專案]**。 否則，您可以選取新增圖示(![新增圖示。](/help/assets/icons/plus.png))隨時建立新專案。
 
@@ -58,7 +58,7 @@ ht-degree: 5%
 
 專案概述會顯示連線設定期間選取的使用案例。 這些使用案例定義了專案中可用的功能。 使用案例包括：
 
-| 使用實例 | 專案區段 |
+| 使用案例 | 專案區段 |
 | --- | --- |
 | 行銷活動衡量 | 此使用案例授予[量值](/help/guide/collaborate/measure.md)區段的存取權以及所有可用的功能。 |
 | 客群探索 | 此使用案例授予[探索](/help/guide/collaborate/discover.md)區段的存取權以及所有可用的功能。 |

@@ -2,12 +2,12 @@
 title: 測量績效
 description: 衡量不同管道中行銷活動的績效。 瞭解如何使用和解讀各種報表。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**Campaign測量**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式](../connect/establishing-connections.md#connection-settings)期間已啟用[的&#x200B;**Campaign測量**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 瞭解Real-Time CDP Collaboration中的可用報表，並瞭解如何測量和分析各種管道中行銷活動的效能。
 
@@ -43,12 +43,12 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_create_report_campaignID"
 >title="行銷活動 ID"
->abstract="在UI中新增促銷活動ID相關資訊的預留位置。"
+>abstract="預留位置，用於在使用者介面中新增有關行銷活動 ID 內容的相關資訊。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_create_report"
 >title="行銷活動 ID"
->abstract="在UI中新增促銷活動ID相關資訊的預留位置。"
+>abstract="預留位置，用於在使用者介面中新增有關行銷活動 ID 內容的相關資訊。"
 
 若要檢視測量標籤中可用的報表：
 
