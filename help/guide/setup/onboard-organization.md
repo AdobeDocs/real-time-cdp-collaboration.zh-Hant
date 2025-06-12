@@ -2,11 +2,11 @@
 title: 加入及管理組織
 description: 瞭解如何在Real-Time CDP Collaboration中建立和管理組織的各個層面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 860138b95abc4d6af94bbbf722cf498463570c1b
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '886'
 ht-degree: 16%
 
 ---
@@ -33,6 +33,13 @@ ht-degree: 16%
 >id="rtcdp_collaboration_setup_contact_email"
 >title="聯絡人電子郵件"
 >abstract="請提供團隊或角色型電子郵件，例如 `collaboration@yourcompany.com`。不應使用個人或個體的電子郵件地址。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_connect_code"
+>title="連接代碼"
+>abstract="連線代碼是貴組織的唯一識別碼。 它可用來與Real-Time CDP Collaboration中的其他組織建立連線。"
+
+<!-- Move the above to new section for invite on this page when its created -->
 
 若要開始建立組織，您必須先設定組織詳細資訊。 這需要您新增下列資訊：
 
