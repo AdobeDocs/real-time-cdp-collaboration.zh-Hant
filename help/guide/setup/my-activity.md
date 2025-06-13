@@ -2,11 +2,11 @@
 title: 追蹤您的信用沖銷活動
 description: 瞭解如何在Real-Time CDP Collaboration中追蹤貴組織的信用消耗活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,13 @@ ht-degree: 0%
 * **[!UICONTROL 對象管理]**：當對象來源為Real-Time CDP Collaboration時，會使用積分。 積分會根據在Real-Time CDP Collaboration中為所有對象編制索引的ID數量（以百萬為單位）以及該索引的頻率（每日、每三天或每週）來使用。 若要深入瞭解，請閱讀[匯入和管理對象](/help/guide/setup/onboard-audiences.md)指南。
 * **[!UICONTROL 啟用 — 符合]** — 積分會以符合併準備啟用的識別碼數目為函式使用。 若要深入瞭解，請閱讀[啟用對象](/help/guide/collaborate/activate.md)指南。
 * **[!UICONTROL 啟用 — 輸出]** — 會依據傳送至目的地的ID數量來使用積分。 此費用一律由接收對象的共同作業人員負責。 若要深入瞭解，請閱讀[啟用對象](/help/guide/collaborate/activate.md)指南。
-* **[!UICONTROL 對象測量]** — 在Real-Time CDP Collaboration中執行活動，以產生行銷活動績效報表和深入分析。 銷退折讓是根據所有行銷活動的行銷活動報告列數和報告頻率（每日、每三天或每週）。
+* **[!UICONTROL 測量]** — 在Real-Time CDP Collaboration中執行活動，以產生行銷活動績效報表和深入分析。 銷退折讓是根據所有行銷活動的行銷活動報告列數和報告頻率（每日、每三天或每週）。
 
 ## 管理您的信用消耗 {#manage-credit-consumption}
 
 若要有效管理您的信用沖銷，請執行下列步驟：
 
-1. **瞭解**&#x200B;與每個活動相關聯的信用消耗。 檢查[Real-Time CDP Collaboration產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}，取得每個活動使用的共同作業信用額表。
+1. **瞭解**&#x200B;與每個活動相關聯的信用消耗。 檢查[Real-Time CDP Collaboration產品說明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}，取得每個活動使用的共同作業信用額表。
 2. **定期監視**：請經常檢查您的活動儀表板，以瞭解使用模式。
 3. **依連線追蹤**：使用連線名稱，識別哪些合作關係消耗的點數最多。
 

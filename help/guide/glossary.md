@@ -2,13 +2,13 @@
 title: 字彙
 description: 瞭解Real-Time CDP Collaboration的重要術語
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 2%
 
 ---
@@ -126,6 +126,6 @@ Adobe Real-Time CDP Collaboration中的專案是工作區，使用者可在其�
 
 ## U
 
-### 使用實例
+### 使用案例
 
-使用案例會定義可使用Adobe Real-Time CDP Collaboration解決的特定業務案例或問題。 在Real-Time CDP Collaboration中，受眾探索或行銷活動測量等範例使用案例可用來協助達成特定目標。
+使用案例會定義可使用Adobe Real-Time CDP Collaboration解決的特定業務案例或問題。 在Real-Time CDP Collaboration中，受眾探索或測量等範例使用案例可用來協助達成特定目標。
