@@ -2,12 +2,12 @@
 title: 探索重疊並比較對象
 description: 探索您和共同作業人員的對象之間的重疊。 瞭解如何探索最佳對象，以用於您的行銷活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**對象探索**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式](../connect/establishing-connections.md#connection-settings)期間已啟用[的&#x200B;**對象探索**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 在[建立專案](/help/guide/collaborate/manage-projects.md)之後，您可以比較對象與共同作業人員。 這可協助您識別行銷活動的相關對象，並決定要將哪些對象傳送給發佈者以進行啟用。
 
@@ -25,7 +25,7 @@ ht-degree: 11%
 >
 >任何[未更新或未重新整理的資料草圖](/help/guide/glossary.md#sketches)將在7天後刪除。 發生此情況時，此頁面上各種重疊報表中顯示的數字會變成零，且這些過期的對象將無法共用對象。 具有[作用中重新整理排程](/help/guide/setup/onboard-audiences.md#schedule)的對象會自動重新整理資料草圖。
 
-在連線程式[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)期間，已設定用來探索和比較對象的比對金鑰。 比對索引鍵會用於計算對象之間的重疊，且可切換開啟和關閉。 若要編輯比對索引鍵，請選取&#x200B;**[!UICONTROL 編輯比對索引鍵]**&#x200B;選項。 這個
+在連線程式](/help/guide/connect/establishing-connections.md#connection-settings)期間，已設定[用來探索和比較對象的比對金鑰。 比對索引鍵會用於計算對象之間的重疊，且可切換開啟和關閉。 若要編輯比對索引鍵，請選取&#x200B;**[!UICONTROL 編輯比對索引鍵]**&#x200B;選項。 這個
 
 ![Dicover標籤工作區，展示Audience深入分析。](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -53,22 +53,22 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="您的身分識別計數"
->abstract="根據您和您的共同作業人員針對專案議定的相符索引鍵，選定對象中的唯一ID數量。"
->
+>abstract="您所選取客群中唯一 ID 的數量，以您和協作者針對專案所同意的比對索引鍵為依據。"
+
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
->title="協作者身分識別計數"
->abstract="共同作業人員的對象中的唯一ID數量，根據您和共同作業人員針對專案協定的相符索引鍵。"
+>title="協作者身分識別數量"
+>abstract="您的協作者之客群中唯一 ID 的數量，以您和協作者針對專案所同意的比對索引鍵為依據。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
->title="重疊的身分識別計數"
->abstract="根據您和您的共同作業人員針對專案協定的相符索引鍵，您的和共同作業人員的對象中同時存在的唯一ID數量。"
+>title="重疊的身分識別數量"
+>abstract="您和協作者之客群中唯一 ID 的數量，以您和協作者針對專案所同意的比對索引鍵為依據。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
->title="重疊身分識別百分比"
->abstract="您與共同作業人員所選對象之間的重疊身分百分比。"
+>title="身分識別重疊百分比"
+>abstract="您和協作者選取的客群之間身分識別重疊的百分比。"
 
 使用比較對象區段，取得您和共同作業人員的對象之間重疊的豐富資訊。 若要變更對象選擇，請使用&#x200B;**[!UICONTROL 比較對象]**&#x200B;區段頂端的下拉式選擇器。 您可以選取一或全部對象，以及一或全部共同作業人員的對象來相互比較。
 
@@ -126,7 +126,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="探索與個別客群的重疊處"
->abstract="深入瞭解您的對象與共同作業人員的對象之間的重疊。"
+>abstract="取得您與協作者的客群之間重疊情況的深入分析。"
 
 探索重疊，以深入瞭解您的對象與共同作業人員的對象相較之下的情形。 依預設，此區段會將您的所有對象與您的共同作業人員的每個對象進行比較。 使用區段底部的分頁控制項，以導覽至可用的對象。
 
@@ -140,7 +140,7 @@ ht-degree: 11%
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中比較特定對象與共同作業人員的對象。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中比較特定對象與共同作業人員的對象。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 
