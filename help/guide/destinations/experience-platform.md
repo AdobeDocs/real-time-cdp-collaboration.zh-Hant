@@ -2,11 +2,11 @@
 title: 將Adobe Experience Platform設定為目的地
 description: 瞭解如何在Real-Time CDP Collaboration中設定及管理Adobe Experience Platform作為目的地。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f777b8249e31282f234d9d9798379c35ea8431ea
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: c36814b8dc975b5ea243688981481de49a8219fd
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 1%
+source-wordcount: '878'
+ht-degree: 11%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-設定此目的地以將對象從您的專案啟動至Adobe Experience Platform。 在Adobe Experience Platform中啟用對象可讓您善用平台的功能，以便在各種行銷管道中進行對象細分、分析和啟用。 若要進一步瞭解Adobe Experience Platform，請參閱[Experience Platform概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home){target="_blank"}。
+設定此目的地以將對象從您的專案啟動至Adobe Experience Platform。 在Adobe Experience Platform中啟用對象可讓您善用平台的功能，以便在各種行銷管道中進行對象細分、分析和啟用。 若要進一步瞭解Adobe Experience Platform，請參閱[Experience Platform概觀](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}。
 
 >[!NOTE]
 >
@@ -34,8 +34,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_audience_expiration"
->title="客群到期"
->abstract="對象在Adobe Experience Platform中將不再可用的時段。 預設到期日為30天，但您可以將其設定為1到30天之間的任何值。"
+>title="客群期限"
+>abstract="過了此時段以後，Adobe Experience Platform 將無法再使用該客群。預設期限為 30 天，但您可以將期限設定為 1 到 30 天之間的任何值。"
 
 首先，您必須選取將傳送對象資料的沙箱。
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ![建立目的地工作流程中反白顯示的沙箱下拉式清單。](/help/assets/destinations/adobe-experience-platform/select-sandbox.png)
 
-或者，您可以選取&#x200B;**[!UICONTROL 瀏覽沙箱]**&#x200B;以檢視所有可用的沙箱，以及它們的&#x200B;**[!UICONTROL 型別]**、**[!UICONTROL 狀態]**&#x200B;和&#x200B;**[!UICONTROL 地區]**。 選取您要使用的沙箱，然後選取[儲存]。**&#x200B;**
+或者，您可以選取&#x200B;**[!UICONTROL 瀏覽沙箱]**&#x200B;以檢視所有可用的沙箱，以及它們的&#x200B;**[!UICONTROL 型別]**、**[!UICONTROL 狀態]**&#x200B;和&#x200B;**[!UICONTROL 地區]**。 選取您要使用的沙箱，然後選取[儲存]。****
 
 接下來，設定&#x200B;**[!UICONTROL 對象有效期]**。 依預設，對象到期日設為30天。 您可以選擇將有效期設定為1到30天。 到期日後，Adobe Experience Platform中將不再提供對象。
 
@@ -58,14 +58,14 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_activation_matchkeys"
 >title="啟用比對索引鍵"
->abstract="啟動比對金鑰會根據您在建立組織時選取的比對金鑰而顯示。"
+>abstract="啟用比對索引鍵根據您在建立組織時選取的比對索引鍵顯示。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_target_namespaces"
 >title="目標命名空間"
->abstract="Target名稱空間會指定在Adobe Experience Platform中，比對索引鍵會對應到哪個身分名稱空間。 雜湊比對索引鍵必須對應至支援雜湊值的目標名稱空間。"
+>abstract="目標命名空間指定在 Adobe Experience Platform 中比對索引鍵將對應到的身分識別命名空間。雜湊比對索引鍵必須對應到支援雜湊值的目標命名空間。"
 
-接下來，您必須建立啟用對應，以定義將傳送對象資料至Adobe Experience Platform的方式。 您可以將建立組織時選取的每個[相符索引鍵](../setup/onboard-organization.md#set-up-match-keys)對應到目標名稱空間。 目標名稱空間會指定在Adobe Experience Platform中，比對索引鍵會對應到哪些[身分名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
+接下來，您必須建立啟用對應，以定義將傳送對象資料至Adobe Experience Platform的方式。 您可以將建立組織時選取的每個[相符索引鍵](../setup/onboard-organization.md#set-up-match-keys)對應到目標名稱空間。 目標名稱空間會指定在Adobe Experience Platform中，比對索引鍵會對應到哪些[身分名稱空間](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
 
 >
 >
@@ -91,6 +91,10 @@ ht-degree: 1%
 
 現在您已將Adobe Experience Platform設定為目的地，可以在對象入口網站中檢視啟用的對象。 Audience Portal是Adobe Experience Platform的中央樞紐，可讓您檢視和管理您的對象。 對象入口網站現在會在篩選對象時，提供Real-Time CDP Collaboration作為來源。
 
+>[!IMPORTANT]
+>
+>您有責任將任何必要的資料使用標籤套用至您在Adobe Experience Platform中啟用的對象。 如需詳細資訊，請參閱[資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview){target="_blank"}指南。
+
 ![在篩選選項中將Real-Time CDP Collaboration作為來源的受眾入口網站。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-若要深入瞭解對象入口網站，請參閱[對象入口網站概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。
+若要深入瞭解對象入口網站，請參閱[對象入口網站概觀](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。
