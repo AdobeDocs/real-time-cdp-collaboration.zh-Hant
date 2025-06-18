@@ -2,7 +2,7 @@
 title: 探索重疊並比較對象
 description: 探索您和共同作業人員的對象之間的重疊。 瞭解如何探索最佳對象，以用於您的行銷活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**對象探索**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式](../connect/establishing-connections.md#connection-settings)期間已啟用[的&#x200B;**對象探索**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 在[建立專案](/help/guide/collaborate/manage-projects.md)之後，您可以比較對象與共同作業人員。 這可協助您識別行銷活動的相關對象，並決定要將哪些對象傳送給發佈者以進行啟用。
 
@@ -25,7 +25,7 @@ ht-degree: 19%
 >
 >任何[未更新或未重新整理的資料草圖](/help/guide/glossary.md#sketches)將在7天後刪除。 發生此情況時，此頁面上各種重疊報表中顯示的數字會變成零，且這些過期的對象將無法共用對象。 具有[作用中重新整理排程](/help/guide/setup/onboard-audiences.md#schedule)的對象會自動重新整理資料草圖。
 
-在連線程式[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)期間，已設定用來探索和比較對象的比對金鑰。 比對索引鍵會用於計算對象之間的重疊，且可切換開啟和關閉。 若要編輯比對索引鍵，請選取&#x200B;**[!UICONTROL 編輯比對索引鍵]**&#x200B;選項。 這個
+在連線程式](/help/guide/connect/establishing-connections.md#connection-settings)期間，已設定[用來探索和比較對象的比對金鑰。 比對索引鍵會用於計算對象之間的重疊，且可切換開啟和關閉。 若要編輯比對索引鍵，請選取&#x200B;**[!UICONTROL 編輯比對索引鍵]**&#x200B;選項。 這個
 
 ![Dicover標籤工作區，展示Audience深入分析。](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -140,7 +140,7 @@ ht-degree: 19%
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中比較特定對象與共同作業人員的對象。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中比較特定對象與共同作業人員的對象。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 

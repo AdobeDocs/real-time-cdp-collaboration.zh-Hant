@@ -2,12 +2,12 @@
 title: 與廣告商或發佈商連結
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -62,17 +62,17 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="點數分割"
->abstract="本節會決定哪些人要為Real-Time CDP Collaboration中的對應活動付款。"
+>abstract="此區段會決定誰要為 Real-Time CDP Collaboration 中的相應活動付費。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="客群共用"
->abstract="會根據為啟用準備的相符ID數量，使用對象啟用積分。"
+>abstract="我們根據準備供啟用使用的相符 ID 數量來消耗 Audience Activation 點數。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="測量"
->abstract="執行活動以產生行銷活動績效報表和深入分析。 銷退折讓是根據所有行銷活動的行銷活動報告列數和報告頻率（每日、每三天或每週）。"
+>abstract="執行活動以產生行銷活動效能報告和深入分析。根據所有行銷活動當中活動報告的資料列數量以及產生報告的頻率 (每日、每三日或每週)，系統會消耗相應的點數。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -87,8 +87,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
->title="客群啟用"
->abstract="對象啟用可讓您選取哪些共同作業人員可以啟動對象啟用。"
+>title="Audience Activation"
+>abstract="您可以透過 Audience Activation 選取能夠啟動 Audience Activation 的協作者。"
 
 <!-- Move and update the above popover when bidirectional is active. -->
 
@@ -179,7 +179,7 @@ ht-degree: 11%
 
 ## 刪除連線 {#delete-connections}
 
-您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線，請瀏覽至&#x200B;**[!UICONTROL 連線]**。 然後廣告商應該導覽至&#x200B;**[!UICONTROL 我的連線]**。 選取[連線卡]上的[檢視連線]，以開啟您要刪除的連線。**&#x200B;**
+您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線，請瀏覽至&#x200B;**[!UICONTROL 連線]**。 然後廣告商應該導覽至&#x200B;**[!UICONTROL 我的連線]**。 選取[連線卡]上的[檢視連線]，以開啟您要刪除的連線。****
 
 ![[我的連線]檢視中反白顯示的[檢視]連線選項。](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 
