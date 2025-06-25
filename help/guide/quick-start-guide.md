@@ -174,7 +174,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式](./connect/establishing-connections.md#connection-settings)期間已啟用[的&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./collaborate/manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式[&#128279;](./connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./collaborate/manage-projects.md#project-use-cases)指南。
 
 Collaboration提供多種報表，可分析行銷活動的觸及率、頻率和成效。 雖然&#x200B;**[!UICONTROL Measure]**&#x200B;工作區可在UI中使用，但完整的報告功能可能需要後端啟用。
 
