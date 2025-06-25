@@ -41,7 +41,7 @@ ht-degree: 0%
 
 觀看此影片，瞭解如何使用Admin Console和Experience Platform UI為Collaboration指派產品存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452241/?learn=on&enablevpops&captions=chi_hant)
 
 ## 步驟2：設定您的Real-Time CDP Collaboration組織 {#set-up-your-organization}
 
