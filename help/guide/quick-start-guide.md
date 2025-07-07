@@ -1,17 +1,18 @@
 ---
 title: Real-Time CDP Collaboration入門快速入門
-description: 瞭解如何在Real-Time CDP Collaboration中將您的組織上線，包括設定角色和組織、對象布建、啟用和測量。 本指南可協助廣告商和發佈商設定共同作業設定，並開始安全有效地使用共用受眾。
+description: 瞭解如何在Real-Time CDP Collaboration中建立您的組織，包括設定角色和組織、對象來源、啟用和測量。 本指南可協助廣告商和發佈商設定共同作業設定，並開始安全有效地使用共用受眾。
 audience: admin, publisher, advertiser
-source-git-commit: 4435788917dd82cb127525e054f7f09803e1dcdf
+exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
+source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
 
 # Real-Time CDP Collaboration入門快速入門
 
-透過設定您的組織、布建對象並啟用以隱私權為中心的啟用和測量，開始使用Real-Time Customer Data Platform (CDP) Collaboration。
+透過設定您的組織、sourcing audiences及啟用以隱私權為中心的啟用和測量，開始使用Real-Time CDP Collaboration。
 
 ## 先決條件
 
@@ -41,7 +42,7 @@ ht-degree: 0%
 
 觀看此影片，瞭解如何使用Admin Console和Experience Platform UI為Collaboration指派產品存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452241/?learn=on&enablevpops&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 步驟2：設定您的Real-Time CDP Collaboration組織 {#set-up-your-organization}
 
@@ -73,7 +74,7 @@ ht-degree: 0%
 
 - **設定比對索引鍵** — 選取用於對象比對的識別碼（目前雜湊電子郵件是唯一支援的比對索引鍵）。
 
-建立組織並設定品牌和相符金鑰後，您的組織就可以開始布建受眾和啟用資料了。
+建立組織並設定品牌和相符金鑰後，您的組織就可以開始尋找受眾並啟用資料。
 
 若要深入瞭解初始組織設定，包括如何定義角色、上傳品牌化資產，以及設定比對索引鍵，請參閱[初始組織設定檔案](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}。
 
@@ -83,7 +84,7 @@ ht-degree: 0%
 
 ## 步驟3： Source對象(來自Experience Platform或雲端來源) {#source-audiences}
 
-選擇下列其中一個或兩個資料存放區來來源對象。 使用Collaboration UI或與Adobe協調，以保留隱私權的格式布建對象。
+選擇下列其中一個或兩個資料存放區來來源對象。 使用Collaboration UI或與Adobe協調，以保留隱私權的格式取得對象。
 
 ### 選項A：來自Experience Platform的Source
 
@@ -99,7 +100,7 @@ ht-degree: 0%
 >
 >在此階段，上傳檔案中的所有對象都已完整來源。 特定合作夥伴組織的存取權需透過Collaboration UI個別布建。
 
-### 布建對象
+### 設定對象
 
 設定如何準備、比對和控管受眾，以用於連線。
 
@@ -117,8 +118,8 @@ ht-degree: 0%
 >
 >**每個共同作業人員角色的最大對象數：**
 >
->- **廣告商**&#x200B;最多可布建25個對象。
->- **發佈者**&#x200B;最多可布建250個對象（每個對象至少有5,000個ID）。
+>- **廣告商**&#x200B;最多可以取得25個對象。
+>- **發佈者**&#x200B;最多可以取得250個對象（每個對象至少有5,000個ID）。
 
 >[!IMPORTANT]
 >
@@ -134,7 +135,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，請參閱[上的檔案，讓對象可在Real-Time CDP Collaboration](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中使用。
+或者，請參閱[上的檔案，讓對象可在Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中使用。
 
 ## 步驟4：啟用對象(前往Experience Platform或雲端目的地) {#activate-audiences}
 
@@ -146,7 +147,7 @@ ht-degree: 0%
 
 ### 選項A：啟動至Experience Platform
 
-完成[將Adobe Experience Platform設定為目的地](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的下列步驟。
+完成[將Adobe Experience Platform設定為目的地](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的下列步驟。
 
 - **建立目的地** — 使用使用者介面設定Experience Platform目的地（沙箱層級）。
 - **對應比對索引鍵** — 選取識別碼（例如，`hashedEmail`）。
@@ -174,7 +175,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式[&#128279;](./connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./collaborate/manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式&#x200B;**[!UICONTROL 期間已啟用]**&#x200B;的[Measurement](./connect/establishing-connections.md#connection-settings)使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./collaborate/manage-projects.md#project-use-cases)指南。
 
 Collaboration提供多種報表，可分析行銷活動的觸及率、頻率和成效。 雖然&#x200B;**[!UICONTROL Measure]**&#x200B;工作區可在UI中使用，但完整的報告功能可能需要後端啟用。
 
@@ -237,11 +238,17 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 設定和資料布建完成後，您的組織現在已準備好透過傳送或接受邀請並提交專案設定以進行核准，與共同作業人員連線。 此連線程式包含傳送或接收邀請、檢閱及提交連線設定（例如使用案例及信用沖銷），以及確認關係。
 
-使用Collaboration UI左側導覽功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;工作區來瀏覽可用的發行者（目前無法瀏覽廣告商）。 如需此流程的概觀，請參閱[與廣告商或發佈商連線指南](./connect/establishing-connections.md){target="_blank"}。 如需連線程式的視覺化逐步解說，包括瀏覽共同作業人員和管理連線設定，請觀看[廣告商帳戶設定影片](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}。
+作為廣告商，請使用Collaboration UI左側導覽功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;工作區來瀏覽可用的發行者。
+
+>[!NOTE]
+>
+>目前，只有廣告商可以瀏覽發佈者。 發佈者無法瀏覽或啟動與廣告商的連線。
+
+如需此流程的概觀，請參閱[與廣告商或發佈商連線指南](./connect/establishing-connections.md){target="_blank"}。 如需連線程式的視覺化逐步解說，包括瀏覽共同作業人員和管理連線設定，請觀看[廣告商帳戶設定影片](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}。
 
 ## 後續步驟
 
-您現在已經完成入職程式，並為組織設定了安全的共同作業。 接下來，探索下列資源，以加深您對啟動、測量和資料控管的瞭解：
+您現在已經完成初始設定，並將您的組織設定為安全共同作業。 接下來，探索下列資源，以加深您對啟動、測量和資料控管的瞭解：
 
 - [Audience Activation工作流程檔案](./collaborate/activate.md)
 - [測量使用案例](./collaborate/measure.md)
