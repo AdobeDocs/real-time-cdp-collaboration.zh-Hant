@@ -3,9 +3,9 @@ title: Real-Time CDP Collaboration入門快速入門
 description: 瞭解如何在Real-Time CDP Collaboration中建立您的組織，包括設定角色和組織、對象來源、啟用和測量。 本指南可協助廣告商和發佈商設定共同作業設定，並開始安全有效地使用共用受眾。
 audience: admin, publisher, advertiser
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
+source-git-commit: b5f76b1001f97304332f731490613a8597a182c1
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 - 為您的組織建立並指派給使用者的[角色](./permissions/manage-roles.md)。
 - 存取品牌化資產，例如貴組織的名稱、標誌和橫幅。
 - [定義的相符金鑰策略](./setup/onboard-organization.md#set-up-match-keys) （目前雜湊電子郵件是唯一支援的相符金鑰）。
-- （選用）如果您未使用Experience Platform作為目的地，可存取支援的雲端來源(Amazon S3或Snowflake)。
+- （選用）如果您未使用Experience Platform進行對象管理，請存取支援的雲端來源(Amazon S3或Snowflake)。
 
 ## 步驟1：完成角色型設定 {#complete-role-based-setup}
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 觀看此影片，瞭解如何使用Admin Console和Experience Platform UI為Collaboration指派產品存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452241/?learn=on&enablevpops&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 步驟2：設定您的Real-Time CDP Collaboration組織 {#set-up-your-organization}
 
@@ -52,29 +52,26 @@ ht-degree: 0%
 
 在新增對象之前，您必須在Collaboration中設定您的組織。 這會控管您的組織在介面中的出現方式和行為。
 
-如果您沒有Experience Platform的管理員存取權，請聯絡貴組織的管理員，以取得完成此設定的協助。
+如果您沒有必要的存取權，請參考步驟1，或連絡您組織的管理員，以取得完成此設定的協助。
 
-定義貴組織在Collaboration中的角色、提供品牌資產，並設定比對索引鍵以跨連線對齊對象。 然後，完成以下步驟以完成設定，並為您的組織準備好與您的連線互動。
+定義貴組織在Collaboration中的角色、提供品牌資產，並設定比對索引鍵以跨連線對齊對象。
 
 >[!NOTE]
 >
->您可以在設定期間建立一或多個共同作業人員（例如廣告商或發佈者設定檔）。 某些欄位（例如品牌推廣資產和連絡人電子郵件）稍後可在&#x200B;**[!UICONTROL 設定]**&#x200B;工作區中更新。 相符索引鍵可在專案層級移除，但不能新增，因此請仔細規劃。
+>您可以在設定期間建立一或多個共同作業人員（例如廣告商或發佈者設定檔）。 某些欄位（例如品牌推廣資產和連絡人電子郵件）稍後可在&#x200B;**[!UICONTROL 設定]**&#x200B;工作區中更新。
 
 - **指派角色** — 決定您的組織是作為廣告商、發行者或兩者兼具。 您的角色會定義您具備的共同作業功能，例如起始對象共用（廣告商）或提供對象（發佈者）。 若要進一步瞭解角色對共同作業工作流程的影響，請參閱[端對端工作流程手冊](./end-to-end-workflow.md)。
 - **品牌推廣資產** — 新增下列專案至您的帳戶：
    - 品牌名稱（最多100個字元）
    - 品牌說明（最多1,000個字元）
    - 品牌標誌(SVG &lt;20KB，理想為正方形)
-   - 品牌橫幅(JPG 2688x1536或類似版本)
-- **連絡人電子郵件** — 提供商務電子郵件，供共同作業人員在建立連線後使用。
 
   >[!NOTE]
   >
   >如果您正在建立發佈者帳戶，並希望在Collaboration的連線目錄中公開顯示，請聯絡您的Adobe帳戶代表。 發佈者帳戶需要自訂品牌橫幅(JPG 2688x1536)；此檔案可直接與您的代表共用。
 
+- **連絡人電子郵件** — 提供商務電子郵件，供共同作業人員在建立連線後使用。
 - **設定比對索引鍵** — 選取用於對象比對的識別碼（目前雜湊電子郵件是唯一支援的比對索引鍵）。
-
-建立組織並設定品牌和相符金鑰後，您的組織就可以開始尋找受眾並啟用資料。
 
 若要深入瞭解初始組織設定，包括如何定義角色、上傳品牌化資產，以及設定比對索引鍵，請參閱[初始組織設定檔案](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}。
 
@@ -84,23 +81,13 @@ ht-degree: 0%
 
 ## 步驟3： Source對象(來自Experience Platform或雲端來源) {#source-audiences}
 
-選擇下列其中一個或兩個資料存放區來來源對象。 使用Collaboration UI或與Adobe協調，以保留隱私權的格式取得對象。
+建立組織並設定品牌和相符金鑰後，您就可以開始尋找受眾。 根據您的資料存放區和業務需求，選擇下列其中一種來源方法。
 
 ### 選項A：來自Experience Platform的Source
 
-[使用Collaboration目標UI來連結包含對象的沙箱](./setup/onboard-audiences.md)。 使用此自助方法，從您的Experience Platform例項中參考現有的受眾區段。
+[使用Collaboration UI來連結包含對象](./setup/onboard-audiences.md)的沙箱。 使用此自助方法，從您的Experience Platform例項中參考現有的受眾區段。
 
-### 選項B：來自Snowflake或Amazon S3的Source
-
-若要設定雲端來源（例如[!DNL AWS S3]或[!DNL Snowflake]），請使用下列[對象規格PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf)準備您的對象資料。 完成後，或如有疑問，請聯絡您的Adobe客戶代表以完成設定。 此方法並非自助式，需要Adobe協助。
-
->[!IMPORTANT]
->
->雲端型對象檔案必須符合對象規格PDF中概述的必要結構。 檔案必須包含雜湊識別碼（小寫SHA256）、`segment_name`和`activation_id`等必要中繼資料欄位，並使用支援的格式，例如CSV或Parquet。 Adobe不會在啟用前標準化資料。 TTL會根據對象的生命週期強制執行。
->
->在此階段，上傳檔案中的所有對象都已完整來源。 特定合作夥伴組織的存取權需透過Collaboration UI個別布建。
-
-### 設定對象
+#### 設定對象
 
 設定如何準備、比對和控管受眾，以用於連線。
 
@@ -135,7 +122,17 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，請參閱[上的檔案，讓對象可在Real-Time CDP Collaboration](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中使用。
+或者，請參閱[上的檔案，讓對象可在Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中使用。
+
+### 選項B：來自Snowflake或Amazon S3的Source
+
+若要設定雲端來源（例如[!DNL AWS S3]或[!DNL Snowflake]），請使用下列[對象規格PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf)準備您的對象資料。 完成後，或如有疑問，請聯絡您的Adobe客戶代表以完成設定。 此方法並非自助式，需要Adobe協助。
+
+>[!IMPORTANT]
+>
+>雲端型對象檔案必須符合對象規格PDF中概述的必要結構。 檔案必須包含雜湊識別碼（小寫SHA256）、`segment_name`和`activation_id`等必要中繼資料欄位，並使用支援的格式，例如CSV或Parquet。 Adobe不會在啟用前標準化資料。 TTL會根據對象的生命週期強制執行。
+>
+>在此階段，上傳檔案中的所有對象都已完整來源。 特定合作夥伴組織的存取權需透過Collaboration UI個別布建。
 
 ## 步驟4：啟用對象(前往Experience Platform或雲端目的地) {#activate-audiences}
 
@@ -147,7 +144,7 @@ ht-degree: 0%
 
 ### 選項A：啟動至Experience Platform
 
-完成[將Adobe Experience Platform設定為目的地](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的下列步驟。
+完成[將Adobe Experience Platform設定為目的地](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的下列步驟。
 
 - **建立目的地** — 使用使用者介面設定Experience Platform目的地（沙箱層級）。
 - **對應比對索引鍵** — 選取識別碼（例如，`hashedEmail`）。
@@ -156,16 +153,9 @@ ht-degree: 0%
 
 ### 選項B：啟用至雲端
 
-若要將對象啟用至雲端目的地（例如[!DNL AWS S3]或[!DNL Snowflake]），請聯絡您的Adobe客戶代表以啟動設定程式。 您需要提供目的地詳細資訊，例如檔案路徑、憑證和預期的檔案格式。 在設定期間，您也必須指定比對索引鍵（例如`hashedEmail`），並定義所需的TTL和重新整理步調。 完成設定後，Adobe將會布建目的地，並確保資料正確傳送。
+若要設定雲端目的地（例如，[!DNL AWS S3]或[!DNL Snowflake]），請聯絡您的Adobe客戶代表以啟動設定程式。 根據雲端目的地，您需要提供雲端目的地詳細資訊，例如檔案路徑、憑證、帳戶位置等。 提供必要資訊後，Adobe將設定雲端目的地設定。
 
 傳送至雲端目的地的對象資料會遵循預先定義的結構描述。 如需必要欄位和格式的詳細說明，請下載[Collaboration Audience Activation指南](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf)。
-
-### 主要差異
-
-下列清單重點說明Experience Platform與雲端啟用選項之間的差異：
-
-- Experience Platform的啟用是完全自助式的，並可在Audience Portal中看到。
-- 雲端目的地需要Adobe協調，並且在UI中不可見。
 
 ## 步驟5：設定測量（選擇性） {#set-up-measurement}
 
@@ -226,13 +216,6 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
    - Submit the report. It will run on the selected date and populate within 24 hours. -->
-
-## 驗證
-
-啟用後，請確認對象已成功傳遞，或可在適當的目的地使用。
-
-- 確認您的對象出現在Audience Portal中(針對Experience Platform啟用)。
-- 透過外部目的地記錄檔或確認，確認雲端傳送成功。
 
 ## 步驟6：與共同作業人員交流 {#connect-with-collaborators}
 
