@@ -122,7 +122,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，請參閱[上的檔案，讓對象可在Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中使用。
+或者，請參閱[上的檔案，讓對象可在Real-Time CDP Collaboration](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中使用。
 
 ### 選項B：來自Snowflake或Amazon S3的Source
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 ### 選項A：啟動至Experience Platform
 
-完成[將Adobe Experience Platform設定為目的地](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的下列步驟。
+完成[將Adobe Experience Platform設定為目的地](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的下列步驟。
 
 - **建立目的地** — 使用使用者介面設定Experience Platform目的地（沙箱層級）。
 - **對應比對索引鍵** — 選取識別碼（例如，`hashedEmail`）。
