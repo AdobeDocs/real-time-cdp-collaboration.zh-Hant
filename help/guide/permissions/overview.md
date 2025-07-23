@@ -2,7 +2,7 @@
 title: 存取控制總覽
 description: 瞭解如何取得Adobe Real-Time Customer Data Platform (CDP) Collaboration的存取權。
 audience: admin
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
@@ -35,7 +35,7 @@ Adobe Real-Time CDP Collaboration的存取控制是透過[Adobe Experience Cloud
 
 {style="table-layout:auto"}
 
-如需有關管理角色的詳細資訊，請造訪[Adobe說明中心](https://helpx.adobe.com/enterprise/using/admin-roles.html)。
+如需有關管理角色的詳細資訊，請造訪[Adobe說明中心](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html)。
 
 >[!TIP]
 >
