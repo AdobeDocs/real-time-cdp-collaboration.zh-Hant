@@ -2,11 +2,11 @@
 title: 測量績效
 description: 衡量不同管道中行銷活動的績效。 瞭解如何使用和解讀各種報表。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '631'
 ht-degree: 18%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**Measurement**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式&#x200B;**期間已啟用**&#x200B;的[Measurement](../connect/establishing-connections.md#connection-settings)使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
-瞭解Real-Time CDP Collaboration中的可用報表，並瞭解如何測量和分析各種管道中行銷活動的效能。
+瞭解Adobe Real-Time CDP Collaboration中的可用報表，並瞭解如何測量和分析各種管道中行銷活動的效能。
 
 ## 先決條件
 
-在存取Real-Time CDP Collaboration中的測量報表之前，您已：
+在存取Collaboration中的測量報表之前，您已：
 
 * [已連線](/help/guide/connect/establishing-connections.md)與想要的廣告商或發行者連線，且已啟用&#x200B;**Measurement**&#x200B;使用案例，並開始在[專案](/help/guide/collaborate/manage-projects.md)上共同作業
-* 執行行銷活動並[將測量資料](/help/guide/setup/onboard-measurement-data.md)上傳至Real-Time CDP Collaboration。
+* 執行行銷活動並[將測量資料](/help/guide/setup/onboard-measurement-data.md)上傳至Collaboration。
 
 <!--
 
@@ -99,7 +99,7 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 
 ![累積觸及曲線。](/help/assets/collaborate/measure/cumulative-reach-curve.png)
 
-### 依刊登位置劃分的曝光 {#impressions-by-placement}
+### 依刊登位置劃分的曝光數 {#impressions-by-placement}
 
 瞭解哪些媒體可提升創意的曝光率。 這可協助您決定要將廣告支出投資於未來行銷活動的位置。
 

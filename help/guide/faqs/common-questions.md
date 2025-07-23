@@ -2,9 +2,9 @@
 title: 常見問題
 description: 尋找有關Adobe Real-Time CDP Collaboration最常見問題的解答
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 07fa043a-ce42-494d-a262-fa1d5cad7476
-source-git-commit: c61af18aafe1bcf7f59159cff6d765349e1ac7f9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 4%
@@ -25,8 +25,8 @@ ht-degree: 4%
 
 +++選取以檢視答案
 
-如果您是一般使用者，則需要聯絡公司的系統或產品管理員。
+如果您是一般使用者，則需要聯絡組織的系統或產品管理員。
 
-如果您是系統或產品管理員，請閱讀許可權指南以瞭解如何授予您自己和同事正確的許可權來使用Real-Time CDP Collaboration。 從[存取控制總覽](/help/guide/permissions/overview.md)開始。
+如果您是系統或產品管理員，請閱讀許可權指南以瞭解如何授予您自己和同事正確的許可權來使用Collaboration。 若要深入瞭解，請閱讀[存取控制概述](/help/guide/permissions/overview.md)。
 
 +++

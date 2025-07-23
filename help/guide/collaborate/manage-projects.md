@@ -2,11 +2,11 @@
 title: 建立和管理專案
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中建立和管理專案
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '428'
 ht-degree: 9%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 {{limited-availability-release-note}}
 
-專案是Real-Time CDP Collaboration工作流程的核心。 與共同作業人員取得聯絡後，請建立專案以執行對象重疊計算，並探索行銷活動的相關對象。
+專案是Adobe Real-Time CDP Collaboration工作流程的核心。 與共同作業人員取得聯絡後，請建立專案以執行對象重疊計算，並探索行銷活動的相關對象。
 
 >[!TIP]
 >
@@ -28,6 +28,8 @@ ht-degree: 9%
 ![使用單一共同作業人員的專案篩選檢視。](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## 建立專案 {#create-project}
+
+若要建立專案，您必須先與共同作業人員[建立連線](/help/guide/connect/establishing-connections.md)。 建立連線後，您可以與該共同作業人員建立專案。
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
@@ -62,4 +64,4 @@ ht-degree: 9%
 | --- | --- |
 | 行銷活動衡量 | 此使用案例授予[量值](/help/guide/collaborate/measure.md)區段的存取權以及所有可用的功能。 |
 | 客群探索 | 此使用案例授予[探索](/help/guide/collaborate/discover.md)區段的存取權以及所有可用的功能。 |
-| 客群啟用 | 此使用案例授予[啟用](/help/guide/collaborate/activate.md)區段的存取權以及所有可用的功能。 |
+| Audience Activation | 此使用案例授予[啟用](/help/guide/collaborate/activate.md)區段的存取權以及所有可用的功能。 |

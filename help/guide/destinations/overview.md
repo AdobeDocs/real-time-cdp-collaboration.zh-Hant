@@ -2,11 +2,12 @@
 title: 設計概述
 description: 瞭解Real-Time CDP Collaboration中的目的地。
 audience: admin, publisher
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 5%
+source-wordcount: '349'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 5%
 
 目的地是用來將目標對象傳送至外部平台的整合。 這些整合可讓您啟用各行銷管道和平台上的對象，以用於行銷活動和客戶參與。
 
-目前，目的地僅適用於Real-Time CDP Collaboration中的發佈者。 發佈者可設定目的地，以將受眾傳送至外部平台，例如Adobe Experience Platform，以用於行銷活動。 然後廣告商就可以[啟用專案中的對象](../collaborate/activate.md)，這些對象會傳送到發佈者設定的目的地。
+目前，目的地僅適用於Adobe Real-Time CDP Collaboration中的發佈者。 發佈者可設定目的地，以將受眾傳送至外部平台，例如Adobe Experience Platform，以用於行銷活動。 然後廣告商就可以[啟用專案中的對象](../collaborate/activate.md)，這些對象會傳送到發佈者設定的目的地。
 
 >[!IMPORTANT]
 >
@@ -28,7 +29,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> 目前，Real-Time CDP Collaboration中只有Adobe Experience Platform可做為自助目的地。 如果您有興趣設定Amazon S3或Snowflake之類的目的地，請聯絡您的Adobe代表。
+> 目前，Collaboration中只有Adobe Experience Platform可做為自助目的地。 如果您有興趣設定Amazon S3或Snowflake之類的目的地，請聯絡您的Adobe代表。
 
 ![設定工作區中的「我的目的地」索引標籤顯示可用的目的地。](/help/assets/destinations/overview/my-destinations-overview.png)
 
@@ -38,7 +39,7 @@ ht-degree: 5%
 
 ### 可用的目的地 {#available-destinations}
 
-下列目的地可用於Real-Time CDP Collaboration中的設定。 若要檢視該目的地的組態指南，請在下表中選取目的地名稱。 如果您想要設定目前無法使用的目的地，請聯絡您的Adobe代表。
+下列目的地可用於Collaboration中的設定。 若要檢視該目的地的組態指南，請在下表中選取目的地名稱。 如果您想要設定目前無法使用的目的地，請聯絡您的Adobe代表。
 
 | 目標 | 可用性 |
 | --- | --- |

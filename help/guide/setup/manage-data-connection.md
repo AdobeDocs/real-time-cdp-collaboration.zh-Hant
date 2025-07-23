@@ -2,11 +2,11 @@
 title: 管理資料連線
 description: 瞭解如何在Real-Time CDP Collaboration中管理資料連線，包括比對索引鍵、排程、使用案例和對象篩選
 audience: administrator, data engineer
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '597'
 ht-degree: 12%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 ## 概觀
 
-在Real-Time CDP Collaboration中使用資料連線，從各種來源匯入對象。 瞭解如何管理比對索引鍵及排程現有資料連線的資料匯入。 此外，您將可依不同屬性篩選對象，以獲得更精細的深入分析。
+在Real-Time CDP Collaboration中使用資料連線，從各種平台取得對象。 瞭解如何管理比對索引鍵，以及排程現有資料連線的資料重新整理作業。 此外，您將可依不同屬性篩選對象，以獲得更精細的深入分析。
 
 ## 檢視資料連線
 
@@ -59,7 +59,7 @@ ht-degree: 12%
 >
 >從Adobe Experience Platform獲取對象時，對象在資料連線建立後24小時內即可使用。 初次匯入後，對象資料會根據定義的頻率重新整理。
 
-如需排程的詳細資訊，請參閱入門對象指南中的[排程區段](/help/guide/setup/onboard-audiences.md#schedule)。
+如需排程的詳細資訊，請參閱設定對象指南中的[排程區段](/help/guide/setup/onboard-audiences.md#schedule)。
 
 ![資料連線的工作區中，排程區段反白顯示。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
@@ -69,11 +69,11 @@ ht-degree: 12%
 
 在&#x200B;**[!UICONTROL 排程]**&#x200B;對話方塊中，選取下拉式功能表以更新&#x200B;**[!UICONTROL 頻率]**。 將重新整理頻率設定為每日或每兩到六天執行一次。 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以套用您的變更。
 
-![排程對話方塊，顯示設定頻率和日期範圍的選項。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
+![排程對話方塊，顯示設定頻率和日期範圍的選項。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## 刪除資料連線
 
-刪除資料連線將會移除整個平台的所有基礎對象、相關設定和使用情況。 此動作無法復原。
+刪除資料連線將會移除Collaboration中的所有基礎對象、相關設定和使用狀況。 此動作無法復原。
 
 若要刪除現有的資料連線，請選取個別資料連線工作區中的刪除圖示（![刪除圖示](/help/assets/common/delete.svg)）。
 

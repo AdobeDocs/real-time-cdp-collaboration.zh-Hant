@@ -2,12 +2,12 @@
 title: 探索重疊並比較對象
 description: 探索您和共同作業人員的對象之間的重疊。 瞭解如何探索最佳對象，以用於您的行銷活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 19%
+source-wordcount: '1167'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**對象探索**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式&#x200B;**期間已啟用**&#x200B;的[對象探索](../connect/establishing-connections.md#connection-settings)使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 在[建立專案](/help/guide/collaborate/manage-projects.md)之後，您可以比較對象與共同作業人員。 這可協助您識別行銷活動的相關對象，並決定要將哪些對象傳送給發佈者以進行啟用。
 
@@ -25,7 +25,7 @@ ht-degree: 19%
 >
 >任何[未更新或未重新整理的資料草圖](/help/guide/glossary.md#sketches)將在7天後刪除。 發生此情況時，此頁面上各種重疊報表中顯示的數字會變成零，且這些過期的對象將無法共用對象。 具有[作用中重新整理排程](/help/guide/setup/onboard-audiences.md#schedule)的對象會自動重新整理資料草圖。
 
-在連線程式[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)期間，已設定用來探索和比較對象的比對金鑰。 比對索引鍵會用於計算對象之間的重疊，且可切換開啟和關閉。 若要編輯比對索引鍵，請選取&#x200B;**[!UICONTROL 編輯比對索引鍵]**&#x200B;選項。 這個
+在連線程式[期間，已設定](/help/guide/connect/establishing-connections.md#connection-settings)用來探索和比較對象的比對金鑰。 相符索引鍵會用於計算對象之間的重疊，且可切換為開啟或關閉。 若要編輯比對索引鍵，請選取&#x200B;**[!UICONTROL 編輯比對索引鍵]**&#x200B;選項。
 
 ![Dicover標籤工作區，展示Audience深入分析。](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -37,11 +37,11 @@ ht-degree: 19%
 
 若要開始使用專案中的&#x200B;**[!UICONTROL Discover]**&#x200B;標籤，您應該：
 
-* [已將對象](/help/guide/setup/onboard-audiences.md)匯入您的組織
+* [來源對象](/help/guide/setup/onboard-audiences.md)放入您的帳戶
 * [已連線](/help/guide/connect/establishing-connections.md)，共同作業人員已啟用&#x200B;**對象探索**&#x200B;使用案例
 * [已建立您與共同作業人員之間的專案](/help/guide/collaborate/manage-projects.md)
 
-滿足這些先決條件後，您就可以開始探索及比較您與共同作業人員的對象之間的重疊。
+在滿足這些先決條件後，您就可以開始探索和比較您與共同作業人員的對象之間的重疊。
 
 ## 比較客群 {#compare-audiences}
 
@@ -86,7 +86,7 @@ ht-degree: 19%
 
 {style="table-layout:auto"}
 
->[!TIP]
+>[!NOTE]
 >
 >並非所有對象都一定可使用重疊百分比圖。 重疊百分比指標的可見度取決於您的共同作業人員為[中繼資料可見度區段](/help/guide/setup/onboard-audiences.md#metadata-visibility)中的對象選擇的設定。
 
@@ -95,7 +95,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="相關客群"
->abstract="根據重疊百分比，這些發佈者客群可能非常適合您的行銷活動。<br><br><b>身分識別計數</b>為發佈者的客群大小。<br><br> <b>重疊的身分識別</b>代表建議的發佈者客群與所有廣告商客群之間的重疊部分。<br><br><b>重疊百分比</b>表示重疊之身分識別的數量，除以<i>所有</i>廣告商客群之大小的數值。"
+>abstract="根據重疊百分比，這些對象可能非常適合您的行銷活動。 <br><br> <b>身分計數</b>是共同作業人員的對象人數。<br><br> <b>重疊的身分</b>代表建議的對象與您的所有對象之間的重疊。 <br><br> <b>重疊%</b>代表重疊身分的數目除以您的對象<i>全部</i>的大小。"
 
 **[!UICONTROL 探索]**&#x200B;標籤中的&#x200B;**[!UICONTROL 相關對象]**&#x200B;區段會根據共同作業人員的對象與所有對象之間的重疊百分比，提供前五個對象的精選清單。 此功能可協助您快速識別重疊程度最高的對象，讓您更有效地鎖定行銷活動。 使用區段右上角的頁面選取器，在相關對象之間切換。
 
@@ -117,10 +117,6 @@ ht-degree: 19%
 
 {style="table-layout:auto"}
 
->[!NOTE]
->
->共同作業人員對象的可見度取決於共同作業人員在[中繼資料可見度區段](/help/guide/setup/onboard-audiences.md#metadata-visibility)中為對象選擇的設定。 如果您的共同作業人員已將所有對象設為私人，此區段將不會顯示任何對象。
-
 ## 探索重疊 {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
@@ -140,7 +136,7 @@ ht-degree: 19%
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中比較特定對象與共同作業人員的對象。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 
@@ -148,7 +144,7 @@ ht-degree: 19%
 
 | 量度 | 說明 |
 |---------|----------|
-| **[!UICONTROL 身分計數]** | 對象中的唯一ID名稱。 |
+| **[!UICONTROL 身分計數]** | 對象中的唯一ID數量。 |
 | **[!UICONTROL 重疊的身分]** | 建議的對象與您的所有對象之間重疊的唯一ID數量。 |
 | **[!UICONTROL 重疊%]** | 建議的對象與您的所有對象之間的重疊身分百分比。 |
 | **[!UICONTROL 對象類別]** | 您的共同作業人員已指派給對象的類別。 |

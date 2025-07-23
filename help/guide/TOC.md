@@ -2,9 +2,9 @@
 user-guide-title: Real-Time Customer Data Platform Collaboration
 breadcrumb-title: Real-Time Customer Data Platform Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration可讓廣告商與發佈商之間順暢且安全的資料共用及共同作業，促進即時受眾深入分析和個人化行銷策略。
-source-git-commit: 98d70b0069a8bc9e5d032fd2dd090afa5010ea2a
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 21%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 21%
 * [入門快速入門](./quick-start-guide.md)
 * 設定 {#setup}
    * [設定區段概觀](./setup/setup-overview.md)
-   * [加入並管理您的組織](./setup/onboard-organization.md)
-   * [匯入和管理對象](./setup/onboard-audiences.md)
+   * [入門並管理您的帳戶](./setup/onboard-account.md)
+   * [Source和管理對象](./setup/onboard-audiences.md)
    * [管理資料連線](./setup/manage-data-connection.md)
    * [設定和管理目的地](./setup/manage-destinations.md)
    * [追蹤您的信用沖銷活動](/help/guide/setup/my-activity.md)

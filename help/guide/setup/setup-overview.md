@@ -2,12 +2,12 @@
 title: 設定概述
 description: 瞭解Adobe Real-Time CDP Collaboration設定區段中的所有可用選項和工作流程
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 5%
+source-wordcount: '115'
+ht-degree: 4%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 5%
 
 {{limited-availability-release-note}}
 
-Real-Time CDP Collaboration中的設定區段是您開始使用產品時新增公司相關資訊的首選位置。\
+Adobe Real-Time CDP Collaboration中的「設定」區段提供集中式工作區，讓您管理帳戶的設定和組態。 使用下列指南瞭解如何設定您的帳戶、來源對象、管理資料連線、設定目的地以及追蹤您的信用消費活動。
 
 ![組織的設定工作區，提供其目前設定的概觀。](/help/assets/setup/set-up-overview.png){zoomable="yes"}
 
 使用設定區段中的功能可以：
 
-* [加入並管理您的組織](/help/guide/setup/onboard-organization.md)
-* [匯入和管理對象](/help/guide/setup/onboard-audiences.md)
+* [設定和管理您的帳戶](/help/guide/setup/onboard-account.md)
+* [Source和管理對象](/help/guide/setup/onboard-audiences.md)
 * [管理資料連線](/help/guide/setup/manage-data-connection.md)
 * [設定和管理目的地](/help/guide/setup/manage-destinations.md)
 * [追蹤您的信用沖銷活動](/help/guide/setup/my-activity.md)

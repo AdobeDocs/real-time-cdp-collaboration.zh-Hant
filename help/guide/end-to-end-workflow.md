@@ -2,9 +2,9 @@
 title: 端對端工作流程
 description: 瞭解使用Real-Time CDP Collaboration作為廣告商或發佈商的端對端工作流程
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration可讓廣告商和發�
 
 ## 廣告商端對端工作流程 {#advertiser}
 
-作為廣告商，首先請[將您的公司](/help/guide/setup/onboard-organization.md)上線到Real-Time CDP Collaboration。 使用[設定頁面](/help/guide/setup/setup-overview.md)來提交並編輯您的公司設定、新增您將會使用的偏好比對金鑰，以及決定要引入哪些資料。 在第一個版本中，產品僅允許您[從Adobe Experience Platform匯入對象](/help/guide/setup/onboard-audiences.md)。
+作為廣告商，首先請[將您的公司](/help/guide/setup/onboard-account.md)上線到Real-Time CDP Collaboration。 使用[設定頁面](/help/guide/setup/setup-overview.md)來提交並編輯您的公司設定、新增您將會使用的偏好比對金鑰，以及決定要引入哪些資料。 在第一個版本中，產品僅允許您[從Adobe Experience Platform匯入對象](/help/guide/setup/onboard-audiences.md)。
 
 ![為廣告商探索、啟用、測量。](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
@@ -33,7 +33,7 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration可讓廣告商和發�
 
 ## 發佈者端對端工作流程 {#publisher}
 
-作為發行者，首先請[將您的公司](/help/guide/setup/onboard-organization.md)上線到Real-Time CDP Collaboration。 使用[設定頁面](/help/guide/setup/setup-overview.md)編輯各種公司設定。
+作為發行者，首先請[將您的公司](/help/guide/setup/onboard-account.md)上線到Real-Time CDP Collaboration。 使用[設定頁面](/help/guide/setup/setup-overview.md)編輯各種公司設定。
 
 決定要在產品的&#x200B;**[!UICONTROL 連線]**&#x200B;區域中匯入哪些對象資料，以及讓希望與您連線的廣告商能夠找到和檢視哪些對象。
 

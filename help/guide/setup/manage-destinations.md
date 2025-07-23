@@ -2,10 +2,11 @@
 title: 設定和管理目的地
 description: 瞭解如何在Real-Time CDP Collaboration中設定和管理目的地。
 audience: admin, publisher
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -16,15 +17,15 @@ ht-degree: 1%
 
 目的地是用來將目標對象傳送至外部平台的整合。 這些整合可讓您啟用各行銷管道和平台上的對象，以用於行銷活動和客戶參與。
 
-目前，目的地僅適用於Real-Time CDP Collaboration中的發佈者。 發佈者可設定目的地，以將受眾傳送至外部平台，例如Adobe Experience Platform，以用於行銷活動。 然後廣告商就可以[啟用專案中的對象](../collaborate/activate.md)，這些對象會傳送到發佈者設定的目的地。
+目前，目的地僅適用於Real-Time CDP Collaboration中的發佈者。 發佈者可設定目的地，以針對外部平台(例如Adobe Experience Platform)啟用對象，以用於行銷活動。 然後廣告商可以[在專案](../collaborate/activate.md)中傳送對象，這些對象會傳送到發佈者設定的目的地。
 
-![設定工作區中的「我的目的地」索引標籤顯示作用中的Adobe Experience Platform目的地](/help/assets/setup/manage-destinations/my-destinations-overview.png)
+![「設定」工作區中的「我的目的地」索引標籤顯示作用中的Adobe Experience Platform目的地。](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
 若要深入瞭解目的地，請參閱[目的地概觀](../destinations/overview.md)指南。
 
 ## 設定目的地 {#configure-destinations}
 
-已在Real-Time CDP Collaboration的&#x200B;**[!UICONTROL 設定]**&#x200B;區段中設定目的地。 若要設定目的地，請瀏覽至&#x200B;**[!UICONTROL 設定]**，然後選取&#x200B;**[!UICONTROL 我的目的地]**&#x200B;索引標籤。 在這裡，您可以檢視所有可用的目的地。
+已在Collaboration的&#x200B;**[!UICONTROL 設定]**&#x200B;區段中設定目的地。 若要設定目的地，請瀏覽至&#x200B;**[!UICONTROL 設定]**，然後選取&#x200B;**[!UICONTROL 我的目的地]**&#x200B;索引標籤。 在這裡，您可以檢視所有可用的目的地。
 
 >[!IMPORTANT]
 >
@@ -48,7 +49,7 @@ ht-degree: 1%
 
 確認對話方塊隨即顯示，您可以在其中確認要刪除目的地。 選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以移除目的地。
 
-![反白顯示[刪除]選項的[刪除]目的地對話方塊。](/help/assets/setup/manage-destinations/delete-destination-confirm.png)
+![反白顯示[刪除]選項的[刪除]目的地對話方塊。](/help/assets/setup/manage-destinations/delete-destination-confirmation.png)
 
 ## 後續步驟
 

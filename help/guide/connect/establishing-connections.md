@@ -2,12 +2,12 @@
 title: 與廣告商或發佈商連結
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 16%
+source-wordcount: '1400'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 {{limited-availability-release-note}}
 
-共同作業人員（通常是廣告商和發佈商）必須先建立連線，才能在行銷活動中合作。 此連線可讓他們啟用對象、建立專案，以及執行行銷活動績效報表。
+共同作業人員必須建立連線，才能共同處理行銷活動。 此連線可讓他們啟用對象、建立專案，以及執行行銷活動績效報表。
 
 ## 高階工作流程
 
@@ -33,15 +33,15 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->建立兩位共同作業人員之間的連線後，將無法再修訂連線設定。
+>建立兩位共同作業人員之間的連線後，將無法修訂連線設定。
 
 ## 傳送邀請 {#send-invite}
 
-若要設定連線，請在探索發行者畫面中瀏覽發行者詳細目錄時選取&#x200B;**[!UICONTROL 連線]**。
+若要設定連線，請在&#x200B;**[!UICONTROL Discover發行者]**&#x200B;工作區中瀏覽發行者詳細目錄時選取&#x200B;**[!UICONTROL 連線]**。
 
 ![在特定發行者上反白顯示[連線]選項的[連線]儀表板。](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-傳送邀請後，您可以預覽（但不能編輯）連線設定。 在&#x200B;**[!UICONTROL 我的連線]**&#x200B;索引標籤中檢視擱置邀請。 連線狀態顯示為&#x200B;**[!UICONTROL 已傳送邀請]**。
+傳送邀請後，您可以預覽（但不能編輯）連線設定。 檢視擱置邀請會顯示在&#x200B;**[!UICONTROL 我的連線]**&#x200B;索引標籤中。 連線狀態顯示為&#x200B;**[!UICONTROL 已傳送邀請]**。
 
 ![傳送給發行者的擱置邀請會顯示在[我的連線]檢視中。](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -62,7 +62,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="點數分割"
->abstract="此區段會決定誰要為 Real-Time CDP Collaboration 中的相應活動付費。"
+>abstract="本節會決定哪些人要為Collaboration中的對應活動付款。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
@@ -82,7 +82,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="廣告商名稱"
->abstract="<p>選擇性設定。表示發佈者所知的廣告商名稱和 ID。</p><p>您於此處新增的廣告商名稱，會在建立專案的步驟中預先填入。</p><ul><li>若發佈者設定有多個名稱，請從清單中選取一個。</li><li>若僅設定一個名稱，則會自動預先選取該名稱。</li><li>若未設定名稱，則該欄位會預先填入 Real-Time CDP Collaboration 中的廣告商帳戶名稱。</li></ul>"
+>abstract="<p>選擇性設定。表示發佈者所知的廣告商名稱和 ID。</p><p>您於此處新增的廣告商名稱，會在建立專案的步驟中預先填入。</p><ul><li>若發佈者設定有多個名稱，請從清單中選取一個。</li><li>若僅設定一個名稱，則會自動預先選取該名稱。</li><li>如果未設定名稱，則欄位會預先填入Collaboration中的廣告商帳戶名稱。</li></ul>"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="建立專案"
 
 >[!CONTEXTUALHELP]
@@ -95,6 +95,8 @@ ht-degree: 16%
 傳送邀請後，您可以預覽連線設定。 您必須先接受邀請，才能完成連線的設定。
 
 ![處於預覽狀態的連線設定檢視。](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
+
+<!-- The sections below will be updated in B2B and have not been addressed yet. -->
 
 ### 廣告商連線設定 {#advertiser-connection-settings}
 
@@ -118,7 +120,7 @@ ht-degree: 16%
 
 +++比對索引鍵
 
-相符金鑰已預先填入您在[設定組織](/help/guide/setup/onboard-organization.md#set-up-match-keys)時所選取的金鑰。 您可以關閉任何不想使用的相符鍵，但無法新增在組織設定期間未選取的相符鍵。
+相符金鑰已預先填入您在[設定組織](/help/guide/setup/onboard-account.md#set-up-match-keys)時所選取的金鑰。 您可以關閉任何不想使用的相符鍵，但無法新增在組織設定期間未選取的相符鍵。
 
 ![連線設定工作區中的[相符金鑰]設定。](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
@@ -177,9 +179,13 @@ ht-degree: 16%
 
 如果您對提議的連線設定感到滿意，請選取&#x200B;**[!UICONTROL 接受]**&#x200B;以建立連線。 如果您想要要求變更連線設定，請選取&#x200B;**[!UICONTROL 拒絕]**。 接著，共同作業人員可以修訂連線設定，並重新傳送以進行檢閱。
 
+<!-- The end of the sections needing updates still. -->
+
 ## 刪除連線 {#delete-connections}
 
-您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線，請瀏覽至&#x200B;**[!UICONTROL 連線]**。 然後廣告商應該導覽至&#x200B;**[!UICONTROL 我的連線]**。 選取[連線卡]上的[檢視連線]，以開啟您要刪除的連線。**&#x200B;**
+您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線，請瀏覽至&#x200B;**[!UICONTROL 連線]**。 您的現有連線身為發佈者，將會顯示出來。 身為廣告商，您應該導覽至&#x200B;**[!UICONTROL 我的連線]**。
+
+在您要刪除的連線卡上選取&#x200B;**[!UICONTROL 檢視連線]**。
 
 ![[我的連線]檢視中反白顯示的[檢視]連線選項。](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 
