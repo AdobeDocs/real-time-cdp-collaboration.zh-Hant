@@ -2,11 +2,11 @@
 title: 設定和管理目的地
 description: 瞭解如何在Real-Time CDP Collaboration中設定和管理目的地。
 audience: admin, publisher
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 目的地是用來將目標對象傳送至外部平台的整合。 這些整合可讓您啟用各行銷管道和平台上的對象，以用於行銷活動和客戶參與。
 
-目前，目的地僅適用於Real-Time CDP Collaboration中的發佈者。 發佈者可設定目的地，以針對外部平台(例如Adobe Experience Platform)啟用對象，以用於行銷活動。 然後廣告商可以[在專案](../collaborate/activate.md)中傳送對象，這些對象會傳送到發佈者設定的目的地。
+共同作業人員可設定目的地，以將對象傳送至外部平台，例如Adobe Experience Platform，以用於行銷活動。 共同作業人員可以[啟用專案中的對象](../collaborate/activate.md)，這些對象會傳送至其連線的設定目的地。 根據連線[中設定的對象啟用設定](/help/guide/connect/establishing-connections.md#configure-connection-settings)，可由共同作業人員完成啟用。
 
 ![「設定」工作區中的「我的目的地」索引標籤顯示作用中的Adobe Experience Platform目的地。](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 ## 刪除目的地 {#delete-destinations}
 
-刪除目的地會將其從您的組織移除、從目的地移除任何先前傳送的對象，並防止任何未來的對象傳送至該目的地。
+刪除目的地會將其從您的帳戶中移除，會從目的地中移除任何先前傳送的對象，並防止任何未來的對象傳送至該目的地。
 
 若要刪除目的地，請瀏覽至&#x200B;**[!UICONTROL 設定]**&#x200B;區段中的&#x200B;**[!UICONTROL 我的目的地]**&#x200B;索引標籤。 選取您要移除之目的地的&#x200B;**[!UICONTROL 刪除]**&#x200B;選項。
 
@@ -53,4 +53,4 @@ ht-degree: 1%
 
 ## 後續步驟
 
-設定目的地後，您就可以開始與廣告商合作，在您的專案中[啟用目標對象](../collaborate/activate.md)。
+設定目的地後，您就可以開始透過連線共同作業，以在專案中啟用[目標對象](../collaborate/activate.md)。

@@ -2,12 +2,12 @@
 title: 設定和管理您的帳戶
 description: 瞭解如何在Real-Time CDP Collaboration中設定和管理帳戶的各種層面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 13%
+source-wordcount: '936'
+ht-degree: 18%
 
 ---
 
@@ -32,20 +32,18 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="聯絡人電子郵件"
->abstract="請提供團隊或角色型電子郵件，例如&#x200B;**collaboration@yourcompany.com**。 不應使用個人或個體的電子郵件地址。"
+>abstract="請提供團隊或角色型電子郵件，例如 **collaboration@yourcompany.com**。不應使用個人或個體的電子郵件地址。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
 >title="連接代碼"
->abstract="連線代碼是您帳戶的唯一識別碼。 它可用來與Real-Time CDP Collaboration中的其他共同作業人員建立連線。"
-
-<!-- Move the above popover to new section for invite on this page when its created -->
+>abstract="此連接代碼是您帳戶的唯一識別碼。在 Real-Time CDP Collaboration 中會使用此代碼與其他協作者建立連線。"
 
 若要開始設定帳戶，您必須先設定帳戶詳細資料。 這需要您新增下列資訊：
 
 * 新增明確代表您品牌的&#x200B;**[!UICONTROL 帳戶名稱]**。
 * 新增品牌的&#x200B;**[!UICONTROL 描述]**。 這是選用的功能，但可協助其他共同作業人員更清楚瞭解您的品牌。
-* 選取您的&#x200B;**[!UICONTROL 角色]**。 您可以選取&#x200B;**[!UICONTROL 廣告商]**&#x200B;與&#x200B;**[!UICONTROL 發佈者]**&#x200B;之間。 請閱讀[端對端工作流程檔案](/help/guide/end-to-end-workflow.md)，瞭解兩種組織角色型別之間的工作流程異同和細微差異。
+* 選取您的&#x200B;**[!UICONTROL 角色]**。 您可以選取&#x200B;**[!UICONTROL 廣告商]**&#x200B;與&#x200B;**[!UICONTROL 發佈者]**&#x200B;之間。 閱讀[角色](/help/guide/overview/roles.md)指南，瞭解兩種帳戶角色型別之間的相似之處和工作流程細微差異。
 <!-- The above will need to be updated when I update things for B2B -->
 * 為您的帳戶選取&#x200B;**[!UICONTROL 產業]**。 某些範例包括&#x200B;**[!UICONTROL 零售業]**、**[!UICONTROL 電信業]**&#x200B;或&#x200B;**[!UICONTROL 金融服務]**。
 * 已根據您的Adobe Experience Cloud帳戶自動設定&#x200B;**[!UICONTROL 地區]**。 此設定隨時無法變更。
@@ -64,7 +62,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="比對索引鍵"
->abstract="比對索引鍵是用於調和來自不同資料來源之客群成員的識別碼。包含您的品牌可使用的任何相符索引鍵。"
+>abstract="比對索引鍵是用於調和來自不同資料來源之客群成員的識別碼。包括您的品牌可以使用的任何比對索引鍵。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"

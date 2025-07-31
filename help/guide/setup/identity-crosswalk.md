@@ -2,11 +2,11 @@
 title: 身分識別交叉對照表
 description: 瞭解Real-Time CDP Collaboration中身分交叉通路的所有資訊，包括如何從不同來源引進身分交叉通路，以及如何管理身分交叉通路
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 22%
@@ -20,11 +20,6 @@ ht-degree: 22%
 瞭解Real-Time CDP Collaboration中身分交叉通路的所有資訊，包括如何從不同來源引進身分交叉通路，以及如何管理身分交叉通路。
 
 身分交叉通路可促進跨多個資料集和平台的安全且符合隱私權要求的客戶身分連結。 透過使用雜湊識別碼，Real-Time CDP Collaboration可確保使用者同步並調解身分，而不需揭露個人識別資訊(PII)。 這可讓客戶獲得統一的檢視，以便進行更好的共同作業和目標式行銷工作。
-
-<!--
-In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [TODO] insert material here. 
--->
-
 
 首先，您必須將身分橫幅匯入至Real-Time CDP Collaboration。 若要將身分交叉通路匯入Real-Time CDP Collaboration，請閱讀以下章節：
 
@@ -71,7 +66,7 @@ In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences
 
 選取交叉分析表所需的聯結索引鍵，並選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以繼續執行下一個步驟。
 
-### 審核
+### 審閱
 
 檢閱先前畫面中的任何選取專案。 對您的選擇感到滿意時，選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以完成工作流程。
 

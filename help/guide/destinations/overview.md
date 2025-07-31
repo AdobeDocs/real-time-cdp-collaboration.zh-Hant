@@ -2,11 +2,11 @@
 title: 設計概述
 description: 瞭解Real-Time CDP Collaboration中的目的地。
 audience: admin, publisher
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '328'
 ht-degree: 6%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 6%
 
 目的地是用來將目標對象傳送至外部平台的整合。 這些整合可讓您啟用各行銷管道和平台上的對象，以用於行銷活動和客戶參與。
 
-目前，目的地僅適用於Adobe Real-Time CDP Collaboration中的發佈者。 發佈者可設定目的地，以將受眾傳送至外部平台，例如Adobe Experience Platform，以用於行銷活動。 然後廣告商就可以[啟用專案中的對象](../collaborate/activate.md)，這些對象會傳送到發佈者設定的目的地。
+共同作業人員可設定目的地，以將對象傳送至外部平台，例如Adobe Experience Platform，以用於行銷活動。 共同作業人員可以[啟用專案中的對象](../collaborate/activate.md)，這些對象會傳送至其連線的設定目的地。 根據連線[中設定的對象啟用設定](/help/guide/connect/establishing-connections.md#configure-connection-settings)，可由共同作業人員完成啟用。
 
 >[!IMPORTANT]
 >
->目前，當廣告商在您的專案中啟用對象時，會自動傳送至發佈者設定的目的地。 身為發行者，您&#x200B;**必須**&#x200B;在&#x200B;*您的共同作業人員啟動對象之前，先設定目的地*。 如果未設定目的地，則會將對象傳送給您，並顯示在專案的「**[!UICONTROL 啟用]**」標籤中，但不會啟用。
+>目前，當共同作業人員啟用專案中的對象時，會自動傳送至其連線所設定的目的地。 您&#x200B;**必須**&#x200B;先設定目的地，共同作業人員才能在專案中啟用對象。
 
 ## 設定目的地 {#configure-destinations}
 
-若要設定目的地，請導覽至&#x200B;**[!UICONTROL 設定]**，然後選取&#x200B;**[!UICONTROL 我的目的地]**&#x200B;索引標籤。 在這裡，您可以檢視所有可用的目的地。
+若要設定目的地，請瀏覽至&#x200B;**[!UICONTROL 設定]**，然後選取&#x200B;**[!UICONTROL 我的目的地]**&#x200B;索引標籤。 在這裡，您可以檢視所有可用的目的地。
 
 >[!NOTE]
 >

@@ -2,12 +2,12 @@
 title: 測量績效
 description: 衡量不同管道中行銷活動的績效。 瞭解如何使用和解讀各種報表。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 18%
+source-wordcount: '575'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 18%
 
 在存取Collaboration中的測量報表之前，您已：
 
-* [已連線](/help/guide/connect/establishing-connections.md)與想要的廣告商或發行者連線，且已啟用&#x200B;**Measurement**&#x200B;使用案例，並開始在[專案](/help/guide/collaborate/manage-projects.md)上共同作業
+* [已連線](/help/guide/connect/establishing-connections.md)與啟用&#x200B;**測量**&#x200B;使用案例的共同作業人員，並開始共同作業[專案](/help/guide/collaborate/manage-projects.md)
 * 執行行銷活動並[將測量資料](/help/guide/setup/onboard-measurement-data.md)上傳至Collaboration。
 
 <!--
@@ -104,9 +104,3 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 瞭解哪些媒體可提升創意的曝光率。 這可協助您決定要將廣告支出投資於未來行銷活動的位置。
 
 ![依位置區分的曝光次數。](/help/assets/collaborate/measure/impressions-by-placement.png)
-
-## 後續步驟
-
-![為廣告商探索、啟用、測量。](/help/assets/end-to-end-workflow/discover-activate-measure.png)
-
-秉承上圖循環的精神，運用您在規劃下一個行銷活動時檢視報表所取得的深入見解。 作為廣告商，如有必要，請返回以探索不同的發佈者，並執行重疊以探索您後續行銷活動的不同受眾。

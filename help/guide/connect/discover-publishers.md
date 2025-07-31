@@ -2,11 +2,11 @@
 title: 探索發佈者
 description: 作為廣告商，瞭解如何使用Adobe Real-Time CDP Collaboration探索潛在的發佈者以進行合作
 audience: admin, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 2%
 {{limited-availability-release-note}}
 
 在Adobe Real-Time CDP Collaboration中探索並連結可能的發佈者。 本指南提供深入分析，說明如何識別理想的共同作業人員，並使用其受眾來增強您的行銷活動。
+
+>[!NOTE]
+>
+>目前，**[!UICONTROL Discover發行者]**&#x200B;工作區僅供廣告商使用。
 
 若要探索發行者，請前往&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 探索發行者]**&#x200B;標籤。
 

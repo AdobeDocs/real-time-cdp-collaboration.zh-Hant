@@ -1,19 +1,19 @@
 ---
 title: Real-Time CDP Collaboration快速入門手冊
-description: 瞭解如何在Real-Time CDP Collaboration中建立您的組織，包括設定角色和組織、對象來源、啟用和測量。 本指南可協助廣告商和發佈商設定共同作業設定，並開始安全有效地使用共用受眾。
+description: 瞭解如何在Real-Time CDP Collaboration中建立您的組織，包括設定角色和組織、對象來源、啟用和測量。 本指南協助共同作業人員設定連線設定，以開始安全有效地使用對象。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
 # Real-Time CDP Collaboration快速入門手冊
 
-
+{{limited-availability-release-note}}
 
 透過設定您的組織、sourcing audiences及啟用以隱私權為中心的啟用和測量，開始使用Real-Time CDP Collaboration。
 
@@ -31,10 +31,6 @@ ht-degree: 0%
 
 ## 步驟1：完成角色型設定 {#complete-role-based-setup}
 
->[!NOTE]
->
->此步驟同時適用於廣告商和發佈商。
-
 您組織的存取角色會決定使用者可以在Collaboration中檢視及執行的動作。 繼續進行之前，請確定已正確設定角色型許可權，以確保在平台中擁有適當的存取權和可見度。
 
 **資源：**
@@ -45,13 +41,9 @@ ht-degree: 0%
 
 觀看此影片以瞭解如何使用Admin Console和Experience Platform為Collaboration指派產品存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452241/?learn=on&enablevpops&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 步驟2：設定您的Collaboration帳戶 {#set-up-your-account}
-
->[!NOTE]
->
->此步驟同時適用於廣告商和發佈商。
 
 您必須先在Collaboration中設定帳戶，才能取得受眾。 這會控制您顯示在介面中的方式以及您可在介面中存取的內容。
 
@@ -63,7 +55,7 @@ ht-degree: 0%
 >
 >您可以在設定期間建立一或多個帳戶（例如廣告商和發佈者）。 某些欄位（例如品牌推廣資產和連絡人電子郵件）稍後可在&#x200B;**[!UICONTROL 設定]**&#x200B;工作區中更新。
 
-- **指派角色** — 決定您的帳戶是廣告商還是發佈者。 您的角色會定義您在Collaboration中擁有哪些功能。 若要進一步瞭解角色對共同作業工作流程的影響，請參閱[端對端工作流程手冊](./end-to-end-workflow.md)。
+- **指派角色** — 判斷您的帳戶是廣告商還是發行者。 您的角色會定義您在Collaboration中擁有哪些功能。 若要進一步瞭解角色對共同作業工作流程的影響，請參閱[角色](./overview/roles.md)指南。
 - **品牌推廣資產** — 新增下列專案至您的帳戶：
    - 帳戶名稱（最多100個字元）
    - 說明（最多1,000個字元）
@@ -125,7 +117,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，您也可以參閱Collaboration[中](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)sourcing audiences的檔案。
+或者，您也可以參閱Collaboration[中](./setup/onboard-audiences.md#source-and-manage-audiences)sourcing audiences的檔案。
 
 ### 選項B：來自Snowflake或Amazon S3的Source
 
@@ -138,10 +130,6 @@ ht-degree: 0%
 >在此階段，上傳檔案中的所有對象都已完整來源。 [對象可見度設定](/help/guide/setup/onboard-audiences.md#metadata-visibility)會決定您的共同作業人員是否可以檢視您的對象，以及是否透過Collaboration UI進行管理。
 
 ## 步驟4：啟用對象(前往Experience Platform或雲端目的地) {#activate-audiences}
-
->[!NOTE]
->
->此步驟同時適用於廣告商和發佈商。
 
 接下來，在您的Experience Platform執行個體或雲端目的地啟用對象。
 
@@ -224,13 +212,13 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 設定完成後，您的組織現在已準備好透過傳送或接受邀請並提交專案設定以進行核准，與共同作業人員連線。 此連線程式包含傳送或接收邀請、檢閱及提交連線設定（例如使用案例和信用沖銷），以及確認連線。
 
-作為廣告商，請使用左側導覽功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;工作區來瀏覽可用的發行者。
+作為廣告商，請使用左側導覽功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;工作區來瀏覽可用的發行者。 或者，共同作業人員可透過[私人連線邀請](./connect/establishing-connections.md#private-connection-invite){target="_blank"}直接相互連線。
 
 >[!NOTE]
 >
 >目前，只有廣告商可以瀏覽發佈者。 發佈者無法瀏覽或啟動與廣告商的連線。
 
-如需此流程的概觀，請參閱[與廣告商或發佈商連線指南](./connect/establishing-connections.md){target="_blank"}。 如需連線程式的視覺化逐步解說，包括瀏覽共同作業人員和管理連線設定，請觀看[廣告商帳戶設定影片](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}。
+如需此流程的概觀，請參閱[建立連線指南](./connect/establishing-connections.md){target="_blank"}。 如需連線程式的視覺化逐步解說，包括瀏覽共同作業人員和管理連線設定，請觀看[廣告商帳戶設定影片](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}。
 
 ## 後續步驟
 
