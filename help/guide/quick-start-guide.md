@@ -2,9 +2,9 @@
 title: Real-Time CDP Collaboration快速入門手冊
 description: 瞭解如何在Real-Time CDP Collaboration中建立您的組織，包括設定角色和組織、對象來源、啟用和測量。 本指南協助共同作業人員設定連線設定，以開始安全有效地使用對象。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 觀看此影片以瞭解如何使用Admin Console和Experience Platform為Collaboration指派產品存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452241/?learn=on&enablevpops&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 步驟2：設定您的Collaboration帳戶 {#set-up-your-account}
 
@@ -162,7 +162,9 @@ Collaboration提供多種報表，可分析行銷活動的觸及率、頻率和�
 
 若要瞭解如何檢視和解讀測量報告，請參閱[測量指南](./collaborate/measure.md)。 它涵蓋歸因、行銷活動摘要量度和控制面板，例如觸及曲線和頻率分佈。
 
-<!-- Commenting out the below information as this workflow is not yet in Beta but will be imminently. A guided measurement configuration workflow will be available in a future release."
+<!-- 
+Commenting out the below information as this workflow is not yet in Beta but will be imminently. A guided measurement configuration workflow will be available in a future release."
+
 ### Configure measurement workflow
 
 Collaboration supports two measurement workflows:
@@ -206,7 +208,8 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Navigate to the **[!UICONTROL Measure]** workspace within the project.
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
-   - Submit the report. It will run on the selected date and populate within 24 hours. -->
+   - Submit the report. It will run on the selected date and populate within 24 hours. 
+-->
 
 ## 步驟6：與共同作業人員交流 {#connect-with-collaborators}
 

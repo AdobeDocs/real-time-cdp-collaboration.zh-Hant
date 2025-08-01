@@ -2,9 +2,9 @@
 title: 建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c159bbcdc5f84abc4c591c5256192d117ec51102
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '3213'
 ht-degree: 7%
@@ -37,10 +37,10 @@ ht-degree: 7%
 若要在廣告商與發佈商之間建立連線，需執行下列步驟：
 
 1. [探索發行者](#discover-publishers)：廣告商會識別可與其合作的潛在發行者。
-2. [傳送邀請](#send-invite)：廣告商傳送連線邀請給選取的發行者。
-3. [接受邀請](#accept-invite)：發行者稽核並接受邀請。
-4. [設定連線設定](#configure-connection-settings)：廣告商會設定連線設定，並將設定傳送給發佈者進行稽核。
-5. [確認連線設定](#establish-connection)：發行者檢閱連線設定，然後接受或拒絕連線設定。 如果接受，則會建立連線。 若遭拒絕，發佈者可針對產品外部的修訂提供意見回饋。 然後廣告商可以修訂設定並重新傳送以進行稽核。
+1. [傳送邀請](#send-invite)：廣告商傳送連線邀請給選取的發行者。
+1. [接受邀請](#accept-invite)：發行者稽核並接受邀請。
+1. [設定連線設定](#configure-connection-settings)：廣告商會設定連線設定，並將設定傳送給發佈者進行稽核。
+1. [確認連線設定](#establish-connection)：發行者檢閱連線設定，然後接受或拒絕連線設定。 如果接受，則會建立連線。 若遭拒絕，發佈者可針對產品外部的修訂提供意見回饋。 然後廣告商可以修訂設定並重新傳送以進行稽核。
 
 接受連線設定後，連線即建立，共同作業人員已準備好[建立專案](/help/guide/collaborate/manage-projects.md#create-project)以開始共同作業行銷活動。
 
@@ -65,14 +65,14 @@ ht-degree: 7%
 兩個品牌之間的連線程式涉及幾個步驟。 在連線程式開始之前，必須滿足幾個先決條件：
 
 1. 兩個品牌在產品外部溝通，討論可能的連線。
-2. 品牌[在Collaboration中建立帳戶](/help/guide/setup/onboard-account.md) （如果尚未建立），請務必選取適當的角色型別（廣告商或發佈商）。
+1. 品牌[在Collaboration中建立帳戶](/help/guide/setup/onboard-account.md) （如果尚未建立），請務必選取適當的角色型別（廣告商或發佈商）。
 
-滿足先決條件後，即可開始連線程式。 下列步驟概述此程式：
+   滿足先決條件後，即可開始連線程式。 下列步驟概述此程式：
 
 1. [傳送私人連線邀請](#send-private-connection-invite)：一個共同作業人員傳送私人連線邀請給另一個共同作業人員。
-2. [接受私人連線邀請](#accept-private-connection-invite)：收件者檢閱並接受私人連線邀請。
-3. [設定連線設定](#configure-connection-settings)：擁有者設定連線設定，並將設定傳送給收件者進行檢閱和接受。
-4. [確認連線設定](#establish-connection)：收件者會檢閱連線設定，然後接受或拒絕連線設定。
+1. [接受私人連線邀請](#accept-private-connection-invite)：收件者檢閱並接受私人連線邀請。
+1. [設定連線設定](#configure-connection-settings)：擁有者設定連線設定，並將設定傳送給收件者進行檢閱和接受。
+1. [確認連線設定](#establish-connection)：收件者會檢閱連線設定，然後接受或拒絕連線設定。
 
 接受連線設定後，連線即建立，共同作業人員已準備好[建立專案](/help/guide/collaborate/manage-projects.md#create-project)以開始共同作業行銷活動。
 
@@ -310,8 +310,8 @@ ht-degree: 7%
 建立專案時，廣告商名稱將根據連線期間建立的下列設定預先填入    ：
 
 1. **未設定廣告商名稱**：如果未新增廣告商名稱，Collaboration預設會使用廣告商名稱做為廣告商名稱。
-2. **一個廣告商名稱集**：如果新增了單一廣告商名稱，Collaboration會自動使用該名稱作為專案的廣告商名稱。
-3. **設定多個廣告商名稱**：如果新增多個廣告商名稱，您或您的共同作業人員可以在建立專案時選取任何提供的名稱。
+1. **一個廣告商名稱集**：如果新增了單一廣告商名稱，Collaboration會自動使用該名稱作為專案的廣告商名稱。
+1. **設定多個廣告商名稱**：如果新增多個廣告商名稱，您或您的共同作業人員可以在建立專案時選取任何提供的名稱。
 
 >[!NOTE]
 >
