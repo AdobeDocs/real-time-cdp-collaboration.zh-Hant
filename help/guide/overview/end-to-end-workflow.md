@@ -1,12 +1,12 @@
 ---
 title: 端對端工作流程
-description: 瞭解使用Real-Time CDP Collaboration作為廣告商或發佈商的端對端工作流程
+description: 根據您的共同作業模式，瞭解使用Real-Time CDP Collaboration的端對端工作流程。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
+source-git-commit: 8745d6d8da389b552af3da6612bf693230dfb538
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -15,38 +15,48 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform (CDP) Collaboration可讓廣告商和發佈商以隱私權為中心的方式在促銷活動上共同作業。 請閱讀本頁面，瞭解如何以廣告商或發佈商的身分，運用產品的工作流程。
+在Adobe Real-Time CDP Collaboration中，端對端工作流程會依您選擇的共同作業模式而有所不同。 工作流程概述設定及執行共同作業專案的相關步驟，從建立帳戶和來源受眾，到建立連線和專案。 瞭解此工作流程是有效運用平台功能達成行銷目標的關鍵。
 
-## 廣告商端對端工作流程 {#advertiser}
+## 快速入門
 
-作為廣告商，首先請[將您的公司](/help/guide/setup/onboard-account.md)上線到Real-Time CDP Collaboration。 使用[設定頁面](/help/guide/setup/setup-overview.md)來提交並編輯您的公司設定、新增您將會使用的偏好比對金鑰，以及決定要引入哪些資料。 在第一個版本中，產品僅允許您[從Adobe Experience Platform匯入對象](/help/guide/setup/onboard-audiences.md)。
+開始之前，請確定您已確實瞭解以下重要概念：
 
-![為廣告商探索、啟用、測量。](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+- **Collaboration模式**：這些模式定義共同作業人員如何共同作業。 有兩種不同的模式： [廣告商對發佈者](./collaboration-patterns.md#advertiser-to-publisher)和[品牌對品牌](./collaboration-patterns.md#brand-to-brand)。
+- **帳戶角色**：帳戶角色決定您在平台中的權能。 藍圖應與您組織的目標、品牌和目標一致。 有兩種帳戶角色： [廣告商](./roles.md#advertiser)和[發佈者](./roles.md#publisher)。
+- **使用案例**：使用案例會定義您如何善用Collaboration達成行銷目標。 有三個共同作業使用案例： [探索](./use-cases.md#discover)、[啟動](./use-cases.md#activate)以及[測量](./use-cases.md#measure)。
 
-使用[discover標籤來尋找您想要用於行銷活動的發行者](/help/guide/connect/discover-publishers.md)。 請連絡發佈者，並在產品外部討論共同作業條款。 在同意一組條款後，您可以[傳送連線邀請](/help/guide/connect/establishing-connections.md)，並提議與發行者連線的共同作業設定。
+本指南將使用三位模擬共同作業人員來說明端對端工作流程：
 
-在發佈者接受您的連線要求後，您就可以探索組織與其對象之間的重疊對象。 設定行銷活動的專案並[執行重疊報表](/help/guide/collaborate/discover.md)，以根據共同作業使用案例（目標定位、隱藏等），探索您下一個廣告行銷活動的最佳對象。
+- **[!UICONTROL Luma]**：運動服裝品牌。 他們是廣告商，想要透過鎖定目標的行銷活動觸及特定對象。
+- **[!UICONTROL 電視管]**：數位串流提供者。 它們是提供受眾資料以供廣告商使用的發佈者。
+- **[!UICONTROL 適合服飾]**：另一個運動服飾品牌。 他們為想要共同作業以分享對象資料和深入分析的第二位廣告商，藉此提升行銷成效。
 
-一旦您發現理想的對象，就應該[啟用它們](/help/guide/collaborate/activate.md)。
+## 廣告商對發佈商的工作流程 {#advertiser-to-publisher-workflow}
 
-共同作業回圈中的最後一個步驟是[測量](/help/guide/collaborate/measure.md)。 若要測量或瞭解您的業務結果，請上傳如廣告記錄檔之類的測量資料，然後執行程式中提供的報表，以瞭解您的對象如何執行。
+[!UICONTROL Luma] （一家體育零售公司）想要與數位串流供應商[!UICONTROL TV Tube]建立連線，以透過鎖定目標的行銷活動觸及特定對象。
 
-## 發佈者端對端工作流程 {#publisher}
+若要開始，[!UICONTROL Luma]需要以廣告商角色[建立帳戶](../setup/onboard-account.md)，而[!UICONTROL TV Tube]則以發佈者角色建立帳戶。
 
-作為發行者，首先請[將您的公司](/help/guide/setup/onboard-account.md)上線到Real-Time CDP Collaboration。 使用[設定頁面](/help/guide/setup/setup-overview.md)編輯各種公司設定。
+建立帳戶之後，[!UICONTROL Luma]和[!UICONTROL TV Tube]都必須[建立資料連線和來源對象](../setup/onboard-audiences.md)。 只有[!UICONTROL TV Tube]會啟用行銷活動的對象，因此他們需要[設定目的地](../setup/manage-destinations.md)。
 
-決定要在產品的&#x200B;**[!UICONTROL 連線]**&#x200B;區域中匯入哪些對象資料，以及讓希望與您連線的廣告商能夠找到和檢視哪些對象。
+兩個共同作業人員設定好帳戶後，就可以在平台內[建立連線](../connect/establishing-connections.md)。 [!UICONTROL Luma]使用[discover publishers](../connect/discover-publishers.md)功能尋找[!UICONTROL TV Tube]並起始連線要求。 在[!UICONTROL TV Tube]接受連線要求後，[!UICONTROL Luma]會設定連線設定以定義共同作業的方式。 [!UICONTROL TV Tube]接受連線要求，以建立兩個品牌之間的安全連結。
 
-將對象匯入Real-Time CDP Collaboration時，請務必標籤對象並將其分類。 Real-Time CDP Collaboration遵循已建立的[IAB分類法](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"}來分類對象。
+建立連線之後，[!UICONTROL Luma] [會建立專案](../collaborate/manage-projects.md)，以開始他們與[!UICONTROL TV Tube]的協同合作。 在專案設定期間，他們選擇最符合其目標的共同作業使用案例： [探索](../collaborate/discover.md)、[啟動](../collaborate/activate.md)以及[測量](../collaborate/measure.md)。
 
-決定您要與哪些廣告商合作，並聯絡該廣告商以討論產品外部的協同合作條款。 一旦就一組條款達成協定，請等待廣告商向您發出正式的連線邀請以與您連線。 一般而言，您也應該監視來自希望與您合作進行行銷活動的廣告商品牌的待處理連線請求。 檢閱潛在共同作業人員提出的連線設定，並在開始共同作業之前同意或修正這些設定。
+[!UICONTROL Luma]利用[Discover](../collaborate/discover.md)使用案例來深入分析[!UICONTROL TV Tube]的對象資料。 在[!UICONTROL Luma]識別目標對象區段後，他們[啟動](../collaborate/activate.md)這些對象。
 
-在您接受他們的連線要求後，您就可以探索您與共同作業人員之間的重疊對象。 廣告商會為行銷活動設定專案，並根據您的對象和您的對象期望的目標（潛在客戶、隱藏等等）執行重疊報表。
+啟用對象後，[!UICONTROL TV Tube]會執行目標式行銷活動，並將資料上傳至[測量](../collaborate/measure.md)結果，以評估其行銷活動的成效。
 
-一旦廣告商發現行銷活動要定位的理想受眾並將這些受眾傳送給您後，您就可以啟用這些受眾並啟動行銷活動。
+## 品牌對品牌的工作流程 {#brand-to-brand-workflow}
 
-協同合作回圈的最後一步是測量。 若要瞭解您的行銷活動作為最後步驟如何上傳（廣告記錄）等測量資料，然後執行方案中提供的報表，以瞭解對象執行的情形。
+[!UICONTROL Fit Apparel]，運動服裝品牌，想要與另一個運動服裝品牌[!UICONTROL Luma]合作，以分享受眾資料與深入分析，提升行銷成效。
 
-## 後續步驟
+建立帳戶之後，[!UICONTROL Fit Apparel]和[!UICONTROL Luma]都需要[建立資料連線和來源對象](../setup/onboard-audiences.md)。 [!UICONTROL 適合的服飾]和[!UICONTROL Luma]都會啟用行銷活動的對象，因此兩者都需要[設定目的地](../setup/manage-destinations.md)。
 
-瞭解基於公司角色的高階端對端工作流程後，請閱讀產品中支援的[範例使用案例](/help/guide/overview/use-cases.md)。
+在取得其對象後，[!UICONTROL Fit Apparel]和[!UICONTROL Luma] [在平台內建立連線](../connect/establishing-connections.md)，以安全地共用對象資料。 若要這麼做，他們必須使用[私人連線邀請](../connect/establishing-connections.md#private-connection-invite)功能。 [!UICONTROL Luma]與[!UICONTROL Fit服飾]共用其連線代碼，後者會使用它來起始連線要求。 在[!UICONTROL Luma]接受連線要求後，[!UICONTROL Fit Apparel]會設定連線設定以定義他們將如何共同作業。 在設定中，[!UICONTROL Fit Apparel]指定兩個共同作業人員都可以啟用行銷活動的對象。 為了完成連線，[!UICONTROL Luma]接受在兩個品牌之間建立安全連結的要求。
+
+建立連線之後，[!UICONTROL Fit Apparel] [會建立專案](../collaborate/manage-projects.md)，以開始他們與[!UICONTROL Luma]的協同合作。 在專案設定期間，他們選擇最符合其目標的共同作業使用案例： [探索](../collaborate/discover.md)、[啟動](../collaborate/activate.md)以及[測量](../collaborate/measure.md)。
+
+[!UICONTROL Fit Apparel]和[!UICONTROL Luma]都可以使用[Discover](../collaborate/discover.md)使用案例來深入瞭解彼此的對象資料。 一旦他們識別出有價值的受眾區段，就會[啟用](../collaborate/activate.md)他們為行銷活動選擇的受眾。
+
+最後，在執行其行銷活動後，兩個品牌都會上傳資料至[測量](../collaborate/measure.md)結果，並評估其共同作業的成效。
