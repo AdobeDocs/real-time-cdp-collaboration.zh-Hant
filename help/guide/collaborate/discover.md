@@ -2,12 +2,12 @@
 title: 探索重疊並比較對象
 description: 探索您和共同作業人員的對象之間的重疊。 瞭解如何探索最佳對象，以用於您的行銷活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 20%
+source-wordcount: '2068'
+ht-degree: 12%
 
 ---
 
@@ -82,13 +82,16 @@ ht-degree: 20%
 | **[!UICONTROL 身分計數]** （您的共同作業人員） | 共同作業人員對象中的唯一ID數量。 |
 | **[!UICONTROL 重疊的身分]** | 您的和共同作業人員的對象中同時存在的唯一ID數量。 |
 | **[!UICONTROL 重疊%]** | 您和您的協作者所選客群間的輪廓重疊百分比。 |
+| **[!UICONTROL 對象索引]** | 根據基礎受眾計數和重疊來指出一個受眾與另一個受眾之間關聯程度的分數。 若要深入瞭解分數涵義，請閱讀[對象索引分數](#audience-index-score)區段。 與共同作業人員的基準（所有對象）進行比較時，無法使用對象索引分數。 |
 | **[!UICONTROL 依比對索引鍵劃分的身分]** | 根據每個共同作業人員的選取對象，專案中選擇的每個相符索引鍵的識別項劃分。 |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->並非所有對象都一定可使用重疊百分比圖。 重疊百分比指標的可見度取決於您的共同作業人員為[中繼資料可見度區段](/help/guide/setup/onboard-audiences.md#metadata-visibility)中的對象選擇的設定。
+>重疊百分比數字和對象索引分數不一定適用於所有對象。 重疊百分比和對象索引分數的可見度取決於您的共同作業人員為[中繼資料可見度區段](/help/guide/setup/onboard-audiences.md#metadata-visibility)中的對象選擇的設定。
+
+如果您的共同作業人員尚未啟用對象索引或重疊百分比，則對象將沒有任何可用的比較資料。
 
 ## 相關客群 {#relevant-audiences}
 
@@ -103,19 +106,22 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->共同作業人員對象的可見度取決於共同作業人員在[中繼資料可見度區段](/help/guide/setup/onboard-audiences.md#metadata-visibility)中為對象選擇的設定。 如果您的共同作業人員已將所有對象設為私人，此區段將不會顯示任何對象。
+>共同作業人員對象的可見度取決於共同作業人員在[連線存取區段](/help/guide/setup/onboard-audiences.md#connection-access)和[中繼資料可見度區段](/help/guide/setup/onboard-audiences.md#metadata-visibility)中為對象選擇的設定。 如果您的共同作業人員已將所有對象設為私人，此區段將不會顯示任何對象。
 
 **[!UICONTROL 相關對象]**&#x200B;區段會顯示每個建議對象的下列資訊：
 
 | 量度 | 說明 |
 |---------|----------|
-| **[!UICONTROL 身分計數]** | 對象中的唯一ID名稱。 |
+| **[!UICONTROL 身分計數]** | 對象中的唯一ID數量。 |
 | **[!UICONTROL 重疊的身分]** | 建議的對象與您的所有對象之間重疊的唯一ID數量。 |
 | **[!UICONTROL 重疊%]** | 建議的對象與您的所有對象之間的重疊身分百分比。 |
+| **[!UICONTROL 對象索引]** | 根據基礎受眾計數和重疊來指出一個受眾與另一個受眾之間關聯程度的分數。 若要深入瞭解分數涵義，請閱讀[對象索引分數](#audience-index-score)區段。 |
 | **[!UICONTROL 對象類別]** | 您的共同作業人員已指派給對象的類別。 |
 | **[!UICONTROL 相符金鑰]** | 共同作業人員為對象選取的相符金鑰。 |
 
 {style="table-layout:auto"}
+
+如果您為任何共同作業人員的對象啟用對象索引分數，則相關對象將會根據對象索引分數，而未啟用對象索引的任何對象將不會包括在內。 系統會根據對象索引分數來排序相關對象，因此會先顯示最高索引分數。 如果您未針對任何共同作業人員的對象啟用對象索引，則相關對象將會根據重疊百分比。
 
 ## 探索重疊 {#discover-overlaps}
 
@@ -130,13 +136,15 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->共同作業人員對象的可見度取決於共同作業人員在[中繼資料可見度區段](/help/guide/setup/onboard-audiences.md#metadata-visibility)中為對象選擇的設定。 如果您的共同作業人員已將所有對象設為私人，此區段將不會顯示任何對象。
+>共同作業人員對象的可見度取決於共同作業人員在[連線存取區段](/help/guide/setup/onboard-audiences.md#connection-access)和[中繼資料可見度區段](/help/guide/setup/onboard-audiences.md#metadata-visibility)中為對象選擇的設定。 如果您的共同作業人員已將所有對象設為私人，此區段將不會顯示任何對象。
+
+如果您的共同作業人員尚未啟用對象索引或重疊百分比，則不會顯示對象。
 
 若要變更您的對象選擇，請選取&#x200B;**[!UICONTROL 變更對象]**。
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 
@@ -147,10 +155,54 @@ ht-degree: 20%
 | **[!UICONTROL 身分計數]** | 對象中的唯一ID數量。 |
 | **[!UICONTROL 重疊的身分]** | 建議的對象與您的所有對象之間重疊的唯一ID數量。 |
 | **[!UICONTROL 重疊%]** | 建議的對象與您的所有對象之間的重疊身分百分比。 |
+| **[!UICONTROL 對象索引]** | 根據基礎受眾計數和重疊來指出一個受眾與另一個受眾之間關聯程度的分數。 若要深入瞭解分數涵義，請閱讀[對象索引分數](#audience-index-score)區段。 |
 | **[!UICONTROL 對象類別]** | 您的共同作業人員已指派給對象的類別。 |
 | **[!UICONTROL 相符金鑰]** | 共同作業人員為對象選取的相符金鑰。 |
 
 {style="table-layout:auto"}
+
+## 對象索引分數 {#audience-index-score}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_discover_audience_index_score"
+>title="對象索引分數"
+>abstract="對象索引分數是細微的量度，可依據基礎對象人數和重疊情況，顯示一個對象與另一個對象之間的關聯程度。 原始索引分數會轉換為相關性區段，依相關性區段將受眾索引分數從非常低到非常高加以分類。 這可讓您快速評估對象與共同作業人員對象之間的關係強度。"
+
+對象索引分數是細微的量度，可依據基礎對象人數和重疊情況，顯示一個對象與另一個對象之間的關聯程度。 這有助於您將對象深入解析化為內容，並找出潛在客戶和行銷活動鎖定目標的高潛力對象。
+
+索引分數使用下列公式計算：
+
+![計算索引分數的公式。](/help/assets/collaborate/discover/index-score-formula.png)
+
+假設有一家汽車製造商想要與一家大型電視發行商就一款新SUV車型展開廣告攻勢。 汽車製造商擁有目前擁有類似車型的資料，並且想要使用這些資料來尋找其他潛在客戶，以便將其轉換為客戶。 汽車製造商會檢視CTV發佈商的受眾，找出與目前SUV擁有者幾乎相符的相關受眾。
+
+![汽車廣告商與CTV發佈者對象。](/help/assets/collaborate/discover/audience-index-score-example.png)
+
+會計算索引分數，並可用於判斷行銷活動是否成功：
+
+| CTV發佈者對象 | 公式 | 索引分數(i) | 解譯 |
+|------------------------|-------------|----------------|----------------|
+| 基線（所有對象） | (（1.3米/1.3米） / （50米/50米）) * 100 | 100 | 這是與共同作業人員其他對象進行比較的基準。 |
+| 觀賞者 | ((500K / 1.3M) / (20M / 50M)) * 100 | 96 | 如果鎖定此對象，相較於基準線，您觸及SUV擁有者的可能性會降低4%。 |
+| 喜劇愛好者 | ((200K / 1.3M) / (6M / 50M)) * 100 | 128 | 如果鎖定此對象，相較於基準線，您接觸SUV擁有者的可能性會增加28%。 |
+| 男性25-34 | ((700K / 1.3M) / (12M / 50M)) * 100 | 224 | 以這些對象為目標，相較於基準線，您觸及SUV擁有者的可能性高了124%。 |
+| 技術愛好者 | ((500K / 1.3M) / (8M / 50M)) * 100 | 240 | 透過鎖定此對象，相較於基準線，您接觸SUV擁有者的可能性高了140%。 |
+
+為了更瞭解索引分數如何影響您的行銷活動，會與分數一起提供相關性範圍。
+
+### 關聯性範圍 {#audience-index-relevance-bands}
+
+為了方便比較不同對象和促銷活動，Collaboration會將索引分數轉譯為關聯性範圍（從非常低到非常高）。 這可讓您快速評估對象與共同作業人員對象之間的關係強度。
+
+| 索引分數(i) | 關聯性範圍 | 說明 |
+|---------|----------|-----------|
+| i &lt; 60 | 非常低 | 與您的對象相比，重疊在目標對象中較少發生，這表示關係非常薄弱。 使用此對象的客戶觸及目標對象的可能性低得多。 |
+| 60 &lt; i &lt; 80 | 低 | 相較於您的對象，重疊在目標對象中不太普遍，這表示關係較弱。 使用此受眾的客戶觸及目標受眾的可能性較低。 |
+| 80 &lt; i &lt; 120 | 媒體 | 重疊在目標對象中和您的對象中一樣普遍，這表示典型的關係。 使用此對象的客戶平均可能會達到其目標對象。 |
+| 120 &lt; i &lt; 140 | 高 | 相較於您的對象，重疊在目標對象中更為普遍，表現出強烈的關係。 使用此對象的客戶更容易觸及目標對象。 |
+| i > 140 | 非常高 | 相較於您的對象，重疊在目標對象中更為普遍，反映了非常牢固的關係。 使用此對象的客戶更容易觸及目標對象。 |
+
+在探索重疊區段中，對象索引分數將會與分數一起顯示相關性範圍。 分數會以色彩標示出來，以指出關聯性範圍，讓您一眼就能輕鬆識別關聯性的強度。 極低和極低關聯頻帶會以橘色顯示、中等關聯頻帶以黑色顯示、高和極高關聯頻帶以綠色顯示。
 
 ## 後續步驟
 
