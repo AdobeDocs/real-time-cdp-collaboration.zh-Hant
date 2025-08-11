@@ -4,7 +4,7 @@ description: 探索您和共同作業人員的對象之間的重疊。 瞭解如
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
+source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 12%
@@ -144,7 +144,7 @@ ht-degree: 12%
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 
@@ -188,6 +188,8 @@ ht-degree: 12%
 | 男性25-34 | ((700K / 1.3M) / (12M / 50M)) * 100 | 224 | 以這些對象為目標，相較於基準線，您觸及SUV擁有者的可能性高了124%。 |
 | 技術愛好者 | ((500K / 1.3M) / (8M / 50M)) * 100 | 240 | 透過鎖定此對象，相較於基準線，您接觸SUV擁有者的可能性高了140%。 |
 
+{style="table-layout:auto"}
+
 為了更瞭解索引分數如何影響您的行銷活動，會與分數一起提供相關性範圍。
 
 ### 關聯性範圍 {#audience-index-relevance-bands}
@@ -201,6 +203,8 @@ ht-degree: 12%
 | 80 &lt; i &lt; 120 | 媒體 | 重疊在目標對象中和您的對象中一樣普遍，這表示典型的關係。 使用此對象的客戶平均可能會達到其目標對象。 |
 | 120 &lt; i &lt; 140 | 高 | 相較於您的對象，重疊在目標對象中更為普遍，表現出強烈的關係。 使用此對象的客戶更容易觸及目標對象。 |
 | i > 140 | 非常高 | 相較於您的對象，重疊在目標對象中更為普遍，反映了非常牢固的關係。 使用此對象的客戶更容易觸及目標對象。 |
+
+{style="table-layout:auto"}
 
 在探索重疊區段中，對象索引分數將會與分數一起顯示相關性範圍。 分數會以色彩標示出來，以指出關聯性範圍，讓您一眼就能輕鬆識別關聯性的強度。 極低和極低關聯頻帶會以橘色顯示、中等關聯頻帶以黑色顯示、高和極高關聯頻帶以綠色顯示。
 
