@@ -26,7 +26,7 @@ Real-time CDP Collaboration現在支援品牌對品牌共同作業。 共同作�
 * 共同作業人員現在可以使用[私人連線邀請](../connect/establishing-connections.md#private-connection-invites)互相連線。 與共同作業人員共用您帳戶的唯一連執行緒式碼，然後共同作業人員就可以使用該程式碼直接與您連線。 這是品牌對品牌共同作業的核心功能，可讓共同作業人員建立超越廣告商探索&#x200B;**[!UICONTROL Discover發佈者]**&#x200B;目錄的連線。
 * [自助服務目的地](../setup/manage-destinations.md)現在可供廣告商和發佈者使用。
 * 現在連線中的兩個共同作業人員都可以使用對象啟用，無論他們的[帳戶角色](../overview/roles.md)為何。 在[建立連線](../connect/establishing-connections.md#configure-connection-settings)時設定對象啟用設定，可讓您指定哪些共同作業人員可以啟用對象。 若要深入瞭解對象啟用，請閱讀[啟用對象](../collaborate/activate.md)指南。
-* **[!UICONTROL 啟用]**&#x200B;使用案例已重新設定為支援品牌對品牌共同作業。 專案中的「啟動&#x200B;****」標籤現在會顯示已傳送給共同作業人員的對象，以及共同作業人員啟動至您目的地的對象。 若要深入瞭解，請閱讀[啟用對象](../collaborate/activate.md)指南。<br> ![啟用儀表板，其中包含傳送至的對象和啟用對象的區段。](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
+* **[!UICONTROL 啟用]**&#x200B;使用案例已重新設定為支援品牌對品牌共同作業。 專案中的「啟動&#x200B;**&#x200B;**」標籤現在會顯示已傳送給共同作業人員的對象，以及共同作業人員啟動至您目的地的對象。 若要深入瞭解，請閱讀[啟用對象](../collaborate/activate.md)指南。<br> ![啟用儀表板，其中包含傳送至的對象和啟用對象的區段。](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
 * 現在可在專案的&#x200B;**[!UICONTROL 探索]**&#x200B;索引標籤中使用對象索引分數。 對象索引分數是評估對象與共同作業人員對象相符程度的量度。 此分數是根據基礎受眾計數和重疊來計算。 若要深入瞭解對象索引分數，請閱讀[對象索引分數](../collaborate/discover.md#audience-index-score)指南。
 
 ## 2025 年 5 月 {#may-2025}
