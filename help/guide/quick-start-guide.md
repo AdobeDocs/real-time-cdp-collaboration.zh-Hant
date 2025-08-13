@@ -2,9 +2,9 @@
 title: Real-Time CDP Collaboration快速入門手冊
 description: 瞭解如何在Real-Time CDP Collaboration中建立您的組織，包括設定角色和組織、對象來源、啟用和測量。 本指南協助共同作業人員設定連線設定，以開始安全有效地使用對象。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 觀看此影片以瞭解如何使用Admin Console和Experience Platform為Collaboration指派產品存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452241/?learn=on&enablevpops&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 步驟2：設定您的Collaboration帳戶 {#set-up-your-account}
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 >**每個共同作業人員角色的最大對象數：**
 >
 >- **廣告商**&#x200B;最多可以取得25個對象。
->- **發佈者**&#x200B;最多可以取得250個對象（每個對象至少有5,000個ID）。
+>- **發佈者**&#x200B;最多可以取得250個對象（每個對象至少有1,000個ID）。
 
 >[!IMPORTANT]
 >
