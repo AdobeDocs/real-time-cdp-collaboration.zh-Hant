@@ -2,12 +2,12 @@
 title: 探索重疊並比較對象
 description: 探索您和共同作業人員的對象之間的重疊。 瞭解如何探索最佳對象，以用於您的行銷活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 12%
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 
@@ -161,14 +161,14 @@ ht-degree: 12%
 
 {style="table-layout:auto"}
 
-## 對象索引分數 {#audience-index-score}
+## 客群指數分數 {#audience-index-score}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_audience_index_score"
->title="對象索引分數"
->abstract="對象索引分數是細微的量度，可依據基礎對象人數和重疊情況，顯示一個對象與另一個對象之間的關聯程度。 原始索引分數會轉換為相關性區段，依相關性區段將受眾索引分數從非常低到非常高加以分類。 這可讓您快速評估對象與共同作業人員對象之間的關係強度。"
+>title="客群指數分數"
+>abstract="客群指數分數是一項考量細微差別的量度，會根據基礎客群數量和重疊度顯示受眾之間的關聯程度。原始指數分數會轉換為相關性區間，將客群指數分數從極低到極高進行分類。這一樣來，您便可以快速評估自己的客群與協作者客群之間的關係強度。"
 
-對象索引分數是細微的量度，可依據基礎對象人數和重疊情況，顯示一個對象與另一個對象之間的關聯程度。 這有助於您將對象深入解析化為內容，並找出潛在客戶和行銷活動鎖定目標的高潛力對象。
+客群指數分數是一項考量細微差別的量度，會根據基礎客群數量和重疊度顯示受眾之間的關聯程度。這有助於您將對象深入解析化為內容，並找出潛在客戶和行銷活動鎖定目標的高潛力對象。
 
 索引分數使用下列公式計算：
 
@@ -194,7 +194,7 @@ ht-degree: 12%
 
 ### 關聯性範圍 {#audience-index-relevance-bands}
 
-為了方便比較不同對象和促銷活動，Collaboration會將索引分數轉譯為關聯性範圍（從非常低到非常高）。 這可讓您快速評估對象與共同作業人員對象之間的關係強度。
+為了方便比較不同對象和促銷活動，Collaboration會將索引分數轉譯為關聯性範圍（從非常低到非常高）。 這一樣來，您便可以快速評估自己的客群與協作者客群之間的關係強度。
 
 | 索引分數(i) | 關聯性範圍 | 說明 |
 |---------|----------|-----------|

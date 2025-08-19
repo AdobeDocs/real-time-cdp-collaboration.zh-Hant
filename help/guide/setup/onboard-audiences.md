@@ -2,12 +2,12 @@
 title: Source和管理對象
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中取得和管理對象
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
 workflow-type: tm+mt
 source-wordcount: '2985'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 17%
 >title="行銷動作"
 >abstract="<p>使用行銷動作來控制要從 Experience Platform 匯入哪一些客群資料到 Real-Time CDP Collaboration。<strong>資料共同作業</strong>行銷動作支援 C4、C5 和 C9 資料使用情況標籤。<strong>資料科學</strong>行銷動作支援 C9 資料使用情況標籤。</p> <p> <ul><li> 核取方塊<em>啟用</em>後，Experience Platform 中標有上述標籤的任何資料都將被排除，並且<strong>不會</strong>帶入 Real-Time CDP Collaboration 中。</li><li> 核取方塊<em>停用</em>後，可以從 Experience Platform 匯入 Real-Time CDP Collaboration 的資料沒有任何限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hant" text="資料使用標籤概觀"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant" text="資料使用標籤字彙表"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="資料使用標籤字彙表"
 
 >[!IMPORTANT]
 >
@@ -90,7 +90,7 @@ ht-degree: 17%
 
 使用行銷動作來控制要從Experience Platform將哪些對象資料帶入Collaboration。 **[!UICONTROL 資料共同作業]**&#x200B;行銷動作支援 C4、C5 和 C9 資料使用情況標籤。**[!UICONTROL 資料科學]**&#x200B;行銷動作支援 C9 資料使用情況標籤。
 
-深入瞭解[C4、C5和C9資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+深入瞭解[C4、C5和C9資料使用標籤](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
 * 當核取方塊為&#x200B;***已啟用***&#x200B;時，Experience Platform中如上所述標示的任何資料都會被排除，且&#x200B;**不會**&#x200B;帶入Collaboration。
 * 核取方塊&#x200B;***已停用***，對來自Experience Platform的資料沒有限制。
@@ -135,13 +135,13 @@ ht-degree: 17%
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身分識別命名空間"
 >abstract="從 Experience Platform 組織中可用的標準和自訂身分識別命名空間中，選取一個身分識別命名空間。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hant#standard" text="Experience Platform 中的標準和身分識別命名空間"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的標準和身分識別命名空間"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="輪廓屬性"
 >abstract="從聯集結構中選取 Experience Platform 輪廓類別屬性。此視圖會顯示存在於聯集結構中，且屬於 XDM 個體輪廓類別的屬性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hant" text="Experience Platform 中的聯集結構"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的聯集結構"
 
 接下來，您將選取來源欄位，以對應至Collaboration中的目標欄位。
 
@@ -201,7 +201,7 @@ ht-degree: 17%
 
 ### 審閱
 
-在最終確定對象新增之前，請檢閱所有配置和設定。 請確定所有詳細資料均正確無誤，然後選取[完成] **&#x200B;**&#x200B;以完成資料連線的建立。
+在最終確定對象新增之前，請檢閱所有配置和設定。 請確定所有詳細資料均正確無誤，然後選取[完成] ****&#x200B;以完成資料連線的建立。
 
 ![顯示所有選取組態的新增對象工作區。](/help/assets/setup/add-manage-audiences/review-connection.png)
 
@@ -331,7 +331,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="中繼資料可見度"
->abstract="<p>表示其他協作者在與您聯繫之前或在專案視圖中，可以看到哪些客群的後設資料。</p> <p> **身分計數**&#x200B;控制您的共同作業人員在探索索引標籤中檢視重疊報表時，是否可以檢視您對象的身分計數。</p><p> **客群重疊百分比**&#x200B;控制協作者是否能夠探索本身客群與您的客群之間的重疊百分比。</p><p> **[!UICONTROL 對象索引]**&#x200B;控制共同作業人員是否可以檢視專案中的對象索引。 只有當您有三個或更多作用中的受眾時，才能使用此功能。</p> <br>若要讓中繼資料可見性設定生效，對象必須設為公開或自訂。"
+>abstract="<p>表示其他協作者在與您聯繫之前或在專案視圖中，可以看到哪些客群的後設資料。</p> <p> **身分識別計數**&#x200B;控制您的協作者在探索索引標籤中檢視重疊報告時，是否可以檢視您客群的身分識別計數。</p><p> **客群重疊百分比**&#x200B;控制協作者是否能夠得知其客群與您客群之間重疊的百分比。</p><p> **[!UICONTROL 客群指數]** 控制協作者是否可以檢視專案內的客群指數。您必須擁有 3 個或以上的使用中客群，才能使用此功能。</p> <br>若要讓後設資料可見度設定生效，必須將客群設定為公開或自訂。"
 
 >[!NOTE]
 >
@@ -347,7 +347,7 @@ ht-degree: 17%
 
 **[!UICONTROL 顯示對象重疊%]**：此設定可控制共同作業人員是否能夠在其對象與您的對象之間[發現重疊百分比](/help/guide/collaborate/discover.md#compare-audiences)。
 
-**[!UICONTROL 對象索引]**：設定為True時，您的共同作業人員可以檢視專案中的[對象索引](/help/guide/collaborate/discover.md#audience-index-score)。 只有當您有三個或更多作用中的受眾時，才能使用此功能。
+**[!UICONTROL 對象索引]**：設定為True時，您的共同作業人員可以檢視專案中的[對象索引](/help/guide/collaborate/discover.md#audience-index-score)。 您必須擁有 3 個或以上的使用中客群，才能使用此功能。
 
 >[!NOTE]
 >
