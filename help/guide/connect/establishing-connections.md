@@ -2,11 +2,11 @@
 title: 建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3112'
 ht-degree: 7%
 
 ---
@@ -184,8 +184,6 @@ ht-degree: 7%
 
 ![連線設定工作區。](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
-<!-- FIX THE ABOVE SCREENSHOT TO INCLUDE ADV NAMES, AS WELL AS THE ONES BELOW -->
-
 #### 連線設定 {#connection-settings}
 
 >[!CONTEXTUALHELP]
@@ -214,11 +212,6 @@ ht-degree: 7%
 >abstract="執行活動以產生行銷活動效能報告和深入分析。根據所有行銷活動當中活動報告的資料列數量以及產生報告的頻率 (每日、每三日或每週)，系統會消耗相應的點數。"
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_connection_settings_legalagreement"
->title="法律協議"
->abstract="驗證雙方之間是否存在資料共用協議。"
-
->[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="廣告商名稱"
 >abstract="<p>選擇性設定。表示發佈者所知的廣告商名稱和 ID。</p><p>您於此處新增的廣告商名稱，會在建立專案的步驟中預先填入。</p><ul><li>若發佈者設定有多個名稱，請從清單中選取一個。</li><li>若僅設定一個名稱，則會自動預先選取該名稱。</li><li>若未設定任何名稱，則該欄位會預先填入取自 Collaboration 的廣告商帳戶名稱。</li></ul>"
@@ -231,7 +224,7 @@ ht-degree: 7%
 
 您可以設定下列連線設定：
 
-+++受眾啟用
++++Audience Activation
 
 >[!IMPORTANT]
 >
@@ -269,7 +262,7 @@ ht-degree: 7%
 
 +++
 
-+++信用分割
++++點數分割
 
 使用信用分割區段來決定兩個共同作業關係人中哪一個會涵蓋活動的成本。 評分分割選項由連線選取的使用案例決定。 雖然&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例需要一方支付成本，但&#x200B;**[!UICONTROL 啟用 — 比對]**&#x200B;使用案例會提供額外的選項，讓各方支付各自的成本。 如需有關成本明細的資訊，請閱讀[信用活動型別](/help/guide/setup/my-activity.md#types-of-activities)指南。
 
@@ -280,14 +273,6 @@ ht-degree: 7%
 若要設定信用分割，請在&#x200B;**[!UICONTROL 信用分割]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**。 然後，您可以為每個使用案例選取適當的選項。 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
 
 ![在連線設定工作區中使用選項的[信用分割]對話方塊。](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
-
-+++
-
-+++協定
-
-您必須確認您與共同作業人員之間已有法律協定。 本協定概述資料共用和共同作業的條款。 您可以選取&#x200B;**[!UICONTROL 確認並確認]**&#x200B;核取方塊，以確認此合約存在。
-
-![連線工作區中強調並確認[法律協定]區段。](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
 
@@ -310,8 +295,8 @@ ht-degree: 7%
 建立專案時，廣告商名稱將根據連線期間建立的下列設定預先填入    ：
 
 1. **未設定廣告商名稱**：如果未新增廣告商名稱，Collaboration預設會使用廣告商名稱做為廣告商名稱。
-1. **一個廣告商名稱集**：如果新增了單一廣告商名稱，Collaboration會自動使用該名稱作為專案的廣告商名稱。
-1. **設定多個廣告商名稱**：如果新增多個廣告商名稱，您或您的共同作業人員可以在建立專案時選取任何提供的名稱。
+2. **一個廣告商名稱集**：如果新增了單一廣告商名稱，Collaboration會自動使用該名稱作為專案的廣告商名稱。
+3. **設定多個廣告商名稱**：如果新增多個廣告商名稱，您或您的共同作業人員可以在建立專案時選取任何提供的名稱。
 
 >[!NOTE]
 >
@@ -331,9 +316,7 @@ ht-degree: 7%
 
 檢閱共同作業人員提議的設定。 您可以接受或拒絕連線設定。 如果您拒絕連線設定，則必須與共同作業人員溝通您要在產品外部進行的變更。 共同作業人員的連絡資訊會顯示在連線設定工作區的&#x200B;**[!UICONTROL 連絡人]**&#x200B;區段中。 然後，擁有者可以修訂連線設定，並重新傳送它們以供檢閱。
 
-如果您對提議的連線設定感到滿意，則必須確認您與共同作業人員之間已達成法律協定。 選取&#x200B;**[!UICONTROL 確認並確認]**&#x200B;核取方塊，以確認此合約存在。
-
-![連線設定工作區中強調的[法律協定]區段。](/help/assets/connect/establish-connection/legal-agreement-review.png){zoomable="yes"}
+![連線設定工作區中反白顯示[接受並拒絕]選項。](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
 此外，如果您是發行者且正在連線廣告商，您現在可以在連線設定中新增廣告商名稱。 若要深入瞭解此程式，請參閱[連線設定](#connection-settings)區段。
 
