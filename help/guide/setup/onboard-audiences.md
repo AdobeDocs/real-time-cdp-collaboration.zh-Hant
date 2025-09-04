@@ -2,12 +2,12 @@
 title: Source和管理對象
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中取得和管理對象
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
+source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 19%
+source-wordcount: '3277'
+ht-degree: 15%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 19%
 {{limited-availability-release-note}}
 
 受眾是根據各種屬性劃分的特定使用者或客戶群組。 這些功能可讓共同作業人員共同處理目標式行銷和個人化體驗，以提升廣告行銷的成效。 本指南說明如何在Real-Time CDP Collaboration中取得受眾、檢視受眾控制面板，以及管理個別受眾。
-
->[!BEGINSHADEBOX]
-
-您可在此檔案頁面上找到以下內容：
-
-* [Source受眾進入Collaboration](#source-audiences)
-* [檢視客群儀表板](#view-audiences-dashboard)
-* [檢視個別對象](#view-individual-audiences)
-
->[!ENDSHADEBOX]
 
 ## Source受眾進入Collaboration {#source-audiences}
 
@@ -46,7 +36,7 @@ ht-degree: 19%
 >title="行銷動作"
 >abstract="<p>使用行銷動作來控制要從 Experience Platform 匯入哪一些客群資料到 Real-Time CDP Collaboration。<strong>資料共同作業</strong>行銷動作支援 C4、C5 和 C9 資料使用情況標籤。<strong>資料科學</strong>行銷動作支援 C9 資料使用情況標籤。</p> <p> <ul><li> 核取方塊<em>啟用</em>後，Experience Platform 中標有上述標籤的任何資料都將被排除，並且<strong>不會</strong>帶入 Real-Time CDP Collaboration 中。</li><li> 核取方塊<em>停用</em>後，可以從 Experience Platform 匯入 Real-Time CDP Collaboration 的資料沒有任何限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hant" text="資料使用標籤概觀"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant" text="資料使用標籤字彙表"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="資料使用標籤字彙表"
 
 >[!IMPORTANT]
 >
@@ -90,7 +80,7 @@ ht-degree: 19%
 
 使用行銷動作來控制要從Experience Platform將哪些對象資料帶入Collaboration。 **[!UICONTROL 資料共同作業]**&#x200B;行銷動作支援 C4、C5 和 C9 資料使用情況標籤。**[!UICONTROL 資料科學]**&#x200B;行銷動作支援 C9 資料使用情況標籤。
 
-深入瞭解[C4、C5和C9資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+深入瞭解[C4、C5和C9資料使用標籤](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
 * 當核取方塊為&#x200B;***已啟用***&#x200B;時，Experience Platform中如上所述標示的任何資料都會被排除，且&#x200B;**不會**&#x200B;帶入Collaboration。
 * 核取方塊&#x200B;***已停用***，對來自Experience Platform的資料沒有限制。
@@ -135,13 +125,13 @@ ht-degree: 19%
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身分識別命名空間"
 >abstract="從 Experience Platform 組織中可用的標準和自訂身分識別命名空間中，選取一個身分識別命名空間。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hant#standard" text="Experience Platform 中的標準和身分識別命名空間"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的標準和身分識別命名空間"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="輪廓屬性"
 >abstract="從聯集結構中選取 Experience Platform 輪廓類別屬性。此視圖會顯示存在於聯集結構中，且屬於 XDM 個體輪廓類別的屬性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hant" text="Experience Platform 中的聯集結構"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的聯集結構"
 
 接下來，您將選取來源欄位，以對應至Collaboration中的目標欄位。
 
@@ -201,7 +191,7 @@ ht-degree: 19%
 
 ### 審閱
 
-在最終確定對象新增之前，請檢閱所有配置和設定。 請確定所有詳細資料均正確無誤，然後選取[完成] **&#x200B;**&#x200B;以完成資料連線的建立。
+在最終確定對象新增之前，請檢閱所有配置和設定。 請確定所有詳細資料均正確無誤，然後選取[完成] ****&#x200B;以完成資料連線的建立。
 
 ![顯示所有選取組態的新增對象工作區。](/help/assets/setup/add-manage-audiences/review-connection.png)
 
@@ -214,10 +204,13 @@ ht-degree: 19%
 
 取得對象後，**[!UICONTROL 我的對象]**&#x200B;工作區會顯示目前取得至Collaboration的所有對象。
 
+![我的對象工作區顯示所有來源對象。](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+
 每個受眾都包含下列資訊的概觀：
 
 | 項目 | 說明 |
 |----------|---------|
+| **[!UICONTROL 名稱]** | 對象名稱。 |
 | **[!UICONTROL 身分]** | 表示此對象中存在的身分數量。 請注意，如果相同設定檔有兩個或多個身分，而這些身分在專案中作為相符索引鍵使用，則設定檔會在計數中顯示兩次。 |
 | **[!UICONTROL 狀態]** | 指出對象是否作用中以及是否可用於專案。 **[!UICONTROL 擱置中]**&#x200B;狀態表示對象最近剛取得來源，且身分尚未填入。 來源受眾會在初次重新整理後填入設定檔，這通常發生在資料連線設定後的24小時內。 |
 | **[!UICONTROL Source]** | 指出閱聽眾的來源。 在目前版本的Collaboration中，Experience Platform是唯一受支援的來源。 |
@@ -225,8 +218,6 @@ ht-degree: 19%
 | **[!UICONTROL 連線存取]** | 定義對象是私人或公開。 可在重疊報表中找到的公開對象，並可於專案中啟動。 |
 | **[!UICONTROL 已建立]** | 表示最初將對象來源至Collaboration的時間。 |
 | **[!UICONTROL 上次更新時間]** | 表示上次在Collaboration中更新對象的日期和時間。 這並非指上次重新整理對象的時間，而是指上次變更對象的設定或中繼資料的時間。 |
-
-![我的對象工作區顯示所有來源對象。](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
 若要對對象執行快速動作，請選取對象名稱旁的省略符號&#x200B;**...**。 提供下列選項：
 
@@ -237,7 +228,7 @@ ht-degree: 19%
 
 ## 檢視個別對象 {#view-individual-audiences}
 
-若要檢視詳細資訊並編輯個別對象的設定，請從&#x200B;**[!UICONTROL 我的對象]**&#x200B;工作區中選取對象。 對象工作區會顯示所選對象的詳細資訊，包括其詳細資料、身分、類別、連線存取和中繼資料視覺效果設定。
+若要檢視和更新個別對象的資訊，請從&#x200B;**[!UICONTROL 我的對象]**&#x200B;工作區中選取對象。 對象工作區會顯示所選對象的詳細資訊，包括其詳細資訊、身分、類別、連線存取和中繼資料可見度設定。
 
 ### 客群詳細資料
 
@@ -255,32 +246,22 @@ ht-degree: 19%
 
 ![個別對象的工作區。](/help/assets/setup/add-manage-audiences/audience-details.png)
 
-此外，受眾工作區中有以下控制項：
-
-* **[!UICONTROL 刪除]**：從您的資料連線移除對象。
-* **[!UICONTROL 編輯]**：編輯對象的名稱或描述。
-
-![個別對象的工作區中，醒目提示「編輯與刪除」選項。](/help/assets/setup/add-manage-audiences/audience-details-edit-delete.png)
-
-接下來，您可以在對象的工作區中更新下列區段：
-
-* [身分識別](#identities)
-* [類別](#categories)
-* [連線存取權](#connection-access)
-* [中繼資料可見度](#metadata-visibility)
-
-### 身分識別 {#identities}
+#### 身分識別 {#identities}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="身分識別"
->abstract="構成這個客群的身分識別劃分視圖，以及具有相應身分識別的輪廓總數量。"
+>abstract="組成此對象的身分的劃分檢視，以相符索引鍵分隔。"
 
-**[!UICONTROL 身分]**&#x200B;區段會指出在來源取得對象時，具有任何您所選取身分的對象中出現的設定檔數目。 區段也包含身分劃分，以便您分辨哪些身分構成最多受眾群體。
+**[!UICONTROL 身分]**&#x200B;區段會指出對象中存在的身分數量。 區段也包含依比對索引鍵進行的身分劃分，以協助您瞭解對象的組成。
 
 ![個別對象工作區的「身分」區段。](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
-### 類別 {#categories}
+將游標暫留在相符索引鍵劃分的個別區段上，可提供相關索引鍵的準確身分計數。
+
+![個別對象工作區的「身分」區段會顯示相符索引鍵的劃分。](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+
+#### 類別 {#categories}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
@@ -297,14 +278,14 @@ ht-degree: 19%
 
 ![顯示具有可用類別的[類別]對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
 
-### 連線存取權 {#connection-access}
+#### 連線存取權 {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="連線存取權"
->abstract="<p>客群可以分為三種類型：公開、私人和自訂。</p><p> 這些客群在協作者的專案中是否可以使用，取決於連線存取權設定。您可以隨時將連線存取權從私人變更為公開，但一旦與協作者啟用客群，便無法變更該設定。</p>"
+>abstract="<p>客群可以分為三種類型：公開、私人和自訂。</p><p> 根據連線存取設定，他們可用於與共同作業人員合作的專案的可用性會有所不同。</p>"
 
-和共同作業人員一起使用的專案中，對象的可用性會因連線存取設定而異。 在&#x200B;**[!UICONTROL 連線存取]**&#x200B;區段中，您可以選取對象應為私人或公用。 公開對象在連線中可供使用且可探索。
+和共同作業人員一起使用的專案中，對象的可用性會因連線存取設定而異。 在&#x200B;**[!UICONTROL 連線存取]**&#x200B;區段中，您可以選取對象應為私人、公開或僅適用於特定連線。 公開對象在連線中可供使用且可探索。
 
 若要更新對象的連線存取權，請在&#x200B;**[!UICONTROL 連線存取權]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**&#x200B;選項。
 
@@ -324,9 +305,9 @@ ht-degree: 19%
 >
 >無論存取狀態（公用、私人或自訂）為何，任何對象的母體都會貢獻至專案中&#x200B;**[!UICONTROL 比較對象]**&#x200B;區段的&#x200B;**[!UICONTROL 所有對象]**&#x200B;母體。
 
-用於合作者專案中的對象可用性會因連線存取設定而異。 您一律可以將連線存取權從私人變更為公用，但一旦啟用對象，您就無法再改回該設定。
+用於合作者專案中的對象可用性會因連線存取設定而異。
 
-### 中繼資料可見度 {#metadata-visibility}
+#### 中繼資料可見度 {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
@@ -339,7 +320,7 @@ ht-degree: 19%
 
 中繼資料可見度表示在其他共同作業人員與您連線之前或在不同專案檢視中，對象中繼資料的可見度。 若要更新對象的中繼資料可見度，請在&#x200B;**[!UICONTROL 中繼資料可見度]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**&#x200B;選項。
 
-![個別對象工作區的「中繼資料可見度」區段。](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
+![個別對象工作區的「中繼資料可見度」區段。](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
 
 **[!UICONTROL 中繼資料可見性]**&#x200B;對話方塊會出現，可讓您設定對象的可見性設定。 您可以為每個對象設定兩個中繼資料可見性設定：
 
@@ -354,6 +335,52 @@ ht-degree: 19%
 >中繼資料可見度設定生效前，對象必須設為公開或自訂。
 
 ![顯示具有可用選項的中繼資料可見性對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+## 編輯多個對象 {#edit-audiences}
+
+從對象控制面板，您可以一次編輯多個對象。 要執行此操作，請選取要編輯的對象，方法是選取其名稱旁的方塊。 選取對象後，您可以使用編輯功能表中的可用選項執行動作。
+
+![已選取兩個對象且編輯功能表反白顯示的「我的對象」工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
+
+### 大量編輯中繼資料可見性 {#bulk-edit-metadata-visibility}
+
+在對象儀表板中選取對象後，從編輯功能表中選取&#x200B;**[!UICONTROL 編輯中繼資料可見性]**。
+
+![反白顯示「編輯中繼資料可見性」選項的「我的對象」工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+
+**[!UICONTROL 中繼資料可見性]**&#x200B;對話方塊會出現，可讓您設定所選對象的可見性設定。 依預設，不會選取任何選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。****
+
+![顯示具有可用選項的中繼資料可見性對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+### 大量編輯連線存取權 {#bulk-edit-connection-access}
+
+在對象儀表板中選取對象後，從編輯功能表選取&#x200B;**[!UICONTROL 編輯連線存取權]**。
+
+![反白顯示「編輯連線存取」選項的「我的對象」工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+
+**[!UICONTROL 連線存取]**&#x200B;對話方塊會顯示，可讓您設定所選對象的存取設定。 預設會選取&#x200B;**[!UICONTROL 私人對象]**&#x200B;選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。****
+
+![顯示具有可用選項的[連線存取]對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+
+### 大量編輯對象名稱和說明 {#bulk-edit-audience-names-descriptions}
+
+在對象儀表板中選取對象後，從編輯功能表中選取&#x200B;**[!UICONTROL 編輯名稱和說明]**。
+
+![反白顯示[編輯名稱和描述]選項的[我的對象]工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+
+**[!UICONTROL 名稱和說明]**&#x200B;對話方塊會出現，讓您為每個選取的對象設定名稱和說明。 依預設，會顯示每個對象的目前名稱和說明。 進行變更，然後選取[儲存]。****
+
+![顯示有可用選項的[名稱與描述]對話方塊。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+
+### 大量編輯類別 {#bulk-edit-categories}
+
+在對象儀表板中選取對象後，從編輯功能表中選取&#x200B;**[!UICONTROL 編輯類別]**。
+
+![反白顯示[編輯類別]選項的[我的對象]工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+
+**[!UICONTROL 類別]**&#x200B;對話方塊會出現，允許您為每個選取的對象設定類別。 依預設，不會選取任何類別。 若要選取類別，請先選取主要類別，然後選取要包含的子類別。 進行變更，然後選取[儲存]。****
+
+![顯示具有可用選項的[類別]對話方塊。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## 後續步驟
 
