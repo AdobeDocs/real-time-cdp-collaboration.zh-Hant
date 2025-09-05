@@ -2,7 +2,7 @@
 title: 將Adobe Experience Platform設定為目的地
 description: 瞭解如何在Real-Time CDP Collaboration中設定及管理Adobe Experience Platform作為目的地。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: f13b0996c35bcb6060c583ca328c2c04daaf8abc
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 {{limited-availability-release-note}}
 
-設定此目的地以將對象從您的專案啟動至Adobe Experience Platform。 在Adobe Experience Platform中啟用對象可讓您善用平台的功能，以便在各種行銷管道中進行對象細分、分析和啟用。 若要進一步瞭解Adobe Experience Platform，請參閱[Experience Platform概觀](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}。
+設定此目的地以將對象從您的專案啟動至Adobe Experience Platform。 在Adobe Experience Platform中啟用對象可讓您善用平台的功能，以便在各種行銷管道中進行對象細分、分析和啟用。 若要進一步瞭解Adobe Experience Platform，請參閱[Experience Platform概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home){target="_blank"}。
 
 ## 設定目的地 {#configure-destination}
 
@@ -67,7 +67,7 @@ ht-degree: 11%
 >title="連結的索引鍵"
 >abstract="連結索引鍵內容說明的預留位置。"
 
-接下來，您必須建立啟用對應，以定義將傳送對象資料至Adobe Experience Platform的方式。 您可以將建立組織時選取的每個[相符索引鍵](../setup/onboard-account.md#set-up-match-keys)對應到目標名稱空間。 目標名稱空間會指定在Adobe Experience Platform中，比對索引鍵會對應到哪些[身分名稱空間](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
+接下來，您必須建立啟用對應，以定義將傳送對象資料至Adobe Experience Platform的方式。 您可以將建立組織時選取的每個[相符索引鍵](../setup/onboard-account.md#set-up-match-keys)對應到目標名稱空間。 目標名稱空間會指定在Adobe Experience Platform中，比對索引鍵會對應到哪些[身分名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
 
 >[!IMPORTANT]
 >
@@ -99,4 +99,4 @@ ht-degree: 11%
 
 ![在篩選選項中將Real-Time CDP Collaboration作為來源的受眾入口網站。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-若要深入瞭解對象入口網站，請參閱[對象入口網站概觀](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。
+若要深入瞭解對象入口網站，請參閱[對象入口網站概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。
