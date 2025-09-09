@@ -2,12 +2,12 @@
 title: 建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
+source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 7%
+source-wordcount: '3230'
+ht-degree: 6%
 
 ---
 
@@ -194,7 +194,8 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="比對索引鍵"
->abstract="比對索引鍵會預先填入您在組織層級選取的內容。您可以將不想於此連線中使用的任何比對索引鍵切換為關閉。"
+>abstract="相符金鑰已預先填入您和您的共同作業人員在帳戶層級選取的通用相符金鑰。 您可以將不想於此連線中使用的任何比對索引鍵切換為關閉。"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="帳戶比對金鑰"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -224,7 +225,7 @@ ht-degree: 7%
 
 您可以設定下列連線設定：
 
-+++Audience Activation
+##### Audience Activation {#audience-activation}
 
 >[!IMPORTANT]
 >
@@ -240,9 +241,7 @@ ht-degree: 7%
 
 ![連線設定工作區中具有「儲存」選項的「對象啟動」對話方塊。](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
-+++
-
-+++使用案例
+##### 使用案例 {#use-cases}
 
 使用案例會自動填入所有可用選項。 所選的使用案例決定您的專案中可用的檢視和選項。 若要深入瞭解，請閱讀[專案使用案例](/help/guide/collaborate/manage-projects.md#project-use-cases)指南。
 
@@ -250,19 +249,23 @@ ht-degree: 7%
 
 ![連線設定工作區中的使用案例設定。](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
-+++
+##### 比對索引鍵 {#match-keys}
 
-+++比對索引鍵
+比對金鑰會自動填入您在[設定您的帳戶](/help/guide/setup/onboard-account.md#set-up-match-keys)時與共同作業人員選取的通用比對金鑰。 只有與您和您的共同作業人員所選&#x200B;**和**&#x200B;共同擁有的相符金鑰才會出現。
 
-比對金鑰會自動填入您在[設定您的帳戶](/help/guide/setup/onboard-account.md#set-up-match-keys)時所選取的金鑰。 您可以關閉任何不想使用的相符金鑰，但無法新增在帳戶設定期間未選取的相符金鑰。
+![連線設定工作區中反白的[比對索引鍵]區段顯示共用比對索引鍵。](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+
+當連線擁有者設定連線設定時，他們可以[編輯帳戶比對金鑰](../setup/onboard-account.md#edit-match-keys)以包含其他比對金鑰。 在您的帳戶設定中切換更多相符金鑰後，如果您的共同作業人員也選取了這些相符金鑰，則可在連線設定中切換這些相符金鑰。 連線程式開始後新增的相符金鑰不會自動填入，且必須手動開啟。
 
 若要自訂您的相符金鑰，請在&#x200B;**[!UICONTROL 相符金鑰]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**，並關閉您不想要在此連線中使用的相符金鑰。 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
 
-![連線設定工作區中的[相符金鑰]設定。](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![連線設定工作區的[比對金鑰]區段對話方塊開啟，顯示已切換的比對金鑰。](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
-+++
+>[!IMPORTANT]
+>
+>共同作業人員接受連線設定後，相符金鑰即會被鎖定且無法變更。
 
-+++點數分割
+##### 點數分割 {#credit-split}
 
 使用信用分割區段來決定兩個共同作業關係人中哪一個會涵蓋活動的成本。 評分分割選項由連線選取的使用案例決定。 雖然&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例需要一方支付成本，但&#x200B;**[!UICONTROL 啟用 — 比對]**&#x200B;使用案例會提供額外的選項，讓各方支付各自的成本。 如需有關成本明細的資訊，請閱讀[信用活動型別](/help/guide/setup/my-activity.md#types-of-activities)指南。
 
@@ -274,9 +277,7 @@ ht-degree: 7%
 
 ![在連線設定工作區中使用選項的[信用分割]對話方塊。](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
-+++
-
-+++廣告商名稱
+##### 廣告商名稱 {#advertiser-names}
 
 >[!NOTE]
 >
@@ -303,8 +304,6 @@ ht-degree: 7%
 > 傳送連線設定後，您將無法再新增或編輯廣告商名稱。
 
 ![已填入廣告商名稱區段的連線設定工作區。](/help/assets/connect/establish-connection/add-advertiser-names.png)
-
-+++
 
 選取之後，選取&#x200B;**[!UICONTROL 提交]**&#x200B;將建議的設定傳送給收件者進行檢閱。
 

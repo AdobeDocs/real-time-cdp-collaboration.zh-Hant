@@ -2,12 +2,12 @@
 title: 設定和管理您的帳戶
 description: 瞭解如何在Real-Time CDP Collaboration中設定和管理帳戶的各種層面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 18%
+source-wordcount: '1361'
+ht-degree: 7%
 
 ---
 
@@ -44,7 +44,6 @@ ht-degree: 18%
 * 新增明確代表您品牌的&#x200B;**[!UICONTROL 帳戶名稱]**。
 * 新增品牌的&#x200B;**[!UICONTROL 描述]**。 這是選用的功能，但可協助其他共同作業人員更清楚瞭解您的品牌。
 * 選取您的&#x200B;**[!UICONTROL 角色]**。 您可以選取&#x200B;**[!UICONTROL 廣告商]**&#x200B;與&#x200B;**[!UICONTROL 發佈者]**&#x200B;之間。 閱讀[角色](/help/guide/overview/roles.md)指南，瞭解兩種帳戶角色型別之間的相似之處和工作流程細微差異。
-<!-- The above will need to be updated when I update things for B2B -->
 * 為您的帳戶選取&#x200B;**[!UICONTROL 產業]**。 某些範例包括&#x200B;**[!UICONTROL 零售業]**、**[!UICONTROL 電信業]**&#x200B;或&#x200B;**[!UICONTROL 金融服務]**。
 * 已根據您的Adobe Experience Cloud帳戶自動設定&#x200B;**[!UICONTROL 地區]**。 此設定隨時無法變更。
 * 為您的帳戶新增&#x200B;**[!UICONTROL 連絡人電子郵件]**。 這應為團隊或角色型電子郵件地址。 不應提供個人電子郵件地址。
@@ -62,64 +61,111 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="比對索引鍵"
->abstract="比對索引鍵是用於調和來自不同資料來源之客群成員的識別碼。包括您的品牌可以使用的任何比對索引鍵。"
+>abstract="比對索引鍵是用於調解來自不同資料來源之對象設定檔的識別碼。 包括您的品牌可以使用的任何比對索引鍵。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="第一方人員 ID"
->abstract="第一方人員 ID (例如雜湊電子郵件或電話號碼) 會直接與個體輪廓連線。目前支援的 ID 是雜湊電子郵件和電話號碼。"
+>abstract="第一方人員ID （例如雜湊電子郵件地址、雜湊電話號碼或CRM ID）會直接連線至個別設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="第一方裝置 ID"
->abstract="第一方裝置 ID (例如 ECID 或 IP 位址) 會直接與裝置連線，這些裝置可能與數個個體共用。IPv4 是目前唯一支援的第一方裝置 ID。"
+>abstract="第一方裝置ID （例如ECID或IP位址）會直接連線至裝置，而由多人共用。 IPv4 是目前唯一支援的第一方裝置 ID。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="支援的合作夥伴 ID"
->abstract="與輪廓關聯的合作夥伴 ID 可擴充特定輪廓的觸及範圍。"
+>abstract="合作夥伴ID是外部合作夥伴為對象調解提供的識別碼。 合作夥伴ID不會直接連線至個別設定檔。"
+
+![支援的相符金鑰。](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->您在帳戶設定期間選取的相符金鑰將決定您與其他共同作業人員建立的連線可用的相符金鑰。 雖然您可以在連線設定期間移除相符金鑰，但無法新增相符金鑰。 在帳戶設定期間，請務必選取您計畫用於未來促銷活動的&#x200B;**所有**&#x200B;相符金鑰。
+>您在帳戶設定期間選取的相符金鑰將決定您連線中可用的相符金鑰。 雖然您可以在連線設定期間[移除不需要的相符金鑰](../connect/establishing-connections.md#connection-settings)，但建立連線後就無法新增相符金鑰。 請務必選取您計畫在帳戶設定期間用於未來行銷活動的&#x200B;**所有**&#x200B;相符金鑰。
 
-匹配索引鍵（例如電子郵件地址、裝置ID或客戶ID），可讓共同作業人員透過啟用精確且以隱私權為中心的資料同步化來合作，進而實現更精確的對象鎖定目標和測量。
+比對索引鍵透過啟用準確且以隱私權為中心的資料同步，讓受眾目標定位和測量更精確，協助共同作業人員共同作業。 在帳戶設定期間選取的相符金鑰將決定哪些相符金鑰在未來的連線中可用。 當取得對象時，它們也可用來將資料連線中的欄位[對應到Collaboration中的目標欄位。](./onboard-audiences.md#map-fields)
 
-![投影片顯示Collaboration第一版的可用識別碼。](/help/assets/setup/manage-account/available-identifiers.png)
+選取您要在協調對象設定檔時使用的任何比對索引鍵。 規劃未來，並包含您可以使用的相符索引鍵，以及預測會在未來的行銷活動中使用。 如果您稍後確實需要為您的帳戶選取其他相符金鑰，您可以在[編輯帳戶](#edit-account)工作流程中進行。 但是，在初始設定後新增的任何相符索引鍵將不可用於現有連線。
 
-<!-- Eventually replace this image above to match branding better. -->
+#### 支援的比對索引鍵 {#supported-match-keys}
 
-選取您要在協調對象設定檔時使用的任何比對索引鍵。 包含您可以使用的任何相符索引鍵。 規劃未來，並選取您預計將在未來行銷活動中使用的相符索引鍵。 如果您稍後確實需要為您的帳戶選取其他相符金鑰，您可以在[編輯帳戶](#edit-account)工作流程中進行。
+Collaboration支援三種型別的相符金鑰：第一方人員ID、第一方裝置ID和合作夥伴ID。 所有相符金鑰必須符合下列要求：
 
-最多選取五個您計畫使用的相符金鑰。 稍後，在設定連線時，您可以移除不需要的相符金鑰，但無法新增金鑰。
+* 相符金鑰必須為&#x200B;**修剪**，**小寫**
+* 雜湊比對金鑰必須為&#x200B;**SHA256-hashed**。
+* 如果您提供使用大寫字元的雜湊值，Collaboration會自動將其轉換為小寫。
+* 如果您的來源包含&#x200B;**純文字識別碼**，請在&#x200B;**[!UICONTROL 資料連線設定]**&#x200B;期間使用[套用轉換](./manage-data-connection.md#match-keys)選項來套用雜湊。 此選項僅適用於從Experience Platform取得受眾，雲端型來源不支援時。
 
-可用的比對索引鍵型別有三種：
+##### 第一方人員 ID
 
-* 第一方人員 ID
-* 第一方裝置 ID
-* 合作夥伴 ID
+第一方人員ID直接連結至個別設定檔。 目前支援的ID為：
 
->[!IMPORTANT]
+* **[!UICONTROL 雜湊電子郵件]**
+* **[!UICONTROL 雜湊電話]**
+* **[!UICONTROL CRM ID]**
+* **[!UICONTROL 忠誠度識別碼]**
+<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
+
+##### 第一方裝置 ID
+
+第一方裝置ID是連線至特定裝置的識別碼。 目前支援的ID為：
+
+* **[!UICONTROL 雜湊IPv4]**：雜湊IPv4位址
+
+##### 合作夥伴 ID
+
+合作夥伴ID是外部合作夥伴為對象調解提供的識別碼。 目前支援的ID為：
+
+* **[!UICONTROL Adfixus ID]**
+
+>[!NOTE]
 >
->目前唯一支援的相符金鑰是雜湊電子郵件。
+>Adobe與[!DNL Adfixus]的整合將每個帳戶的唯一的[!UICONTROL Adfixus ID]對應到常見的Adobe編碼格式。 這些對應可用來識別共同作業人員之間的重疊。 使用&#x200B;**[!UICONTROL Adfixus ID]**&#x200B;啟用對象時，會使用原始的ID。 Adobe編碼格式永遠不會離開Collaboration。
 
-準備就緒後，選取&#x200B;**[!UICONTROL 完成]**&#x200B;以完成組織設定工作流程。
+選取&#x200B;**[!UICONTROL Adfixus ID]**&#x200B;時，您需要在&#x200B;**[!UICONTROL 帳戶認證]**&#x200B;區段中提供外部合作夥伴的對應ID。 此選項只有在&#x200B;*切換* Adfixus ID **[!UICONTROL 後]**&#x200B;才能使用。 在&#x200B;**[!UICONTROL 帳戶ID]**&#x200B;欄位中輸入您的Adfixus ID，請務必仔細檢查值是否準確。
 
-![顯示[設定組織]工作區的[比對索引鍵]區段。](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
+![已開啟[比對金鑰]對話方塊，並開啟[Adfixus ID]及[帳戶認證]區段。](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+
+選取所有需要的相符金鑰後，選取&#x200B;**[!UICONTROL 完成]**&#x200B;以完成帳戶設定工作流程。
+
+![已顯示[設定帳戶工作區]的[比對金鑰]區段。](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## 編輯帳戶 {#edit-account}
 
-設定帳戶後，您可以隨時編輯帳戶的某些方面和詳細資訊。 若要編輯您的帳戶，請在&#x200B;**[!UICONTROL 設定]**&#x200B;工作區&#x200B;**[!UICONTROL 的]**&#x200B;我的帳戶&#x200B;**[!UICONTROL 區段中選取]編輯**。
+設定帳戶後，您可以隨時編輯詳細資料並比對金鑰。
+
+### 編輯詳細資料 {#edit-details}
+
+您可以隨時編輯帳戶的大部分詳細資料，但&#x200B;**[!UICONTROL 角色]**&#x200B;除外。 地區是根據您的Adobe Experience Cloud帳戶自動設定，且無法變更。
+
+若要編輯您的帳戶，請在&#x200B;**[!UICONTROL 設定]**&#x200B;工作區的&#x200B;**[!UICONTROL 我的帳戶]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**。
 
 ![反白顯示[我的帳戶]索引標籤和[編輯]選項的[設定]工作區。](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-您現在可以編輯帳戶詳細資料，但&#x200B;**[!UICONTROL 角色]**&#x200B;除外。 請注意，地區是根據您的Adobe Experience Cloud帳戶自動設定，且無法隨時變更。
+您現在可以編輯帳戶詳細資料。 更新您要變更的任何欄位，然後選取[儲存]以確認變更。****
 
 ![編輯帳戶詳細資料對話方塊。](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
-您也可以更新您在加入組織時最初選取的相符金鑰。 在&#x200B;**[!UICONTROL 相符金鑰]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**&#x200B;以新增任何其他所需的相符金鑰。
+### 編輯比對索引鍵 {#edit-match-keys}
+
+>[!IMPORTANT]
+>
+>編輯比對鍵不會影響您現有的連線。 建立連線後，您在連線設定期間選取的相符金鑰就會固定。 請務必選取您計畫在帳戶設定期間用於未來行銷活動的&#x200B;**所有**&#x200B;相符金鑰。
+
+您也可以更新建立帳戶時最初選取的相符金鑰。 這些比對鍵將決定可用於未來連線的比對鍵。
+
+在&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**。
 
 ![在帳戶的「比對金鑰」區段中，以「編輯」選項醒目提示的「設定」工作區。](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
+
+**[!UICONTROL 符合索引鍵]**&#x200B;對話方塊就會顯示。 開啟或關閉任何相符金鑰，或是更新您&#x200B;**[!UICONTROL Adfixus ID的]**&#x200B;的[!UICONTROL 帳戶ID]，然後選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認變更。
+
+>[!IMPORTANT]
+>
+>變更您的[!UICONTROL Adfixus ID]將不會使用比對索引鍵觸發現有資料連線的[資料草圖](../glossary.md#sketches)重新整理。 您的資料一旦完成草繪，在您下次根據[!UICONTROL 資料連線排程]設定重新整理對象之前，不會反映對[Adfixus ID](./manage-data-connection.md#scheduling)所做的任何變更。 如果您在下次重新整理之前需要變更，可以刪除並重新建立資料連線。
+
+![反白顯示[儲存]選項的[比對索引鍵]對話方塊。](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
 ## 後續步驟
 

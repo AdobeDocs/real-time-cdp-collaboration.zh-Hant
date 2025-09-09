@@ -2,11 +2,11 @@
 title: Real-Time CDP Collaboration快速入門手冊
 description: 瞭解如何在Real-Time CDP Collaboration中建立您的組織，包括設定角色和組織、對象來源、啟用和測量。 本指南協助共同作業人員設定連線設定，以開始安全有效地使用對象。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
+source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 - [已布建使用者存取權](./permissions/manage-user-access.md)。
 - 為您的組織建立並指派給使用者的[角色](./permissions/manage-roles.md)。
 - 存取品牌化資產，例如貴組織的名稱、標誌和橫幅。
-- [定義的相符金鑰策略](./setup/onboard-account.md#set-up-match-keys) （目前雜湊電子郵件是唯一支援的相符金鑰）。
+- [定義的相符金鑰策略](./setup/onboard-account.md#set-up-match-keys)
 - （選用）如果您未使用Experience Platform進行對象管理，請存取支援的雲端來源(Amazon S3或Snowflake)。
 
 ## 步驟1：完成角色型設定 {#complete-role-based-setup}
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 觀看此影片以瞭解如何使用Admin Console和Experience Platform為Collaboration指派產品存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452241/?learn=on&enablevpops&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 步驟2：設定您的Collaboration帳戶 {#set-up-your-account}
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 >如果您正在建立發佈者帳戶，並希望在Collaboration的連線目錄中公開顯示，請聯絡您的Adobe帳戶代表。 發佈者帳戶需要自訂品牌橫幅(JPG 2688x1536)；此檔案可直接與您的代表共用。
 
 - **連絡人電子郵件** — 提供商務電子郵件，供共同作業人員在建立連線後使用。
-- **設定比對索引鍵** — 選取用於對象比對的識別碼（目前雜湊電子郵件是唯一支援的比對索引鍵）。
+- **設定比對索引鍵** — 選取用於對象比對的識別碼。
 
 若要進一步瞭解初始帳戶設定，包括如何定義角色、上傳品牌化資產，以及設定比對金鑰，請參閱[初始帳戶設定](./setup/onboard-account.md#initial-account-setup){target="_blank"}指南。
 
@@ -107,7 +107,8 @@ ht-degree: 0%
 >
 >**符合索引鍵需求：**
 >
->所有相符金鑰必須為&#x200B;**修剪**、**小寫**&#x200B;和&#x200B;**SHA256-hashed**。\
+>所有相符金鑰必須為&#x200B;**修剪**，**小寫**
+>>雜湊比對金鑰必須為&#x200B;**SHA256-hashed**。\
 >如果您提供使用大寫字元的雜湊值，Collaboration會自動將其轉換為小寫。\
 >如果您的來源包含&#x200B;**純文字識別碼**，請使用&#x200B;**[!UICONTROL 套用轉換]**&#x200B;選項來套用雜湊處理。 此選項僅適用於從Experience Platform取得受眾，雲端型來源不支援時。
 >

@@ -2,12 +2,12 @@
 title: 將Adobe Experience Platform設定為目的地
 description: 瞭解如何在Real-Time CDP Collaboration中設定及管理Adobe Experience Platform作為目的地。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
-source-git-commit: f13b0996c35bcb6060c583ca328c2c04daaf8abc
+source-git-commit: 6acf936f50b412147578a70e2369b06c53260f06
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 11%
+source-wordcount: '1487'
+ht-degree: 6%
 
 ---
 
@@ -15,11 +15,15 @@ ht-degree: 11%
 
 {{limited-availability-release-note}}
 
-設定此目的地以將對象從您的專案啟動至Adobe Experience Platform。 在Adobe Experience Platform中啟用對象可讓您善用平台的功能，以便在各種行銷管道中進行對象細分、分析和啟用。 若要進一步瞭解Adobe Experience Platform，請參閱[Experience Platform概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home){target="_blank"}。
+設定此目的地以將對象從您的專案啟動至Adobe Experience Platform。 在Adobe Experience Platform中啟用對象可讓您善用平台的功能，以便在各種行銷管道中進行對象細分、分析和啟用。 若要進一步瞭解Adobe Experience Platform，請參閱[Experience Platform概觀](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}。
+
+>[!WARNING]
+>
+>目的地建立後就無法更新。 如果您需要變更任何設定，必須刪除現有目的地並建立新目的地。
 
 ## 設定目的地 {#configure-destination}
 
-若要將Adobe Experience Platform設定為目的地，請導覽至「**[!UICONTROL 設定]**」，然後選取「**[!UICONTROL 目的地]**」標籤。 選取Adobe Experience Platform的&#x200B;**[!UICONTROL 設定]**。
+若要將Adobe Experience Platform設定為目的地，請導覽至「**[!UICONTROL 設定]**」，然後選取「**[!UICONTROL 我的目的地]**」標籤。 選取Adobe Experience Platform的&#x200B;**[!UICONTROL 設定]**。
 
 ![針對Adobe Experience Platform目的地反白顯示「我的目的地」工作區與「設定」選項。](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
 
@@ -44,7 +48,7 @@ ht-degree: 11%
 
 ![建立目的地工作流程中反白顯示的沙箱下拉式清單。](/help/assets/destinations/adobe-experience-platform/select-sandbox.png)
 
-或者，您可以選取&#x200B;**[!UICONTROL 瀏覽沙箱]**&#x200B;以檢視所有可用的沙箱，以及它們的&#x200B;**[!UICONTROL 型別]**、**[!UICONTROL 狀態]**&#x200B;和&#x200B;**[!UICONTROL 地區]**。 選取您要使用的沙箱，然後選取[儲存]。**&#x200B;**
+或者，您可以選取&#x200B;**[!UICONTROL 瀏覽沙箱]**&#x200B;以檢視所有可用的沙箱，以及它們的&#x200B;**[!UICONTROL 型別]**、**[!UICONTROL 狀態]**&#x200B;和&#x200B;**[!UICONTROL 地區]**。 選取您要使用的沙箱，然後選取[儲存]。****
 
 接下來，設定&#x200B;**[!UICONTROL 對象有效期]**。 依預設，對象到期日設為30天。 您可以選擇將有效期設定為1到30天。 到期日後，Adobe Experience Platform中將不再提供對象。
 
@@ -62,30 +66,72 @@ ht-degree: 11%
 >title="目標命名空間"
 >abstract="目標命名空間指定在 Adobe Experience Platform 中比對索引鍵將對應到的身分識別命名空間。雜湊比對索引鍵必須對應到支援雜湊值的目標命名空間。"
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_linked_key"
->title="連結的索引鍵"
->abstract="連結索引鍵內容說明的預留位置。"
+根據預設，為您的帳戶啟用的所有相符金鑰都會包含在啟用對應中。 如果您不想將比對索引鍵直接對應到目標名稱空間，可以使用連結索引鍵選項將其替換為不同的比對索引鍵。 如需連結金鑰的詳細資訊，請參閱下方的[區段](#linked-keys)。
 
-接下來，您必須建立啟用對應，以定義將傳送對象資料至Adobe Experience Platform的方式。 您可以將建立組織時選取的每個[相符索引鍵](../setup/onboard-account.md#set-up-match-keys)對應到目標名稱空間。 目標名稱空間會指定在Adobe Experience Platform中，比對索引鍵會對應到哪些[身分名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
+#### 對應目標名稱空間 {#map-target-namespaces}
+
+若要將每個比對索引鍵對應到目標名稱空間，請選取比對索引鍵旁邊的&#x200B;**[!UICONTROL 目標名稱空間]**&#x200B;欄位。 **[!UICONTROL 選取來源欄位]**&#x200B;對話方塊就會顯示。 在清單中尋找目標名稱空間，或搜尋特定名稱空間。 選取您要用於比對索引鍵的目標名稱空間，然後選取&#x200B;**[!UICONTROL 選取]**。
 
 >[!IMPORTANT]
 >
 >雜湊比對索引鍵必須對應至支援雜湊值的目標名稱空間。 例如，**[!UICONTROL 雜湊電子郵件]**&#x200B;相符金鑰必須對應至Adobe Experience Platform中的&#x200B;**[!UICONTROL 電子郵件（SHA256，小寫）]**&#x200B;身分名稱空間。 您無法將&#x200B;**[!UICONTROL 雜湊電子郵件]**&#x200B;相符金鑰對應至&#x200B;**[!UICONTROL 電子郵件]**&#x200B;身分名稱空間，因為此名稱空間不支援雜湊值。
 
-選取每個相符索引鍵旁的&#x200B;**[!UICONTROL 目標名稱空間]**&#x200B;欄位。 **[!UICONTROL 選取來源欄位]**&#x200B;對話方塊就會顯示。 在清單中尋找目標名稱空間，或搜尋特定名稱空間。 選取您要用於比對索引鍵的目標名稱空間，然後選取&#x200B;**[!UICONTROL 選取]**。
-
 ![選取來源欄位對話方塊中反白了選取選項……](/help/assets/destinations/adobe-experience-platform/select-target-namespace.png)
 
-當您完成對應所有相符金鑰後，請檢閱您的設定，然後選取[建立] **[!UICONTROL 以完成建立您的目的地。]**
+對您要包含在啟動對應中的每個比對金鑰重複此程式。 如果您不想加入比對索引鍵，可以將其移除，或使用連結索引鍵選項將其取代為不同的比對索引鍵。
 
-## 使用Adobe Experience Platform作為目的地
+#### 連結的索引鍵 {#linked-keys}
 
-一旦您將Adobe Experience Platform設定為目的地，您就可以透過專案開始[啟用對象](../collaborate/activate.md)至平台。 目前，啟用程式是廣告商啟動的單一步驟程式。 當廣告商啟用受眾時，會傳送至發佈者預先設定的目的地(此案例中為Adobe Experience Platform)。 發佈者不需要採取任何額外的步驟，即可將對象傳送至目的地。
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_linked_key"
+>title="連結的索引鍵"
+>abstract="連結金鑰可讓您指定在啟動期間使用不同的比對金鑰來取代原始比對金鑰。 對於要啟用的設定檔，它必須有原始比對索引鍵和連結比對索引鍵的值。"
+
+連結金鑰可讓您指定在啟動期間使用不同的比對金鑰來取代原始比對金鑰。 若要深入瞭解連結索引鍵的運作方式，請考量下列範例：
+
+retailer希望將正在啟用至Experience Platform的資料傳送至其CRM系統。 retailer已啟用雜湊IP作為其帳戶的比對索引鍵，以便在啟用受眾時提高比對率。 不過，retailer的CRM系統不支援以雜湊IP作為身分名稱空間，因此他們想要在啟用對象至Experience Platform時改用CRM ID比對索引鍵。 retailer可以使用連結索引鍵選項，透過CRM ID （而非雜湊IP）啟用對象至Experience Platform。
+
+>[!NOTE]
+>
+>對於要啟用的設定檔，它必須有原始比對索引鍵和連結比對索引鍵的值。 例如，如果雜湊ID連結至CRM ID，則設定檔必須同時具有雜湊ID和CRM ID的值才能啟用。 如果缺少任一值，則不會啟用設定檔。
+
+若要使用連結的索引鍵，請切換您要用來取代的相符索引鍵旁的&#x200B;**[!UICONTROL 連結的索引鍵]**&#x200B;選項。 **[!UICONTROL 連結的索引鍵]**&#x200B;區段會出現，要求您建立對應。
+
+![建立目的地工作流程中反白顯示的連結索引鍵選項和區段。](/help/assets/destinations/adobe-experience-platform/linked-key.png)
+
+從下拉式選單中選取您要使用的&#x200B;**[!UICONTROL 連結索引鍵]**。 依照上述範例，retailer會選取&#x200B;**[!UICONTROL CRM ID]**&#x200B;作為連結索引鍵。
+
+![建立目的地工作流程中反白顯示的連結索引鍵下拉式清單。](/help/assets/destinations/adobe-experience-platform/select-linked-key.png)
+
+接下來，如果您尚未指定連結索引鍵的目標名稱空間，請務必指定。 如果您已在&#x200B;**[!UICONTROL 建立啟動對應]**&#x200B;區段中選取相符金鑰的目標名稱空間，此專案將會自動填入。 如果您尚未選取連結索引鍵的目標名稱空間，現在可以選取。
+
+選取連結索引鍵旁的&#x200B;**[!UICONTROL 目標名稱空間]**&#x200B;欄位。 **[!UICONTROL 選取來源欄位]**&#x200B;對話方塊就會顯示。 在清單中尋找目標名稱空間，或搜尋特定名稱空間。 選取您要用於連結金鑰的目標名稱空間，然後選取&#x200B;**[!UICONTROL 選取]**。
+
+![選取來源欄位對話方塊。](/help/assets/destinations/adobe-experience-platform/select-linked-key-target-namespace.png)
+
+連結的金鑰現在已設定完畢。
+
+>[!NOTE]
+>
+>每個啟用對應只能使用一個連結金鑰目標名稱空間。 例如，如果您將雜湊ID連結至CRM ID，則切換其他欄位的連結鍵選項時，也會將其連結至CRM ID。
+
+當您完成對應所有相符金鑰時，請檢閱您的設定。 **[!UICONTROL 預覽]**&#x200B;區段提供您設定的摘要。
+
+![建立目的地工作流程中的預覽區段。](/help/assets/destinations/adobe-experience-platform/preview.png)
 
 >[!IMPORTANT]
 >
->您&#x200B;**必須**&#x200B;將Adobe Experience Platform設定為目的地&#x200B;*，然後*&#x200B;您的共同作業人員才能啟用對象。 如果未設定目的地，系統會將對象傳送給您，並顯示在專案的「**[!UICONTROL 啟用]**」標籤中，但不會啟用至Adobe Experience Platform。
+>目前，每個相符索引鍵都會當作個別對象啟用至Experience Platform。 例如，如果您有[!UICONTROL 雜湊電子郵件]和[!UICONTROL 雜湊電話]做為相符金鑰，則啟用對象時，將會在對象入口網站中建立兩個個別的對象。
+
+當您對組態感到滿意時，請選取&#x200B;**[!UICONTROL 建立目的地]**。 系統會顯示一則確認訊息，指出已成功建立目的地。
+
+## 使用Adobe Experience Platform作為目的地
+
+一旦您將Experience Platform設定為目的地，您就可以透過專案開始[啟用對象](../collaborate/activate.md)至平台。 目前，啟用程式是由共同作業人員起始的單一步驟程式。 例如，當廣告商啟用受眾時，會傳送至發佈者預先設定的目的地(Experience Platform)。 發佈者不需要採取任何額外的步驟，即可將對象傳送至目的地。 品牌對品牌的協同合作模式也是如此。
+
+>[!IMPORTANT]
+>
+>您&#x200B;**必須**&#x200B;將Experience Platform設定為目的地&#x200B;*，然後*&#x200B;您的共同作業人員才能啟用對象。 如果未設定目的地，系統會將對象傳送給您，並顯示在專案的「**[!UICONTROL 啟用]**」標籤中，但不會啟用至Experience Platform。
 
 對象啟動後，即可在Experience Platform的[對象入口網站](#audience-portal)中使用，其來源為Real-Time CDP Collaboration。  這些對象隨後可用於行銷活動和客戶參與。
 
@@ -99,4 +145,4 @@ ht-degree: 11%
 
 ![在篩選選項中將Real-Time CDP Collaboration作為來源的受眾入口網站。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-若要深入瞭解對象入口網站，請參閱[對象入口網站概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。
+若要深入瞭解對象入口網站，請參閱[對象入口網站概觀](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。

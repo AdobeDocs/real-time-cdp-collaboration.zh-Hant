@@ -2,12 +2,12 @@
 title: Source和管理對象
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中取得和管理對象
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
+source-git-commit: 425bcb6b8069dfca17838d05b6a91250293c8308
 workflow-type: tm+mt
-source-wordcount: '3277'
-ht-degree: 15%
+source-wordcount: '3508'
+ht-degree: 12%
 
 ---
 
@@ -27,24 +27,24 @@ ht-degree: 15%
 
 從&#x200B;**[!UICONTROL 設定]**&#x200B;工作區中的&#x200B;**[!UICONTROL 我的對象]**&#x200B;索引標籤中，選取新增圖示(![新增圖示。](/help/assets/icons/plus.png))，然後選取&#x200B;**[!UICONTROL 對象]**。 如果這是您的第一個對象，您也可以選取&#x200B;**[!UICONTROL 新增]選項**。
 
-![我的受眾工作區，其中的[新增]選項和[受眾]選項已反白顯示。](/help/assets/setup/add-manage-audiences/add-audiences.png)
+![我的受眾工作區，其中的[新增]選項和[受眾]選項已反白顯示。](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
 
 ### 選取資料連線 {#select-data-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="行銷動作"
->abstract="<p>使用行銷動作來控制要從 Experience Platform 匯入哪一些客群資料到 Real-Time CDP Collaboration。<strong>資料共同作業</strong>行銷動作支援 C4、C5 和 C9 資料使用情況標籤。<strong>資料科學</strong>行銷動作支援 C9 資料使用情況標籤。</p> <p> <ul><li> 核取方塊<em>啟用</em>後，Experience Platform 中標有上述標籤的任何資料都將被排除，並且<strong>不會</strong>帶入 Real-Time CDP Collaboration 中。</li><li> 核取方塊<em>停用</em>後，可以從 Experience Platform 匯入 Real-Time CDP Collaboration 的資料沒有任何限制。</li></ul></p>"
+>abstract="<p>使用行銷動作來控制要從 Experience Platform 匯入哪一些客群資料到 Real-Time CDP Collaboration。<strong>資料共同作業</strong>行銷動作支援 C4、C5 和 C9 資料使用情況標籤。<strong>資料科學</strong>行銷動作支援 C9 資料使用情況標籤。</p> <p> <ul><li> 核取方塊<em>啟用</em>後，Experience Platform 中標有上述標籤的任何資料都將被排除，並且<strong>不會</strong>帶入 Real-Time CDP Collaboration 中。</li><li> 核取方塊<em>已停用</em>，因此Experience Platform中的資料沒有可以來源至Real-Time CDP Collaboration的限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hant" text="資料使用標籤概觀"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant" text="資料使用標籤字彙表"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="資料使用標籤字彙表"
 
 >[!IMPORTANT]
 >
->在建立至您的第一個資料連線並匯入第一個對象後，您就可以從現有的資料連線匯入多個對象。 新增其他對象時，由於資料連線已建立，您將從[選取對象](#select-audiences)步驟開始。
+>建立您的第一個資料連線並取得第一個對象後，您就可以從現有的資料連線取得多個對象。 新增其他對象時，由於資料連線已建立，您將從[選取對象](#select-audiences)步驟開始。
 
 資料連線是資料來源，您會從中sourcing對象。 目前唯一支援的資料連線是Adobe Experience Platform。
 
-任何設定（例如您為資料連線設定的排程）都會套用至來自此資料連線的所有對象。
+您為資料連線設定的任何設定都會套用至源自此資料連線的所有對象。
 
 >[!TIP]
 >
@@ -52,7 +52,7 @@ ht-degree: 15%
 
 若要開始新增您的資料連線，請選取&#x200B;**[!UICONTROL 新增新的資料連線]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
-![反白顯示[新增資料連線]選項的[新增對象]工作區。](/help/assets/setup/add-manage-audiences/add-data-connection.png)
+![反白顯示[新增資料連線]選項的[新增對象]工作區。](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 #### 選取資料來源
 
@@ -66,13 +66,13 @@ ht-degree: 15%
 
 選取您的資料來源，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
-![反白顯示Adobe Experience Platform選項的「新增對象」工作區。](/help/assets/setup/add-manage-audiences/select-data-connection-source.png)
+![反白顯示Adobe Experience Platform選項的「新增對象」工作區。](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
 #### 選取沙箱
 
-選取資料來源後，您必須選取沙箱，其中包含您要使用Collaboration的對象。 從可用沙箱清單中選取沙箱，然後選取&#x200B;**[!UICONTROL 下一步]**
+選取資料來源後，您必須選取沙箱，其中包含您要用於Collaboration的對象。 從可用沙箱清單中選取沙箱，然後選取&#x200B;**[!UICONTROL 下一步]**
 
-![已選取沙箱的「新增對象」工作區。](/help/assets/setup/add-manage-audiences/select-sandbox.png)
+![已選取沙箱的「新增對象」工作區。](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
 
 #### 治理原則和執行動作 {#governance-policy-and-enforcement-actions}
 
@@ -80,7 +80,7 @@ ht-degree: 15%
 
 使用行銷動作來控制要從Experience Platform將哪些對象資料帶入Collaboration。 **[!UICONTROL 資料共同作業]**&#x200B;行銷動作支援 C4、C5 和 C9 資料使用情況標籤。**[!UICONTROL 資料科學]**&#x200B;行銷動作支援 C9 資料使用情況標籤。
 
-深入瞭解[C4、C5和C9資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+深入瞭解[C4、C5和C9資料使用標籤](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
 * 當核取方塊為&#x200B;***已啟用***&#x200B;時，Experience Platform中如上所述標示的任何資料都會被排除，且&#x200B;**不會**&#x200B;帶入Collaboration。
 * 核取方塊&#x200B;***已停用***，對來自Experience Platform的資料沒有限制。
@@ -92,17 +92,17 @@ ht-degree: 15%
 
 此外，您也會想要選取同意規則，以套用至來源為Collaboration的資料。
 
-![在治理原則與強制動作區段新增對象工作區。](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
+![在治理原則與強制動作區段新增對象工作區。](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}
 
 選取行銷動作和同意規則後，選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以繼續執行下一個步驟。 將會出現確認對話方塊，要求您接受條款。 選取核取方塊，然後選取&#x200B;**[!UICONTROL 確定]**&#x200B;確認。
 
-![以核取方塊和[確定]選項標示的[治理原則與強制執行]動作對話方塊。](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png)
+![以核取方塊和[確定]選項標示的[治理原則與強制執行]動作對話方塊。](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
 ### 提供詳細資料
 
 接下來，為您的資料連線提供名稱和說明。 此資訊可協助您稍後識別資料連線。
 
-![新增對象工作區可選擇提供名稱和說明。](/help/assets/setup/add-manage-audiences/data-connection-details.png)
+![新增對象工作區可選擇提供名稱和說明。](/help/assets/setup/add-manage-audiences/data-connection-details.png){zoomable="yes"}
 
 ### 對應欄位 {#map-fields}
 
@@ -114,7 +114,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="目標欄位"
->abstract="目前，雜湊電子郵件是唯一支援的比對索引鍵。"
+>abstract="目標欄位是在帳戶設定期間選擇的相符金鑰。 依預設，您選擇的所有相符金鑰都可供使用。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -125,47 +125,59 @@ ht-degree: 15%
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身分識別命名空間"
 >abstract="從 Experience Platform 組織中可用的標準和自訂身分識別命名空間中，選取一個身分識別命名空間。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hant#standard" text="Experience Platform 中的標準和身分識別命名空間"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的標準和身分識別命名空間"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="輪廓屬性"
->abstract="從聯集結構中選取 Experience Platform 輪廓類別屬性。此視圖會顯示存在於聯集結構中，且屬於 XDM 個體輪廓類別的屬性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hant" text="Experience Platform 中的聯集結構"
+>abstract="從Experience Platform中設定檔類別的聯合結構描述中選取屬性。 此檢視顯示存在於聯合結構描述中且屬於XDM個別設定檔類別的屬性。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的聯集結構"
 
-接下來，您將選取來源欄位，以對應至Collaboration中的目標欄位。
+接下來，您將選取來源欄位，以對應至Collaboration中的目標欄位。 可用的目標欄位將根據您在帳戶設定期間選取的相符金鑰。
 
-![新增對象工作區，可選擇將來源欄位對應至目標欄位。](/help/assets/setup/add-manage-audiences/add-map-fields.png)
+>[!IMPORTANT]
+>
+>目前，您無法編輯資料連線以包含新的對應欄位。 如果您在建立資料連線後，將新的相符金鑰新增至您的帳戶，您將需要建立新的資料連線以對應至這些金鑰。
+
+![新增對象工作區，可選擇將來源欄位對應至目標欄位。](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
 >[!TIP]
 >
->您可以將多個來源欄位對應到相同的目標欄位。 例如，如果您在Experience Platform中的兩個個別欄位中有電子郵件地址，您可以將每個地址對應到&#x200B;**[!UICONTROL 雜湊電子郵件]**&#x200B;目標欄位，做為兩個個別的列。
+>您可以將多個來源欄位對應到相同的目標欄位。 例如，如果您在Experience Platform中的兩個個別欄位中有電子郵件地址，您可以將每個地址對應到&#x200B;**[!UICONTROL 雜湊電子郵件]**&#x200B;目標欄位，做為兩個個別的列。 使用&#x200B;**[!UICONTROL 新增欄位]**&#x200B;選項來新增其他對應列。
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source欄位]**&#x200B;是來自Experience Platform的身分名稱空間和屬性。 這些是身分如何在您資料來源的平台中存在。 Source欄位會對應至Collaboration中定義的目標欄位。
+**[!UICONTROL Source欄位]**&#x200B;是來自Experience Platform的身分名稱空間和屬性。 這些包含[標準](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"}和[自訂](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}身分識別名稱空間。 它們也包含存在於[聯合結構描述](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"}中且屬於XDM個別設定檔類別的設定檔屬性。
 
-**[!UICONTROL 目標欄位]**&#x200B;指出在Collaboration中參照身分的方式。 目前，雜湊電子郵件是唯一支援的比對索引鍵。
+Source欄位會對應至Collaboration中定義的目標欄位。
 
-當您從來源匯入&#x200B;**[!UICONTROL 非雜湊]**&#x200B;欄位時，請使用&#x200B;*套用轉換*&#x200B;選項。 在這種情況下，Collaboration將套用雜湊並轉換欄位。 Adobe使用的雜湊演演算法為SHA256。
+**[!UICONTROL 目標欄位]**&#x200B;指出在Collaboration中參照身分的方式。 目標欄位是在帳戶設定期間選擇的相符金鑰。 依預設，您選擇的所有相符金鑰都可供使用。
+
+使用&#x200B;**[!UICONTROL 套用轉換]**&#x200B;選項，取得&#x200B;*非雜湊*&#x200B;欄位到雜湊欄位時。 Collaboration將套用雜湊並轉換欄位。 Adobe使用的雜湊演演算法為SHA256。
 
 >[!ENDSHADEBOX]
 
-選取目標欄位旁邊的空白來源欄位。 **[!UICONTROL 選取來源欄位]**&#x200B;對話方塊將會出現。 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;和&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;選項之間選取，以尋找所需的來源欄位，然後從清單中選取欄位。 您也可以使用搜尋選項來尋找所需欄位。
+若要開始對應欄位，請選取目標欄位旁邊的空白來源欄位。 **[!UICONTROL 選取來源欄位]**&#x200B;對話方塊將會出現。 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;和&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;選項之間選取，以尋找所需的來源欄位，然後從清單中選取欄位。 您也可以使用搜尋選項來尋找所需欄位。
 
-![顯示電子郵件選項的[選取來源欄位]對話方塊。](/help/assets/setup/add-manage-audiences/select-source-field.png)
+![顯示電子郵件選項的[選取來源欄位]對話方塊。](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-若要處理多個電子郵件欄位，請使用&#x200B;**[!UICONTROL 套用轉換]**&#x200B;來對應非雜湊電子郵件來源欄位。
+若要處理將非雜湊欄位來源化為雜湊目標欄位，請使用&#x200B;**[!UICONTROL 套用轉換]**&#x200B;選項。 例如，若要新增第二個電子郵件欄位，請選取&#x200B;**[!UICONTROL 新增欄位]**&#x200B;選項以新增列，然後為目標欄位選取&#x200B;**[!UICONTROL 雜湊電子郵件]**。 選取非雜湊電子郵件來源欄位，然後選取&#x200B;**[!UICONTROL 套用轉換]**。
 
-![將電子郵件來源欄位對應到目標欄位的「新增對象」工作區中，已針對其中一個欄位開啟「套用」轉換。](/help/assets/setup/add-manage-audiences/apply-transformation.png)
+![將電子郵件來源欄位對應到目標欄位的「新增對象」工作區中，已針對其中一個欄位開啟「套用」轉換。](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-視需要繼續新增對應配對，然後選取&#x200B;**[!UICONTROL 下一步]**。
+繼續為每個目標欄位新增對應配對。 如果您不想使用比對索引鍵，可以使用欄位旁的刪除（![刪除圖示](/help/assets/icons/delete.png)）圖示將其移除。 如果移除比對索引鍵，您將無法從連線中取得任何對象。
+
+![醒目提示目標欄位旁的新增對象工作區具有[刪除]選項。](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+完成欄位對應後，選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以繼續。
+
+![「新增對象」工作區填入了對應欄位，並反白顯示「下一步」選項。](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
 
 ### 排程 {#schedule}
 
 接下來，排程何時開始和結束填入對象。 對象將根據此排程重新整理。
 
-![顯示排程選項的新增對象工作區。](/help/assets/setup/add-manage-audiences/audience-scheduling.png)
+![顯示排程選項的新增對象工作區。](/help/assets/setup/add-manage-audiences/audience-scheduling.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -173,11 +185,11 @@ ht-degree: 15%
 
 從&#x200B;**[!UICONTROL 頻率]**&#x200B;下拉式清單中選取對象重新整理的頻率。
 
-![開啟[頻率]下拉式清單的[新增對象]排程工作區。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png)
+![開啟[頻率]下拉式清單的[新增對象]排程工作區。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
 
 接著，選取&#x200B;**[!UICONTROL 日期範圍]**。 開始日期是對象開始填入設定檔的日期，結束日期是對象停止重新整理的日期。
 
-![顯示[日期範圍]選項的[新增對象]排程工作區。](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png)
+![顯示[日期範圍]選項的[新增對象]排程工作區。](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -185,15 +197,15 @@ ht-degree: 15%
 
 ### 選取客群 {#select-audiences}
 
-選取對象來源後，您將選擇要包含的特定對象。 使用搜尋和篩選選項，從您的資料來源尋找相關的對象。 選取您需要的對象，然後選取&#x200B;**[!UICONTROL 下一步]**。
+選取對象來源後，您將選擇要包含的特定對象。 使用搜尋和篩選選項，從您的資料連線中尋找相關的對象。 選取您需要的對象，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
-![具有可用對象清單的新增對象工作區。](/help/assets/setup/add-manage-audiences/select-audience.png)
+![具有可用對象清單的新增對象工作區。](/help/assets/setup/add-manage-audiences/select-audience.png){zoomable="yes"}
 
 ### 審閱
 
-在最終確定對象新增之前，請檢閱所有配置和設定。 請確定所有詳細資料均正確無誤，然後選取[完成] **&#x200B;**&#x200B;以完成資料連線的建立。
+在最終確定對象新增之前，請檢閱所有配置和設定。 請確定所有詳細資料均正確無誤，然後選取[完成] ****&#x200B;以完成資料連線的建立。
 
-![顯示所有選取組態的新增對象工作區。](/help/assets/setup/add-manage-audiences/review-connection.png)
+![顯示所有選取組態的新增對象工作區。](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
 
 ## 檢視客群儀表板 {#view-audiences-dashboard}
 
@@ -219,12 +231,14 @@ ht-degree: 15%
 | **[!UICONTROL 已建立]** | 表示最初將對象來源至Collaboration的時間。 |
 | **[!UICONTROL 上次更新時間]** | 表示上次在Collaboration中更新對象的日期和時間。 這並非指上次重新整理對象的時間，而是指上次變更對象的設定或中繼資料的時間。 |
 
+![我的對象工作區顯示所有來源對象。](/help/assets/setup/add-manage-audiences/audiences-workspace.png){zoomable="yes"}
+
 若要對對象執行快速動作，請選取對象名稱旁的省略符號&#x200B;**...**。 提供下列選項：
 
 * **[!UICONTROL 編輯類別]**&#x200B;可讓您將不同的類別標籤新增至對象。 如需詳細資訊，請參閱下方的[類別](#categories)區段。
 * **[!UICONTROL 刪除]**&#x200B;將會從資料連線中刪除對象。
 
-![我的對象工作區中會開啟省略符號功能表，並反白顯示[編輯類別]和[刪除]選項。](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png)
+![我的對象工作區中會開啟省略符號功能表，並反白顯示[編輯類別]和[刪除]選項。](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}
 
 ## 檢視個別對象 {#view-individual-audiences}
 
@@ -244,7 +258,7 @@ ht-degree: 15%
 | **[!UICONTROL 已建立]** | 表示最初將對象來源至Collaboration的時間。 |
 | **[!UICONTROL 建立者：]** | 指出將受眾帶入Collaboration的使用者。 |
 
-![個別對象的工作區。](/help/assets/setup/add-manage-audiences/audience-details.png)
+![個別對象的工作區。](/help/assets/setup/add-manage-audiences/audience-details.png){zoomable="yes"}
 
 #### 身分識別 {#identities}
 
@@ -255,7 +269,7 @@ ht-degree: 15%
 
 **[!UICONTROL 身分]**&#x200B;區段會指出對象中存在的身分數量。 區段也包含依比對索引鍵進行的身分劃分，以協助您瞭解對象的組成。
 
-![個別對象工作區的「身分」區段。](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+![個別對象工作區的「身分」區段。](/help/assets/setup/add-manage-audiences/audience-details-identities.png){zoomable="yes"}
 
 將游標暫留在相符索引鍵劃分的個別區段上，可提供相關索引鍵的準確身分計數。
 
@@ -272,11 +286,11 @@ ht-degree: 15%
 
 若要新增類別，請選取&#x200B;**[!UICONTROL 類別]**&#x200B;區段中的&#x200B;**[!UICONTROL 編輯]**&#x200B;選項。
 
-![個別對象工作區的「類別」區段。](/help/assets/setup/add-manage-audiences/audience-details-categories.png)
+![個別對象工作區的「類別」區段。](/help/assets/setup/add-manage-audiences/audience-details-categories.png){zoomable="yes"}
 
 **[!UICONTROL 類別]**&#x200B;對話方塊將會顯示，允許您選取要新增至對象的類別。 若要選取個別類別，請選取類別名稱旁的核取方塊。
 
-![顯示具有可用類別的[類別]對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
+![顯示具有可用類別的[類別]對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png){zoomable="yes"}
 
 #### 連線存取權 {#connection-access}
 
@@ -289,7 +303,7 @@ ht-degree: 15%
 
 若要更新對象的連線存取權，請在&#x200B;**[!UICONTROL 連線存取權]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**&#x200B;選項。
 
-![個別對象工作區的「連線存取」區段。](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png)
+![個別對象工作區的「連線存取」區段。](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png){zoomable="yes"}
 
 出現&#x200B;**[!UICONTROL 連線存取]**&#x200B;對話方塊，其中包含三個可用的連線存取選項：
 
@@ -299,7 +313,7 @@ ht-degree: 15%
 
 選取想要的連線存取選項，然後選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以套用變更。
 
-![顯示具有可用選項的[連線存取]對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+![顯示具有可用選項的[連線存取]對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -320,7 +334,7 @@ ht-degree: 15%
 
 中繼資料可見度表示在其他共同作業人員與您連線之前或在不同專案檢視中，對象中繼資料的可見度。 若要更新對象的中繼資料可見度，請在&#x200B;**[!UICONTROL 中繼資料可見度]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**&#x200B;選項。
 
-![個別對象工作區的「中繼資料可見度」區段。](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
+![個別對象工作區的「中繼資料可見度」區段。](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png){zoomable="yes"}
 
 **[!UICONTROL 中繼資料可見性]**&#x200B;對話方塊會出現，可讓您設定對象的可見性設定。 您可以為每個對象設定兩個中繼資料可見性設定：
 
@@ -334,7 +348,7 @@ ht-degree: 15%
 >
 >中繼資料可見度設定生效前，對象必須設為公開或自訂。
 
-![顯示具有可用選項的中繼資料可見性對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+![顯示具有可用選項的中繼資料可見性對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png){zoomable="yes"}
 
 ## 編輯多個對象 {#edit-audiences}
 
@@ -348,7 +362,7 @@ ht-degree: 15%
 
 ![反白顯示「編輯中繼資料可見性」選項的「我的對象」工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
 
-**[!UICONTROL 中繼資料可見性]**&#x200B;對話方塊會出現，可讓您設定所選對象的可見性設定。 依預設，不會選取任何選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 中繼資料可見性]**&#x200B;對話方塊會出現，可讓您設定所選對象的可見性設定。 依預設，不會選取任何選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。****
 
 ![顯示具有可用選項的中繼資料可見性對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
@@ -358,7 +372,7 @@ ht-degree: 15%
 
 ![反白顯示「編輯連線存取」選項的「我的對象」工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
 
-**[!UICONTROL 連線存取]**&#x200B;對話方塊會顯示，可讓您設定所選對象的存取設定。 預設會選取&#x200B;**[!UICONTROL 私人對象]**&#x200B;選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 連線存取]**&#x200B;對話方塊會顯示，可讓您設定所選對象的存取設定。 預設會選取&#x200B;**[!UICONTROL 私人對象]**&#x200B;選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。****
 
 ![顯示具有可用選項的[連線存取]對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
 
@@ -368,7 +382,7 @@ ht-degree: 15%
 
 ![反白顯示[編輯名稱和描述]選項的[我的對象]工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
 
-**[!UICONTROL 名稱和說明]**&#x200B;對話方塊會出現，讓您為每個選取的對象設定名稱和說明。 依預設，會顯示每個對象的目前名稱和說明。 進行變更，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 名稱和說明]**&#x200B;對話方塊會出現，讓您為每個選取的對象設定名稱和說明。 依預設，會顯示每個對象的目前名稱和說明。 進行變更，然後選取[儲存]。****
 
 ![顯示有可用選項的[名稱與描述]對話方塊。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
 
@@ -378,7 +392,7 @@ ht-degree: 15%
 
 ![反白顯示[編輯類別]選項的[我的對象]工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
 
-**[!UICONTROL 類別]**&#x200B;對話方塊會出現，允許您為每個選取的對象設定類別。 依預設，不會選取任何類別。 若要選取類別，請先選取主要類別，然後選取要包含的子類別。 進行變更，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 類別]**&#x200B;對話方塊會出現，允許您為每個選取的對象設定類別。 依預設，不會選取任何類別。 若要選取類別，請先選取主要類別，然後選取要包含的子類別。 進行變更，然後選取[儲存]。****
 
 ![顯示具有可用選項的[類別]對話方塊。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 

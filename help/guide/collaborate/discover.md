@@ -2,9 +2,9 @@
 title: 探索重疊並比較對象
 description: 探索您和共同作業人員的對象之間的重疊。 瞭解如何探索最佳對象，以用於您的行銷活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
+source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 17%
@@ -144,7 +144,7 @@ ht-degree: 17%
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 
@@ -197,7 +197,7 @@ ht-degree: 17%
 為了方便比較不同對象和促銷活動，Collaboration會將索引分數轉譯為關聯性範圍（從非常低到非常高）。 這一樣來，您便可以快速評估自己的客群與協作者客群之間的關係強度。
 
 | 索引分數(i) | 關聯性範圍 | 說明 |
-|---------|----------|-----------|
+|---------------|----------|-----------|
 | i &lt; 60 | 非常低 | 與您的對象相比，重疊在目標對象中較少發生，這表示關係非常薄弱。 使用此對象的客戶觸及目標對象的可能性低得多。 |
 | 60 &lt; i &lt; 80 | 低 | 相較於您的對象，重疊在目標對象中不太普遍，這表示關係較弱。 使用此受眾的客戶觸及目標受眾的可能性較低。 |
 | 80 &lt; i &lt; 120 | 媒體 | 重疊在目標對象中和您的對象中一樣普遍，這表示典型的關係。 使用此對象的客戶平均可能會達到其目標對象。 |

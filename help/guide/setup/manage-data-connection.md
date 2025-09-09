@@ -2,12 +2,12 @@
 title: 管理資料連線
 description: 瞭解如何在Real-Time CDP Collaboration中管理資料連線，包括比對索引鍵、排程、使用案例和對象篩選
 audience: administrator, data engineer
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 12%
+source-wordcount: '602'
+ht-degree: 7%
 
 ---
 
@@ -30,17 +30,9 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="比對索引鍵"
->abstract="比對索引鍵會決定如何比對來自不同來源的資料。選擇與您的使用案例和隱私權準則最相關的比對索引鍵。"
+>abstract="比對索引鍵會決定如何比對來自不同來源的資料。以下顯示的相符索引鍵是您將來源欄位對應到的目標欄位。"
 
-比對索引鍵是用於調和來自不同資料來源之客群成員的識別碼。您無法編輯您最初為資料連線選取的相符金鑰。
-
->[!IMPORTANT]
-> 
->建立資料連線後，就無法編輯相符金鑰。 若要更新相符金鑰，您必須建立新的資料連線。
-
-可用的比對索引鍵包括：
-
-- **雜湊電子郵件**
+比對索引鍵是您[將來源欄位對應到](./onboard-audiences.md#map-fields)的目標欄位。 您無法編輯您最初為資料連線選取的相符金鑰。 若要更新相符金鑰，您必須建立新的資料連線。 若要深入瞭解相符金鑰的運作方式，請參閱[相符金鑰](./onboard-account.md#set-up-match-keys)指南。
 
 ![資料連線工作區中反白了比對索引鍵區段。](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -57,7 +49,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->從Adobe Experience Platform獲取對象時，對象在資料連線建立後24小時內即可使用。 初次匯入後，對象資料會根據定義的頻率重新整理。
+>從Adobe Experience Platform獲取對象時，對象在資料連線建立後24小時內即可使用。 初始來源設定後，對象資料會根據定義的頻率重新整理。
 
 如需排程的詳細資訊，請參閱設定對象指南中的[排程區段](/help/guide/setup/onboard-audiences.md#schedule)。
 
@@ -66,6 +58,8 @@ ht-degree: 12%
 #### 編輯排程 {#edit-scheduling}
 
 您可以編輯現有資料連線的頻率，以更能控制對象重新整理的頻率。 若要編輯排程，請從排程卡片內的資料連線中選取&#x200B;**[!UICONTROL 編輯]**。
+
+此排程將會影響所有源自資料連線的對象。
 
 在&#x200B;**[!UICONTROL 排程]**&#x200B;對話方塊中，選取下拉式功能表以更新&#x200B;**[!UICONTROL 頻率]**。 將重新整理頻率設定為每日或每兩到六天執行一次。 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以套用您的變更。
 
