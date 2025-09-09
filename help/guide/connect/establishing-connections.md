@@ -2,7 +2,7 @@
 title: 建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
 workflow-type: tm+mt
@@ -195,7 +195,7 @@ ht-degree: 6%
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="比對索引鍵"
 >abstract="相符金鑰已預先填入您和您的共同作業人員在帳戶層級選取的通用相符金鑰。 您可以將不想於此連線中使用的任何比對索引鍵切換為關閉。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="帳戶比對金鑰"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="帳戶比對金鑰"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"

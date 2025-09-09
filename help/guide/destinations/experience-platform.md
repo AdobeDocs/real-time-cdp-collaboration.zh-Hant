@@ -2,7 +2,7 @@
 title: 將Adobe Experience Platform設定為目的地
 description: 瞭解如何在Real-Time CDP Collaboration中設定及管理Adobe Experience Platform作為目的地。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 6acf936f50b412147578a70e2369b06c53260f06
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 {{limited-availability-release-note}}
 
-設定此目的地以將對象從您的專案啟動至Adobe Experience Platform。 在Adobe Experience Platform中啟用對象可讓您善用平台的功能，以便在各種行銷管道中進行對象細分、分析和啟用。 若要進一步瞭解Adobe Experience Platform，請參閱[Experience Platform概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home){target="_blank"}。
+設定此目的地以將對象從您的專案啟動至Adobe Experience Platform。 在Adobe Experience Platform中啟用對象可讓您善用平台的功能，以便在各種行銷管道中進行對象細分、分析和啟用。 若要進一步瞭解Adobe Experience Platform，請參閱[Experience Platform概觀](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}。
 
 >[!WARNING]
 >
@@ -48,7 +48,7 @@ ht-degree: 6%
 
 ![建立目的地工作流程中反白顯示的沙箱下拉式清單。](/help/assets/destinations/adobe-experience-platform/select-sandbox.png)
 
-或者，您可以選取&#x200B;**[!UICONTROL 瀏覽沙箱]**&#x200B;以檢視所有可用的沙箱，以及它們的&#x200B;**[!UICONTROL 型別]**、**[!UICONTROL 狀態]**&#x200B;和&#x200B;**[!UICONTROL 地區]**。 選取您要使用的沙箱，然後選取[儲存]。**&#x200B;**
+或者，您可以選取&#x200B;**[!UICONTROL 瀏覽沙箱]**&#x200B;以檢視所有可用的沙箱，以及它們的&#x200B;**[!UICONTROL 型別]**、**[!UICONTROL 狀態]**&#x200B;和&#x200B;**[!UICONTROL 地區]**。 選取您要使用的沙箱，然後選取[儲存]。****
 
 接下來，設定&#x200B;**[!UICONTROL 對象有效期]**。 依預設，對象到期日設為30天。 您可以選擇將有效期設定為1到30天。 到期日後，Adobe Experience Platform中將不再提供對象。
 
@@ -145,4 +145,4 @@ retailer希望將正在啟用至Experience Platform的資料傳送至其CRM系�
 
 ![在篩選選項中將Real-Time CDP Collaboration作為來源的受眾入口網站。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-若要深入瞭解對象入口網站，請參閱[對象入口網站概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。
+若要深入瞭解對象入口網站，請參閱[對象入口網站概觀](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。
