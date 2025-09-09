@@ -2,11 +2,11 @@
 title: 啟用客群
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中啟用對象。
 audience: admin, publisher
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1003'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,10 @@ ht-degree: 2%
 在&#x200B;**[!UICONTROL 瀏覽對象]**&#x200B;中，您可以看到每個對象的&#x200B;**[!UICONTROL 身分計數]**、**[!UICONTROL 重疊身分]**&#x200B;和&#x200B;**[!UICONTROL 重疊%]**。
 
 ![顯示可用對象的[瀏覽對象]對話方塊。](/help/assets/collaborate/activate/browse-audiences.png)
+
+>[!IMPORTANT]
+>
+>啟用使用了多個相符金鑰的對象時，如果一個（或多個）相符金鑰沒有重疊、無對象計數或低於臨界值，則整個啟用將會失敗。 啟用之前，請確認您的對象有足夠的重疊，並符合所有相符索引鍵中1000 ID的最低臨界值。
 
 選取您要在行銷活動中啟用的對象，然後選取&#x200B;**[!UICONTROL 儲存]**。 對象現在已顯示出來，您可以看到所選對象的&#x200B;**[!UICONTROL 身分計數]**、**[!UICONTROL 重疊身分]**&#x200B;和&#x200B;**[!UICONTROL 重疊%]**。
 

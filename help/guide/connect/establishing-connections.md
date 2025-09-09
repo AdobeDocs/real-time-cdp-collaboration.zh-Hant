@@ -2,11 +2,11 @@
 title: 建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '3230'
+source-wordcount: '3280'
 ht-degree: 6%
 
 ---
@@ -195,7 +195,7 @@ ht-degree: 6%
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="比對索引鍵"
 >abstract="相符金鑰已預先填入您和您的共同作業人員在帳戶層級選取的通用相符金鑰。 您可以將不想於此連線中使用的任何比對索引鍵切換為關閉。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="帳戶比對金鑰"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="帳戶比對金鑰"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -250,6 +250,10 @@ ht-degree: 6%
 ![連線設定工作區中的使用案例設定。](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### 比對索引鍵 {#match-keys}
+
+>[!IMPORTANT]
+>
+>啟用使用了多個相符金鑰的對象時，如果一個（或多個）相符金鑰沒有重疊、無對象計數或低於臨界值，則整個啟用將會失敗。 啟用之前，請確認您的對象有足夠的重疊，並符合所有相符索引鍵中1000 ID的最低臨界值。
 
 比對金鑰會自動填入您在[設定您的帳戶](/help/guide/setup/onboard-account.md#set-up-match-keys)時與共同作業人員選取的通用比對金鑰。 只有與您和您的共同作業人員所選&#x200B;**和**&#x200B;共同擁有的相符金鑰才會出現。
 
