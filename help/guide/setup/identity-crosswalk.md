@@ -2,7 +2,7 @@
 title: 身分識別交叉對照表
 description: 瞭解Real-Time CDP Collaboration中身分交叉通路的所有資訊，包括如何從不同來源引進身分交叉通路，以及如何管理身分交叉通路
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
@@ -58,9 +58,9 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_crosswalk_join_key"
 >title="聯結索引鍵"
->abstract="聯結索引鍵是用於比對和連結不同資料集間之記錄的唯一識別碼。可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。所選取之交叉對照表中任何欄標題都可以做為聯結索引鍵。"
+>abstract="聯結索引鍵用於比對和連結不同資料集間之記錄的唯一識別碼。可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。所選取之交叉對照表中任何欄標題都可以做為聯結索引鍵。"
 
-聯結索引鍵是用於比對和連結不同資料集間之記錄的唯一識別碼。可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。藉由選取適當的聯結索引鍵，您可以有效地合併與調解資料，進而提高行銷活動的正確性與完整性。
+聯結索引鍵用於比對和連結不同資料集間之記錄的唯一識別碼。可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。藉由選取適當的聯結索引鍵，您可以有效地合併與調解資料，進而提高行銷活動的正確性與完整性。
 
 所選取之交叉對照表中任何欄標題都可以做為聯結索引鍵。
 
