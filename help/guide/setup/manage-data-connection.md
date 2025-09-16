@@ -2,12 +2,12 @@
 title: 管理資料連線
 description: 瞭解如何在Real-Time CDP Collaboration中管理資料連線，包括比對索引鍵、排程、使用案例和對象篩選
 audience: administrator, data engineer
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="比對索引鍵"
->abstract="比對索引鍵會決定如何比對來自不同來源的資料。以下顯示的相符索引鍵是您將來源欄位對應到的目標欄位。"
+>abstract="比對索引鍵會決定如何比對來自不同來源的資料。如下所示的比對索引鍵是您將來源欄位對應到的目標欄位。"
 
 比對索引鍵是您[將來源欄位對應到](./onboard-audiences.md#map-fields)的目標欄位。 您無法編輯您最初為資料連線選取的相符金鑰。 若要更新相符金鑰，您必須建立新的資料連線。 若要深入瞭解相符金鑰的運作方式，請參閱[相符金鑰](./onboard-account.md#set-up-match-keys)指南。
 

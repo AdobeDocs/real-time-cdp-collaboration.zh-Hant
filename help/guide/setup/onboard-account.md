@@ -2,12 +2,12 @@
 title: 設定和管理您的帳戶
 description: 瞭解如何在Real-Time CDP Collaboration中設定和管理帳戶的各種層面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -61,22 +61,22 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="比對索引鍵"
->abstract="比對索引鍵是用於調解來自不同資料來源之對象設定檔的識別碼。 包括您的品牌可以使用的任何比對索引鍵。"
+>abstract="比對索引鍵是用於調和來自不同資料來源之客群輪廓的識別碼。包括您的品牌可以使用的任何比對索引鍵。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="第一方人員 ID"
->abstract="第一方人員ID （例如雜湊電子郵件地址、雜湊電話號碼或CRM ID）會直接連線至個別設定檔。"
+>abstract="第一方人員 ID (例如雜湊電子郵件、雜湊電話號碼或 CRM ID) 會直接與個體輪廓連線。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="第一方裝置 ID"
->abstract="第一方裝置ID （例如ECID或IP位址）會直接連線至裝置，而由多人共用。 IPv4 是目前唯一支援的第一方裝置 ID。"
+>abstract="第一方裝置 ID (例如 ECID 或 IP 位址) 會直接與裝置連線，這些裝置可能與數個個體共用。IPv4 是目前唯一支援的第一方裝置 ID。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="支援的合作夥伴 ID"
->abstract="合作夥伴ID是外部合作夥伴為對象調解提供的識別碼。 合作夥伴ID不會直接連線至個別設定檔。"
+>abstract="合作夥伴 ID 是外部合作夥伴提供之客群調和的識別碼。合作夥伴 ID 沒有直接與個體輪廓連線。"
 
 ![支援的相符金鑰。](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
@@ -115,7 +115,7 @@ Collaboration支援三種型別的相符金鑰：第一方人員ID、第一方�
 
 ##### 合作夥伴 ID
 
-合作夥伴ID是外部合作夥伴為對象調解提供的識別碼。 目前支援的ID為：
+合作夥伴 ID 是外部合作夥伴提供之客群調和的識別碼。目前支援的ID為：
 
 * **[!UICONTROL Adfixus ID]**
 
@@ -143,7 +143,7 @@ Collaboration支援三種型別的相符金鑰：第一方人員ID、第一方�
 
 ![反白顯示[我的帳戶]索引標籤和[編輯]選項的[設定]工作區。](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-您現在可以編輯帳戶詳細資料。 更新您要變更的任何欄位，然後選取[儲存]以確認變更。**&#x200B;**
+您現在可以編輯帳戶詳細資料。 更新您要變更的任何欄位，然後選取[儲存]以確認變更。****
 
 ![編輯帳戶詳細資料對話方塊。](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
