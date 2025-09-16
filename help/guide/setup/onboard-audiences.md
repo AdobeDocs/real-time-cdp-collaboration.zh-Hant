@@ -203,7 +203,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 
 ### 審閱
 
-在最終確定對象新增之前，請檢閱所有配置和設定。 請確定所有詳細資料均正確無誤，然後選取[完成] ****&#x200B;以完成資料連線的建立。
+在最終確定對象新增之前，請檢閱所有配置和設定。 請確定所有詳細資料均正確無誤，然後選取[完成] **&#x200B;**&#x200B;以完成資料連線的建立。
 
 ![顯示所有選取組態的新增對象工作區。](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
 
@@ -362,7 +362,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 
 ![反白顯示「編輯中繼資料可見性」選項的「我的對象」工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
 
-**[!UICONTROL 中繼資料可見性]**&#x200B;對話方塊會出現，可讓您設定所選對象的可見性設定。 依預設，不會選取任何選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。****
+**[!UICONTROL 中繼資料可見性]**&#x200B;對話方塊會出現，可讓您設定所選對象的可見性設定。 依預設，不會選取任何選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。**&#x200B;**
 
 ![顯示具有可用選項的中繼資料可見性對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
@@ -372,7 +372,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 
 ![反白顯示「編輯連線存取」選項的「我的對象」工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
 
-**[!UICONTROL 連線存取]**&#x200B;對話方塊會顯示，可讓您設定所選對象的存取設定。 預設會選取&#x200B;**[!UICONTROL 私人對象]**&#x200B;選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。****
+**[!UICONTROL 連線存取]**&#x200B;對話方塊會顯示，可讓您設定所選對象的存取設定。 預設會選取&#x200B;**[!UICONTROL 私人對象]**&#x200B;選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。**&#x200B;**
 
 ![顯示具有可用選項的[連線存取]對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
 
@@ -382,7 +382,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 
 ![反白顯示[編輯名稱和描述]選項的[我的對象]工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
 
-**[!UICONTROL 名稱和說明]**&#x200B;對話方塊會出現，讓您為每個選取的對象設定名稱和說明。 依預設，會顯示每個對象的目前名稱和說明。 進行變更，然後選取[儲存]。****
+**[!UICONTROL 名稱和說明]**&#x200B;對話方塊會出現，讓您為每個選取的對象設定名稱和說明。 依預設，會顯示每個對象的目前名稱和說明。 進行變更，然後選取[儲存]。**&#x200B;**
 
 ![顯示有可用選項的[名稱與描述]對話方塊。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
 
@@ -392,7 +392,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 
 ![反白顯示[編輯類別]選項的[我的對象]工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
 
-**[!UICONTROL 類別]**&#x200B;對話方塊會出現，允許您為每個選取的對象設定類別。 依預設，不會選取任何類別。 若要選取類別，請先選取主要類別，然後選取要包含的子類別。 進行變更，然後選取[儲存]。****
+**[!UICONTROL 類別]**&#x200B;對話方塊會出現，允許您為每個選取的對象設定類別。 依預設，不會選取任何類別。 若要選取類別，請先選取主要類別，然後選取要包含的子類別。 進行變更，然後選取[儲存]。**&#x200B;**
 
 ![顯示具有可用選項的[類別]對話方塊。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
