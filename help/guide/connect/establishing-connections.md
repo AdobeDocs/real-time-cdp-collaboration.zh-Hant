@@ -2,24 +2,52 @@
 title: 建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
-source-wordcount: '3280'
+source-wordcount: '3400'
 ht-degree: 7%
 
 ---
 
-# 建立連線
+# 建立連線 {#establishing-connections}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_compare_audiences"
+>title="比較客群"
+>abstract="比較您的對象與透過您的Amazon廣告觸及的所有消費者。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_relevant_audiences"
+>title="相關客群"
+>abstract="僅考慮Amazon曝光數，DSP鎖定對象具有最高重疊次數的區段(這些區段只能在DSP中定位)。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_resolved_ids"
+>title="已解析的 ID"
+>abstract="Amazon的身分解析能夠使用您的對象資料解析的ID數量。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
+>title="重疊的廣告曝光 ID"
+>abstract="這代表已上傳對象中也透過Amazon Ads向廣告公開的「已解決ID」數量。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlap_percentage"
+>title="重疊 %"
+>abstract="已透過Amazon Ads向廣告公開的「已解決ID」比例。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_amazon_breakdown"
+>title="依 Amazon 廣告產品劃分"
+>abstract="Amazon Ads贊助產品及/或Amazon Ads DSP達到的「重疊廣告公開ID」劃分。"
 
 {{limited-availability-release-note}}
 
 共同作業人員必須建立連線，才能共同處理行銷活動。 此連線可讓他們啟用對象、建立專案，以及執行行銷活動績效報表。
 
 系統會根據您選擇的共同作業模式來建立連線。 Collaboration支援兩種關鍵共同作業模式：廣告商對發佈商和品牌對品牌。 若要深入瞭解這些模式，請參閱[使用案例](/help/guide/overview/use-cases.md)指南。
-
-<!-- REPLACE THE LINK ABOVE WITH THE CORRECT LINK AFTER PAGE IS ESTABLISHED -->
 
 若要瞭解如何建立連線，請閱讀以下與您的共同作業模式對應的章節：
 
