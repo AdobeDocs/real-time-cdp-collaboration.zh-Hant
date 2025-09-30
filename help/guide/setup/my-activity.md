@@ -2,16 +2,21 @@
 title: 追蹤您的信用沖銷活動
 description: 瞭解如何在Real-Time CDP Collaboration中追蹤貴組織的信用消耗活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 4fc9b4e814f7392e1dfdb5847b7189d7d6e21702
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '556'
 ht-degree: 5%
 
 ---
 
-# 追蹤您的信用沖銷活動
+# 追蹤您的信用沖銷活動 {#track-credit-consumption-activity}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_my_activity"
+>title="閱讀全文"
+>abstract=""
 
 {{limited-availability-release-note}}
 
@@ -66,6 +71,6 @@ ht-degree: 5%
 
 若要有效管理您的信用沖銷，請執行下列步驟：
 
-1. **瞭解**&#x200B;與每個活動相關的信用耗用量。 檢查[Collaboration產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}，取得每個活動使用的積分表。
+1. **瞭解**&#x200B;與每個活動相關的信用耗用量。 檢查[Collaboration產品說明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}，取得每個活動使用的積分表。
 2. **定期監視**：請經常檢查您的活動儀表板，以瞭解使用模式。
 3. **依連線追蹤**：使用連線名稱來識別哪些連線使用最多積分。

@@ -2,11 +2,11 @@
 title: Source和管理對象
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中取得和管理對象
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '3508'
+source-wordcount: '3502'
 ht-degree: 16%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 16%
 >title="行銷動作"
 >abstract="<p>使用行銷動作來控制要從 Experience Platform 匯入哪一些客群資料到 Real-Time CDP Collaboration。<strong>資料共同作業</strong>行銷動作支援 C4、C5 和 C9 資料使用情況標籤。<strong>資料科學</strong>行銷動作支援 C9 資料使用情況標籤。</p> <p> <ul><li> 核取方塊<em>啟用</em>後，Experience Platform 中標有上述標籤的任何資料都將被排除，並且<strong>不會</strong>帶入 Real-Time CDP Collaboration 中。</li><li> 核取方塊<em>停用</em>後，在 Real-Time CDP Collaboration 中將 Experience Platform 的資料當成來源時，沒有任何限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hant" text="資料使用標籤概觀"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant" text="資料使用標籤字彙表"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="資料使用標籤字彙表"
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ ht-degree: 16%
 
 使用行銷動作來控制要從Experience Platform將哪些對象資料帶入Collaboration。 **[!UICONTROL 資料共同作業]**&#x200B;行銷動作支援 C4、C5 和 C9 資料使用情況標籤。**[!UICONTROL 資料科學]**&#x200B;行銷動作支援 C9 資料使用情況標籤。
 
-深入瞭解[C4、C5和C9資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+深入瞭解[C4、C5和C9資料使用標籤](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
 * 當核取方塊為&#x200B;***已啟用***&#x200B;時，Experience Platform中如上所述標示的任何資料都會被排除，且&#x200B;**不會**&#x200B;帶入Collaboration。
 * 核取方塊&#x200B;***已停用***，對來自Experience Platform的資料沒有限制。
@@ -125,13 +125,13 @@ ht-degree: 16%
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身分識別命名空間"
 >abstract="從 Experience Platform 組織中可用的標準和自訂身分識別命名空間中，選取一個身分識別命名空間。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hant#standard" text="Experience Platform 中的標準和身分識別命名空間"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的標準和身分識別命名空間"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="輪廓屬性"
 >abstract="從聯集結構中選取 Experience Platform 輪廓類別屬性。此視圖會顯示存在於聯集結構中，且屬於 XDM 個體輪廓類別的屬性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hant" text="Experience Platform 中的聯集結構"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的聯集結構"
 
 接下來，您將選取來源欄位，以對應至Collaboration中的目標欄位。 可用的目標欄位將根據您在帳戶設定期間選取的相符金鑰。
 
@@ -147,7 +147,7 @@ ht-degree: 16%
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source欄位]**&#x200B;是來自Experience Platform的身分名稱空間和屬性。 這些包含[標準](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hant#standard){target="_blank"}和[自訂](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hant#create-namespaces){target="_blank"}身分識別名稱空間。 它們也包含存在於[聯合結構描述](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hant){target="_blank"}中且屬於XDM個別設定檔類別的設定檔屬性。
+**[!UICONTROL Source欄位]**&#x200B;是來自Experience Platform的身分名稱空間和屬性。 這些包含[標準](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"}和[自訂](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}身分識別名稱空間。 它們也包含存在於[聯合結構描述](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"}中且屬於XDM個別設定檔類別的設定檔屬性。
 
 Source欄位會對應至Collaboration中定義的目標欄位。
 
@@ -203,7 +203,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 
 ### 審閱
 
-在最終確定對象新增之前，請檢閱所有配置和設定。 請確定所有詳細資料均正確無誤，然後選取[完成] **&#x200B;**&#x200B;以完成資料連線的建立。
+在最終確定對象新增之前，請檢閱所有配置和設定。 請確定所有詳細資料均正確無誤，然後選取[完成] ****&#x200B;以完成資料連線的建立。
 
 ![顯示所有選取組態的新增對象工作區。](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
 
@@ -290,7 +290,6 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 
 **[!UICONTROL 類別]**&#x200B;對話方塊將會顯示，允許您選取要新增至對象的類別。 若要選取個別類別，請選取類別名稱旁的核取方塊。
 
-![顯示具有可用類別的[類別]對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png){zoomable="yes"}
 
 #### 連線存取權 {#connection-access}
 
@@ -298,6 +297,11 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="連線存取權"
 >abstract="<p>客群可以分為三種類型：公開、私人和自訂。</p><p> 與協作者合作的專案是否可以使用這些客群，取決於連線存取權設定。</p>"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_access"
+>title="閱讀全文"
+>abstract=""
 
 和共同作業人員一起使用的專案中，對象的可用性會因連線存取設定而異。 在&#x200B;**[!UICONTROL 連線存取]**&#x200B;區段中，您可以選取對象應為私人、公開或僅適用於特定連線。 公開對象在連線中可供使用且可探索。
 
@@ -362,7 +366,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 
 ![反白顯示「編輯中繼資料可見性」選項的「我的對象」工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
 
-**[!UICONTROL 中繼資料可見性]**&#x200B;對話方塊會出現，可讓您設定所選對象的可見性設定。 依預設，不會選取任何選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 中繼資料可見性]**&#x200B;對話方塊會出現，可讓您設定所選對象的可見性設定。 依預設，不會選取任何選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。****
 
 ![顯示具有可用選項的中繼資料可見性對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
@@ -372,7 +376,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 
 ![反白顯示「編輯連線存取」選項的「我的對象」工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
 
-**[!UICONTROL 連線存取]**&#x200B;對話方塊會顯示，可讓您設定所選對象的存取設定。 預設會選取&#x200B;**[!UICONTROL 私人對象]**&#x200B;選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 連線存取]**&#x200B;對話方塊會顯示，可讓您設定所選對象的存取設定。 預設會選取&#x200B;**[!UICONTROL 私人對象]**&#x200B;選項。 選擇要套用至所有選取對象的選項，然後選取[儲存]。****
 
 ![顯示具有可用選項的[連線存取]對話方塊。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
 
@@ -382,7 +386,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 
 ![反白顯示[編輯名稱和描述]選項的[我的對象]工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
 
-**[!UICONTROL 名稱和說明]**&#x200B;對話方塊會出現，讓您為每個選取的對象設定名稱和說明。 依預設，會顯示每個對象的目前名稱和說明。 進行變更，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 名稱和說明]**&#x200B;對話方塊會出現，讓您為每個選取的對象設定名稱和說明。 依預設，會顯示每個對象的目前名稱和說明。 進行變更，然後選取[儲存]。****
 
 ![顯示有可用選項的[名稱與描述]對話方塊。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
 
@@ -392,7 +396,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 
 ![反白顯示[編輯類別]選項的[我的對象]工作區。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
 
-**[!UICONTROL 類別]**&#x200B;對話方塊會出現，允許您為每個選取的對象設定類別。 依預設，不會選取任何類別。 若要選取類別，請先選取主要類別，然後選取要包含的子類別。 進行變更，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 類別]**&#x200B;對話方塊會出現，允許您為每個選取的對象設定類別。 依預設，不會選取任何類別。 若要選取類別，請先選取主要類別，然後選取要包含的子類別。 進行變更，然後選取[儲存]。****
 
 ![顯示具有可用選項的[類別]對話方塊。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
