@@ -2,7 +2,7 @@
 title: 探索協作者
 description: 作為廣告商，瞭解如何使用Adobe Real-Time CDP Collaboration探索潛在的共同作業人員
 audience: admin, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 source-git-commit: ae35f62580ff3d0485dcf99f3638f68d21cc38a2
 workflow-type: tm+mt
