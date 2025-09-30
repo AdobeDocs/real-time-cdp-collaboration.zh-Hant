@@ -2,9 +2,9 @@
 title: 建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
+source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
 ht-degree: 7%
@@ -58,13 +58,13 @@ ht-degree: 7%
 
 ![廣告商 — 發佈商連線程式的高階圖表。](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-在廣告商對發佈者模式中，廣告商會透過&#x200B;**[!UICONTROL Discover publishers]**&#x200B;工作區發現他們想要使用的發佈者，並傳送連線邀請。 發佈者接著會稽核並接受邀請，允許廣告商提出連線設定。 發佈者接受連線設定後，連線就會建立，兩個共同作業人員就可以開始一起處理專案。
+在廣告商對發佈者模式中，廣告商會透過&#x200B;**[!UICONTROL 探索共同作業人員]**&#x200B;工作區發現他們想要合作的發佈者，並傳送連線邀請。 發佈者接著會稽核並接受邀請，允許廣告商提出連線設定。 發佈者接受連線設定後，連線就會建立，兩個共同作業人員就可以開始一起處理專案。
 
 ### 高層級概觀
 
 若要在廣告商與發佈商之間建立連線，需執行下列步驟：
 
-1. [探索發行者](#discover-publishers)：廣告商會識別可與其合作的潛在發行者。
+1. [探索發佈者](#discover-collaborators)：廣告商可識別要合作的潛在共同作業人員。
 1. [傳送邀請](#send-invite)：廣告商傳送連線邀請給選取的發行者。
 1. [接受邀請](#accept-invite)：發行者稽核並接受邀請。
 1. [設定連線設定](#configure-connection-settings)：廣告商會設定連線設定，並將設定傳送給發佈者進行稽核。
@@ -108,25 +108,25 @@ ht-degree: 7%
 
 **[!UICONTROL 連線]**&#x200B;工作區可讓您管理與共同作業人員的連線、傳送連線邀請，以及廣告商可瀏覽發佈者目錄。 工作區分為兩個主要標籤：
 
-### 探索發佈者 {#discover-publishers}
+### 探索協作者 {#discover-collaborators}
 
 >[!IMPORTANT]
 >
->只有廣告商可以使用&#x200B;**[!UICONTROL Discover publishers]**&#x200B;工作區來探索發佈者。 若要瞭解如何與共同作業人員連線，而不論其角色為何，請閱讀[品牌對品牌連線](#brand-to-brand-connection)區段。
+>只有廣告商可以使用&#x200B;**[!UICONTROL 探索共同作業人員]**&#x200B;工作區來探索發佈者。 若要瞭解如何與共同作業人員連線，而不論其角色為何，請閱讀[品牌對品牌連線](#brand-to-brand-connection)區段。
 
-若要探索發行者，請瀏覽至&#x200B;**[!UICONTROL 連線]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL 探索發行者]**&#x200B;工作區。 在這裡，您可以使用工作區底部的分頁控制項，瀏覽可用的發佈者清單。 若要深入瞭解&#x200B;**[!UICONTROL Discover發行者]**&#x200B;工作區，請參閱[Discover發行者](/help/guide/connect/discover-publishers.md)指南。
+若要探索發行者，請瀏覽至&#x200B;**[!UICONTROL 連線]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL 探索共同作業人員]**&#x200B;工作區。 在這裡，您可以使用工作區底部的分頁控制項，瀏覽可用的發佈者清單。 若要深入瞭解&#x200B;**[!UICONTROL 探索共同作業人員]**&#x200B;工作區，請參閱[探索共同作業人員](/help/guide/connect/discover-collaborators.md)指南。
 
-![Discover發行者工作區顯示可用的發行者清單。](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
+![探索共同作業人員工作區顯示可用的發行者清單。](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
 
 ### 傳送邀請 {#send-invite}
 
 >[!IMPORTANT]
 >
->本節說明廣告商透過&#x200B;**[!UICONTROL Discover publishers]**&#x200B;工作區傳送連線邀請給發佈者的程式。 若要瞭解如何在品牌之間建立連線，而不論其角色為何，請閱讀[品牌對品牌連線](#brand-to-brand-connection)區段或造訪[私人連線邀請](#private-connection-invite)區段。
+>本節說明廣告商透過&#x200B;**[!UICONTROL 探索共同作業人員]**&#x200B;工作區傳送連線邀請給發佈者的程式。 若要瞭解如何在品牌之間建立連線，而不論其角色為何，請閱讀[品牌對品牌連線](#brand-to-brand-connection)區段或造訪[私人連線邀請](#private-connection-invite)區段。
 
 識別要共同作業的發行者後，請選取發行者卡片上的&#x200B;**[!UICONTROL 連線]**&#x200B;選項。 這個動作會啟動連線程式。
 
-![在Discover發行者工作區中的特定發行者上反白顯示[連線]選項。](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![在Discover共同作業人員工作區的特定發行者上反白顯示[連線]選項。](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 會出現一個對話方塊，提示您傳送連線邀請給發行者。 選取&#x200B;**[!UICONTROL 傳送邀請]**&#x200B;以繼續。
 

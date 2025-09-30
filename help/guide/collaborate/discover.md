@@ -2,11 +2,11 @@
 title: 探索重疊並比較對象
 description: 探索您和共同作業人員的對象之間的重疊。 瞭解如何探索最佳對象，以用於您的行銷活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
+source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2069'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 17%
 | **[!UICONTROL 重疊的身分]** | 您的和共同作業人員的對象中同時存在的唯一ID數量。 |
 | **[!UICONTROL 重疊%]** | 您和您的協作者所選客群間的輪廓重疊百分比。 |
 | **[!UICONTROL 對象索引]** | 根據基礎受眾計數和重疊來指出一個受眾與另一個受眾之間關聯程度的分數。 若要深入瞭解分數涵義，請閱讀[對象索引分數](#audience-index-score)區段。 與共同作業人員的基準（所有對象）進行比較時，無法使用對象索引分數。 |
-| **[!UICONTROL 依比對索引鍵劃分的身分]** | 根據每個共同作業人員的選取對象，專案中選擇的每個相符索引鍵的識別項劃分。 |
+| **[!UICONTROL 依比對索引鍵劃分的身分]** | 根據每個共同作業人員的選取對象，針對專案中選取的每個相符金鑰所比對的身分細目。 |
 
 {style="table-layout:auto"}
 
@@ -144,7 +144,7 @@ ht-degree: 17%
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 
