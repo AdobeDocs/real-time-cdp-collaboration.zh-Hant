@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration可讓廣告商與發佈商之間順暢且安全的資料共用及共同作業，促進即時受眾深入分析和個人化行銷策略。
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: db2eb6d124fd05523ad65872bcd12078b9809ddc
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 35%
+source-wordcount: '139'
+ht-degree: 33%
 
 ---
 
@@ -30,13 +30,22 @@ ht-degree: 35%
    * [新增及管理測量資料](./setup/onboard-measurement-data.md)
    * [稽核記錄](./setup/audit-logs.md)
 * 建立連線 {#connect}
+   * [Overview.md](./connect/overview.md)
    * [探索協作者](./connect/discover-collaborators.md)
-   * [建立連線](./connect/establishing-connections.md)
+   * [建立共同作業人員連線](./connect/establishing-connections.md)
+   * [管理連線](./connect/manage-connections.md)
+   * Advertising平台連線 {#ad-platform-connections}
+      * [概觀](./connect/advertising-platforms/overview.md)
+      * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 協作 {#collaborate}
+   * [概觀](./collaborate/overview.md)
    * [管理專案](./collaborate/manage-projects.md)
-   * [探索](./collaborate/discover.md)
-   * [啟動](./collaborate/activate.md)
-   * [衡量](./collaborate/measure.md)
+   * 共同作業人員連線 {#collaborator-connections}
+      * [探索](./collaborate/discover.md)
+      * [啟動](./collaborate/activate.md)
+      * [衡量](./collaborate/measure.md)
+   * Advertising平台連線 {#ad-platform-connections}
+      * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
 * 目標 {#destinations}
    * [概觀](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)

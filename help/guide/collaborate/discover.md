@@ -2,11 +2,11 @@
 title: 探索重疊並比較對象
 description: 探索您和共同作業人員的對象之間的重疊。 瞭解如何探索最佳對象，以用於您的行銷活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2107'
 ht-degree: 17%
 
 ---
@@ -42,6 +42,10 @@ ht-degree: 17%
 * [已建立您與共同作業人員之間的專案](/help/guide/collaborate/manage-projects.md)
 
 在滿足這些先決條件後，您就可以開始探索和比較您與共同作業人員的對象之間的重疊。
+
+>[!NOTE]
+>
+>此&#x200B;**[!UICONTROL Discover]**&#x200B;工作區與廣告平台的共同作業無關。 目前，Amazon Marketing Cloud是Real-Time CDP Collaboration中唯一可用的廣告平台。 如需[!DNL AMC] **[!UICONTROL 探索]**&#x200B;工作區的詳細資訊，請閱讀[Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)指南。
 
 ## 比較客群 {#compare-audiences}
 
@@ -144,7 +148,7 @@ ht-degree: 17%
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 

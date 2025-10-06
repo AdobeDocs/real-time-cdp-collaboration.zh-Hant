@@ -2,12 +2,12 @@
 title: 建立和管理專案
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中建立和管理專案
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 9%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
@@ -55,13 +55,3 @@ ht-degree: 9%
 您現在可以根據連線設定期間選取的使用案例，檢視您的新專案、其詳細資料和可用區段。
 
 ![專案概述工作區。](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
-
-## 專案使用案例 {#project-use-cases}
-
-專案概述會顯示連線設定期間選取的使用案例。 這些使用案例定義了專案中可用的功能。 使用案例包括：
-
-| 使用案例 | 專案區段 |
-| --- | --- |
-| 行銷活動衡量 | 此使用案例授予[量值](/help/guide/collaborate/measure.md)區段的存取權以及所有可用的功能。 |
-| 客群探索 | 此使用案例授予[探索](/help/guide/collaborate/discover.md)區段的存取權以及所有可用的功能。 |
-| Audience Activation | 此使用案例授予[啟用](/help/guide/collaborate/activate.md)區段的存取權以及所有可用的功能。 |

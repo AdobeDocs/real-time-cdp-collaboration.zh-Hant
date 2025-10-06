@@ -2,11 +2,11 @@
 title: 端對端工作流程
 description: 根據您的共同作業模式，瞭解使用Real-Time CDP Collaboration的端對端工作流程。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: 5c08738cdc8e1e208203ee1f9a1cf1891b5b07cb
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -60,3 +60,15 @@ ht-degree: 0%
 [!UICONTROL Fit Apparel]和[!UICONTROL Luma]都可以使用[Discover](../collaborate/discover.md)使用案例來深入瞭解彼此的對象資料。 一旦他們識別出有價值的受眾區段，就會[啟用](../collaborate/activate.md)他們為行銷活動選擇的受眾。
 
 最後，在執行其行銷活動後，兩個品牌都會上傳資料至[測量](../collaborate/measure.md)結果，並評估其共同作業的成效。
+
+## 廣告商對廣告平台工作流程 {#advertiser-to-advertising-platform-workflow}
+
+[!UICONTROL Luma]，一家運動零售公司，想要與[!DNL Amazon Marketing Cloud] ([!DNL AMC])連線，以利用[!DNL AMC]的身分解析度和目標定位工具來增強其行銷能力。 Luma已有使用中的[!DNL Amazon Advertising]帳戶，且已核准使用[!DNL AMC]。
+
+若要開始，[!UICONTROL Luma]需要以廣告商角色[建立帳戶](../setup/onboard-account.md)。 建立帳戶之後，[!UICONTROL Luma]必須[建立資料連線和來源對象](../setup/onboard-audiences.md)。 由於[!UICONTROL Luma]會針對行銷活動啟用對象，因此他們需要[設定目的地](../setup/manage-destinations.md)。
+
+在[!UICONTROL Luma]設定好帳戶後，他們便已準備好在平台內[與](../connect/establishing-connections.md)建立連線[!DNL AMC]。 [!UICONTROL Luma]使用[探索共同作業人員](../connect/discover-collaborators.md)功能尋找[!UICONTROL Amazon Marketing Cloud]並[起始連線要求](../connect/advertising-platforms/amc.md)。 透過[!DNL Amazon]登入頁面驗證並授權連線後，已建立與[!DNL AMC]的連線。
+
+建立連線之後，[!UICONTROL Luma] [會建立專案](../collaborate/manage-projects.md)以開始他們與[!DNL AMC]的協同合作。 連線設定（包括使用案例）會根據廣告平台進行預先設定。 針對[!DNL AMC]，可用的使用案例是[探索](../collaborate/advertising-platforms/amc.md#discover)。
+
+[!UICONTROL Luma]利用[Discover](../collaborate/advertising-platforms/amc.md#discover)使用案例從[!DNL AMC]取得深入分析和對象資料。 使用這些深入分析，[!UICONTROL Luma]可以最佳化行銷策略，並提高行銷活動的成效。

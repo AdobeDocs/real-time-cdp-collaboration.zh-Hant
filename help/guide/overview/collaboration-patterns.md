@@ -2,10 +2,11 @@
 title: Adobe Real-Time CDP Collaboration中的共同作業模式。
 description: 瞭解Adobe Real-Time CDP Collaboration中的兩種共同作業模式
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1bb3bec20b5e43d5c3a0c7182af74f4203f3c1cd
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
+source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Adobe Real-Time CDP Collaboration中的Collaboration模式是定義共同作業�
 
 若要深入瞭解廣告商與發佈商之間的差異，請閱讀[角色](/help/guide/overview/roles.md)指南。
 
-## 廣告商對發佈商
+## 廣告商對發佈商 {#advertiser-to-publisher}
 
 在廣告商對發佈商的合作模式中，廣告商旨在定位和測量與發佈商相關的受眾。 此模式可讓廣告商運用發佈商受眾來增強其目標定位功能，而發佈商可提供受眾行為和偏好設定的寶貴見解。 廣告商可在適當的時間觸及適當的對象，進而最佳化其促銷活動，而發佈商則可存取廣告商資料，如此可協助他們更瞭解對象，進而改善其內容供應專案。
 
@@ -26,7 +27,7 @@ Adobe Real-Time CDP Collaboration中的Collaboration模式是定義共同作業�
 
 若要進一步瞭解廣告商和發佈商如何以這種模式共同作業，請閱讀[端對端工作流程](/help/guide/overview/end-to-end-workflow.md)指南。
 
-## 品牌對品牌
+## 品牌對品牌 {#brand-to-brand}
 
 >[!NOTE]
 >
@@ -37,3 +38,11 @@ Adobe Real-Time CDP Collaboration中的Collaboration模式是定義共同作業�
 ![品牌對品牌共同作業的範例。](/help/assets/overview/brand-to-brand.png)
 
 若要進一步瞭解品牌如何以這種模式共同作業，請閱讀[端對端工作流程](/help/guide/overview/end-to-end-workflow.md)指南。
+
+## 廣告商對廣告平台 {#advertiser-to-advertising-platform}
+
+廣告商對廣告平台的共同作業模式可讓廣告商與協力廠商廣告平台(例如[!DNL Amazon Marketing Cloud] ([!DNL AMC]))連線，以增強其行銷功能。 此模式可讓廣告商運用平台的身分解析度和目標定位工具，擴大其資料的影響。 廣告商可與廣告平台整合，為不同受眾提供精確的成效分析，協助他們最佳化支出、提升關聯性，並帶來可衡量的業務成果。
+
+![廣告商對廣告平台共同作業的範例。](/help/assets/overview/advertiser-to-advertising-platform.png)
+
+若要進一步瞭解廣告商如何以這種模式與廣告平台共同作業，請閱讀[端對端工作流程](/help/guide/overview/end-to-end-workflow.md)指南。

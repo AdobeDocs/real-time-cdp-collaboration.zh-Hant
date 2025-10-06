@@ -1,47 +1,17 @@
 ---
-title: 建立連線
+title: 與共同作業人員建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 7%
+source-wordcount: '2812'
+ht-degree: 8%
 
 ---
 
-# 建立連線 {#establishing-connections}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_compare_audiences"
->title="比較客群"
->abstract="比較您的對象與透過您的Amazon廣告觸及的所有消費者。"
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_relevant_audiences"
->title="相關客群"
->abstract="僅考慮Amazon曝光數，DSP鎖定對象具有最高重疊次數的區段(這些區段只能在DSP中定位)。"
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_resolved_ids"
->title="已解析的 ID"
->abstract="Amazon的身分解析能夠使用您的對象資料解析的ID數量。"
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="重疊的廣告曝光 ID"
->abstract="這代表已上傳對象中也透過Amazon Ads向廣告公開的「已解決ID」數量。"
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlap_percentage"
->title="重疊 %"
->abstract="已透過Amazon Ads向廣告公開的「已解決ID」比例。"
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="依 Amazon 廣告產品劃分"
->abstract="Amazon Ads贊助產品及/或Amazon Ads DSP達到的「重疊廣告公開ID」劃分。"
+# 與共同作業人員建立連線 {#establishing-connections}
 
 {{limited-availability-release-note}}
 
@@ -78,31 +48,7 @@ ht-degree: 7%
 
 >[!TIP]
 >
->術語&#x200B;**品牌**&#x200B;是用來指代Collaboration以外的公司或品牌。 術語&#x200B;**共同作業人員**&#x200B;是指任何可以在Collaboration中建立連線的帳戶，無論其是否為廣告商或發佈者。
-
-在品牌對品牌模式中，在產品外部溝通的兩個品牌，可以使用[私人連線邀請](#private-connection-invite)直接在Collaboration中連線。 品牌可以是廣告商或發佈者。 對於不符合傳統廣告商 — 發佈商模式的品牌（例如兩個廣告商或兩個發佈商），此模式特別實用。
-
-共同作業人員若要開始，會傳送私人連線邀請給其他共同作業人員。 收件者會檢閱邀請並接受邀請，允許擁有者提出連線設定。 一旦收件者接受連線設定，連線就會建立，而且共同作業人員可以開始一起處理專案。
-
-### 高層級概觀
-
->[!TIP]
->
->討論連線程式時，**所有者**&#x200B;和&#x200B;**收件者**&#x200B;之間會有區別。 擁有者是透過傳送邀請來啟動連線的共同作業人員，而收件者是接收及檢閱邀請的共同作業人員。
-
-兩個品牌之間的連線程式涉及幾個步驟。 在連線程式開始之前，必須滿足幾個先決條件：
-
-1. 兩個品牌在產品外部溝通，討論可能的連線。
-1. 品牌[在Collaboration中建立帳戶](/help/guide/setup/onboard-account.md) （如果尚未建立），請務必選取適當的角色型別（廣告商或發佈商）。
-
-   滿足先決條件後，即可開始連線程式。 下列步驟概述此程式：
-
-1. [傳送私人連線邀請](#send-private-connection-invite)：一個共同作業人員傳送私人連線邀請給另一個共同作業人員。
-1. [接受私人連線邀請](#accept-private-connection-invite)：收件者檢閱並接受私人連線邀請。
-1. [設定連線設定](#configure-connection-settings)：擁有者設定連線設定，並將設定傳送給收件者進行檢閱和接受。
-1. [確認連線設定](#establish-connection)：收件者會檢閱連線設定，然後接受或拒絕連線設定。
-
-接受連線設定後，連線即建立，共同作業人員已準備好[建立專案](/help/guide/collaborate/manage-projects.md#create-project)以開始共同作業行銷活動。
+>本指南說明廣告商對發佈商和品牌對品牌共同作業模式的連線程式。 若要瞭解如何與廣告平台連線，請參閱[連線總覽](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)指南中的[廣告商與廣告平台連線](/help/guide/connect/overview.md)區段。
 
 ## CONNECT {#connect}
 
@@ -356,26 +302,6 @@ ht-degree: 7%
 > 接受連線設定後，您將無法再新增或編輯廣告商名稱。
 
 接著，選取&#x200B;**[!UICONTROL 接受]**&#x200B;以繼續連線。 連線狀態將變更為&#x200B;**[!UICONTROL 作用中]**，您現在可以開始共同作業專案。
-
-## 刪除連線 {#delete-connections}
-
-您可以刪除與共同作業人員之間不想繼續使用的任何連線。 若要刪除現有的連線，請瀏覽至&#x200B;**[!UICONTROL 連線]**。 您的現有連線身為發佈者，將會顯示出來。 身為廣告商，您應該導覽至&#x200B;**[!UICONTROL 我的連線]**。
-
-在您要刪除的連線卡上選取&#x200B;**[!UICONTROL 檢視連線]**。
-
-![[我的連線]檢視中反白顯示的[檢視]連線選項。](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
-
-選取連線工作區中的刪除圖示![刪除圖示](/help/assets/common/delete.svg)以刪除連線。
-
-![連線工作區中反白顯示的刪除圖示。](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
-
-確認對話方塊會出現，要求您確認刪除連線。 選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認刪除。
-
-![刪除連線的確認對話方塊。](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
-
->[!WARNING]
->
->刪除連線後，共同作業中的所有現有專案將會永久刪除且無法復原。 連線要求將維持擱置狀態，但連線及其設定將不再有效。 如果您想要再次與共同作業人員連線，則需要重新建立連線。
 
 ## 後續步驟
 
