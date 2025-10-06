@@ -2,7 +2,7 @@
 title: 管理連線
 description: 瞭解如何在Real-Time CDP Collaboration中管理連線。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: d6f0c5add0c0c69e5aed36cef77630ed5f7d1908
 workflow-type: tm+mt
 source-wordcount: '326'
