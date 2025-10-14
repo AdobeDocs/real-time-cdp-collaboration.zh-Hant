@@ -23,7 +23,7 @@ ht-degree: 2%
 
 若要探索共同作業人員，請前往&#x200B;**[!UICONTROL 連線]** > **[!UICONTROL 探索共同作業人員]**&#x200B;標籤。
 
-![ [!UICONTROL 連線]工作區中的[!UICONTROL 探索共同作業人員]儀表板。](/help/assets/connect/discover-collaborators/discover-collaborators.png){zoomable="yes"}
+![&#x200B; [!UICONTROL 連線]工作區中的[!UICONTROL 探索共同作業人員]儀表板。](/help/assets/connect/discover-collaborators/discover-collaborators.png){zoomable="yes"}
 
 選取&#x200B;**[!UICONTROL 檢視發行者]**&#x200B;以進一步瞭解發行者。 您也可以檢視和檢查發行者[設定為public](/help/guide/setup/onboard-audiences.md#metadata-visibility)的任何對象。
 
