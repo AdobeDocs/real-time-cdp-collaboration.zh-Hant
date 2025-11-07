@@ -2,14 +2,14 @@
 title: 新增及管理測量資料
 description: 瞭解如何將測量資料新增至Adobe Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: 65468fdc8787acc6a92f4c2368758437df47d526
+source-git-commit: 26a2f8975efcadd43431823e0f2dd90847aa83ba
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 9%
+source-wordcount: '108'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,16 @@ ht-degree: 9%
 >id="rtcdp_collaboration_measurement_data_source_fields"
 >title="來源欄位"
 >abstract="測量來源欄位的預留位置。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_measurement_mapping_source_fields"
+>title="對應來源欄位"
+>abstract="來源欄位測量對應的預留位置。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_measurement_mapping_target_fields"
+>title="對應目標欄位"
+>abstract="目標欄位測量對應的預留位置。"
 
 {{limited-availability-release-note}}
 
