@@ -2,12 +2,12 @@
 title: 建立和管理專案
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中建立和管理專案
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
+source-git-commit: 99443e1270a8a52a44dc7d0258c5bee7e4017db6
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 8%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -28,6 +28,11 @@ ht-degree: 8%
 ![使用單一共同作業人員的專案篩選檢視。](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## 建立專案 {#create-project}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_create_project_advertisername_amc"
+>title="廣告商名稱(Amazon Marketing Cloud)"
+>abstract="對於Amazon Marketing Cloud (AMC)連線，此欄位代表您的Amazon Ads登入有權存取的AMC執行個體。 它不會反映廣告商名稱。 如果未列出必要的例項，請聯絡您的Amazon Marketing Cloud管理員以要求存取權。"
 
 若要建立專案，您必須先與共同作業人員[建立連線](/help/guide/connect/establishing-connections.md)。 建立連線後，您可以與該共同作業人員建立專案。
 
