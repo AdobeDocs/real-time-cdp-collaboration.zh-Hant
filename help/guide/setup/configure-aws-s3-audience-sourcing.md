@@ -197,7 +197,7 @@ ht-degree: 1%
 
 在共同作業專案中使用對象之前，使用此檢視來確認對象組態和可見度設定。
 
-請參閱[檢視對象儀表板檔案](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)以瞭解更多資訊。
+請參閱[檢視對象儀表板檔案](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)以瞭解更多資訊。
 
 ## 檢視您的S3資料連線 {#view-s3-connection}
 
