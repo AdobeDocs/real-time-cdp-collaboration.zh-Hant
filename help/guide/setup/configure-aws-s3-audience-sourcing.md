@@ -101,7 +101,7 @@ ht-degree: 1%
 
 接下來，提供您的[!DNL Amazon S3]認證，以將您的S3貯體連線至Collaboration。
 
-請依照&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**&#x200B;中概述的步驟，將Adobe存取權授予
+請依照&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**中概述的步驟，將Adobe存取權授予
 [!DNL Amazon S3]儲存空間。 完成後，將您的值輸入到以下UI欄位中：
 
 * IAM 角色
@@ -197,7 +197,7 @@ ht-degree: 1%
 
 在共同作業專案中使用對象之前，使用此檢視來確認對象組態和可見度設定。
 
-請參閱[檢視對象儀表板檔案](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)以瞭解更多資訊。
+請參閱[檢視對象儀表板檔案](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)以瞭解更多資訊。
 
 ## 檢視您的S3資料連線 {#view-s3-connection}
 
