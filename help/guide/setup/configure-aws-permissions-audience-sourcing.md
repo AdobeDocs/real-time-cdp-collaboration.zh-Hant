@@ -1,10 +1,10 @@
 ---
 title: 設定Audience Sourcing的AWS許可權
 description: 瞭解如何設定AWS Identity and Access Management (IAM)許可權，以授予Adobe對您的 [!DNL Amazon S3] 貯體的安全、唯讀存取權，用於Real-Time CDP Collaboration中的受眾來源。
-source-git-commit: 4f223890dabb4897c9e9264655ff9217e323dc91
+source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 0%
+source-wordcount: '650'
+ht-degree: 1%
 
 ---
 
@@ -94,6 +94,7 @@ ht-degree: 0%
 |---------|-------------------|
 | 北美 | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-va6-role` |
 | 澳洲 | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-aus3-role` |
+| 歐洲、中東和非洲地區 | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-deu1-role` |
 
 信任原則範例：
 
