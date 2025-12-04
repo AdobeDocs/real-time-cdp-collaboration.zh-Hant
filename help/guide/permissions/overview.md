@@ -2,9 +2,9 @@
 title: 存取控制總覽
 description: 瞭解如何取得Adobe Real-Time Customer Data Platform (CDP) Collaboration的存取權。
 audience: admin
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 2%
@@ -28,14 +28,14 @@ Adobe Real-Time CDP Collaboration的存取控制是透過[Adobe Experience Cloud
 這些指南將說明如何為系統管理員、產品管理員和一般使用者設定存取權。 請參閱下表以瞭解角色之間的主要差異。
 
 | 角色 | 說明 |
-| --- | --- | 
+| --- | --- |
 | 系統管理員 | 組織的超級使用者。 他們可以在Admin Console中執行所有管理任務，並有權將管理功能委派給其他使用者。 |
 | 產品管理員 | 管理指派給它們的產品及所有相關的管理功能，例如將使用者新增至組織、在產品設定檔中新增或移除使用者，以及在產品中新增或移除其他產品管理員。 |
 | 一般使用者 | 您組織中使用該產品的使用者。 |
 
 {style="table-layout:auto"}
 
-如需有關管理角色的詳細資訊，請造訪[Adobe說明中心](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html)。
+如需有關管理角色的詳細資訊，請造訪[Adobe說明中心](https://helpx.adobe.com/enterprise/using/admin-roles.html)。
 
 >[!TIP]
 >
@@ -65,7 +65,7 @@ Adobe Real-Time CDP Collaboration的存取控制是透過[Adobe Experience Cloud
 > 超級使用者是指系統管理員可取得的最高層級存取權。 超級使用者可以執行所有管理工作和使用者功能。 系統管理員沒有現成可用的產品功能，因此需要授予自己適當的存取權，如下圖所示。
 
 | 使用案例 | 必要的角色 | 從何處開始 |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 沒有現有Experience Platform產品存取權的超級使用者。 | 系統管理員。 | [設定產品管理員存取權](./manage-user-access.md#admin-access) |
 | 擁有&#x200B;**Experience Platform UI存取權的現有Experience Platform系統管理員**&#x200B;的超級使用者。 | 系統管理員。 | [設定Collaboration存取權](./manage-user-access.md#RTCDP-collab-access) |
 | 現有Experience Platform系統管理員&#x200B;**的超級使用者，無** Experience Platform UI存取權。 | 系統管理員。 | [設定產品管理員存取權](./manage-user-access.md#admin-access) |
