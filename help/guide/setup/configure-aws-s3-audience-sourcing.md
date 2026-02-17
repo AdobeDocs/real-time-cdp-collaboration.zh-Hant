@@ -1,7 +1,8 @@
 ---
 title: 設定 [!DNL Amazon S3] 以取得對象來源
 description: 瞭解如何設定並連線您的 [!DNL Amazon S3] 儲存裝置作為自助資料來源，以將對象資料擷取到Real-Time CDP Collaboration。
-source-git-commit: 7a2bfb524d77d42690f3abe848a59aae5b16b667
+exl-id: 566ceb1b-a72a-413d-b07d-409723892616
+source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 1%
@@ -27,7 +28,7 @@ ht-degree: 1%
 
 在設定S3資料連線之前，請確定下列事項：
 
-* 您可以存取包含符合&#x200B;**[!DNL Amazon S3]對象來源規格(v1.1)**&#x200B;之對象檔案的有效&#x200B;**[貯體](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)**。
+* 您可以存取包含符合&#x200B;**[!DNL Amazon S3]對象來源規格(v1.1)**&#x200B;之對象檔案的有效&#x200B;**[貯體](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**。
 * 您已在AWS中建立&#x200B;**IAM角色**，授予Adobe使用&#x200B;**假設的角色**&#x200B;方法（非存取/密碼金鑰）存取貯體的許可權。 如需詳細指示，請參閱&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**。 IAM角色必須包含下列許可權：
 
    * `ListBucket`
@@ -70,7 +71,7 @@ ht-degree: 1%
 >abstract="請參閱Audience Sourcing規格指南，瞭解如何格式化及建構適用於Collaboration的Amazon S3對象資料。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱指南"
 
-會出現一個對話方塊，說明您的對象檔案必須如何建構。 使用指向&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)**&#x200B;的連結來瞭解如何格式化和建構來自[!DNL Amazon S3]的對象資料，以便Collaboration正確讀取。
+會出現一個對話方塊，說明您的對象檔案必須如何建構。 使用指向&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;的連結來瞭解如何格式化和建構來自[!DNL Amazon S3]的對象資料，以便Collaboration正確讀取。
 
 >[!IMPORTANT]
 >
@@ -101,7 +102,7 @@ ht-degree: 1%
 
 接下來，提供您的[!DNL Amazon S3]認證，以將您的S3貯體連線至Collaboration。
 
-請依照&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**&#x200B;中概述的步驟，將Adobe存取權授予
+請依照&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**中概述的步驟，將Adobe存取權授予
 [!DNL Amazon S3]儲存空間。 完成後，將您的值輸入到以下UI欄位中：
 
 * IAM 角色
@@ -197,7 +198,7 @@ ht-degree: 1%
 
 在共同作業專案中使用對象之前，使用此檢視來確認對象組態和可見度設定。
 
-請參閱[檢視對象儀表板檔案](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)以瞭解更多資訊。
+請參閱[檢視對象儀表板檔案](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)以瞭解更多資訊。
 
 ## 檢視您的S3資料連線 {#view-s3-connection}
 

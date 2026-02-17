@@ -2,9 +2,9 @@
 title: Real-Time CDP Collaboration快速入門與設定指南
 description: 瞭解如何設定Real-Time CDP Collaboration、設定角色和帳戶、來源對象、啟用資料，以及安全地與合作夥伴連線。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: d0ad2d66ac7178c24449be415a613b89d9b3bee1
+source-git-commit: bd6c28c3d21ea98434c6cdf585a3e439f7d2ce70
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 觀看此影片以瞭解如何使用Admin Console和Experience Platform為Collaboration指派產品存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452241/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 步驟2：設定您的Collaboration帳戶 {#set-up-your-account}
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 ### 選項B：來自Snowflake或Amazon S3的Source
 
-若要設定雲端來源（例如[!DNL Snowflake]或[!DNL Amazon S3]），請使用[對象規格PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)準備您的對象資料
+若要設定雲端來源（例如[!DNL Snowflake]或[!DNL Amazon S3]），請使用[對象規格PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)準備您的對象資料
 
 您可以將[!DNL Amazon S3]設定為自助資料來源。 如需設定指示，請參閱[Amazon S3來源指南](./setup/configure-aws-s3-audience-sourcing.md)
 
