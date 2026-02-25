@@ -2,12 +2,12 @@
 title: 管理資料連線
 description: 瞭解如何在Real-Time CDP Collaboration中管理資料連線，包括比對索引鍵、排程、使用案例和對象篩選
 audience: administrator, data engineer
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
+source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 10%
+source-wordcount: '1132'
+ht-degree: 5%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 10%
 >title="比對索引鍵"
 >abstract="比對索引鍵會決定如何比對來自不同來源的資料。如下所示的比對索引鍵是您將來源欄位對應到的目標欄位。"
 
-比對索引鍵是您[將來源欄位對應到](./onboard-audiences.md#map-fields)的目標欄位。 您無法編輯您最初為資料連線選取的相符金鑰。 若要更新相符金鑰，您必須建立新的資料連線。 若要深入瞭解相符金鑰的運作方式，請參閱[相符金鑰](./onboard-account.md#set-up-match-keys)指南。
+比對索引鍵是您[將來源欄位對應到](./onboard-audiences.md#map-fields)的目標欄位。 若要深入瞭解相符金鑰的運作方式，請參閱[相符金鑰](./onboard-account.md#set-up-match-keys)指南。
 
 ![資料連線工作區中反白了比對索引鍵區段。](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -41,11 +41,11 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="排程"
->abstract="檢視資料連線的排程詳細資訊，並根據需要編輯重新整理頻率。"
+>abstract="檢視資料連線的排程詳細資料，並視需要編輯設定。"
 
 檢視及管理資料連線的排程設定。 排程決定重新整理對象的頻率。
 
-建立資料連線後，您可以直接從資料連線工作區的&#x200B;**[!UICONTROL 排程]**&#x200B;區段更新其重新整理頻率。
+建立資料連線後，您可以直接從資料連線工作區的&#x200B;**[!UICONTROL 排程]**&#x200B;區段更新其重新整理頻率、開始日期和結束日期。
 
 >[!NOTE]
 >
@@ -55,19 +55,82 @@ ht-degree: 10%
 
 ![資料連線的工作區中，排程區段反白顯示。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
-#### 編輯排程 {#edit-scheduling}
+## 編輯資料連線 {#edit-data-connection}
+
+請閱讀以下章節，瞭解如何更新比對索引鍵及現有資料連線的排程設定。
+
+### 編輯比對索引鍵 {#edit-match-keys}
+
+>[!IMPORTANT]
+>
+>編輯資料連線的相符鍵之前，請注意下列事項：
+>
+>* 只有為您的帳戶設定的相符金鑰才能用於資料連線。
+>* 此時，您可以將其他比對金鑰新增至資料連線，但一旦啟用比對金鑰，就無法移除比對金鑰。
+
+從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**。
+
+![標示[編輯]選項的[比對索引鍵]區段。](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
+
+隨即顯示確認對話方塊，說明對資料連線所做的任何變更都會套用至所有關聯的對象。 選取「**[!UICONTROL 確定]**」以確認。 您可以選擇在日後略過此確認。
+
+![確認對話方塊，顯示對資料連線所做的任何變更將套用至所有關聯的對象。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;對話方塊中，您可以檢視來源欄位與其對應目標欄位（比對索引鍵）之間的現有對應。 您可以更新對應的來源欄位來編輯比對索引鍵，或新增其他對應欄位列以填入新的比對索引鍵。
+
+![[比對索引鍵]對話方塊顯示來源欄位與對應目標欄位之間的現有對應。](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
+
+#### 新增相符金鑰 {#add-match-keys}
+
+選取&#x200B;**[!UICONTROL 新增欄位]**&#x200B;以新增欄位列。
+
+![選取[新增]欄位後，[比對索引鍵]對話方塊會顯示空白的新對應欄位，可供輸入。](/help/assets/setup/manage-data-connection/add-new-field.png){zoomable="yes"}
+
+接著，選取空白的來源欄位。 **[!UICONTROL 選取來源欄位]**&#x200B;對話方塊會顯示&#x200B;**[!UICONTROL 識別名稱空間]**&#x200B;和&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;選項。 您可以篩選清單，並使用搜尋選項找到所需的來源欄位。
+
+選擇您想要的來源欄位，然後選取&#x200B;**[!UICONTROL 選取]**。
+
+![已選取GAID選項的[選取來源欄位]對話方塊。](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;對話方塊中，使用下拉式功能表將新的來源欄位對應到目標欄位。 所有可用的目標欄位都是為您的Collaborator帳戶設定的相符金鑰。 如果您沒有看到所需的目標欄位，請[編輯您帳戶的相符金鑰](./onboard-account.md#edit-match-keys)以將其新增。
+
+如果您想要將非雜湊欄位來源至雜湊目標欄位，例如，將純文字電子郵件來源欄位對應至&#x200B;**[!UICONTROL 雜湊電子郵件]**&#x200B;目標欄位時，請使用&#x200B;**[!UICONTROL 套用轉換]**&#x200B;選項。
+
+![下拉式功能表會顯示所有可用的目標欄位，以與新的來源欄位對應。](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+
+完成對應欄位後，請檢閱更新並選取&#x200B;**[!UICONTROL 確認]**&#x200B;以套用變更。
+
+![[比對索引鍵]對話方塊顯示[確認]選項反白顯示的更新欄位對應。](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
+
+確認對話方塊會確認已成功更新相符金鑰。
+
+### 編輯排程 {#edit-scheduling}
+
+建立資料連線後，您可以直接從資料連線工作區的&#x200B;**[!UICONTROL 排程]**&#x200B;區段更新其重新整理頻率、開始日期和結束日期。
 
 您可以編輯現有資料連線的頻率，以更能控制對象重新整理的頻率。 若要編輯排程，請從排程卡片內的資料連線中選取&#x200B;**[!UICONTROL 編輯]**。
 
-此排程將會影響所有源自資料連線的對象。
+![反白顯示[編輯]選項的[排程]區段。](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
 
-在&#x200B;**[!UICONTROL 排程]**&#x200B;對話方塊中，選取下拉式功能表以更新&#x200B;**[!UICONTROL 頻率]**。 將重新整理頻率設定為每日或每兩到六天執行一次。 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以套用您的變更。
+隨即顯示確認對話方塊，說明對資料連線所做的任何變更都會套用至所有關聯的對象。 選取「**[!UICONTROL 確定]**」以確認。 您可以選擇在日後略過此確認。
 
-![排程對話方塊，顯示設定頻率和日期範圍的選項。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
+![確認對話方塊，顯示對資料連線所做的任何變更將套用至所有關聯的對象。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 排程]**&#x200B;對話方塊中，選取下拉式功能表以更新&#x200B;**[!UICONTROL 頻率]**。 將重新整理頻率設定為每日或每兩到六天執行一次。
+
+![排程對話方塊的「頻率」下拉式清單已展開，以顯示對象重新整理頻率選項。](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
+
+接下來，如果您要更新填入和重新整理對象的期間，請選取&#x200B;**[!UICONTROL 日期範圍]**。
+
+![顯示「日期範圍」下拉式清單的「排程」對話方塊已展開，以編輯對象母體及重新整理的開始和結束日期。](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
+
+完成後，檢閱更新並選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以套用您的變更。
+
+![[排程]對話方塊會醒目提示更新並儲存選項。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## 刪除資料連線
 
-刪除資料連線將會移除Collaboration中的所有基礎對象、相關設定和使用狀況。 此動作無法復原。
+刪除資料連線將會移除Collaboration中的所有基礎對象、相關設定和使用狀況。 此動作無法還原。
 
 若要刪除現有的資料連線，請選取個別資料連線工作區中的刪除圖示（![刪除圖示](/help/assets/common/delete.svg)）。
 

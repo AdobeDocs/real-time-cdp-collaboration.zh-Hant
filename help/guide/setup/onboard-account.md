@@ -2,11 +2,11 @@
 title: 設定和管理您的帳戶
 description: 瞭解如何在Real-Time CDP Collaboration中設定和管理帳戶的各種層面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
+source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1359'
 ht-degree: 11%
 
 ---
@@ -150,15 +150,11 @@ Collaboration支援三種型別的相符金鑰：第一方人員ID、第一方�
 
 ![反白顯示[我的帳戶]索引標籤和[編輯]選項的[設定]工作區。](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-您現在可以編輯帳戶詳細資料。 更新您要變更的任何欄位，然後選取[儲存]以確認變更。**&#x200B;**
+您現在可以編輯帳戶詳細資料。 更新您要變更的任何欄位，然後選取[儲存]以確認變更。****
 
 ![編輯帳戶詳細資料對話方塊。](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
 ### 編輯比對索引鍵 {#edit-match-keys}
-
->[!IMPORTANT]
->
->編輯比對鍵不會影響您現有的連線。 建立連線後，您在連線設定期間選取的相符金鑰就會固定。 請務必選取您計畫在帳戶設定期間用於未來行銷活動的&#x200B;**所有**&#x200B;相符金鑰。
 
 您也可以更新建立帳戶時最初選取的相符金鑰。 這些比對鍵將決定可用於未來連線的比對鍵。
 
@@ -166,13 +162,19 @@ Collaboration支援三種型別的相符金鑰：第一方人員ID、第一方�
 
 ![在帳戶的「比對金鑰」區段中，以「編輯」選項醒目提示的「設定」工作區。](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-**[!UICONTROL 符合索引鍵]**&#x200B;對話方塊就會顯示。 開啟或關閉任何相符金鑰，或更新&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;的[!UICONTROL 帳戶ID]，然後選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認變更。
+**[!UICONTROL 符合索引鍵]**&#x200B;對話方塊就會顯示。 開啟任何相符金鑰，或更新&#x200B;**[!UICONTROL AdFixus ID的]**&#x200B;的[!UICONTROL 帳戶ID]，然後選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認變更。
 
 >[!IMPORTANT]
 >
 >變更您的[!UICONTROL AdFixus ID]將不會使用比對索引鍵觸發現有資料連線的[資料草圖](../glossary.md#sketches)重新整理。 您的資料草圖完成後，您的[!UICONTROL AdFixus ID]所做的任何變更都不會反映在您的[資料連線排程](./manage-data-connection.md#scheduling)設定之後的下一次對象重新整理中。 如果您在下次重新整理之前需要變更，可以刪除並重新建立資料連線。
+>
+>此時，將相符金鑰新增至您的帳戶後，就無法移除該金鑰。
 
 ![反白顯示[儲存]選項的[比對索引鍵]對話方塊。](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+
+成功對話方塊會確認已成功更新帳戶的相符金鑰。
+
+![確認您帳戶的相符金鑰的成功對話方塊已成功更新。](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## 後續步驟
 
