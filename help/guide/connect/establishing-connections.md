@@ -2,7 +2,7 @@
 title: 與共同作業人員建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
@@ -142,7 +142,7 @@ ht-degree: 8%
 
 會出現對話方塊，提示您接受邀請。 選取&#x200B;**[!UICONTROL 接受邀請]**&#x200B;以繼續。
 
-![&#x200B; Accept連線邀請對話方塊中反白顯示Accept邀請選項。](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
+![ Accept連線邀請對話方塊中反白顯示Accept邀請選項。](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
 
 連線的狀態變更為&#x200B;**[!UICONTROL 擱置中]**。 擁有者現在可以設定連線設定。
 
@@ -184,7 +184,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="測量"
->abstract="執行活動以產生行銷活動效能報告和深入分析。根據所有行銷活動當中活動報告的資料列數量以及產生報告的頻率 (每日、每三日或每週)，系統會消耗相應的點數。"
+>abstract="執行活動以產生行銷活動效能報告和洞察。根據所有行銷活動當中活動報告的資料列數量以及產生報告的頻率 (每日、每三日或每週)，系統會消耗相應的點數。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
@@ -227,7 +227,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->啟用使用了多個相符金鑰的對象時，如果一個（或多個）相符金鑰沒有重疊、無對象計數或低於臨界值，則整個啟用將會失敗。 啟用之前，請確認您的對象有足夠的重疊，並符合所有相符索引鍵中1000 ID的最低臨界值。
+>啟用使用多個相符金鑰的受眾時，如果一個（或多個）相符金鑰沒有重疊、無受眾規模或低於臨界值，則整個啟用將會失敗。 啟用之前，請確認您的對象有足夠的重疊，並符合所有相符索引鍵中1000 ID的最低臨界值。
 
 比對金鑰會自動填入您在[設定您的帳戶](/help/guide/setup/onboard-account.md#set-up-match-keys)時與共同作業人員選取的通用比對金鑰。 只有與您和您的共同作業人員所選&#x200B;**和**&#x200B;共同擁有的相符金鑰才會出現。
 

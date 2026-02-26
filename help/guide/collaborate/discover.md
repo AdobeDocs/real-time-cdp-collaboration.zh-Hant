@@ -2,7 +2,7 @@
 title: 探索重疊並比較對象
 description: 探索您和共同作業人員的對象之間的重疊。 瞭解如何探索最佳對象，以用於您的行銷活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
@@ -86,7 +86,7 @@ ht-degree: 17%
 | **[!UICONTROL 身分計數]** （您的共同作業人員） | 共同作業人員對象中的唯一ID數量。 |
 | **[!UICONTROL 重疊的身分]** | 您的和共同作業人員的對象中同時存在的唯一ID數量。 |
 | **[!UICONTROL 重疊%]** | 您和您的協作者所選客群間的輪廓重疊百分比。 |
-| **[!UICONTROL 對象索引]** | 根據基礎受眾計數和重疊來指出一個受眾與另一個受眾之間關聯程度的分數。 若要深入瞭解分數涵義，請閱讀[對象索引分數](#audience-index-score)區段。 與共同作業人員的基準（所有對象）進行比較時，無法使用對象索引分數。 |
+| **[!UICONTROL 對象索引]** | 根據基礎受眾規模和重疊來指出一個對象與另一個對象之間關聯強度的分數。 若要深入瞭解分數涵義，請閱讀[對象索引分數](#audience-index-score)區段。 與共同作業人員的基準（所有對象）進行比較時，無法使用對象索引分數。 |
 | **[!UICONTROL 依比對索引鍵劃分的身分]** | 根據每個共同作業人員的選取對象，針對專案中選取的每個相符金鑰所比對的身分細目。 |
 
 {style="table-layout:auto"}
@@ -119,7 +119,7 @@ ht-degree: 17%
 | **[!UICONTROL 身分計數]** | 對象中的唯一ID數量。 |
 | **[!UICONTROL 重疊的身分]** | 建議的對象與您的所有對象之間重疊的唯一ID數量。 |
 | **[!UICONTROL 重疊%]** | 建議的對象與您的所有對象之間的重疊身分百分比。 |
-| **[!UICONTROL 對象索引]** | 根據基礎受眾計數和重疊來指出一個受眾與另一個受眾之間關聯程度的分數。 若要深入瞭解分數涵義，請閱讀[對象索引分數](#audience-index-score)區段。 |
+| **[!UICONTROL 對象索引]** | 根據基礎受眾規模和重疊來指出一個對象與另一個對象之間關聯強度的分數。 若要深入瞭解分數涵義，請閱讀[對象索引分數](#audience-index-score)區段。 |
 | **[!UICONTROL 對象類別]** | 您的共同作業人員已指派給對象的類別。 |
 | **[!UICONTROL 相符金鑰]** | 共同作業人員為對象選取的相符金鑰。 |
 
@@ -132,7 +132,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="探索與個別客群的重疊處"
->abstract="取得您與協作者的客群之間重疊情況的深入分析。"
+>abstract="取得您與協作者的客群之間重疊情況的洞察。"
 
 探索重疊，以深入瞭解您的對象與共同作業人員的對象相較之下的情形。 依預設，此區段會將您的所有對象與您的共同作業人員的每個對象進行比較。 使用區段底部的分頁控制項，以導覽至可用的對象。
 
@@ -148,7 +148,7 @@ ht-degree: 17%
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 
@@ -159,7 +159,7 @@ ht-degree: 17%
 | **[!UICONTROL 身分計數]** | 對象中的唯一ID數量。 |
 | **[!UICONTROL 重疊的身分]** | 建議的對象與您的所有對象之間重疊的唯一ID數量。 |
 | **[!UICONTROL 重疊%]** | 建議的對象與您的所有對象之間的重疊身分百分比。 |
-| **[!UICONTROL 對象索引]** | 根據基礎受眾計數和重疊來指出一個受眾與另一個受眾之間關聯程度的分數。 若要深入瞭解分數涵義，請閱讀[對象索引分數](#audience-index-score)區段。 |
+| **[!UICONTROL 對象索引]** | 根據基礎受眾規模和重疊來指出一個對象與另一個對象之間關聯強度的分數。 若要深入瞭解分數涵義，請閱讀[對象索引分數](#audience-index-score)區段。 |
 | **[!UICONTROL 對象類別]** | 您的共同作業人員已指派給對象的類別。 |
 | **[!UICONTROL 相符金鑰]** | 共同作業人員為對象選取的相符金鑰。 |
 
@@ -184,7 +184,7 @@ ht-degree: 17%
 
 會計算索引分數，並可用於判斷行銷活動是否成功：
 
-| CTV發佈者對象 | 公式 | 索引分數(i) | 解譯 |
+| CTV發佈者對象 | 公式 | 索引分數(i) | 解釋 |
 |------------------------|-------------|----------------|----------------|
 | 基線（所有對象） | (（1.3米/1.3米） / （50米/50米）) * 100 | 100 | 這是與共同作業人員其他對象進行比較的基準。 |
 | 觀賞者 | ((500K / 1.3M) / (20M / 50M)) * 100 | 96 | 如果鎖定此對象，相較於基準線，您觸及SUV擁有者的可能性會降低4%。 |
