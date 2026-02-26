@@ -148,7 +148,7 @@ ht-degree: 17%
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 
