@@ -1,13 +1,13 @@
 ---
 title: 概觀
-description: 瞭解如何使用Adobe Real-Time Customer Data Platform (CDP) Collaboration來探索、啟用和測量高價值受眾，而不需依賴第三方Cookie。
+description: 了解如何使用 Adobe Real-Time Customer Data Platform (CDP) Collaboration 探索、啟用和測量高價值客群，而不需依賴第三方 Cookie。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 source-git-commit: 3d003563e7eb6489e2a97b394f0ab185a63e35f2
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 內嵌式控制項可確保符合控管和隱私權要求，進而指導您在工作流程的每個步驟負責任地使用受眾資料。
 
-## 快速入門 {#get-started}
+## 開始使用 {#get-started}
 
 若要開始使用Collaboration，系統管理員需要提供自己、產品管理員和一般使用者存取權。 根據所需的使用者和存取層級，有多個所需的步驟。 請參閱[存取控制總覽](/help/guide/permissions/overview.md){target="_blank"}指南以開始。
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ## 資源
 
-探索[字彙表](/help/guide/glossary.md)，以取得產品中所使用字彙的詳細資訊。 如需支援，請存取Adobe [客戶支援](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=open-ticket#support){target="_blank"}頁面。
+探索[字彙表](/help/guide/glossary.md)，以取得產品中所使用字彙的詳細資訊。 如需支援，請存取Adobe [客戶支援](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"}頁面。
 
 ## 聯絡我們
 

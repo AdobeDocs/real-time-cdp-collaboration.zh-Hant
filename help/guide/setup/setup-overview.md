@@ -1,13 +1,13 @@
 ---
 title: 設定概述
-description: 瞭解Adobe Real-Time CDP Collaboration設定區段中的所有可用選項和工作流程
+description: 了解 Adobe Real-Time CDP Collaboration 設定區段中的所有可用選項和工作流程
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 4%
+ht-degree: 21%
 
 ---
 
@@ -25,5 +25,5 @@ Adobe Real-Time CDP Collaboration中的「設定」區段提供集中式工作�
 * [Source和管理對象](/help/guide/setup/onboard-audiences.md)
 * [管理資料連線](/help/guide/setup/manage-data-connection.md)
 * [設定和管理目的地](/help/guide/setup/manage-destinations.md)
-* [追蹤您的信用沖銷活動](/help/guide/setup/my-activity.md)
+* [追蹤您的點數耗用活動](/help/guide/setup/my-activity.md)
 * [檢視稽核記錄](/help/guide/setup/audit-logs.md)
