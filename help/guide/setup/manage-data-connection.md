@@ -2,12 +2,12 @@
 title: 管理資料連線
 description: 瞭解如何在Real-Time CDP Collaboration中管理資料連線，包括比對索引鍵、排程、使用案例和對象篩選
 audience: administrator, data engineer
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 5%
+source-wordcount: '1149'
+ht-degree: 6%
 
 ---
 
@@ -60,6 +60,12 @@ ht-degree: 5%
 請閱讀以下章節，瞭解如何更新比對索引鍵及現有資料連線的排程設定。
 
 ### 編輯比對索引鍵 {#edit-match-keys}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
+>title="擴充"
+>abstract="不支援關閉擴充功能，但您可以變更擴充連接鍵。"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="擴充"
 
 >[!IMPORTANT]
 >
