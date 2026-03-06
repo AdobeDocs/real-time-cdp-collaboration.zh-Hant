@@ -2,12 +2,12 @@
 title: Amazon Marketing Cloud
 description: 瞭解如何在Real-Time CDP Collaboration中與Amazon Marketing Cloud合作。
 audience: publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 4%
+ht-degree: 20%
 
 ---
 
@@ -26,38 +26,38 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_compare_audiences"
 >title="比較客群"
->abstract="比較您的對象與透過您的Amazon廣告觸及的所有消費者。"
+>abstract="將您的客群與透過您的 Amazon 廣告觸及之所有消費者進行比較。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_relevant_audiences"
 >title="相關客群"
->abstract="僅考慮Amazon曝光數，DSP鎖定對象具有最高重疊次數的區段(這些區段只能在DSP中定位)。"
+>abstract="Amazon 目標選擇客群重疊度最高的目標細分群體 (僅考量 DSP 曝光次數)，這些細分群體僅能在 DSP 中進行目標選擇。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="已解析的 ID"
->abstract="Amazon的身分解析能夠使用您的對象資料解析的ID數量。"
+>abstract="Amazon 的身分解析使用您客群資料能夠解析的 ID 數量。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
 >title="重疊的廣告曝光 ID"
->abstract="這代表已上傳對象中也透過Amazon Ads向廣告公開的「已解決ID」數量。"
+>abstract="這代表已上傳的客群中，亦經由 Amazon Ads 接觸廣告的「已解析 ID」數量。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="重疊 %"
->abstract="已透過Amazon Ads向廣告公開的「已解決ID」比例。"
+>abstract="已經由 Amazon Ads 接觸廣告的「已解析 ID」比例。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="依 Amazon 廣告產品劃分"
->abstract="Amazon Ads贊助產品及/或Amazon Ads DSP達到的「重疊廣告公開ID」劃分。"
+>abstract="Amazon Ads 贊助產品和/或 Amazon Ads DSP 達到的「重疊廣告曝光 ID」劃分。"
 
 在&#x200B;**[!UICONTROL 探索]**&#x200B;區段中，您可以將AMC對象與您的Amazon廣告觸及的所有消費者進行比較。 您也可以檢視對象與最高重疊率的Amazon目標定位區段，僅考量DSP曝光數(這些區段只能在DSP中定位)。
 
 >[!IMPORTANT]
 >
->系統會從上傳至您[!DNL Amazon Ads]帳戶的對象中處理對象資料。 若要瞭解如何使用Experience Platform的目的地功能傳送您的對象到您的[!DNL Amazon Ads]帳戶，請閱讀[Amazon Ads連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/advertising/amazon-ads)指南。
+>系統會從上傳至您[!DNL Amazon Ads]帳戶的對象中處理對象資料。 若要瞭解如何使用Experience Platform的目的地功能傳送您的對象到您的[!DNL Amazon Ads]帳戶，請閱讀[Amazon Ads連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads)指南。
 
 ![使用Amazon Marketing Cloud的專案中的Discover區段。](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
