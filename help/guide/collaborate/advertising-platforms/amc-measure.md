@@ -4,7 +4,7 @@ description: 瞭解如何在Real-Time CDP Collaboration中為Amazon Marketing Cl
 audience: advertiser
 keywords: AMC， Amazon Marketing Cloud，測量報告，行銷活動摘要，歸因， Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 source-git-commit: 9f1dc87ae312961244ee8f48553d367a977cc20d
