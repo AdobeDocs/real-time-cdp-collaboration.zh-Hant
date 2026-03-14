@@ -4,7 +4,7 @@ description: 瞭解如何在即時CDP協作中為AmazonMarketing Cloud活動建�
 audience: advertiser
 keywords: AMC 、AmazonMarketing Cloud、測量報告、活動摘要、歸屬、即時CDP協作
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: d1b0ca65-344d-4df0-9e07-222c79f1cdb7
