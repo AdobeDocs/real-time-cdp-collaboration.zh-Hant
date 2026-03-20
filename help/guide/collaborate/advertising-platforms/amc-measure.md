@@ -1,29 +1,29 @@
 ---
-title: 建立AmazonMarketing Cloud度量報表
-description: 瞭解如何在即時CDP協作中為AmazonMarketing Cloud活動建立和解釋度量報告。
+title: 建立Amazon Marketing Cloud測量報表
+description: 瞭解如何在Real-Time CDP Collaboration中為Amazon Marketing Cloud行銷活動建立和解讀測量報告。
 audience: advertiser
-keywords: AMC 、AmazonMarketing Cloud、測量報告、活動摘要、歸屬、即時CDP協作
+keywords: AMC， Amazon Marketing Cloud，測量報告，行銷活動摘要，歸因， Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: d1b0ca65-344d-4df0-9e07-222c79f1cdb7
 source-git-commit: a1fee426f5181888fc900a354a54ed0665f111a5
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 1%
+ht-degree: 46%
 
 ---
 
-# 建立[!DNL Amazon Marketing Cloud]個度量報表 {#amc-measurement-reports}
+# 建立[!DNL Amazon Marketing Cloud]測量報告 {#amc-measurement-reports}
 
-檔案的這一部分目前正在編製中。
+本檔案的此區段目前正在開發中。
 
-請稍後再查看，以獲取詳細的指導和實施資訊。
+請稍後回來檢視詳細指引和實施資訊。
 
-## 轉換事件（僅屬性） {#conversion-events}
+## 轉換事件 (僅限歸因) {#conversion-events}
 
 >[!CONTEXTUALHELP]
 > id="rtcdp_collaboration_amc_attribution_lookback_period"
-> title="歸因回望期"
-> abstract="AMC強制實施一個固定的30天屬性窗口：在最後印象後最多30天發生的轉換可歸因於報告日期範圍內的印象。 此值不可編輯；請至少在範圍結束後30天計畫報表運行日期，以確保捕獲所有符合條件的轉換。"
+> title="歸因回顧期間"
+> abstract="AMC 強制實施固定的 30 日歸因期間：在最後一次曝光後 30 日內發生的轉換，可歸因於報告日期範圍內的曝光。 此值無法編輯；請將報告執行日期安排在範圍結束日之後至少 30 日，確保擷取到所有符合資格的轉換。"

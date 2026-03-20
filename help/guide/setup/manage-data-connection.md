@@ -1,13 +1,13 @@
 ---
 title: 管理資料連線
-description: 瞭解如何在即時CDP協作中管理資料連接，包括匹配鍵、計畫、使用案例和受眾篩選
+description: 瞭解如何在Real-Time CDP Collaboration中管理資料連線，包括比對索引鍵、排程、使用案例和對象篩選
 audience: administrator, data engineer
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
 source-wordcount: '1168'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 6%
 
 ## 概觀
 
-在即時CDP協作中使用資料連接來源於不同平台的受眾。 瞭解如何管理匹配項和計畫現有資料連接的資料刷新。 此外，您還可以按不同屬性篩選受眾，以獲得更細的洞察力。
+在Real-Time CDP Collaboration中使用資料連線，從各種平台取得對象。 瞭解如何管理比對索引鍵，以及排程現有資料連線的資料重新整理作業。 此外，您將可依不同屬性篩選對象，以獲得更精細的深入分析。
 
-## 查看資料連接
+## 檢視資料連線
 
-要查看現有資料連接，請導航到&#x200B;**[!UICONTROL 安裝程式]**，然後選擇&#x200B;**[!UICONTROL 我的資料連接]**&#x200B;頁籤。 將顯示所有當前資料連接，其中顯示了每個連接的簡要概述。 有關資料連接資訊（包括其匹配項、計畫詳細資訊和受眾）的完整視圖，請在相應連接上選擇&#x200B;**[!UICONTROL 查看資料連接]**。
+若要檢視現有的資料連線，請瀏覽至&#x200B;**[!UICONTROL 設定]**，然後選取&#x200B;**[!UICONTROL 我的資料連線]**&#x200B;索引標籤。 系統會顯示您目前的所有資料連線，並顯示每個連線的簡短概觀。 若要完整檢視資料連線的資訊，包括其比對索引鍵、排程詳細資料和對象，請選取對應連線上的&#x200B;**[!UICONTROL 檢視資料連線]**。
 
-![顯示並突出顯示了「我的資料連接」頁籤視圖的設定工作區。](/help/assets/setup/manage-data-connection/my-data-connections.png){zoomable="yes"}
+![設定工作區，顯示[我的資料連線]索引標籤檢視並反白顯示。](/help/assets/setup/manage-data-connection/my-data-connections.png){zoomable="yes"}
 
 ### 比對索引鍵 {#match-keys}
 
@@ -32,9 +32,9 @@ ht-degree: 6%
 >title="比對索引鍵"
 >abstract="比對索引鍵會決定如何比對來自不同來源的資料。 如下所示的比對索引鍵是您將來源欄位對應到的目標欄位。"
 
-匹配項是[將源欄位映射到](./onboard-audiences.md#map-fields)的目標欄位。 要瞭解有關匹配項工作方式的詳細資訊，請參閱[匹配項](./onboard-account.md#set-up-match-keys)指南。
+比對索引鍵是您[將來源欄位對應到](./onboard-audiences.md#map-fields)的目標欄位。 若要深入瞭解相符金鑰的運作方式，請參閱[相符金鑰](./onboard-account.md#set-up-match-keys)指南。
 
-![突出顯示了「匹配項」部分的資料連接工作區。](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
+![資料連線工作區中反白了比對索引鍵區段。](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
 ### 排程 {#scheduling}
 
@@ -43,115 +43,115 @@ ht-degree: 6%
 >title="排程"
 >abstract="檢視資料連線的排程詳細資料，並根據需要編輯設定。"
 
-查看和管理資料連接的計畫設定。 計畫確定刷新受眾的頻率。
+檢視及管理資料連線的排程設定。 排程決定重新整理對象的頻率。
 
-建立資料連接後，您可以直接從資料連接工作區的&#x200B;**[!UICONTROL 計畫]**&#x200B;部分更新其刷新頻率、開始日期和結束日期。
+建立資料連線後，您可以直接從資料連線工作區的&#x200B;**[!UICONTROL 排程]**&#x200B;區段更新其重新整理頻率、開始日期和結束日期。
 
 >[!NOTE]
 >
->當從Adobe Experience Platform採購觀眾時，在建立資料連接後24小時內，觀眾就可到場。 在初始採購之後，觀眾資料根據定義的頻率刷新。
+>從Adobe Experience Platform獲取對象時，對象在資料連線建立後24小時內即可使用。 初始來源設定後，對象資料會根據定義的頻率重新整理。
 
-有關計畫的詳細資訊，請參閱配置觀眾指南中的[計畫部分](/help/guide/setup/onboard-audiences.md#schedule)。
+如需排程的詳細資訊，請參閱設定對象指南中的[排程區段](/help/guide/setup/onboard-audiences.md#schedule)。
 
-![資料連接的工作區，「計畫」部分突出顯示。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+![資料連線的工作區中，排程區段反白顯示。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
 ## 編輯資料連線 {#edit-data-connection}
 
-閱讀以下各節，瞭解如何更新匹配項和現有資料連接的計畫設定。
+請閱讀以下章節，瞭解如何更新比對索引鍵及現有資料連線的排程設定。
 
 ### 編輯比對索引鍵 {#edit-match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
 >title="擴充"
->abstract="不支援關閉濃縮。 可以改變富集連接鍵。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="擴充"
+>abstract="不支援關閉擴充功能。 您可以改為變更擴充功能的連接鍵。"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections_tw" text="擴充"
 
 >[!IMPORTANT]
 >
->編輯資料連接的匹配項之前，請注意以下事項：
+>編輯資料連線的相符鍵之前，請注意下列事項：
 >
->* 只有為帳戶配置的匹配密鑰才能用於資料連接。
->* 此時，您可以向資料連接添加其他匹配項，但一旦啟用了匹配項，則無法刪除該匹配項。
+>* 只有為您的帳戶設定的相符金鑰才能用於資料連線。
+>* 此時，您可以將其他比對金鑰新增至資料連線，但一旦啟用比對金鑰，就無法移除比對金鑰。
 
-從&#x200B;**[!UICONTROL 匹配項]**&#x200B;節中選擇&#x200B;**[!UICONTROL 編輯]**。
+從&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**。
 
-![選中「編輯」選項的「匹配項」部分。](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
+![標示[編輯]選項的[比對索引鍵]區段。](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
 
-此時將顯示確認對話框，說明對資料連接所做的任何更改都將應用於所有關聯的受眾。 選擇&#x200B;**[!UICONTROL 確定]**&#x200B;進行確認。 您可以選擇在將來跳過此確認。
+隨即顯示確認對話方塊，說明對資料連線所做的任何變更都會套用至所有關聯的對象。 選取「**[!UICONTROL 確定]**」以確認。 您可以選擇在日後略過此確認。
 
-![確認對話框，顯示對資料連接的任何更改都將應用於所有關聯的受眾。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+![確認對話方塊，顯示對資料連線所做的任何變更將套用至所有關聯的對象。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
 
-在&#x200B;**[!UICONTROL 匹配項]**&#x200B;對話框中，可以查看源欄位與其相應目標欄位之間的現有映射（匹配項）。 您可以通過更新映射的源欄位來編輯匹配項，或添加附加的映射欄位行來填充新的匹配項。
+在&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;對話方塊中，您可以檢視來源欄位與其對應目標欄位（比對索引鍵）之間的現有對應。 您可以更新對應的來源欄位來編輯比對索引鍵，或新增其他對應欄位列以填入新的比對索引鍵。
 
-![「匹配項」對話框，顯示源欄位和相應目標欄位之間的現有映射。](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
+![[比對索引鍵]對話方塊顯示來源欄位與對應目標欄位之間的現有對應。](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
 
-#### 添加匹配項 {#add-match-keys}
+#### 新增相符金鑰 {#add-match-keys}
 
-選擇&#x200B;**[!UICONTROL 添加欄位]**&#x200B;以添加新欄位行。
+選取&#x200B;**[!UICONTROL 新增欄位]**&#x200B;以新增欄位列。
 
-![選擇「添加」欄位後，「匹配項」對話框將顯示一個空的新映射欄位，可供輸入。](/help/assets/setup/manage-data-connection/add-new-field.png){zoomable="yes"}
+![選取[新增]欄位後，[比對索引鍵]對話方塊會顯示空白的新對應欄位，可供輸入。](/help/assets/setup/manage-data-connection/add-new-field.png){zoomable="yes"}
 
-接下來，選擇空源欄位。 出現&#x200B;**[!UICONTROL 選擇源欄位]**&#x200B;對話框，其中包含&#x200B;**[!UICONTROL 標識命名空間]**&#x200B;和&#x200B;**[!UICONTROL 配置檔案屬性]**&#x200B;選項。 您可以篩選清單，並使用搜索選項查找所需的源欄位。
+接著，選取空白的來源欄位。 **[!UICONTROL 選取來源欄位]**&#x200B;對話方塊會顯示&#x200B;**[!UICONTROL 識別名稱空間]**&#x200B;和&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;選項。 您可以篩選清單，並使用搜尋選項找到所需的來源欄位。
 
-選擇所需的源欄位，然後是&#x200B;**[!UICONTROL 選擇]**。
+選擇您想要的來源欄位，然後選取&#x200B;**[!UICONTROL 選取]**。
 
-![選擇了GAID選項的「選擇源」欄位對話框。](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+![已選取GAID選項的[選取來源欄位]對話方塊。](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
 
-在&#x200B;**[!UICONTROL 匹配鍵]**&#x200B;對話框中，使用下拉菜單將新源欄位映射到目標欄位。 所有可用的目標欄位都是為Collaborator帳戶配置的匹配項。 如果您未看到所需的目標欄位，[請編輯帳戶的匹配項](./onboard-account.md#edit-match-keys)以將其添加。
+在&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;對話方塊中，使用下拉式功能表將新的來源欄位對應到目標欄位。 所有可用的目標欄位都是為您的Collaborator帳戶設定的相符金鑰。 如果您沒有看到所需的目標欄位，請[編輯您帳戶的相符金鑰](./onboard-account.md#edit-match-keys)以將其新增。
 
-如果要將非散列欄位源到散列目標欄位，例如，將純文字檔案電子郵件源欄位映射到&#x200B;**[!UICONTROL 散列電子郵件]**&#x200B;目標欄位時，請使用&#x200B;**[!UICONTROL 應用轉換]**&#x200B;選項。
+如果您想要將非雜湊欄位來源至雜湊目標欄位，例如，將純文字電子郵件來源欄位對應至&#x200B;**[!UICONTROL 雜湊電子郵件]**&#x200B;目標欄位時，請使用&#x200B;**[!UICONTROL 套用轉換]**&#x200B;選項。
 
-![下拉菜單顯示所有可用的目標欄位以與新源欄位映射。](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+![下拉式功能表會顯示所有可用的目標欄位，以與新的來源欄位對應。](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
 
-完成映射欄位後，請查看更新，然後選擇&#x200B;**[!UICONTROL 確認]**&#x200B;以應用更改。
+完成對應欄位後，請檢閱更新並選取&#x200B;**[!UICONTROL 確認]**&#x200B;以套用變更。
 
-![「匹配項」對話框，顯示已更新的欄位映射，並突出顯示「確認」選項。](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
+![[比對索引鍵]對話方塊顯示[確認]選項反白顯示的更新欄位對應。](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
 
-確認對話框確認匹配項已成功更新。
+確認對話方塊會確認已成功更新相符金鑰。
 
-### 編輯計畫 {#edit-scheduling}
+### 編輯排程 {#edit-scheduling}
 
-建立資料連接後，您可以直接從資料連接工作區的&#x200B;**[!UICONTROL 計畫]**&#x200B;部分更新其刷新頻率、開始日期和結束日期。
+建立資料連線後，您可以直接從資料連線工作區的&#x200B;**[!UICONTROL 排程]**&#x200B;區段更新其重新整理頻率、開始日期和結束日期。
 
-您可以編輯現有資料連接的頻率，以更好地控制刷新受眾的頻率。 要編輯計畫，請從計畫卡的資料連接中選擇&#x200B;**[!UICONTROL 編輯]**。
+您可以編輯現有資料連線的頻率，以更能控制對象重新整理的頻率。 若要編輯排程，請從排程卡片內的資料連線中選取&#x200B;**[!UICONTROL 編輯]**。
 
-![突出顯示了「編輯」選項的「計畫」部分。](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
+![反白顯示[編輯]選項的[排程]區段。](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
 
-此時將顯示確認對話框，說明對資料連接所做的任何更改都將應用於所有關聯的受眾。 選擇&#x200B;**[!UICONTROL 確定]**&#x200B;進行確認。 您可以選擇在將來跳過此確認。
+隨即顯示確認對話方塊，說明對資料連線所做的任何變更都會套用至所有關聯的對象。 選取「**[!UICONTROL 確定]**」以確認。 您可以選擇在日後略過此確認。
 
-![確認對話框，顯示對資料連接的任何更改都將應用於所有關聯的受眾。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+![確認對話方塊，顯示對資料連線所做的任何變更將套用至所有關聯的對象。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
 
-在&#x200B;**[!UICONTROL 計畫]**&#x200B;對話框中，選擇下拉菜單以更新&#x200B;**[!UICONTROL 頻率]**。 將刷新頻率設定為每天或每二到六天運行一次。
+在&#x200B;**[!UICONTROL 排程]**&#x200B;對話方塊中，選取下拉式功能表以更新&#x200B;**[!UICONTROL 頻率]**。 將重新整理頻率設定為每日或每兩到六天執行一次。
 
-![擴展了「頻率」下拉框的「計畫」對話框，可顯示訪問群體刷新頻率選項。](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
+![排程對話方塊的「頻率」下拉式清單已展開，以顯示對象重新整理頻率選項。](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
 
-接下來，如果要更新填充和刷新受眾的期間，請選擇&#x200B;**[!UICONTROL 日期範圍]**。
+接下來，如果您要更新填入和重新整理對象的期間，請選取&#x200B;**[!UICONTROL 日期範圍]**。
 
-![顯示「日期範圍」下拉清單的「計畫」對話框已展開，以編輯訪問群體和刷新的開始和結束日期。](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
+![顯示「日期範圍」下拉式清單的「排程」對話方塊已展開，以編輯對象母體及重新整理的開始和結束日期。](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
 
-完成後，請查看更新並選擇&#x200B;**[!UICONTROL 保存]**&#x200B;以應用您所做的更改。
+完成後，檢閱更新並選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以套用您的變更。
 
-![突出顯示更新和保存選項的「計畫」對話框。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
+![[排程]對話方塊會醒目提示更新並儲存選項。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## 刪除資料連線
 
-刪除資料連接將刪除整個協作的所有基礎訪問群體、關聯設定和使用。 此動作無法還原。
+刪除資料連線將會移除Collaboration中的所有基礎對象、相關設定和使用狀況。 此動作無法還原。
 
-要刪除現有資料連接，請在單個資料連接的工作區中選擇刪除表徵圖（![刪除表徵圖](/help/assets/common/delete.svg)）。
+若要刪除現有的資料連線，請選取個別資料連線工作區中的刪除圖示（![刪除圖示](/help/assets/common/delete.svg)）。
 
-![帶有突出顯示的刪除選項的資料連接工作區。](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
+![以刪除選項反白顯示的資料連線工作區。](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
 
-將出現確認對話框。 選擇&#x200B;**[!UICONTROL 刪除]**&#x200B;以完成刪除資料連接。
+確認對話方塊隨即顯示。 選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以完成刪除資料連線。
 
-![選中了「刪除」選項的「刪除資料連接」對話框。](/help/assets/setup/manage-data-connection/delete-data-connection-confirm.png){zoomable="yes"}
+![反白顯示[刪除]選項的[刪除資料連線]對話方塊。](/help/assets/setup/manage-data-connection/delete-data-connection-confirm.png){zoomable="yes"}
 
-## 管理受眾 {#manage-audiences}
+## 管理對象 {#manage-audiences}
 
-附加到資料連接的受眾清單顯示在工作區的底部。 該清單顯示每個受眾的簡短概述，包括其狀態、源和連接訪問。 要編輯受眾的類別、連接訪問或元資料可見性，請選擇受眾的名稱。 有關管理受眾的完整指南，請參閱[查看單個受眾](./onboard-audiences.md#view-individual-audiences)指南。
+附加至資料連線的對象清單會顯示在工作區底部。 清單會顯示每個對象的簡短概觀，包括其狀態、來源和連線存取。 若要編輯對象的類別、連線存取或中繼資料可見性，請選取對象名稱。 如需管理對象的完整指南，請參閱[檢視個別對象](./onboard-audiences.md#view-individual-audiences)指南。
 
-![高亮顯示受眾的資料連接工作區。](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
+![標示受眾的資料連線工作區。](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
 ## 後續步驟
 
-管理資料連接後，您可以[發現您的受眾與您的協作者已發現的受眾之間的重疊](/help/guide/collaborate/discover.md)。
+管理您的資料連線後，您可以[探索您的對象與共同作業人員已發現的對象之間的重疊](/help/guide/collaborate/discover.md)。

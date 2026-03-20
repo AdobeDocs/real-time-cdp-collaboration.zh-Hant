@@ -4,8 +4,8 @@ description: 瞭解如何設定並連線您的 [!DNL Amazon S3] 儲存裝置作�
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
 source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 7%
+source-wordcount: '1613'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 7%
 
 在設定S3資料連線之前，請確定下列事項：
 
-* 您可以存取包含符合&#x200B;**[!DNL Amazon S3]對象來源規格(v1.1)**&#x200B;之對象檔案的有效&#x200B;**[貯體](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**。
+* 您可以存取包含符合&#x200B;**[對象來源規格(v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;之對象檔案的有效&#x200B;**[!DNL Amazon S3]貯體**。
 * 您已在AWS中建立&#x200B;**IAM角色**，授予Adobe使用&#x200B;**假設的角色**&#x200B;方法（非存取/密碼金鑰）存取貯體的許可權。 如需詳細指示，請參閱&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**。 IAM角色必須包含下列許可權：
 
    * `ListBucket`
@@ -47,7 +47,7 @@ ht-degree: 7%
 
 ## 設定您的[!DNL Amazon S3]連線 {#configure-aws-s3-connection}
 
-從&#x200B;**[!UICONTROL 設定]**&#x200B;工作區中的&#x200B;**[!UICONTROL 我的對象]**&#x200B;索引標籤中，選取新增圖示(![新增圖示。](/help/assets/icons/plus.png))，然後選取&#x200B;**[!UICONTROL 對象]**。
+從&#x200B;**[!UICONTROL 設定]**&#x200B;工作區中的&#x200B;**[!UICONTROL 我的對象]**&#x200B;索引標籤中，選取新增圖示（![新增圖示。](/help/assets/icons/plus.png)） 然後選取&#x200B;**[!UICONTROL 對象]**。
 
 如果這是您的第一個對象，您也可以選取&#x200B;**[!UICONTROL 新增]**&#x200B;選項。
 
@@ -69,7 +69,7 @@ ht-degree: 7%
 >id="rtcdp_collaboration_audience_sourcing_specifications"
 >title="準備您的資料以進行上線流程"
 >abstract="參閱客群來源規範指南，了解如何格式化及建構適用於 Collaboration 的 Amazon S3 客群資料。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱指南"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing_tw" text="請參閱指南"
 
 會出現一個對話方塊，說明您的對象檔案必須如何建構。 使用指向&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;的連結來瞭解如何格式化和建構來自[!DNL Amazon S3]的對象資料，以便Collaboration正確讀取。
 
@@ -98,11 +98,11 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_amazon_s3"
 >title="新增 Amazon S3 客群"
->abstract="若要連線您的 Amazon S3 儲存空間，請授權 Adobe 的服務使用者檢索您的客群資料進行處理。請依照 Experience League 中概述的步驟，授予 Adobe Amazon S3 儲存空間的存取權。"
+>abstract="若要連線您的 Amazon S3 儲存空間，請授權 Adobe 的服務使用者檢索您的客群資料進行處理。 請依照 Experience League 中概述的步驟，授予 Adobe Amazon S3 儲存空間的存取權。"
 
 接下來，提供您的[!DNL Amazon S3]認證，以將您的S3貯體連線至Collaboration。
 
-請依照&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**&#x200B;中概述的步驟，將Adobe存取權授予
+請依照&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**中概述的步驟，將Adobe存取權授予
 [!DNL Amazon S3]儲存空間。 完成後，將您的值輸入到以下UI欄位中：
 
 * IAM 角色
@@ -192,7 +192,7 @@ ht-degree: 7%
 在網格檢視或表格檢視中，選取列專案或&#x200B;**[!UICONTROL 檢視對象]**&#x200B;以檢視特定對象的概觀。 它會顯示對象的狀態、來源和資料連線名稱，以及下列專案的詳細面板：
 
 **[!UICONTROL 身分]**：顯示資料可供使用時的身分計數和劃分總數。
-**[!UICONTROL 類別]**：列出用於組織或篩選對象的任何標籤。
+**[!UICONTROL 類別]**：列出用於組織或篩選對象的標籤。
 **[!UICONTROL 連線存取]**：指出對象是私人、公開或與特定共同作業人員共用。
 **[!UICONTROL 中繼資料可見性]**：定義共同作業人員可看到的對象資訊（例如身分計數、重疊百分比和索引）。
 
