@@ -102,7 +102,7 @@ ht-degree: 8%
 
 接下來，提供您的[!DNL Amazon S3]認證，以將您的S3貯體連線至Collaboration。
 
-請依照&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**中概述的步驟，將Adobe存取權授予
+請依照&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**&#x200B;中概述的步驟，將Adobe存取權授予
 [!DNL Amazon S3]儲存空間。 完成後，將您的值輸入到以下UI欄位中：
 
 * IAM 角色
