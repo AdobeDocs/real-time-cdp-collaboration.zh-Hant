@@ -65,7 +65,7 @@ ht-degree: 8%
 >id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
 >title="擴充"
 >abstract="不支援關閉擴充功能。 您可以改為變更擴充功能的連接鍵。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections_tw" text="擴充"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="擴充"
 
 >[!IMPORTANT]
 >
