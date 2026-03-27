@@ -69,7 +69,7 @@ ht-degree: 8%
 >id="rtcdp_collaboration_audience_sourcing_specifications"
 >title="準備您的資料以進行上線流程"
 >abstract="參閱客群來源規範指南，了解如何格式化及建構適用於 Collaboration 的 Amazon S3 客群資料。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing_tw" text="請參閱指南"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱指南"
 
 會出現一個對話方塊，說明您的對象檔案必須如何建構。 使用指向&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;的連結來瞭解如何格式化和建構來自[!DNL Amazon S3]的對象資料，以便Collaboration正確讀取。
 
