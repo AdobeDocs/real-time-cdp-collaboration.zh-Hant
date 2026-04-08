@@ -2,10 +2,11 @@
 title: 設定 [!DNL Snowflake] 以取得對象來源
 description: 瞭解如何將您的 [!DNL Snowflake Secure Data Share] 設定為自助資料來源並加以連線，以將對象資料擷取至Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 517a28afc83b0e1b4a9e64fa53eb90e0ad5541e9
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
+source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1229'
 ht-degree: 21%
 
 ---
@@ -54,6 +55,12 @@ ht-degree: 21%
 ![具有[!DNL Snowflake]的資料連線選取畫面可作為選取選項使用。](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png)
 
 ### 檢閱對象檔案 {#review-audience-file}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
+>title="準備您的資料以進行上線流程"
+>abstract="請參閱Audience Sourcing規格指南，瞭解如何格式化及建構適用於Collaboration的Snowflake對象資料。"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱指南"
 
 會出現一個對話方塊，說明[!DNL Snowflake Share]和[!DNL Snowflake]對象檔案的需求，然後才能開始sourcing。 確定您的[!DNL Snowflake Share]是以正確的共用名稱、帳戶識別碼、結構描述和檢視所建立。 若要確認您的對象資料已正確格式化且結構正確，以便在Collaboration中使用，請檢閱&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;指南。
 
