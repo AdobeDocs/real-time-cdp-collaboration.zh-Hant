@@ -2,12 +2,12 @@
 title: 新增及管理測量資料
 description: 瞭解如何將測量資料新增至Adobe Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: 42bbd17878701cfaf2cba170a9471cf5c7285796
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 6%
+source-wordcount: '2720'
+ht-degree: 5%
 
 ---
 
@@ -132,7 +132,7 @@ ht-degree: 6%
 
 ![[選取來源欄位]對話方塊醒目提示[電子郵件來源]欄位和[選取]選項。](../../assets/setup/add-manage-measurement-data/select-source-field-dialog.png){zoomable="yes"}
 
-接下來，使用下拉式功能表將所選的來源欄位對應到適當的目標欄位。 所有可用的目標欄位都是為您的Collaborator帳戶[&#128279;](./onboard-account.md#set-up-match-keys)設定的相符金鑰。
+接下來，使用下拉式功能表將所選的來源欄位對應到適當的目標欄位。 所有可用的目標欄位都是為您的Collaborator帳戶](./onboard-account.md#set-up-match-keys)設定的[相符金鑰。
 
 ![下拉式功能表會顯示所有可用的目標欄位，以與選取的來源欄位對應。](../../assets/setup/add-manage-measurement-data/select-target-field-dropdown.png){zoomable="yes"}
 
@@ -150,12 +150,11 @@ ht-degree: 6%
 
 ![需要確認且[下一步]選項反白顯示的[管理同意]畫面。](../../assets/setup/add-manage-measurement-data/manage-consent.png){zoomable="yes"}
 
-如果您在對應步驟[&#128279;](#enrich-event-data)期間啟用設定檔擴充，則可以從預先定義的選項清單中設定同意原則。 其中包括:
+如果您在對應步驟](#enrich-event-data)期間[啟用設定檔擴充，則可以從預先定義的選項清單中設定同意原則。 其中包括:
 
 * **行銷動作**：使用這些行銷動作來控制要從Experience Platform將哪些對象資料帶入Collaboration。
 * **同意規則**：選取同意規則，以套用至來源為Collaboration的資料。
 * **對象**：使用對象篩選器來包含或排除同意的對象設定檔。
-
 
 >[!NOTE]
 >
@@ -238,6 +237,100 @@ ht-degree: 6%
 * **[!UICONTROL 條件]**：顯示套用至此轉換事件的條件規則。
 
 ![總覽畫面會顯示轉換事件的詳細資料。](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
+
+## 編輯測量資料 {#edit-measurement-data}
+
+取得您的測量資料後，您可以隨時編輯轉換事件的詳細資訊和條件規則。
+
+從&#x200B;**[!UICONTROL 我的測量資料]**&#x200B;索引標籤中，選取相關轉換事件卡片中的省略符號選項（![更多圖示](/help/assets/icons/more.png)）。 然後從下拉式選單中選取「**[!UICONTROL 檢視轉換]**」以開啟該轉換事件的詳細頁面。
+
+![我的測量資料索引標籤，省略符號功能表已開啟，且檢視轉換選項已反白顯示。](/help/assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
+
+### 編輯名稱和說明 {#edit-name-and-description}
+
+若要更新事件的名稱和說明，請選取頁面右上角的編輯圖示（![編輯圖示](/help/assets/icons/edit.png)）。
+
+![右上角顯示「編輯」圖示的「網站瀏覽」事件頁面。](/help/assets/setup/add-manage-measurement-data/edit-name-description.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 編輯名稱和描述]**&#x200B;對話方塊中，使用所需的值更新欄位，然後選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以套用您的變更。
+
+![醒目提示含有「儲存」選項的「編輯名稱和說明」對話方塊。](/help/assets/setup/add-manage-measurement-data/edit-name-description-dialog.png){zoomable="yes"}
+
+會顯示確認對話方塊，以確認詳細資料已成功更新。
+
+### 編輯轉換詳細資料 {#edit-conversion-details}
+
+您可以更新事件的下列轉換詳細資料：
+
+| 欄位 | 說明 |
+|-------------------|-------------|
+| 轉換類型 | 轉換事件的類別，例如網站造訪、購買或註冊。 |
+| 去重複化索引鍵 | 事件資料集中屬於相同轉換事件（例如相同時間戳記）之列的識別碼。 避免重複計數。 |
+| 轉換值 | 和每次轉換相關聯的值。 |
+
+{style="table-layout:auto"}
+
+若要開始編輯，請在&#x200B;**[!UICONTROL 轉換詳細資料]**&#x200B;面板中選取&#x200B;**[!UICONTROL 編輯]**。
+
+![網站造訪事件頁面在轉換詳細資料面板中醒目提示「編輯」選項。](/help/assets/setup/add-manage-measurement-data/edit-conversion-details.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 編輯轉換詳細資料]**&#x200B;對話方塊中，使用下拉式功能表來更新轉換型別。 您可以輸入轉換的值；如果您不想指定值，請將其保留空白。 若要編輯複製索引鍵，請選取現有索引鍵選項。
+
+![反白顯示[編輯轉換詳細資料]對話方塊的[範例人員ID]選項。](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-dialog.png){zoomable="yes"}
+
+**[!UICONTROL 重複索引鍵]**&#x200B;對話方塊會顯示分組在選項（例如&#x200B;**[!UICONTROL 身分名稱空間]**&#x200B;和&#x200B;**[!UICONTROL 事件結構描述]**）下的可用欄位清單。 尋找並選擇所需的索引鍵，然後選取&#x200B;**[!UICONTROL 選取]**。
+
+![重複索引鍵對話方塊顯示選取的索引鍵和[選取]選項。](../../assets/setup/add-manage-measurement-data/edit-duplication-key-dialog.png){zoomable="yes"}
+
+完成之後，請檢閱更新並選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以套用您的變更。
+
+![反白顯示[儲存]選項的[編輯轉換詳細資料]對話方塊。](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-save.png){zoomable="yes"}
+
+會顯示確認對話方塊，以確認詳細資料已成功更新。
+
+### 編輯條件 {#edit-conditions}
+
+條件規則會指定將事件資料集中的哪些資料列納入轉換。 視需要更新這些規則，以確保您的測量僅反映與分析最相關的資料。
+
+若要編輯條件，請在&#x200B;**[!UICONTROL 條件]**&#x200B;面板中選取&#x200B;**[!UICONTROL 編輯]**。
+
+![網站造訪事件頁面會在「條件」面板中醒目提示「編輯」選項。](/help/assets/setup/add-manage-measurement-data/edit-conditions.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 編輯轉換規則]**&#x200B;對話方塊中，您可以檢視所有條件的目前詳細資料。 選取現有條件選項以更新其詳細資料，包括來源欄位、邏輯規則和值。
+
+![「編輯轉換規則」對話方塊會醒目提示編輯現有條件的來源欄位、邏輯規則和值的選項。](/help/assets/setup/add-manage-measurement-data/edit-exisiting-condition.png){zoomable="yes"}
+
+若要包含其他轉換規則，請選取&#x200B;**[!UICONTROL 新增條件]**。 然後選取新的空白條件選項。
+
+![在選取[新增條件]選項之後，顯示[編輯轉換規則]對話方塊的新空白條件選項。](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-add-condition.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 選取來源欄位]**&#x200B;對話方塊中，您可以看到在&#x200B;**[!UICONTROL 身分名稱空間]**&#x200B;和&#x200B;**[!UICONTROL 事件結構描述]**&#x200B;等選項下分組的可用欄位。 選取您要用於條件的適當欄位，然後選擇&#x200B;**[!UICONTROL 選取]**。 您可以使用&#x200B;**[!UICONTROL 搜尋]**&#x200B;選項來快速尋找您偏好的欄位。
+
+![選取來源欄位對話方塊顯示選取的欄位和選取選項。](../../assets/setup/add-manage-measurement-data/edit-condition-source-key.png){zoomable="yes"}
+
+接下來，使用下拉式功能表，從可用清單中選取邏輯運運算元，並輸入條件的值。
+
+![醒目提示邏輯下拉式功能表的[編輯轉換規則]對話方塊。](../../assets/setup/add-manage-measurement-data/edit-condition-logic-dropdown.png){zoomable="yes"}
+
+若每個轉換都需要所有指定的條件，請使用&#x200B;**[!UICONTROL 包含所有條件]**，或使用&#x200B;**[!UICONTROL 包含任何條件]**&#x200B;以允許至少符合一個條件的轉換。 當您完成更新時，請檢閱並選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以套用變更。
+
+![反白顯示[儲存]選項的[編輯轉換規則]對話方塊。](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-save.png){zoomable="yes"}
+
+會顯示確認對話方塊，以確認詳細資料已成功更新。
+
+## 刪除測量資料 {#delete-measurement-data}
+
+刪除測量資料會永久從您的專案中移除關聯的轉換事件和所有連結的測量詳細資訊。 任何依賴此事件的測量報告都將失去對應的轉換量度，且無法再更新。 此動作無法還原。
+
+若要刪除現有的轉換事件，請瀏覽至&#x200B;**[!UICONTROL 設定]**&#x200B;工作區中的&#x200B;**[!UICONTROL 我的測量資料]**&#x200B;索引標籤。 在格線檢視中，選取相關事件卡片中的&#x200B;**[!UICONTROL 刪除]**。 在表格檢視中，選取事件名稱旁的刪除圖示（![刪除圖示](/help/assets/common/delete.svg)）。
+
+![我的測量資料索引標籤在轉換事件列中醒目提示「刪除」選項。](/help/assets/setup/add-manage-measurement-data/delete-measurement-data.png){zoomable="yes"}
+
+**[!UICONTROL 刪除測量]**&#x200B;對話方塊會出現，提示您確認刪除事件。 選取「**[!UICONTROL 刪除]**」。
+
+![反白顯示[刪除]選項的[刪除測量]對話方塊。](/help/assets/setup/add-manage-measurement-data/delete-measurement-dialog.png){zoomable="yes"}
+
+會顯示確認對話方塊，以確認已成功刪除轉換事件。
 
 ## 後續步驟 {#next-steps}
 
