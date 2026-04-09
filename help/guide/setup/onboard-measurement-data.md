@@ -132,7 +132,7 @@ ht-degree: 6%
 
 ![[選取來源欄位]對話方塊醒目提示[電子郵件來源]欄位和[選取]選項。](../../assets/setup/add-manage-measurement-data/select-source-field-dialog.png){zoomable="yes"}
 
-接下來，使用下拉式功能表將所選的來源欄位對應到適當的目標欄位。 所有可用的目標欄位都是為您的Collaborator帳戶](./onboard-account.md#set-up-match-keys)設定的[相符金鑰。
+接下來，使用下拉式功能表將所選的來源欄位對應到適當的目標欄位。 所有可用的目標欄位都是為您的Collaborator帳戶[&#128279;](./onboard-account.md#set-up-match-keys)設定的相符金鑰。
 
 ![下拉式功能表會顯示所有可用的目標欄位，以與選取的來源欄位對應。](../../assets/setup/add-manage-measurement-data/select-target-field-dropdown.png){zoomable="yes"}
 
@@ -150,7 +150,7 @@ ht-degree: 6%
 
 ![需要確認且[下一步]選項反白顯示的[管理同意]畫面。](../../assets/setup/add-manage-measurement-data/manage-consent.png){zoomable="yes"}
 
-如果您在對應步驟](#enrich-event-data)期間[啟用設定檔擴充，則可以從預先定義的選項清單中設定同意原則。 其中包括:
+如果您在對應步驟[&#128279;](#enrich-event-data)期間啟用設定檔擴充，則可以從預先定義的選項清單中設定同意原則。 其中包括:
 
 * **行銷動作**：使用這些行銷動作來控制要從Experience Platform將哪些對象資料帶入Collaboration。
 * **同意規則**：選取同意規則，以套用至來源為Collaboration的資料。
