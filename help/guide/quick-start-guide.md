@@ -2,12 +2,12 @@
 title: Real-Time CDP Collaboration快速入門與設定指南
 description: 了解如何設定 Real-Time CDP Collaboration、設定角色和帳戶、獲取客群來源、啟用資料，以及安全地與合作夥伴連線。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: bd6c28c3d21ea98434c6cdf585a3e439f7d2ce70
+source-git-commit: a937773267f42f254b45c14a0fd2f5f1d3b32b8b
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 1%
+source-wordcount: '1406'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 - 為您的組織建立並指派給使用者的[角色](./permissions/manage-roles.md)。
 - 存取品牌化資產，例如貴組織的名稱、標誌和橫幅。
 - [定義的相符金鑰策略](./setup/onboard-account.md#set-up-match-keys)
-- （選用）如果您未使用Experience Platform進行對象管理，請存取支援的雲端來源(Amazon S3或Snowflake)。
+- （選用）如果您未使用Experience Platform進行對象管理，請存取支援的雲端來源（Amazon S3或Snowflake）。
 
 ## 步驟1：完成角色型設定 {#complete-role-based-setup}
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 觀看此影片以瞭解如何使用Admin Console和Experience Platform為Collaboration指派產品存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452241/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 步驟2：設定您的Collaboration帳戶 {#set-up-your-account}
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 - **品牌推廣資產** — 新增下列專案至您的帳戶：
    - 帳戶名稱（最多100個字元）
    - 說明（最多1,000個字元）
-   - 標誌(SVG &lt;20KB，理想為正方形)
+   - 標誌（SVG &lt;20KB，理想為正方形）
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452264/?learn=on&enablevpops)
 
-## 步驟3： Source對象(來自Experience Platform或雲端來源) {#source-audiences}
+## 步驟3： Source對象（來自Experience Platform或雲端來源） {#source-audiences}
 
 建立帳戶並設定品牌和相符金鑰後，您就可以開始尋找受眾了。 根據您的資料存放區和業務需求，選擇下列其中一種來源方法。
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 設定如何準備、比對和控管受眾，以用於連線。
 
-- **選取對象** *(僅限Experience Platform)* — 選擇具有支援識別碼的對象區段。
+- **選取對象** *（僅限Experience Platform）* — 選擇具有支援識別碼的對象區段。
 - **對應相符金鑰** — 將對象欄位與設定的相符金鑰對齊。
 - **視需要套用轉換** — 雜湊純文字值（例如電子郵件）。
 - **排程重新整理** — 定義更新頻率（例如，每日）。
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，您也可以參閱Collaboration[中](./setup/onboard-audiences.md#source-and-manage-audiences)sourcing audiences的檔案。
+或者，您也可以參閱Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences)中[sourcing audiences的檔案。
 
 ### 選項B：來自Snowflake或Amazon S3的Source
 
@@ -134,7 +134,7 @@ ht-degree: 1%
 >
 >在此階段，上傳檔案中的所有對象都已完整來源。 [對象可見度設定](/help/guide/setup/onboard-audiences.md#metadata-visibility)會決定您的共同作業人員是否可以檢視您的對象，以及是否透過Collaboration UI進行管理。
 
-## 步驟4：啟用對象(前往Experience Platform或雲端目的地) {#activate-audiences}
+## 步驟4：啟用對象（前往Experience Platform或雲端目的地） {#activate-audiences}
 
 接下來，在您的Experience Platform執行個體或雲端目的地啟用對象。
 
@@ -149,19 +149,15 @@ ht-degree: 1%
 
 ### 選項B：啟用至雲端
 
-若要設定雲端目的地（例如，[!DNL AWS S3]或[!DNL Snowflake]），請聯絡您的Adobe客戶代表以啟動設定程式。 根據雲端目的地，您需要提供雲端目的地詳細資訊，例如檔案路徑、憑證、帳戶位置等。 提供必要資訊後，Adobe將設定雲端目的地設定。
+若要設定雲端目的地（例如，[!DNL AWS S3]或[!DNL Snowflake]），請聯絡您的Adobe客戶代表以啟動設定程式。 根據雲端目的地，您需要提供雲端目的地詳細資訊，例如檔案路徑、憑證、帳戶位置等。提供必要資訊後，Adobe將設定雲端目的地設定。
 
 傳送至雲端目的地的對象資料會遵循預先定義的結構描述。 如需必要欄位和格式的詳細說明，請下載[Collaboration Audience Activation指南](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf)。
 
 ## 步驟5：設定測量（選擇性） {#set-up-measurement}
 
->[!AVAILABILITY]
->
->此功能目前處於&#x200B;**測試版**&#x200B;中，僅供有限可用性計畫的客戶使用。 請聯絡您的Adobe代表以要求存取權。
-
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式&#x200B;**[!UICONTROL 期間已啟用]**&#x200B;的[Measurement](./connect/establishing-connections.md#connection-settings)使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./collaborate/manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式](./connect/establishing-connections.md#connection-settings)期間已啟用[的&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./collaborate/manage-projects.md#project-use-cases)指南。
 
 Collaboration提供多種報表，可分析行銷活動的觸及率、頻率和成效。 雖然&#x200B;**[!UICONTROL Measure]**&#x200B;工作區可在UI中使用，但完整的報告功能可能需要後端啟用。
 

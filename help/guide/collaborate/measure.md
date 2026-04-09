@@ -2,12 +2,12 @@
 title: 測量績效
 description: 衡量不同管道中行銷活動的績效。 瞭解如何使用和解讀各種報表。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 19%
+source-wordcount: '1949'
+ht-degree: 7%
 
 ---
 
@@ -17,26 +17,20 @@ ht-degree: 19%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式&#x200B;**期間已啟用**&#x200B;的[Measurement](../connect/establishing-connections.md#connection-settings)使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式](../connect/establishing-connections.md#connection-settings)期間已啟用[的&#x200B;**Measurement**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 瞭解Adobe Real-Time CDP Collaboration中的可用報表，並瞭解如何測量和分析各種管道中行銷活動的效能。
 
-## 先決條件
+## 先決條件 {#prerequisites}
 
-在存取Collaboration中的測量報表之前，您已：
+您必須先執行下列作業，才能存取Collaboration中的測量報表：
 
-* [已連線](/help/guide/connect/establishing-connections.md)與啟用&#x200B;**測量**&#x200B;使用案例的共同作業人員，並開始共同作業[專案](/help/guide/collaborate/manage-projects.md)
-* 執行行銷活動並[將測量資料](/help/guide/setup/onboard-measurement-data.md)上傳至Collaboration。
-
-<!--
-
-## Create a report {#create-report}
-
-Hidden until functionality is live. At that point, move the contextualhelp from below into this section. 
-
-The syntax rtcdp_collaboration_measurement_create_report is currently implemented in the UI. However, a preference would be to imlement the other contextualhelp ID from below instead, since that explicitly includes campaignID in the syntax. Need to sync up with UI team. More details in CORE-116991.
-
--->
+* [連線](/help/guide/connect/establishing-connections.md)，與啟用&#x200B;**Measurement**&#x200B;使用案例的共同作業人員
+* 與您的共同作業人員至少在一個專案上共同作業。 瞭解如何[建立專案](/help/guide/collaborate/manage-projects.md#create-project)。
+* 執行您的行銷活動，並確定已提供行銷活動的[行銷活動ID](../collaborate/manage-projects.md#manage-campaign-id)：
+   * 如果您是發佈者，請輸入連結至廣告商促銷活動的Campaign ID。
+   * 如果您是廣告商，請要求共同作業人員（發佈者）提供促銷活動ID。 這是在Measure工作區](#create-measurement-report)中[產生報表的必要專案。
+* 如果要[建立歸因報表](#create-attribution-report)，請[將測量資料](/help/guide/setup/onboard-measurement-data.md)上傳到Collaboration。
 
 ## 檢視報告 {#view-reports}
 
@@ -75,9 +69,9 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measure_metricsovertime"
 >title="一段時間內的量度"
->abstract="透過一段時間內的量度視圖，了解您的創意在整個行銷活動期間所顯示的印象總數量。您可以選擇在報告中顯示最多兩個維度。"
+>abstract="透過一段時間內的量度視圖，了解您的創意在整個行銷活動期間所顯示的印象總數量。 您可以選擇在報告中顯示最多兩個維度。"
 
-透過一段時間內的量度視圖，了解您的創意在整個行銷活動期間所顯示的印象總數量。請注意，您最多可以選取兩個量度，以在報表中顯示和分析。
+透過一段時間內的量度視圖，了解您的創意在整個行銷活動期間所顯示的印象總數量。 請注意，您最多可以選取兩個量度，以在報表中顯示和分析。
 
 ![一段時間檢視中的量度。](/help/assets/collaborate/measure/metrics-over-time.png)
 
@@ -104,3 +98,144 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 瞭解哪些媒體可提升創意的曝光率。 這可協助您決定要將廣告支出投資於未來行銷活動的位置。
 
 ![依位置區分的曝光次數。](/help/assets/collaborate/measure/impressions-by-placement.png)
+
+### 累計轉換 {#cumulative-conversions}
+
+此檢視提供您選擇以表格格式測量的轉換事件的詳細劃分。 此表格包含：
+
+* **轉換事件**：您正在追蹤的每個轉換事件名稱。
+* **轉換計數**：每個事件發生的轉換總數。
+* **預估收入**：歸因於每個轉換事件的預估值。
+
+請檢閱此表格，以評估促銷活動在推動所需動作方面的成效。
+
+![累計轉換。](/help/assets/collaborate/measure/cumulative-conversions.png)
+
+### 按日轉換 {#conversions-by-day}
+
+此圖表提供您建立歸因報表時為每個設定的事件逐日劃分轉換。 使用此檢視來發現每日模式、識別高轉換活動或低轉換活動的期間，並比較不同轉換事件在行銷活動時間軸上的執行方式。
+
+![依日期轉換。](/help/assets/collaborate/measure/conversions-by-day.gif)
+
+## 建立衡量報告 {#create-measurement-report}
+
+在Collaboration中，您可以建立兩種主要型別的測量報表：
+
+* **行銷活動摘要**：提供高層級量度，例如觸及率、曝光數、平均頻率以及依據管道的傳遞，快速瞭解整體行銷活動績效。
+* **歸因**：測量行銷活動曝光度如何推動轉換或購買等下游動作，協助您瞭解行銷活動的成效。
+
+您可以自行執行「行銷活動摘要」報表，而「歸因」報表需要同時選取這兩種報表型別。
+
+### 建立行銷活動摘要報告 {#create-campaign-summary-report}
+
+發佈者和廣告商都可以產生&#x200B;**行銷活動摘要**&#x200B;報告，以評估行銷活動績效。 使用這些報告深入瞭解關鍵量度，例如[達到](#cumulative-reach-curve)、[頻率](#frequency-distribution)和[曝光數](#impressions-by-placement)，並瞭解您的行銷活動的傳遞方式及其整體影響。
+
+若要產生&#x200B;**行銷活動摘要**&#x200B;報告，請從&#x200B;**[!UICONTROL Collaborator]**&#x200B;工作區導覽至專案工作區。 從&#x200B;**[!UICONTROL 量值]**&#x200B;索引標籤中，選取新增圖示（![新增圖示。](/help/assets/icons/plus.png)） 然後選取&#x200B;**[!UICONTROL 量值]**。
+
+如果這是您的第一個報告，您也可以選取&#x200B;**[!UICONTROL 執行報告]**&#x200B;選項。
+
+![醒目提示「執行報告」選項和「計量」選項的「計量」標籤。](/help/assets/collaborate/measure/run-measure-report.png)
+
+**[!UICONTROL 建立測量報告]**&#x200B;畫面顯示，其中資訊和輸入欄位分組在&#x200B;**[!UICONTROL 帳單詳細資料]**、**[!UICONTROL 行銷活動詳細資料]**&#x200B;和&#x200B;**[!UICONTROL 報告詳細資料]**&#x200B;區段。
+
+#### 計費詳細資料 {#billing-details}
+
+本節說明如何在產生測量報表時使用積分。 在[連線設定](../connect/establishing-connections.md#credit-split)期間已建立信用責任。 在執行任何報表之前，請務必與共同作業人員檢閱並確認信用分割設定和報告角色。
+
+#### 行銷活動詳細資料 {#campaign-details}
+
+在&#x200B;**[!UICONTROL 行銷活動詳細資料]**&#x200B;區段中，選取適當的&#x200B;**廣告商ID**&#x200B;以與您的報告產生關聯。 這些廣告商名稱或ID是在[連線設定](../connect/establishing-connections.md#advertiser-names)期間新增的。 如果只設定了一個名稱，預設會顯示該名稱。 如果未設定名稱，則會停用&#x200B;**[!UICONTROL 廣告商ID （名稱）]**&#x200B;欄位，並預先填入廣告商帳戶名稱。
+
+![顯示「廣告商ID （名稱）」選項的建立測量報告畫面已停用。](/help/assets/collaborate/measure/advertiser-id.png)
+
+然後，從&#x200B;**[!UICONTROL 促銷活動ID]**&#x200B;下拉式功能表中選取所需的促銷活動。 此功能表會列出發佈者為您的專案輸入的所有促銷活動ID。 如果您需要的行銷活動無法使用，請在產生報告之前[將它新增到UI](./manage-projects.md#manage-campaign-id)。
+
+![建立測量報告畫面顯示Campaign ID下拉式功能表已展開。](/help/assets/collaborate/measure/campaign-id.png)
+
+接著，指定您要報表涵蓋的期間。 選取&#x200B;**[!UICONTROL 報告日期範圍]**，然後使用行事曆選擇開始和結束日期。
+
+![顯示報告日期範圍行事曆的建立測量報告畫面。](/help/assets/collaborate/measure/report-date-range.png)
+
+#### 報告詳細資料 {#report-details}
+
+**報告執行日期**
+
+在&#x200B;**[!UICONTROL 報告詳細資料]**&#x200B;區段中，選擇報告應該執行的日期。 選取&#x200B;**[!UICONTROL 報告執行日期]**，並從行事曆中選擇您偏好的日期。
+
+* 如果您選擇今天的日期或過去的日期，**行銷活動摘要**&#x200B;報告就會立即執行。
+* 如果您選擇未來的日期，**行銷活動摘要**&#x200B;報告將排程在該日執行。
+
+![顯示報告執行日期行事曆的建立測量報告畫面。](/help/assets/collaborate/measure/report-run-date.png)
+
+**報告型別**
+
+* 如果您是廣告商，您可以從可用選項中選取&#x200B;**[!UICONTROL 行銷活動摘要]**&#x200B;報告型別。 只有廣告商可以產生歸因報表。
+* 如果您是發佈者，**[!UICONTROL 行銷活動摘要]**&#x200B;報告型別是預先選取且無法變更。 發佈者目前無法執行歸因報表。
+
+![「建立測量報告」畫面會將「行銷活動摘要」選項顯示為預先選取且無法變更的報告型別。](/help/assets/collaborate/measure/cs-report-type.png)
+
+最後，檢閱您的設定並選取&#x200B;**[!UICONTROL 建立]**。 如果執行日期為當天或之前，或是在所選的未來日期，則會立即產生行銷活動摘要報表。 您可以在排程報告執行日期之前編輯排程報告。 如需逐步指示，請參閱[編輯測量報告]區段。
+
+一旦可用，您就可以隨時在專案工作區的&#x200B;**[!UICONTROL 量值]**&#x200B;索引標籤中檢視報告。
+
+![「建立測量報告」畫面會顯示相關資訊，且「建立」選項反白顯示。](/help/assets/collaborate/measure/cs-review.png)
+
+### 建立歸因報表 {#create-attribution-report}
+
+作為廣告商，您可以產生&#x200B;**歸因**&#x200B;報告，以評估您的行銷活動曝光對註冊或購買等關鍵結果的貢獻。 使用這些報表來瞭解使用者與行銷活動的互動、識別哪些接觸點帶來最大的影響，並告知更有效率的行銷策略。
+
+>[!IMPORTANT]
+>
+> 您必須先將測量資料](../setup/onboard-measurement-data.md#add-measurement-data)來源至Collaboration，才能產生歸因報表。[
+>![具有測量資料需求及停用的測量選項的[測量]索引標籤。](/help/assets/collaborate/measure/require-measurement-data.png)
+
+若要產生&#x200B;**歸因**&#x200B;報告，請從&#x200B;**[!UICONTROL Collaborator]**&#x200B;工作區瀏覽至專案工作區。 從&#x200B;**[!UICONTROL 量值]**&#x200B;索引標籤中，選取新增圖示（![新增圖示。](/help/assets/icons/plus.png)） 然後選取&#x200B;**[!UICONTROL 量值]**。
+
+如果這是您的第一個報告，您也可以選取&#x200B;**[!UICONTROL 執行報告]**&#x200B;選項。
+
+![醒目提示「執行報告」選項和「計量」選項的「計量」標籤。](/help/assets/collaborate/measure/run-measure-report-attribution.png)
+
+**[!UICONTROL 建立測量報告]**&#x200B;畫面顯示，其中資訊和輸入欄位分組在&#x200B;**[!UICONTROL 帳單詳細資料]**、**[!UICONTROL 行銷活動詳細資料]**&#x200B;和&#x200B;**[!UICONTROL 報告詳細資料]**&#x200B;區段。
+
+閱讀並遵循[建立行銷活動摘要報告](#create-campaign-summary-report)區段中的步驟來設定下列設定：
+
+* [帳單詳細資料](#billing-details)
+* [行銷活動詳細資料](#campaign-details)
+
+#### 歸因報表的報表詳細資料 {#report-details-attribution}
+
+**報告執行日期**
+
+>[!IMPORTANT]
+>
+> 對於歸因報表，報表執行日期必須是未來的日期，且必須在報表日期範圍的結束日期加上已定義回顧期間的完整期間後至少一天發生。
+> **報告執行日期≥報告結束日期+回顧期間+ 1**
+> 
+> 例如，如果您的報表日期範圍在6月15日結束且回顧期間為14天，則報表執行日期為6月30日或之後日期。
+
+在&#x200B;**[!UICONTROL 報告詳細資料]**&#x200B;區段中，選擇報告應該執行的日期。 選取&#x200B;**[!UICONTROL 報告執行日期]**，並從行事曆中選擇您偏好的日期。
+
+**報告型別**
+
+作為廣告商，除了&#x200B;**[!UICONTROL 行銷活動摘要]**&#x200B;之外，您還可以選取&#x200B;**[!UICONTROL 歸因]**&#x200B;作為報表型別。 選擇「歸因」報表時，您的結果會包含標準「促銷活動摘要」量度和詳細的「歸因」分析，以提供促銷活動績效的完整檢視。
+
+![建立測量報告畫面會醒目顯示選取的行銷活動摘要和歸因報告型別。](/help/assets/collaborate/measure/attribution-report-type.png)
+
+當您選取&#x200B;**[!UICONTROL 歸因]**&#x200B;作為報表型別時，會出現&#x200B;**[!UICONTROL 歸因]**&#x200B;組態區段，其中包含其他必要的設定：
+
+* **以天為單位的回顧期間**：定義報告在每次轉換前要考慮多久以前的促銷活動曝光數。 只有此期間的曝光才符合歸因點數的資格。
+* **轉換事件**：指定您要測量的轉換動作，例如購買或註冊。 當您[將測量資料](../setup/onboard-measurement-data.md#add-conversion-event)來源至Collaboration時，必須預先設定這些事件。
+
+首先，輸入&#x200B;**[!UICONTROL 以天]**&#x200B;為單位的回顧期間值，或使用增加/減少選項進行調整。
+
+![建立測量報告畫面會醒目顯示以天為單位的回顧期間值。](/help/assets/collaborate/measure/lookback-window-in-days.png)
+
+接著，從可用清單中選擇最多&#x200B;**3**&#x200B;個轉換事件。 如需特定事件的詳細資訊，請選取&#x200B;**[!UICONTROL i]**&#x200B;圖示以檢視其詳細資料。
+
+![建立測量報告畫面會醒目顯示選取的轉換事件和購買事件的資訊。](/help/assets/collaborate/measure/attribution-conversion-events.png)
+
+最後，檢閱您的設定並選取&#x200B;**[!UICONTROL 建立]**&#x200B;以排程報告。 您的歸因報告將會在指定的執行日期產生。 您可以在排程報告執行日期之前編輯排程報告。 如需逐步指示，請參閱[編輯測量報告]區段。
+
+一旦可用，您就可以隨時在專案工作區的&#x200B;**[!UICONTROL 量值]**&#x200B;索引標籤中檢視報告。
+
+![「建立測量報告」畫面會顯示相關資訊，且「建立」選項反白顯示。](/help/assets/collaborate/measure/attribution-review.png)
