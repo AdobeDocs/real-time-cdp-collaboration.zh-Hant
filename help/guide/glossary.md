@@ -1,19 +1,18 @@
 ---
-title: 字彙
+title: 字彙表
 description: 瞭解Real-Time CDP Collaboration的重要術語
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 2%
+source-wordcount: '837'
+ht-degree: 5%
 
 ---
 
-# 字彙
+# 字彙表
 
 {{limited-availability-release-note}}
 
@@ -103,7 +102,7 @@ In the context of identity crosswalks, a join key is a unique identifier used to
 
 Adobe Real-Time CDP Collaboration中的專案是工作區，使用者可在其中共同作業特定資料整合和受眾細分任務。 專案有助於組織並管理資料共用工作，讓共同作業更有效率且更簡化。
 
-### 公開對象
+### 公開客群
 
 在專案的內容中，這是共同作業人員可探索的對象。 對象可為私人、自訂或公用。 任何其他共同作業人員都無法探索私人對象。 自訂對象只能由某些共同作業人員探索，而公開對象則可由所有共同作業人員探索。
 
