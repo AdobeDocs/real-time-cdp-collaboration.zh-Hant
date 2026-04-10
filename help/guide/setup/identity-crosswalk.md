@@ -2,14 +2,13 @@
 title: 身分識別交叉對照表
 description: 瞭解Real-Time CDP Collaboration中身分交叉通路的所有資訊，包括如何從不同來源引進身分交叉通路，以及如何管理身分交叉通路
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 22%
+source-wordcount: '546'
+ht-degree: 24%
 
 ---
 
@@ -29,7 +28,7 @@ ht-degree: 22%
 
 ## 將身分交叉通路匯入Real-Time CDP Collaboration {#import-crosswalk}
 
-導覽至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 身分互動通道]**&#x200B;標籤，選取新增圖示(![新增圖示。](/help/assets/icons/plus.png))，並選取&#x200B;**[!UICONTROL 身分交叉通道]**
+導覽至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 身分識別交叉管道]**&#x200B;標籤，選取新增圖示（![新增圖示。](/help/assets/icons/plus.png)），然後選取&#x200B;**[!UICONTROL 身分識別交叉管道]**
 
 ![錄製如何進入熒幕以新增身分交叉通道](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
@@ -58,9 +57,9 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_crosswalk_join_key"
 >title="聯結索引鍵"
->abstract="聯結索引鍵用於比對和連結不同資料集間之記錄的唯一識別碼。可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。所選取之交叉對照表中任何欄標題都可以做為聯結索引鍵。"
+>abstract="聯結索引鍵用於比對和連結不同資料集間之記錄的唯一識別碼。 可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。 所選取之交叉對照表中任何欄標題都可以做為聯結索引鍵。"
 
-聯結索引鍵用於比對和連結不同資料集間之記錄的唯一識別碼。可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。藉由選取適當的聯結索引鍵，您可以有效地合併與調解資料，進而提高行銷活動的正確性與完整性。
+聯結索引鍵用於比對和連結不同資料集間之記錄的唯一識別碼。 可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。 藉由選取適當的聯結索引鍵，您可以有效地合併與調解資料，進而提高行銷活動的正確性與完整性。
 
 所選取之交叉對照表中任何欄標題都可以做為聯結索引鍵。
 
