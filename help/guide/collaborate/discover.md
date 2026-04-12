@@ -6,7 +6,7 @@ badgelimitedavailability: label="有限可用性" type="Informative" url="https:
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2120'
 ht-degree: 17%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式&#x200B;**期間已啟用**&#x200B;的[對象探索](../connect/establishing-connections.md#connection-settings)使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**對象探索**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 在[建立專案](/help/guide/collaborate/manage-projects.md)之後，您可以比較對象與共同作業人員。 這可幫助您識別行銷活動的相關對象，並決定要將哪些對象傳送給共同作業人員以進行啟用。
 
@@ -25,7 +25,7 @@ ht-degree: 17%
 >
 >任何[未更新或未重新整理的資料草圖](/help/guide/glossary.md#sketches)將在7天後刪除。 發生此情況時，此頁面上各種重疊報表中顯示的數字會變成零，且這些過期的對象將無法共用對象。 具有[作用中重新整理排程](/help/guide/setup/onboard-audiences.md#schedule)的對象會自動重新整理資料草圖。
 
-在連線程式[期間，已設定](/help/guide/connect/establishing-connections.md#connection-settings)用來探索和比較對象的比對金鑰。 相符索引鍵會用於計算對象之間的重疊，且可切換為開啟或關閉。 若要編輯比對索引鍵，請選取&#x200B;**[!UICONTROL 編輯比對索引鍵]**&#x200B;選項。
+在連線程式[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)期間，已設定用來探索和比較對象的比對金鑰。 相符索引鍵會用於計算對象之間的重疊，且可切換為開啟或關閉。 若要編輯比對索引鍵，請選取&#x200B;**[!UICONTROL 編輯比對索引鍵]**&#x200B;選項。
 
 ![Dicover標籤工作區，展示Audience深入分析。](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -52,7 +52,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
 >title="比較客群"
->abstract="探索您和協作者之客群間的重疊處。您可以調整下拉式選單選擇器中的設定，找出您的一個或多個客群與協作者的一個或多個客群之間的重疊部分。"
+>abstract="探索您和協作者之客群間的重疊處。 您可以調整下拉式選單選擇器中的設定，找出您的一個或多個客群與協作者的一個或多個客群之間的重疊部分。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
@@ -102,7 +102,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="相關客群"
->abstract="根據重疊百分比，這些客群可能是您的行銷活動的理想目標。<br><br><b>身分識別計數</b>是協作者的客群大小。<br><br> <b>重疊的身分識別</b>代表建議客群與所有客群之間的重疊部分。<br><br><b>重疊百分比</b>表示重疊身分識別的數量除以<i>所有</i>客群大小的數值。"
+>abstract="根據重疊百分比，這些客群可能是您行銷活動的理想目標。<br><br> <b>身分識別計數</b>是協作者的客群規模。<br><br> <b>重疊的身分識別</b>代表建議客群與所有客群之間的重疊部分。<br><br> <b>重疊百分比</b>表示重疊身分識別的數量除以<i>所有</i>客群大小的數值。"
 
 **[!UICONTROL 探索]**&#x200B;標籤中的&#x200B;**[!UICONTROL 相關對象]**&#x200B;區段會根據共同作業人員的對象與所有對象之間的重疊百分比，提供前五個對象的精選清單。 此功能可協助您快速識別重疊程度最高的對象，讓您更有效地鎖定行銷活動。 使用區段右上角的頁面選取器，在相關對象之間切換。
 
@@ -170,9 +170,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_audience_index_score"
 >title="客群指數分數"
->abstract="客群指數分數是一項考量細微差別的量度，會根據基礎客群數量和重疊度顯示受眾之間的關聯程度。原始指數分數會轉換為相關性區間，將客群指數分數從極低到極高進行分類。這一樣來，您便可以快速評估自己的客群與協作者客群之間的關係強度。"
+>abstract="客群指數分數是一項考量細微差別的量度，會根據基礎客群數量和重疊度顯示受眾之間的關聯程度。 原始指數分數會轉換為相關性區間，將客群指數分數從極低到極高進行分類。 這一樣來，您便可以快速評估自己的客群與協作者客群之間的關係強度。"
 
-客群指數分數是一項考量細微差別的量度，會根據基礎客群數量和重疊度顯示受眾之間的關聯程度。這有助於您將對象深入解析化為內容，並找出潛在客戶和行銷活動鎖定目標的高潛力對象。
+客群指數分數是一項考量細微差別的量度，會根據基礎客群數量和重疊度顯示受眾之間的關聯程度。 這有助於您將對象深入解析化為內容，並找出潛在客戶和行銷活動鎖定目標的高潛力對象。
 
 索引分數使用下列公式計算：
 

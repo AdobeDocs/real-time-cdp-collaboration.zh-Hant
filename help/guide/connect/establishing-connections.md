@@ -6,8 +6,8 @@ badgelimitedavailability: label="有限可用性" type="Informative" url="https:
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2812'
-ht-degree: 8%
+source-wordcount: '2881'
+ht-degree: 9%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 8%
 
 >[!TIP]
 >
->本指南說明廣告商對發佈商和品牌對品牌共同作業模式的連線程式。 若要瞭解如何與廣告平台連線，請參閱[連線總覽](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)指南中的[廣告商與廣告平台連線](/help/guide/connect/overview.md)區段。
+>本指南說明廣告商對發佈商和品牌對品牌共同作業模式的連線程式。 若要瞭解如何與廣告平台連線，請參閱[連線總覽](/help/guide/connect/overview.md)指南中的[廣告商與廣告平台連線](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)區段。
 
 ## CONNECT {#connect}
 
@@ -96,7 +96,7 @@ ht-degree: 8%
 
 ![設定工作區中的「我的帳戶」索引標籤中，反白顯示Connect程式碼。](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
-選取![Connect程式碼](/help/assets/icons/copy.png)旁的復製圖示（**[!UICONTROL 復製圖示]**）以將其複製到剪貼簿。 然後，您便可以在產品外部將此程式碼與您的共同作業人員共用。
+選取&#x200B;**[!UICONTROL Connect程式碼]**&#x200B;旁的復製圖示（![復製圖示](/help/assets/icons/copy.png)）以將其複製到剪貼簿。 然後，您便可以在產品外部將此程式碼與您的共同作業人員共用。
 
 ![反白顯示復製圖示的Connect程式碼。](/help/assets/connect/establish-connection/copy-connect-code.png){zoomable="yes"}
 
@@ -108,7 +108,7 @@ ht-degree: 8%
 >
 >在擱置邀請期間重新整理您的&#x200B;**[!UICONTROL 連執行緒式碼]**&#x200B;可能會使邀請無法被接受。 如果您重新整理程式碼，您的共同作業人員可能需要使用新程式碼重新傳送私人連線邀請。
 
-若要重新整理您的&#x200B;**[!UICONTROL 連線代碼]**，請選取![連線代碼](/help/assets/icons/refresh.png)旁的重新整理圖示（**[!UICONTROL 重新整理圖示]**）。
+若要重新整理您的&#x200B;**[!UICONTROL 連線代碼]**，請選取&#x200B;**[!UICONTROL 連線代碼]**&#x200B;旁的重新整理圖示（![重新整理圖示](/help/assets/icons/refresh.png)）。
 
 ![反白顯示重新整理圖示的Connect程式碼。](/help/assets/connect/establish-connection/refresh-connect-code.png){zoomable="yes"}
 
@@ -148,27 +148,27 @@ ht-degree: 8%
 
 ### 設定連線設定 {#configure-connection-settings}
 
-連線設定會定義兩個共同作業人員之間的術語。 這些設定包括使用案例、比對索引鍵、信用分割和法律協定。 與廣告商連線的共同作業人員也可以將廣告商名稱新增到連線設定，這將在建立專案時使用。
+連線設定會定義兩個共同作業人員之間的術語。 這些設定包括使用案例、比對索引鍵、信用分割和法律協定。 Collaborators connecting with advertisers can also add advertiser names to the connection settings, which will be used when creating projects.
 
-收件者接受邀請後，擁有者即可進行連線設定。 若要這麼做，請瀏覽至&#x200B;**[!UICONTROL 我的連線]**，並在&#x200B;**[!UICONTROL 需要動作]**&#x200B;區段中尋找擱置的連線。 選取&#x200B;**[!UICONTROL 設定連線]**&#x200B;以設定連線設定。
+After the recipient accepts the invite, the owner can configure the connection settings. To do this, navigate to **[!UICONTROL My connections]** and find the pending connection in the **[!UICONTROL Action required]** section. Select **[!UICONTROL Set up connection]** to configure the connection settings.
 
-![在[需要動作]區段中反白顯示[連線工作區]與[設定連線]選項。](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+![The Connect workspace with the Set up connection option highlighted in the Action required section.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
-連線設定工作區隨即顯示，可讓您設定連線的各種設定。
+The connection settings workspace appears, allowing you to configure the various settings for the connection.
 
-![連線設定工作區。](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
+![The connection settings workspace.](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
 #### 連線設定 {#connection-settings}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
 >title="使用案例"
->abstract="使用案例會預先填入所有選項。您可以在提交連線設定之前編輯使用案例。"
+>abstract="使用案例會預先填入所有選項。 您可以在提交連線設定之前編輯使用案例。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="比對索引鍵"
->abstract="比對索引鍵將會預先填入您和您的協作者在帳戶層級所選取的通用比對索引鍵。您可以將不想於此連線中使用的任何比對索引鍵切換為關閉。"
+>abstract="比對索引鍵將會預先填入您和您的協作者在帳戶層級所選取的通用比對索引鍵。 您可以將不想於此連線中使用的任何比對索引鍵切換為關閉。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="帳戶比對索引鍵"
 
 >[!CONTEXTUALHELP]
@@ -184,12 +184,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="測量"
->abstract="執行活動以產生行銷活動效能報告和洞察。根據所有行銷活動當中活動報告的資料列數量以及產生報告的頻率 (每日、每三日或每週)，系統會消耗相應的點數。"
+>abstract="執行活動以產生行銷活動效能報告和洞察。 根據所有行銷活動當中活動報告的資料列數量以及產生報告的頻率 (每日、每三日或每週)，系統會消耗相應的點數。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="廣告商名稱"
->abstract="<p>選擇性設定。表示發佈者所知的廣告商名稱和 ID。</p><p>您於此處新增的廣告商名稱，會在建立專案的步驟中預先填入。</p><ul><li>若發佈者設定有多個名稱，請從清單中選取一個。</li><li>若僅設定一個名稱，則會自動預先選取該名稱。</li><li>若未設定任何名稱，則該欄位會預先填入取自 Collaboration 的廣告商帳戶名稱。</li></ul>"
+>abstract="<p>選擇性設定。 表示發佈者所知的廣告商名稱和 ID。</p><p>您於此處新增的廣告商名稱，會在建立專案的步驟中預先填入。</p><ul><li>若發佈者設定有多個名稱，請從清單中選取一個。</li><li>若僅設定一個名稱，則會自動預先選取該名稱。</li><li>若未設定任何名稱，則該欄位會預先填入取自 Collaboration 的廣告商帳戶名稱。</li></ul>"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="建立專案"
 
 >[!CONTEXTUALHELP]
@@ -197,71 +197,71 @@ ht-degree: 8%
 >title="Audience Activation"
 >abstract="您可以透過 Audience Activation 選取能夠啟動 Audience Activation 的協作者。"
 
-您可以設定下列連線設定：
+You can configure the following connection settings:
 
 ##### Audience Activation {#audience-activation}
 
 >[!IMPORTANT]
 >
->在引入&#x200B;**[!UICONTROL 對象啟用]**&#x200B;功能之前建立的任何連線都會自動將對象啟用設定設定設為連線擁有者。 如果您想要允許兩位共同作業人員啟用對象，您需要[刪除目前的連線](#delete-connections)，並使用更新的設定建立新的連線。
+>Any connections created before the **[!UICONTROL Audience activation]** feature was introduced will automatically have the audience activation setting set to the connection owner. If you want to allow both collaborators to activate audiences, you will need [delete your current connection](#delete-connections) and create a new one with the updated settings.
 
-對象啟用可讓您選取哪些共同作業人員可以在連線中啟用對象。 只有選取&#x200B;**[!UICONTROL 對象啟用]**&#x200B;使用案例時，才會提供對象啟用選項。 如果您選擇在連線過程中移除使用案例，則會從連線設定中移除對象啟用設定。 若要深入瞭解對象啟用，請參閱[啟用](/help/guide/collaborate/activate.md)指南。
+Audience activation allows you to select which collaborator can activate audiences within the connection. Audience activation will only be an option if the **[!UICONTROL Audience activation]** use case is selected. If you choose to remove the use case during the connection process, the audience activation setting will be removed from the connection settings. To learn more about audience activation, see the [activate](/help/guide/collaborate/activate.md) guide.
 
-若要設定對象啟用，請在&#x200B;**[!UICONTROL 對象啟用]**&#x200B;區段中選取&#x200B;**[!UICONTROL 設定]**。 使用下拉式選單來指定哪些共同作業人員可以啟用對象。 您可以選擇單一共同作業人員，或允許兩個共同作業人員啟用對象。
+To set up audience activation, select **[!UICONTROL Set up]** in the **[!UICONTROL Audience activation]** section. Use the dropdown menu to specify which collaborator can activate audiences. You can choose a single collaborator or allow both collaborators to activate audiences.
 
-![在連線設定工作區中使用選項的[對象啟用]對話方塊。](/help/assets/connect/establish-connection/audience-activation.png){zoomable="yes"}
+![The Audience activation dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/audience-activation.png){zoomable="yes"}
 
-完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
+When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
 
-![連線設定工作區中具有「儲存」選項的「對象啟動」對話方塊。](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
+![The Audience activation dialog with the Save option in the connection settings workspace.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
 ##### 使用案例 {#use-cases}
 
-使用案例會自動填入所有可用選項。 所選的使用案例決定您的專案中可用的檢視和選項。 若要深入瞭解，請閱讀[專案使用案例](/help/guide/collaborate/manage-projects.md#project-use-cases)指南。
+Use cases are automatically populated with all available options. Selected use cases determine which views and options are available within your projects. To learn more, read the [project use cases](/help/guide/collaborate/manage-projects.md#project-use-cases) guide.
 
-若要自訂您的使用案例，請在&#x200B;**[!UICONTROL 使用案例]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**，並關閉任何您不想要與共同作業人員加入的專案。 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
+To customize your use cases, select **[!UICONTROL Edit]** in the **[!UICONTROL Use cases]** section and turn off any you don&#39;t wish to include in any projects with your collaborator. When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
 
-![連線設定工作區中的使用案例設定。](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
+![The Use cases settings in the connection settings workspace.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### 比對索引鍵 {#match-keys}
 
 >[!IMPORTANT]
 >
->啟用使用多個相符金鑰的受眾時，如果一個（或多個）相符金鑰沒有重疊、無受眾規模或低於臨界值，則整個啟用將會失敗。 啟用之前，請確認您的對象有足夠的重疊，並符合所有相符索引鍵中1000 ID的最低臨界值。
+>When activating audiences where multiple match keys are used, if one (or more) match key has no overlaps, no audience counts, or falls below threshold, the entire activation will fail. Ensure your audiences have sufficient overlap and meet the minimum threshold of 1000 IDs across all match keys before activating.
 
-比對金鑰會自動填入您在[設定您的帳戶](/help/guide/setup/onboard-account.md#set-up-match-keys)時與共同作業人員選取的通用比對金鑰。 只有與您和您的共同作業人員所選&#x200B;**和**&#x200B;共同擁有的相符金鑰才會出現。
+Match keys are automatically populated with the common match keys that you and your collaborator selected while [setting up your accounts](/help/guide/setup/onboard-account.md#set-up-match-keys). Only match keys that both you and your collaborator selected **and** have in common will appear.
 
-![連線設定工作區中反白的[比對索引鍵]區段顯示共用比對索引鍵。](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+![The connection settings workspace with the Match keys section highlighted showing the common match keys.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
 
-當連線擁有者設定連線設定時，他們可以[編輯帳戶比對金鑰](../setup/onboard-account.md#edit-match-keys)以包含其他比對金鑰。 在您的帳戶設定中切換更多相符金鑰後，如果您的共同作業人員也選取了這些相符金鑰，則可在連線設定中切換這些相符金鑰。 連線程式開始後新增的相符金鑰不會自動填入，且必須手動開啟。
+When the connection owner is setting up the connection settings, they can [edit their account match keys](../setup/onboard-account.md#edit-match-keys) to include additional match keys. After toggling on more match keys in your account settings, those match keys will be available to toggle on in connection settings if your collaborator has also selected them. Match keys added once the connection process has begun will not automatically populate, and must be manually toggled on.
 
-若要自訂您的相符金鑰，請在&#x200B;**[!UICONTROL 相符金鑰]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**，並關閉您不想要在此連線中使用的相符金鑰。 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
+To customize your match keys, select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section and toggle off any match keys you don&#39;t want to use in this connection. When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
 
-![連線設定工作區的[比對金鑰]區段對話方塊開啟，顯示已切換的比對金鑰。](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
+![The connection settings workspace with the Match keys section dialog open showing a toggled off match key.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->共同作業人員接受連線設定後，相符金鑰即會被鎖定且無法變更。
+>Once your collaborator has accepted the connection settings, the match keys will be locked in and cannot be changed.
 
 ##### 點數分割 {#credit-split}
 
-使用信用分割區段來決定兩個共同作業關係人中哪一個會涵蓋活動的成本。 評分分割選項由連線選取的使用案例決定。 雖然&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例需要一方支付成本，但&#x200B;**[!UICONTROL 啟用 — 比對]**&#x200B;使用案例會提供額外的選項，讓各方支付各自的成本。 如需有關成本明細的資訊，請閱讀[信用活動型別](/help/guide/setup/my-activity.md#types-of-activities)指南。
+Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities. Credit split options are determined by the selected use cases for the connection. While the **[!UICONTROL Measurement]** use case requires one party to cover the costs, the **[!UICONTROL Activation - Matching]** use case gives an additional option to have each party cover their own costs. For information on the breakdown of costs, read the [credit activity types](/help/guide/setup/my-activity.md#types-of-activities) guide.
 
 >[!NOTE]
 >
->對象 — 輸出一律由接收對象的共同作業人員涵蓋，因此不需要選取。
+>Audience - Egress is always covered by the the collaborator that receives the audience, therefore no selection is required.
 
-若要設定信用分割，請在&#x200B;**[!UICONTROL 信用分割]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**。 然後，您可以為每個使用案例選取適當的選項。 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
+To set up the credit split, select **[!UICONTROL Edit]** in the **[!UICONTROL Credit split]** section. You can then select the appropriate options for each use case. When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
 
-![在連線設定工作區中使用選項的[信用分割]對話方塊。](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
+![The Credit split dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
 ##### 廣告商名稱 {#advertiser-names}
 
 >[!NOTE]
 >
->此選項可能會出現在連線設定組態或檢閱連線設定期間，視起始連線的人員而定。
+>This option may appear during the connection settings configuration or the review of the connection settings, depending on the who initiates the connection.
 
-如果您是發行者，與廣告商形成連線，則可選擇在連線設定中新增廣告商名稱。 這可讓您新增在您的系統中通知廣告商的多個名稱。 如果廣告商出現在多個地理位置，或在不同內容中以不同的名稱識別，這會特別有用。 稍後，當您建立專案時，您可以從連線設定中所設定的名稱清單中選取適當的廣告商名稱。
+If you are a publisher forming a connection with an advertiser, you can choose to add advertiser names in the connection settings. This allows you to add multiple names by which the advertiser is known to you in your systems. 如果廣告商出現在多個地理位置，或在不同內容中以不同的名稱識別，這會特別有用。 稍後，當您建立專案時，您可以從連線設定中所設定的名稱清單中選取適當的廣告商名稱。
 
 ![連線設定工作區中的廣告商名稱。](/help/assets/connect/establish-connection/advertiser-names.png){zoomable="yes"}
 

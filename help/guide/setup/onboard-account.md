@@ -6,8 +6,8 @@ badgelimitedavailability: label="有限可用性" type="Informative" url="https:
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 13%
+source-wordcount: '1393'
+ht-degree: 14%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 13%
 
 第一次存取Collaboration時，系統會提示您設定帳戶。 此為一次性程式，可讓您設定帳戶詳細資料和比對金鑰。 如果這是您組織的第一個帳戶，會立即引導您完成入門流程，從設定您的[帳戶詳細資料](#set-up-details)開始。
 
-若要新增其他組織，請導覽至左側邊欄中的&#x200B;**[!UICONTROL 設定]**，並選取新增圖示(![新增圖示。](/help/assets/icons/plus.png))。 接著，選取&#x200B;**[!UICONTROL 帳戶]**。
+若要新增其他組織，請導覽至左側邊欄中的&#x200B;**[!UICONTROL 設定]**，然後選取新增圖示（![新增圖示。](/help/assets/icons/plus.png)） 在右上角。 接著，選取&#x200B;**[!UICONTROL 帳戶]**。
 
 ![含有[我的帳戶]索引標籤和[帳戶]選項的設定工作區已反白顯示。](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
@@ -32,12 +32,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="聯絡人電子郵件"
->abstract="請提供團隊或角色型電子郵件，例如 **collaboration@yourcompany.com**。不應使用個人或個體的電子郵件地址。"
+>abstract="請提供團隊或角色型電子郵件，例如 **collaboration@yourcompany.com**。 不應使用個人或個體的電子郵件地址。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
 >title="連接代碼"
->abstract="此連接代碼是您帳戶的唯一識別碼。在 Real-Time CDP Collaboration 中會使用此代碼與其他協作者建立連線。"
+>abstract="此連接代碼是您帳戶的唯一識別碼。 在 Real-Time CDP Collaboration 中會使用此代碼與其他協作者建立連線。"
 
 若要開始設定帳戶，您必須先設定帳戶詳細資料。 這需要您新增下列資訊：
 
@@ -61,7 +61,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="比對索引鍵"
->abstract="比對索引鍵是用於調和來自不同資料來源之客群輪廓的識別碼。包括您的品牌可以使用的任何比對索引鍵。"
+>abstract="比對索引鍵是用於調和來自不同資料來源之客群輪廓的識別碼。 包括您的品牌可以使用的任何比對索引鍵。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_setup_match_keys"
@@ -81,7 +81,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="支援的合作夥伴 ID"
->abstract="合作夥伴 ID 是外部合作夥伴提供之客群調和的識別碼。合作夥伴 ID 沒有直接與個體輪廓連線。"
+>abstract="合作夥伴 ID 是外部合作夥伴提供之客群調和的識別碼。 合作夥伴 ID 沒有直接與個體輪廓連線。"
 
 ![支援的相符金鑰。](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
@@ -100,7 +100,7 @@ Collaboration支援三種型別的相符金鑰：第一方人員ID、第一方�
 * 相符金鑰必須為&#x200B;**修剪**，**小寫**
 * 雜湊比對金鑰必須為&#x200B;**SHA256-hashed**。
 * 如果您提供使用大寫字元的雜湊值，Collaboration會自動將其轉換為小寫。
-* 如果您的來源包含&#x200B;**純文字識別碼**，請在&#x200B;**[!UICONTROL 資料連線設定]**&#x200B;期間使用[套用轉換](./manage-data-connection.md#match-keys)選項來套用雜湊。 此選項僅適用於從Experience Platform取得受眾，雲端型來源不支援時。
+* 如果您的來源包含&#x200B;**純文字識別碼**，請在[資料連線設定](./manage-data-connection.md#match-keys)期間使用&#x200B;**[!UICONTROL 套用轉換]**&#x200B;選項來套用雜湊。 此選項僅適用於從Experience Platform取得受眾，雲端型來源不支援時。
 
 ##### 第一方人員 ID
 
@@ -122,7 +122,7 @@ Collaboration支援三種型別的相符金鑰：第一方人員ID、第一方�
 
 ##### 合作夥伴 ID
 
-合作夥伴 ID 是外部合作夥伴提供之客群調和的識別碼。目前支援的ID為：
+合作夥伴 ID 是外部合作夥伴提供之客群調和的識別碼。 目前支援的ID為：
 
 * **[!UICONTROL AdFixus ID]**
 
@@ -130,7 +130,7 @@ Collaboration支援三種型別的相符金鑰：第一方人員ID、第一方�
 >
 >Adobe與[!DNL AdFixus]的整合將每個帳戶的唯一的[!UICONTROL AdFixus ID]對應到通用的Adobe編碼格式。 這些對應可用來識別共同作業人員之間的重疊。 使用&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;啟用對象時，會使用原始的ID。 Adobe編碼格式永遠不會離開Collaboration。
 
-選取&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;時，您需要在&#x200B;**[!UICONTROL 帳戶認證]**&#x200B;區段中提供外部合作夥伴的對應ID。 此選項僅可在&#x200B;*AdFixus ID*&#x200B;上的&#x200B;**[!UICONTROL 切換後]**&#x200B;使用。 在&#x200B;**[!UICONTROL 帳戶ID]**&#x200B;欄位中輸入您的AdFixus ID，請務必仔細檢查值是否準確。
+選取&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;時，您需要在&#x200B;**[!UICONTROL 帳戶認證]**&#x200B;區段中提供外部合作夥伴的對應ID。 此選項僅可在&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;上的&#x200B;*切換後*&#x200B;使用。 在&#x200B;**[!UICONTROL 帳戶ID]**&#x200B;欄位中輸入您的AdFixus ID，請務必仔細檢查值是否準確。
 
 ![已開啟[比對金鑰]對話方塊，並開啟[AdFixus ID]及[帳戶認證]區段。](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
@@ -162,7 +162,7 @@ Collaboration支援三種型別的相符金鑰：第一方人員ID、第一方�
 
 ![在帳戶的「比對金鑰」區段中，以「編輯」選項醒目提示的「設定」工作區。](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-**[!UICONTROL 符合索引鍵]**&#x200B;對話方塊就會顯示。 開啟任何相符金鑰，或更新&#x200B;**[!UICONTROL AdFixus ID的]**&#x200B;的[!UICONTROL 帳戶ID]，然後選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認變更。
+**[!UICONTROL 符合索引鍵]**&#x200B;對話方塊就會顯示。 開啟任何相符金鑰，或更新[!UICONTROL AdFixus ID的]的&#x200B;**[!UICONTROL 帳戶ID]**，然後選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認變更。
 
 >[!IMPORTANT]
 >
