@@ -5,7 +5,7 @@ exl-id: 566ceb1b-a72a-413d-b07d-409723892616
 source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
 workflow-type: tm+mt
 source-wordcount: '1613'
-ht-degree: 8%
+ht-degree: 95%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 8%
 
 接下來，提供您的[!DNL Amazon S3]認證，以將您的S3貯體連線至Collaboration。
 
-請依照&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**&#x200B;中概述的步驟，將Adobe存取權授予
+請依照&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**中概述的步驟，將Adobe存取權授予
 [!DNL Amazon S3]儲存空間。 完成後，將您的值輸入到以下UI欄位中：
 
 * IAM 角色
@@ -192,7 +192,7 @@ ht-degree: 8%
 在網格檢視或表格檢視中，選取列專案或&#x200B;**[!UICONTROL 檢視對象]**&#x200B;以檢視特定對象的概觀。 它會顯示對象的狀態、來源和資料連線名稱，以及下列專案的詳細面板：
 
 **[!UICONTROL 身分]**：顯示資料可供使用時的身分計數和劃分總數。
-**[!UICONTROL 類別]**：列出用於組織或篩選對象的標籤。
+**[!UICONTROL 類別]**：列出用於組織或篩選對象的任何標籤。
 **[!UICONTROL 連線存取]**：指出對象是私人、公開或與特定共同作業人員共用。
 **[!UICONTROL 中繼資料可見性]**：定義共同作業人員可看到的對象資訊（例如身分計數、重疊百分比和索引）。
 

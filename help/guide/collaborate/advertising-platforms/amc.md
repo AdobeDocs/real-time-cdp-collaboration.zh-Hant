@@ -2,12 +2,12 @@
 title: Amazon Marketing Cloud
 description: 瞭解如何在Real-Time CDP Collaboration中與Amazon Marketing Cloud合作。
 audience: publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 20%
+source-wordcount: '665'
+ht-degree: 21%
 
 ---
 
@@ -53,11 +53,11 @@ ht-degree: 20%
 >title="依 Amazon 廣告產品劃分"
 >abstract="Amazon Ads 贊助產品和/或 Amazon Ads DSP 達到的「重疊廣告曝光 ID」劃分。"
 
-在&#x200B;**[!UICONTROL 探索]**&#x200B;區段中，您可以將AMC對象與您的Amazon廣告觸及的所有消費者進行比較。 您也可以檢視對象與最高重疊率的Amazon目標定位區段，僅考量DSP曝光數(這些區段只能在DSP中定位)。
+在&#x200B;**[!UICONTROL 探索]**&#x200B;區段中，您可以將AMC對象與您的Amazon廣告觸及的所有消費者進行比較。 您也可以檢視對象與最高重疊率的Amazon目標定位區段，僅考量DSP曝光數（這些區段只能在DSP中定位）。
 
 >[!IMPORTANT]
 >
->系統會從上傳至您[!DNL Amazon Ads]帳戶的對象中處理對象資料。 若要瞭解如何使用Experience Platform的目的地功能傳送您的對象到您的[!DNL Amazon Ads]帳戶，請閱讀[Amazon Ads連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/advertising/amazon-ads)指南。
+>系統會從上傳至您[!DNL Amazon Ads]帳戶的對象中處理對象資料。 若要瞭解如何使用Experience Platform的目的地功能傳送您的對象到您的[!DNL Amazon Ads]帳戶，請閱讀[Amazon Ads連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads)指南。
 
 ![使用Amazon Marketing Cloud的專案中的Discover區段。](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
@@ -68,20 +68,20 @@ ht-degree: 20%
 | 量度 | 說明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL 已解析的ID] | 使用您的對象資料能夠解析的ID數量[!DNL Amazon’s Identity Resolution]。 |
-| [!UICONTROL 重疊的廣告公開ID] | 已上傳對象中已透過[!UICONTROL 向廣告公開的]已解析ID[!DNL Amazon Ads]的數量。 |
-| [!UICONTROL 重疊%] | 已透過[!UICONTROL 向廣告公開的]已解析ID[!DNL Amazon Ads]比例。 |
+| [!UICONTROL 重疊的廣告公開ID] | 已上傳對象中已透過[!DNL Amazon Ads]向廣告公開的[!UICONTROL 已解析ID]的數量。 |
+| [!UICONTROL 重疊%] | 已透過[!DNL Amazon Ads]向廣告公開的[!UICONTROL 已解析ID]比例。 |
 | 依Amazon廣告產品[!UICONTROL 劃分] | 由[!UICONTROL 贊助的產品]和/或[!UICONTROL DSP]所達到的[!UICONTROL 重疊廣告公開的ID]劃分。 每個廣告都會以廣告公開ID總數的個別百分比表示。 由於識別碼同時屬於[!UICONTROL 贊助產品]和[!UICONTROL DSP]，所以百分比總和不能為100%。 |
 
 
 ### 相關客群 {#relevant-audiences}
 
-「**[!UICONTROL 相關對象]**」區段提供您對象與最高重疊區域之[!DNL Amazon]目標定位區段或對象的深入分析，僅考慮DSP曝光數(這些區段只能在DSP中定位)。 您可以切換所有相關的對象，並在每個區段中檢視下列量度：
+「**[!UICONTROL 相關對象]**」區段提供您對象與最高重疊區域之[!DNL Amazon]目標定位區段或對象的深入分析，僅考慮DSP曝光數（這些區段只能在DSP中定位）。 您可以切換所有相關的對象，並在每個區段中檢視下列量度：
 
 | 量度 | 說明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL 已解析的ID] | 使用您的對象資料能夠解析的ID數量[!DNL Amazon’s Identity Resolution]。 |
-| [!UICONTROL 重疊的廣告公開ID] | 這代表已上傳對象中也透過[!UICONTROL 向廣告公開的]已解析ID[!DNL Amazon Ads]數目。 這只會考慮DSP曝光數。 |
-| [!UICONTROL 重疊%] | 已透過[!UICONTROL 向廣告公開的]已解析ID[!DNL Amazon Ads]比例。 |
+| [!UICONTROL 重疊的廣告公開ID] | 這代表已上傳對象中也透過[!DNL Amazon Ads]向廣告公開的[!UICONTROL 已解析ID]數目。 這只會考慮DSP曝光數。 |
+| [!UICONTROL 重疊%] | 已透過[!DNL Amazon Ads]向廣告公開的[!UICONTROL 已解析ID]比例。 |
 | [!UICONTROL 類別] | 對象所屬的類別。 一個對象可以屬於多個類別。 |
 
 ### 探索與[!DNL Amazon Marketing Cloud]的重疊 {#discover-overlaps}
@@ -91,5 +91,5 @@ ht-degree: 20%
 | 量度 | 說明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL 已解析的ID] | 使用您的對象資料能夠解析的ID數量[!DNL Amazon’s Identity Resolution]。 |
-| [!UICONTROL 重疊的廣告公開ID] | 這代表已上傳對象中也透過[!UICONTROL 向廣告公開的]已解析ID[!DNL Amazon Ads]數目。 這只會考慮DSP曝光數。 |
-| [!UICONTROL 重疊%] | 已透過[!UICONTROL 向廣告公開的]已解析ID[!DNL Amazon Ads]比例。 |
+| [!UICONTROL 重疊的廣告公開ID] | 這代表已上傳對象中也透過[!DNL Amazon Ads]向廣告公開的[!UICONTROL 已解析ID]數目。 這只會考慮DSP曝光數。 |
+| [!UICONTROL 重疊%] | 已透過[!DNL Amazon Ads]向廣告公開的[!UICONTROL 已解析ID]比例。 |
