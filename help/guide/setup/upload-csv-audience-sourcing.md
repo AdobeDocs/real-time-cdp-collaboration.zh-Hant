@@ -1,10 +1,11 @@
 ---
 title: 上傳用於Audience Sourcing的CSV檔案
 description: 瞭解如何上傳CSV檔案作為自助資料來源，以將受眾資料擷取至Real-Time CDP Collaboration。
-source-git-commit: 96d3f87cedcfde73ce01c2b53c0b2ce4365fd277
+exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
+source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 16%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 ## 概觀 {#overview}
 
-CSV檔案上傳是為共同作業專案取得第一方對象資料的一種方法。 這是[連線您的AWS S3貯體](./configure-aws-s3-audience-sourcing.md)或[從Experience Platform取得對象](./onboard-audiences.md)的替代方式。
+CSV檔案上傳是為共同作業專案取得第一方對象資料的一種方法。 這是[連線您的AWS S3貯體](./configure-aws-s3-audience-sourcing.md)、[連線Google Cloud Storage](./configure-gcs-audience-sourcing.md)或[從Experience Platform取得對象的替代方式](./onboard-audiences.md)。
 
 依照此工作流程，將包含您對象資料的CSV檔案上傳至Collaboration中的來源並管理第一方對象。 您可以對應身分欄位以進行啟用和重疊分析。 上傳並處理您的檔案後，**[!UICONTROL 我的對象]**&#x200B;工作區中即可使用來源對象，您可在此處檢閱、啟用及管理您的共同作業專案。
 
@@ -34,7 +35,7 @@ CSV檔案上傳是為共同作業專案取得第一方對象資料的一種方�
 
 ## 上傳 CSV 檔案 {#upload-csv-file}
 
-從&#x200B;**[!UICONTROL 設定]**&#x200B;工作區中的&#x200B;**[!UICONTROL 我的對象]**&#x200B;索引標籤中，選取新增圖示(![新增圖示。](/help/assets/icons/plus.png))，然後選取&#x200B;**[!UICONTROL 對象]**。
+從&#x200B;**[!UICONTROL 設定]**&#x200B;工作區中的&#x200B;**[!UICONTROL 我的對象]**&#x200B;索引標籤中，選取新增圖示（![新增圖示。](/help/assets/icons/plus.png)） 然後選取&#x200B;**[!UICONTROL 對象]**。
 
 如果這是您的第一個對象，您也可以選取&#x200B;**[!UICONTROL 新增]**&#x200B;選項。
 
@@ -133,4 +134,4 @@ CSV檔案上傳是為共同作業專案取得第一方對象資料的一種方�
 * 檢閱對象重疊和深入分析。 請參閱[測量行銷活動績效](../../guide/collaborate/measure.md)。
 * 管理您的對象設定和可見度。 請參閱[Source並管理對象](./onboard-audiences.md)。
 
-如需其他對象來源方法的相關資訊，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)或來自Experience Platform[的](./onboard-audiences.md)Source對象。
+如需其他對象來源方法的相關資訊，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)或來自Experience Platform](./onboard-audiences.md)的[Source對象。
