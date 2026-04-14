@@ -2,7 +2,7 @@
 title: 設計概述
 description: 瞭解Real-Time CDP Collaboration中的目的地。
 audience: admin, publisher
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
 source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt

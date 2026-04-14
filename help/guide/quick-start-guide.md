@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaboration快速入門與設定指南
 description: 了解如何設定 Real-Time CDP Collaboration、設定角色和帳戶、獲取客群來源、啟用資料，以及安全地與合作夥伴連線。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
 workflow-type: tm+mt
