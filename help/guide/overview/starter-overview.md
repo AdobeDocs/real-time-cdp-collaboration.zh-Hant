@@ -2,7 +2,7 @@
 title: RTCDP Collaboration入門概述
 description: 瞭解Adobe Real-Time CDP Collaboration Starter如何協助您與授權合作夥伴擴展及增強以隱私權為中心的協同合作，而不需要您自己的完整Real-Time CDP授權。
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
 source-git-commit: bd2227e8eaac82a30566df1299f4cd3ca2cbe60b
