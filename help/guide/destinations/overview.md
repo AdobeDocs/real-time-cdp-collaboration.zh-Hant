@@ -17,7 +17,7 @@ ht-degree: 6%
 
 目的地是用來將目標對象傳送至外部平台的整合。 這些整合可讓您啟用各行銷管道和平台上的對象，以用於行銷活動和客戶參與。
 
-共同作業人員可設定目的地，以將對象傳送至外部平台，例如Adobe Experience Platform，以用於行銷活動。 共同作業人員可以[啟用專案中的對象](../collaborate/activate.md)，這些對象會傳送至其連線的設定目的地。 根據連線](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定[，可由共同作業人員完成啟用。
+共同作業人員可設定目的地，以將對象傳送至外部平台，例如Adobe Experience Platform，以用於行銷活動。 共同作業人員可以[啟用專案中的對象](../collaborate/activate.md)，這些對象會傳送至其連線的設定目的地。 根據連線[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定，可由共同作業人員完成啟用。
 
 >[!IMPORTANT]
 >
@@ -51,7 +51,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->此資料表中的&#x200B;**[!DNL Google Cloud Storage]**&#x200B;參考&#x200B;**目的地** （Collaboration會在啟用期間傳送對象）。 若要&#x200B;**從**[!UICONTROL &#x200B;設定&#x200B;]**工作區中的GCS儲存貯體**&#x200B;取得對象，請參閱[設定對象來源的GCS](../setup/configure-gcs-audience-sourcing.md)。
+>此資料表中的&#x200B;**[!DNL Google Cloud Storage]**&#x200B;參考&#x200B;**目的地** （Collaboration會在啟用期間傳送對象）。 若要&#x200B;**從**&#x200B;[!UICONTROL &#x200B;設定&#x200B;]&#x200B;**工作區中的GCS儲存貯體**&#x200B;取得對象，請參閱[設定對象來源的GCS](../setup/configure-gcs-audience-sourcing.md)。
 
 ## 後續步驟
 

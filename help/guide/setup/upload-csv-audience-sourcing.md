@@ -134,4 +134,4 @@ CSV檔案上傳是為共同作業專案取得第一方對象資料的一種方�
 * 檢閱對象重疊和深入分析。 請參閱[測量行銷活動績效](../../guide/collaborate/measure.md)。
 * 管理您的對象設定和可見度。 請參閱[Source並管理對象](./onboard-audiences.md)。
 
-如需其他對象來源方法的相關資訊，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)或來自Experience Platform](./onboard-audiences.md)的[Source對象。
+如需其他對象來源方法的相關資訊，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)或來自Experience Platform[&#128279;](./onboard-audiences.md)的Source對象。
