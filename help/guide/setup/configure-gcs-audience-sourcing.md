@@ -2,11 +2,11 @@
 title: 設定 [!DNL Google Cloud Storage] 以取得對象來源
 description: 瞭解如何在Real-Time CDP Collaboration中連線 [!DNL Google Cloud Storage] 貯體作為自助受眾來源，包括先決條件、驗證、欄位對應、排程和驗證。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: 37297042942a65573a6020bfe39549b26dfdd001
 workflow-type: tm+mt
-source-wordcount: '2465'
-ht-degree: 7%
+source-wordcount: '2501'
+ht-degree: 8%
 
 ---
 
@@ -81,6 +81,12 @@ ht-degree: 7%
 
 ### 選取[!DNL Google Cloud Storage]作為資料來源 {#select-gcs}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
+>title="準備您的資料以進行上線流程"
+>abstract="請參閱Audience Sourcing規格指南，瞭解如何格式化和建構適用於Collaboration的Google雲端儲存空間的對象資料。"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱指南"
+
 資料來源選取畫面會列出所有可用的連線型別。 選取&#x200B;**[!UICONTROL Google雲端儲存空間]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
 ![此新增對象工作流程會顯示資料來源選取畫面，其中已選取Google雲端儲存空間，並反白顯示「下一步」。](../../assets/setup/gcs-audience-sourcing/gcs-data-source-selection.png)
@@ -95,7 +101,7 @@ ht-degree: 7%
 
 | 欄位 | 說明 |
 | --- | --- |
-| **[!UICONTROL 貯體]** | 您的[!DNL Google Cloud Storage]儲存貯體的名稱。 檢視開始[&#128279;](#required-values)前所需的值。 |
+| **[!UICONTROL 貯體]** | 您的[!DNL Google Cloud Storage]儲存貯體的名稱。 檢視開始](#required-values)前所需的[值。 |
 | **[!UICONTROL 路徑]** | 儲存對象檔案之貯體中的路徑前置詞。 |
 
 ![此新增對象工作流程會顯示Google Cloud Storage驗證表單（含貯體名稱和資料夾路徑欄位），以及[下一步]按鈕。](../../assets/setup/gcs-audience-sourcing/gcs-data-connection-authentication.png)
@@ -168,7 +174,7 @@ ht-degree: 7%
 
 當Collaboration擷取您的對象資料時，**[!UICONTROL 我的對象]**&#x200B;工作區頂端的橫幅會指出來源補充正在進行中。 個別對象只有在每個對象的sourcing完成後才會出現在清單中。
 
-![&#x200B; 「我的對象」標籤上的設定工作區會顯示「對象來源正在進行」橫幅，指出對象是從Google雲端儲存空間資料連線取得，且對象清單顯示如下。](../../assets/setup/gcs-audience-sourcing/gcs-sourcing-in-progress.png)
+![ 「我的對象」標籤上的設定工作區會顯示「對象來源正在進行」橫幅，指出對象是從Google雲端儲存空間資料連線取得，且對象清單顯示如下。](../../assets/setup/gcs-audience-sourcing/gcs-sourcing-in-progress.png)
 
 >[!TIP]
 >
