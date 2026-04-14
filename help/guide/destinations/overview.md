@@ -4,9 +4,9 @@ description: 瞭解Real-Time CDP Collaboration中的目的地。
 audience: admin, publisher
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '360'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 目的地是用來將目標對象傳送至外部平台的整合。 這些整合可讓您啟用各行銷管道和平台上的對象，以用於行銷活動和客戶參與。
 
-共同作業人員可設定目的地，以將對象傳送至外部平台，例如Adobe Experience Platform，以用於行銷活動。 共同作業人員可以[啟用專案中的對象](../collaborate/activate.md)，這些對象會傳送至其連線的設定目的地。 根據連線[中設定的對象啟用設定](/help/guide/connect/establishing-connections.md#configure-connection-settings)，可由共同作業人員完成啟用。
+共同作業人員可設定目的地，以將對象傳送至外部平台，例如Adobe Experience Platform，以用於行銷活動。 共同作業人員可以[啟用專案中的對象](../collaborate/activate.md)，這些對象會傳送至其連線的設定目的地。 根據連線[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定，可由共同作業人員完成啟用。
 
 >[!IMPORTANT]
 >
@@ -44,10 +44,14 @@ ht-degree: 6%
 | 目標 | 可用性 |
 | --- | --- |
 | [Adobe Experience Platform](./experience-platform.md) | 可用 |
-| Amazon S3 | 即將推出。 |
-| Snowflake | 即將推出。 |
-| Google Cloud Storage | 即將推出。 |
-| Azure Blob 儲存體 | 即將推出。 |
+| [!DNL Amazon S3] | 即將推出。 |
+| [!DNL Snowflake] | 即將推出。 |
+| [!DNL Google Cloud Storage] | 即將推出。 |
+| [!DNL Azure Blob Storage] | 即將推出。 |
+
+>[!NOTE]
+>
+>此資料表中的&#x200B;**[!DNL Google Cloud Storage]**&#x200B;參考&#x200B;**目的地** （Collaboration會在啟用期間傳送對象）。 若要&#x200B;**從**&#x200B;[!UICONTROL &#x200B;設定&#x200B;]&#x200B;**工作區中的GCS儲存貯體**&#x200B;取得對象，請參閱[設定對象來源的GCS](../setup/configure-gcs-audience-sourcing.md)。
 
 ## 後續步驟
 

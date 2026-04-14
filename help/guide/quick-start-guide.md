@@ -4,9 +4,9 @@ description: 了解如何設定 Real-Time CDP Collaboration、設定角色和帳
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: a937773267f42f254b45c14a0fd2f5f1d3b32b8b
+source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1417'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 - 為您的組織建立並指派給使用者的[角色](./permissions/manage-roles.md)。
 - 存取品牌化資產，例如貴組織的名稱、標誌和橫幅。
 - [定義的相符金鑰策略](./setup/onboard-account.md#set-up-match-keys)
-- （選用）如果您未使用Experience Platform進行對象管理，請存取支援的雲端來源（Amazon S3或Snowflake）。
+- （選用）如果您未使用Experience Platform進行對象管理，可存取支援的雲端來源（Amazon S3、Google Cloud Storage或Snowflake）。
 
 ## 步驟1：完成角色型設定 {#complete-role-based-setup}
 
@@ -120,13 +120,13 @@ ht-degree: 3%
 
 或者，您也可以參閱Collaboration[&#128279;](./setup/onboard-audiences.md#source-and-manage-audiences)中sourcing audiences的檔案。
 
-### 選項B：來自Snowflake或Amazon S3的Source
+### 選項B：來自Snowflake、Amazon S3或Google雲端儲存空間的Source
 
-若要設定雲端來源（例如[!DNL Snowflake]或[!DNL Amazon S3]），請使用[對象規格PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)準備您的對象資料
+若要設定雲端來源（例如[!DNL Snowflake]、[!DNL Amazon S3]或[!DNL Google Cloud Storage]），請使用[對象規格PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)準備您的對象資料
 
-您可以將[!DNL Amazon S3]設定為自助資料來源。 如需設定指示，請參閱[Amazon S3來源指南](./setup/configure-aws-s3-audience-sourcing.md)
+您可以將[!DNL Amazon S3]、[!DNL Google Cloud Storage]或[!DNL Snowflake]設定為自助資料來源。 如需設定指示，請參閱[Amazon S3來源指南](./setup/configure-aws-s3-audience-sourcing.md)、[GCS來源指南](./setup/configure-gcs-audience-sourcing.md)或[Snowflake來源指南](./setup/configure-snowflake-audience-sourcing.md)。
 
-如果您正在使用[!DNL Snowflake]或其他雲端服務提供者，請聯絡您的Adobe客戶代表以完成設定。
+如需其他雲端服務提供者，請聯絡您的Adobe客戶代表以完成設定。
 
 >[!IMPORTANT]
 >

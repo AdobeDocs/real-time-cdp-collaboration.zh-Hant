@@ -4,10 +4,10 @@ description: 瞭解如何在Real-Time CDP Collaboration中管理資料連線，�
 audience: administrator, data engineer
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 100%
+source-wordcount: '1179'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 ## 概觀
 
 在Real-Time CDP Collaboration中使用資料連線，從各種平台取得對象。 瞭解如何管理比對索引鍵，以及排程現有資料連線的資料重新整理作業。 此外，您將可依不同屬性篩選對象，以獲得更精細的深入分析。
+
+>[!NOTE]
+>
+>若要建立新的資料連線，請參閱[新增和管理對象](./onboard-audiences.md)。
 
 ## 檢視資料連線
 

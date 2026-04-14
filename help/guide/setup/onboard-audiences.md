@@ -4,10 +4,10 @@ description: 瞭解如何在Adobe Real-Time CDP Collaboration中取得和管理�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: c535412589a5004cde6147e6800c05f3b5f7bb27
+source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
 workflow-type: tm+mt
-source-wordcount: '3636'
-ht-degree: 19%
+source-wordcount: '3680'
+ht-degree: 18%
 
 ---
 
@@ -42,9 +42,11 @@ ht-degree: 19%
 >
 >建立您的第一個資料連線並取得第一個對象後，您就可以從現有的資料連線取得多個對象。 新增其他對象時，由於資料連線已建立，您將從[選取對象](#select-audiences)步驟開始。
 
-資料連線是資料來源，您會從中sourcing對象。 目前唯一支援的資料連線是Adobe Experience Platform。
+資料連線是您將對象擷取到Collaboration中的來源。 支援的來源包括Adobe Experience Platform、CSV檔案上傳、[!DNL Amazon S3]、[!DNL Snowflake]和[!DNL Google Cloud Storage]，每個都有自己的工作流程。
 
-您為資料連線設定的任何設定都會套用至源自此資料連線的所有對象。
+以下各節說明如何選取&#x200B;**Adobe Experience Platform**&#x200B;以及完成Experience Platform的特定步驟（沙箱、控管和同意）。 如果您選擇CSV、[!DNL Amazon S3]、[!DNL Snowflake]或[!DNL Google Cloud Storage]，請使用該選項的[選取資料來源](#select-data-source)下連結的指南。
+
+您為Experience Platform資料連線設定的任何設定都會套用至源自該連線的所有對象。
 
 >[!TIP]
 >
@@ -62,7 +64,7 @@ ht-degree: 19%
 * **CSV檔案**：上傳包含您對象資料的CSV檔案，以便快速且直接地擷取資料。 請參閱[上傳CSV檔案以取得對象來源](./upload-csv-audience-sourcing.md)指南以開始。
 * **Amazon Web Services**：直接從S3儲存貯體連線至您的Amazon S3儲存體，以取得對象資料。 如需逐步指示，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)指南。
 * **Snowflake**：使用您的Snowflake資料倉儲，順暢地提取對象資料。 請參閱[設定 [!DNL Snowflake] 對象來源](./configure-snowflake-audience-sourcing.md)指南。
-* **Google Cloud Platform** （未來版本）：連線至您的Google Cloud Storage，以直接從您的GCS儲存貯體取得對象資料。
+* **Google雲端儲存空間**：連線至您的GCS貯體，以取得來源受眾資料。 如需逐步指示，請參閱[設定對象來源的GCS](./configure-gcs-audience-sourcing.md)指南。
 
 選取您的資料來源，然後選取&#x200B;**[!UICONTROL 下一步]**。
 

@@ -2,10 +2,10 @@
 title: 設定 [!DNL Amazon S3] 以取得對象來源
 description: 瞭解如何設定並連線您的 [!DNL Amazon S3] 儲存裝置作為自助資料來源，以將對象資料擷取到Real-Time CDP Collaboration。
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
+source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 95%
+source-wordcount: '1622'
+ht-degree: 94%
 
 ---
 
@@ -215,5 +215,7 @@ ht-degree: 95%
 ## 後續步驟 {#next-steps}
 
 您現在已成功設定並連線您的[!DNL Amazon S3]儲存體作為Collaboration中的資料來源。 透過完成此工作流程，您啟用第一方對象資料的安全來源，以進行啟用和重疊分析。
+
+若要改用[!DNL Google Cloud Storage]，請參閱[設定對象來源的GCS](./configure-gcs-audience-sourcing.md)。
 
 來源完成之後，您的對象會出現在&#x200B;**[!UICONTROL 我的對象]**&#x200B;工作區中，準備共同作業和啟動。 如需詳細管理選項，請參閱[來源及管理對象檔案](./onboard-audiences.md)。
