@@ -2,11 +2,11 @@
 title: 設定 [!DNL Google Cloud Storage] 以取得對象來源
 description: 瞭解如何在Real-Time CDP Collaboration中連線 [!DNL Google Cloud Storage] 貯體作為自助受眾來源，包括先決條件、驗證、欄位對應、排程和驗證。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1875ac192fc36f62a4f4a4f12163d2a2cf28486f
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: 2f1a40f60d244bda70d6e36a653cb46885c424ac
 workflow-type: tm+mt
-source-wordcount: '2501'
-ht-degree: 8%
+source-wordcount: '2855'
+ht-degree: 7%
 
 ---
 
@@ -31,15 +31,9 @@ ht-degree: 8%
 
 ### GCS存取和許可權 {#gcs-access-permissions}
 
-<!-- [LINK REQUIRED: Once the GCS permissions and roles guide is published, replace this NOTE with a direct link to that guide and remove the placeholder instructions below.] -->
-
->[!NOTE]
->
->涵蓋此整合所需的特定[!DNL Google Cloud]個IAM角色、服務帳戶設定和貯體層級許可權的專屬指南正在等候發佈。 在該指南可用之前，請與您的[!DNL Google Cloud]管理員合作，確認Adobe具有針對您的貯體進行驗證並讀取受眾檔案所需的許可權。
-
 繼續之前，請向您的[!DNL Google Cloud]管理員確認下列事項：
 
-* Adobe已獲得對您的GCS貯體進行驗證和讀取受眾檔案所需的許可權。
+* Adobe已獲得對您的GCS貯體進行驗證和讀取受眾檔案所需的許可權。 如需逐步指示，請參閱[許可權設定區段](#setup-gcs-permissions)。
 * [!DNL Google Cloud Storage]對象來源可在您的地區使用。 供應情況因地區而異（北美地區、歐洲、中東和非洲地區、澳新地區）。 如果您所在地區尚未提供GCS來源，請聯絡您的Adobe客戶代表以確認時間表。
 
 ### 準備您的對象資料 {#prepare-audience-data}
@@ -101,7 +95,7 @@ ht-degree: 8%
 
 | 欄位 | 說明 |
 | --- | --- |
-| **[!UICONTROL 貯體]** | 您的[!DNL Google Cloud Storage]儲存貯體的名稱。 檢視開始[&#128279;](#required-values)前所需的值。 |
+| **[!UICONTROL 貯體]** | 您的[!DNL Google Cloud Storage]儲存貯體的名稱。 檢視開始](#required-values)前所需的[值。 |
 | **[!UICONTROL 路徑]** | 儲存對象檔案之貯體中的路徑前置詞。 |
 
 ![此新增對象工作流程會顯示Google Cloud Storage驗證表單（含貯體名稱和資料夾路徑欄位），以及[下一步]按鈕。](../../assets/setup/gcs-audience-sourcing/gcs-data-connection-authentication.png)
@@ -174,7 +168,7 @@ ht-degree: 8%
 
 當Collaboration擷取您的對象資料時，**[!UICONTROL 我的對象]**&#x200B;工作區頂端的橫幅會指出來源補充正在進行中。 個別對象只有在每個對象的sourcing完成後才會出現在清單中。
 
-![&#x200B; 「我的對象」標籤上的設定工作區會顯示「對象來源正在進行」橫幅，指出對象是從Google雲端儲存空間資料連線取得，且對象清單顯示如下。](../../assets/setup/gcs-audience-sourcing/gcs-sourcing-in-progress.png)
+![ 「我的對象」標籤上的設定工作區會顯示「對象來源正在進行」橫幅，指出對象是從Google雲端儲存空間資料連線取得，且對象清單顯示如下。](../../assets/setup/gcs-audience-sourcing/gcs-sourcing-in-progress.png)
 
 >[!TIP]
 >
@@ -236,6 +230,69 @@ ht-degree: 8%
 
 * 確認儲存貯體中的更新檔案符合[對象來源規格](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)中的欄位結構和欄位要求。
 * 請確定設定資料夾路徑中的所有檔案都使用相同的欄結構。 相同路徑中的混合格式檔案可能會導致部分sourcing失敗。
+
+## 設定[!DNL Google Cloud Storage]許可權 {#setup-gcs-permissions}
+
+[!DNL Google Cloud Storage]提供安全、可擴充的方式，讓您在雲端儲存及存取您的資料。 若要允許Adobe讀取您的GCS貯體，您必須在您的[!DNL Google Cloud]帳戶中設定適當的識別與存取管理(IAM)許可權和服務帳戶存取權。
+
+### 收集Adobe的[!DNL Google Service Account]資訊 {#collect-account-information}
+
+若要開始使用，請記下符合您地區的Adobe [!DNL Google Service Account]。 在後續步驟中，您將需要此資訊才能授予Adobe存取權。
+
+| 區域 | [!DNL Google Service Account] |
+| ------------- | --------------- |
+| 北美 | `kk9930000@va3-22da.iam.gserviceaccount.com` |
+| 歐洲、中東和非洲地區 | `kze830000@sfc-eufrankfurt-1-g4a.iam.gserviceaccount.com` |
+| 澳大利亞 | `knhv20000@sfc-au-1-nla.iam.gserviceaccount.com` |
+
+{style="table-layout:auto"}
+
+### 設定IAM角色 {#setup-iam-role}
+
+>[!IMPORTANT]
+>
+>您必須擁有[!DNL Google Cloud]帳戶中的&#x200B;**帳戶管理員**&#x200B;許可權，才能完成此設定。 如果您沒有這些許可權，請在繼續之前聯絡管理員。
+
+請依照下列步驟，建立具有必要許可權的自訂IAM角色，並將其指派給Adobe服務帳戶。 這可確保Adobe安全存取您的GCS受眾資料。
+
+#### 建立IAM角色 {#create-iam-role}
+
+首先，在您的[!DNL Google Cloud]專案中建立自訂IAM角色，並擁有指派給Adobe的必要許可權。
+
+在[[!DNL Google Cloud] 主控台](https://console.cloud.google.com)的&#x200B;**[!DNL IAM & Admin]**&#x200B;頁面中，瀏覽至&#x200B;**[!DNL Roles]**&#x200B;並選取&#x200B;**[!DNL Create role]**。 填寫所需資訊，例如新角色的標題和ID。
+
+然後，將下列許可權新增至角色：
+
+| 權限 | 目的 |
+| ------------- | --------------- |
+| `storage.buckets.get` | 讀取貯體中繼資料。 |
+| `storage.objects.get` | 讀取物件資料和中繼資料。 |
+| `storage.objects.list` | 列出貯體中的物件。 |
+
+{style="table-layout:auto"}
+
+如需許可權的詳細資訊，請參閱[GCS IAM許可權](https://cloud.google.com/storage/docs/access-control/iam-permissions)。 如需逐步指示，請參閱[如何建立自訂角色](https://docs.cloud.google.com/iam/docs/creating-custom-roles)。
+
+#### 指派IAM角色給Adobe {#assign-role}
+
+接下來，在[!DNL Google Cloud Console]中開啟&#x200B;[**[!DNL Buckets]**頁面](https://console.cloud.google.com/storage/browser)，並選取包含您對象資料的貯體。
+
+導覽至&#x200B;**[!DNL Permissions]**&#x200B;標籤，選擇&#x200B;**[!DNL View by principals]**，然後選取&#x200B;**[!DNL Grant access]**。
+
+在&#x200B;**[!DNL Add principals]**&#x200B;對話方塊中，新增[Adobe Google服務帳戶](#collect-account-information)作為主體，並指派您先前建立的自訂IAM角色。 選取&#x200B;**[!DNL Save]**&#x200B;以確認設定。
+
+Adobe現在可以在選取的GCS貯體中安全存取您的對象資料。 視需要檢閱任何其他[必要條件](#prerequisites)，或繼續前往[開始從GCS將對象來源至Collaboration](#configure-gcs-connection)。
+
+#### 收集[!DNL Google Cloud Storage]詳細資料 {#collect-gcs-details}
+
+最後，收集您GCS貯體的詳細資訊，如下表所示。 您需要這些資訊才能設定GCS與Collaboration之間的連線。
+
+| 欄位 | 說明 | 範例 |
+|------ |------------ |-------- |
+| [!DNL Bucket] | 包含您對象檔案的[!DNL Google Cloud Storage]儲存貯體的確切名稱。 | `customer-data-bucket` |
+| [!DNL Path] | 儲存對象檔案之貯體中的路徑前置詞。 必須以`/`結尾，才能讀取所有檔案。 | `sourcing/testdata/path1/` |
+
+{style="table-layout:auto"}
 
 ## 後續步驟 {#next-steps}
 
