@@ -95,7 +95,7 @@ ht-degree: 7%
 
 | 欄位 | 說明 |
 | --- | --- |
-| **[!UICONTROL 貯體]** | 您的[!DNL Google Cloud Storage]儲存貯體的名稱。 檢視開始](#required-values)前所需的[值。 |
+| **[!UICONTROL 貯體]** | 您的[!DNL Google Cloud Storage]儲存貯體的名稱。 檢視開始[&#128279;](#required-values)前所需的值。 |
 | **[!UICONTROL 路徑]** | 儲存對象檔案之貯體中的路徑前置詞。 |
 
 ![此新增對象工作流程會顯示Google Cloud Storage驗證表單（含貯體名稱和資料夾路徑欄位），以及[下一步]按鈕。](../../assets/setup/gcs-audience-sourcing/gcs-data-connection-authentication.png)
@@ -168,7 +168,7 @@ ht-degree: 7%
 
 當Collaboration擷取您的對象資料時，**[!UICONTROL 我的對象]**&#x200B;工作區頂端的橫幅會指出來源補充正在進行中。 個別對象只有在每個對象的sourcing完成後才會出現在清單中。
 
-![ 「我的對象」標籤上的設定工作區會顯示「對象來源正在進行」橫幅，指出對象是從Google雲端儲存空間資料連線取得，且對象清單顯示如下。](../../assets/setup/gcs-audience-sourcing/gcs-sourcing-in-progress.png)
+![&#x200B; 「我的對象」標籤上的設定工作區會顯示「對象來源正在進行」橫幅，指出對象是從Google雲端儲存空間資料連線取得，且對象清單顯示如下。](../../assets/setup/gcs-audience-sourcing/gcs-sourcing-in-progress.png)
 
 >[!TIP]
 >
@@ -275,7 +275,7 @@ ht-degree: 7%
 
 #### 指派IAM角色給Adobe {#assign-role}
 
-接下來，在[!DNL Google Cloud Console]中開啟&#x200B;[**[!DNL Buckets]**頁面](https://console.cloud.google.com/storage/browser)，並選取包含您對象資料的貯體。
+接下來，在[!DNL Google Cloud Console]中開啟&#x200B;[**[!DNL Buckets]**&#x200B;頁面](https://console.cloud.google.com/storage/browser)，並選取包含您對象資料的貯體。
 
 導覽至&#x200B;**[!DNL Permissions]**&#x200B;標籤，選擇&#x200B;**[!DNL View by principals]**，然後選取&#x200B;**[!DNL Grant access]**。
 
