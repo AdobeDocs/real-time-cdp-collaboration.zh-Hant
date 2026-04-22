@@ -144,7 +144,7 @@ ht-degree: 8%
 
 會出現對話方塊，提示您接受邀請。 選取&#x200B;**[!UICONTROL 接受邀請]**&#x200B;以繼續。
 
-![ Accept連線邀請對話方塊中反白顯示Accept邀請選項。](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
+![&#x200B; Accept連線邀請對話方塊中反白顯示Accept邀請選項。](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
 
 連線的狀態變更為&#x200B;**[!UICONTROL 擱置中]**。 擁有者現在可以設定連線設定。
 
@@ -322,7 +322,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->邀請其他共同作業人員，即表示您確認您有責任承擔因他們活動所產生的任何費用。 在Collaboration Starter](../setup/starter-credit-usage.md)中進一步瞭解[信用使用量和消耗量
+>邀請其他共同作業人員，即表示您確認您有責任承擔因他們活動所產生的任何費用。 在Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)中進一步瞭解信用使用量和消耗量
 
 ### 傳送邀請 {#send-invitation}
 
