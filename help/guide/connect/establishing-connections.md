@@ -4,10 +4,10 @@ description: 在發現潛在的共同作業人員後，瞭解如何建立連線�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
+source-git-commit: 27fdbdf7e70ba83b323e1057ab614585aa7d0045
 workflow-type: tm+mt
-source-wordcount: '2881'
-ht-degree: 9%
+source-wordcount: '3349'
+ht-degree: 8%
 
 ---
 
@@ -120,6 +120,8 @@ ht-degree: 9%
 
 從共同作業人員取得&#x200B;**[!UICONTROL 連線代碼]**&#x200B;後，您就可以傳送私人連線邀請。 若要這麼做，請導覽至&#x200B;**[!UICONTROL 連線]**&#x200B;工作區，並選取右上角的加號圖示（![加號圖示](/help/assets/icons/plus.png)）。
 
+然後，選取&#x200B;**[!UICONTROL 使用邀請代碼]**&#x200B;連線。
+
 ![連線工作區中反白的加號圖示。](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
 
 出現&#x200B;**[!UICONTROL 連線]**&#x200B;對話方塊，提示您輸入要連線的共同作業人員的&#x200B;**[!UICONTROL 連線代碼]**。 將程式碼貼到文字欄位中，並選取&#x200B;**[!UICONTROL 繼續]**&#x200B;以繼續。
@@ -148,15 +150,15 @@ ht-degree: 9%
 
 ### 設定連線設定 {#configure-connection-settings}
 
-連線設定會定義兩個共同作業人員之間的術語。 這些設定包括使用案例、比對索引鍵、信用分割和法律協定。 Collaborators connecting with advertisers can also add advertiser names to the connection settings, which will be used when creating projects.
+連線設定會定義兩個共同作業人員之間的術語。 這些設定包括使用案例、比對索引鍵、信用分割和法律協定。 與廣告商連線的共同作業人員也可以將廣告商名稱新增到連線設定，這將在建立專案時使用。
 
-After the recipient accepts the invite, the owner can configure the connection settings. To do this, navigate to **[!UICONTROL My connections]** and find the pending connection in the **[!UICONTROL Action required]** section. Select **[!UICONTROL Set up connection]** to configure the connection settings.
+收件者接受邀請後，擁有者即可進行連線設定。 若要這麼做，請瀏覽至&#x200B;**[!UICONTROL 我的連線]**，並在&#x200B;**[!UICONTROL 需要動作]**&#x200B;區段中尋找擱置的連線。 選取&#x200B;**[!UICONTROL 設定連線]**&#x200B;以設定連線設定。
 
-![The Connect workspace with the Set up connection option highlighted in the Action required section.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+![在[需要動作]區段中反白顯示[連線工作區]與[設定連線]選項。](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
-The connection settings workspace appears, allowing you to configure the various settings for the connection.
+連線設定工作區隨即顯示，可讓您設定連線的各種設定。
 
-![The connection settings workspace.](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
+![連線設定工作區。](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
 #### 連線設定 {#connection-settings}
 
@@ -197,71 +199,71 @@ The connection settings workspace appears, allowing you to configure the various
 >title="Audience Activation"
 >abstract="您可以透過 Audience Activation 選取能夠啟動 Audience Activation 的協作者。"
 
-You can configure the following connection settings:
+您可以設定下列連線設定：
 
 ##### Audience Activation {#audience-activation}
 
 >[!IMPORTANT]
 >
->Any connections created before the **[!UICONTROL Audience activation]** feature was introduced will automatically have the audience activation setting set to the connection owner. If you want to allow both collaborators to activate audiences, you will need [delete your current connection](#delete-connections) and create a new one with the updated settings.
+>在引入&#x200B;**[!UICONTROL 對象啟用]**&#x200B;功能之前建立的任何連線都會自動將對象啟用設定設定設為連線擁有者。 如果您想要允許兩位共同作業人員啟用對象，您需要[刪除目前的連線](#delete-connections)，並使用更新的設定建立新的連線。
 
-Audience activation allows you to select which collaborator can activate audiences within the connection. Audience activation will only be an option if the **[!UICONTROL Audience activation]** use case is selected. If you choose to remove the use case during the connection process, the audience activation setting will be removed from the connection settings. To learn more about audience activation, see the [activate](/help/guide/collaborate/activate.md) guide.
+對象啟用可讓您選取哪些共同作業人員可以在連線中啟用對象。 只有選取&#x200B;**[!UICONTROL 對象啟用]**&#x200B;使用案例時，才會提供對象啟用選項。 如果您選擇在連線過程中移除使用案例，則會從連線設定中移除對象啟用設定。 若要深入瞭解對象啟用，請參閱[啟用](/help/guide/collaborate/activate.md)指南。
 
-To set up audience activation, select **[!UICONTROL Set up]** in the **[!UICONTROL Audience activation]** section. Use the dropdown menu to specify which collaborator can activate audiences. You can choose a single collaborator or allow both collaborators to activate audiences.
+若要設定對象啟用，請在&#x200B;**[!UICONTROL 對象啟用]**&#x200B;區段中選取&#x200B;**[!UICONTROL 設定]**。 使用下拉式選單來指定哪些共同作業人員可以啟用對象。 您可以選擇單一共同作業人員，或允許兩個共同作業人員啟用對象。
 
-![The Audience activation dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/audience-activation.png){zoomable="yes"}
+![在連線設定工作區中使用選項的[對象啟用]對話方塊。](/help/assets/connect/establish-connection/audience-activation.png){zoomable="yes"}
 
-When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
+完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
 
-![The Audience activation dialog with the Save option in the connection settings workspace.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
+![連線設定工作區中具有「儲存」選項的「對象啟動」對話方塊。](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
 ##### 使用案例 {#use-cases}
 
-Use cases are automatically populated with all available options. Selected use cases determine which views and options are available within your projects. To learn more, read the [project use cases](/help/guide/collaborate/manage-projects.md#project-use-cases) guide.
+使用案例會自動填入所有可用選項。 所選的使用案例決定您的專案中可用的檢視和選項。 若要深入瞭解，請閱讀[專案使用案例](/help/guide/collaborate/manage-projects.md#project-use-cases)指南。
 
-To customize your use cases, select **[!UICONTROL Edit]** in the **[!UICONTROL Use cases]** section and turn off any you don&#39;t wish to include in any projects with your collaborator. When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
+若要自訂您的使用案例，請在&#x200B;**[!UICONTROL 使用案例]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**，並關閉任何您不想要與共同作業人員加入的專案。 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
 
-![The Use cases settings in the connection settings workspace.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
+![連線設定工作區中的使用案例設定。](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### 比對索引鍵 {#match-keys}
 
 >[!IMPORTANT]
 >
->When activating audiences where multiple match keys are used, if one (or more) match key has no overlaps, no audience counts, or falls below threshold, the entire activation will fail. Ensure your audiences have sufficient overlap and meet the minimum threshold of 1000 IDs across all match keys before activating.
+>啟用使用多個相符金鑰的受眾時，如果一個（或多個）相符金鑰沒有重疊、無受眾規模或低於臨界值，則整個啟用將會失敗。 啟用之前，請確認您的對象有足夠的重疊，並符合所有相符索引鍵中1000 ID的最低臨界值。
 
-Match keys are automatically populated with the common match keys that you and your collaborator selected while [setting up your accounts](/help/guide/setup/onboard-account.md#set-up-match-keys). Only match keys that both you and your collaborator selected **and** have in common will appear.
+比對金鑰會自動填入您在[設定您的帳戶](/help/guide/setup/onboard-account.md#set-up-match-keys)時與共同作業人員選取的通用比對金鑰。 只有與您和您的共同作業人員所選&#x200B;**和**&#x200B;共同擁有的相符金鑰才會出現。
 
-![The connection settings workspace with the Match keys section highlighted showing the common match keys.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+![連線設定工作區中反白的[比對索引鍵]區段顯示共用比對索引鍵。](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
 
-When the connection owner is setting up the connection settings, they can [edit their account match keys](../setup/onboard-account.md#edit-match-keys) to include additional match keys. After toggling on more match keys in your account settings, those match keys will be available to toggle on in connection settings if your collaborator has also selected them. Match keys added once the connection process has begun will not automatically populate, and must be manually toggled on.
+當連線擁有者設定連線設定時，他們可以[編輯帳戶比對金鑰](../setup/onboard-account.md#edit-match-keys)以包含其他比對金鑰。 在您的帳戶設定中切換更多相符金鑰後，如果您的共同作業人員也選取了這些相符金鑰，則可在連線設定中切換這些相符金鑰。 連線程式開始後新增的相符金鑰不會自動填入，且必須手動開啟。
 
-To customize your match keys, select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section and toggle off any match keys you don&#39;t want to use in this connection. When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
+若要自訂您的相符金鑰，請在&#x200B;**[!UICONTROL 相符金鑰]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**，並關閉您不想要在此連線中使用的相符金鑰。 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
 
-![The connection settings workspace with the Match keys section dialog open showing a toggled off match key.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
+![連線設定工作區的[比對金鑰]區段對話方塊開啟，顯示已切換的比對金鑰。](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Once your collaborator has accepted the connection settings, the match keys will be locked in and cannot be changed.
+>共同作業人員接受連線設定後，相符金鑰即會被鎖定且無法變更。
 
 ##### 點數分割 {#credit-split}
 
-Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities. Credit split options are determined by the selected use cases for the connection. While the **[!UICONTROL Measurement]** use case requires one party to cover the costs, the **[!UICONTROL Activation - Matching]** use case gives an additional option to have each party cover their own costs. For information on the breakdown of costs, read the [credit activity types](/help/guide/setup/my-activity.md#types-of-activities) guide.
+使用信用分割區段來決定兩個共同作業關係人中哪一個會涵蓋活動的成本。 評分分割選項由連線選取的使用案例決定。 雖然&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例需要一方支付成本，但&#x200B;**[!UICONTROL 啟用 — 比對]**&#x200B;使用案例會提供額外的選項，讓各方支付各自的成本。 如需有關成本明細的資訊，請閱讀[信用活動型別](/help/guide/setup/my-activity.md#types-of-activities)指南。
 
 >[!NOTE]
 >
->Audience - Egress is always covered by the the collaborator that receives the audience, therefore no selection is required.
+>對象 — 輸出一律由接收對象的共同作業人員涵蓋，因此不需要選取。
 
-To set up the credit split, select **[!UICONTROL Edit]** in the **[!UICONTROL Credit split]** section. You can then select the appropriate options for each use case. When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
+若要設定信用分割，請在&#x200B;**[!UICONTROL 信用分割]**&#x200B;區段中選取&#x200B;**[!UICONTROL 編輯]**。 然後，您可以為每個使用案例選取適當的選項。 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
 
-![The Credit split dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
+![在連線設定工作區中使用選項的[信用分割]對話方塊。](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
 ##### 廣告商名稱 {#advertiser-names}
 
 >[!NOTE]
 >
->This option may appear during the connection settings configuration or the review of the connection settings, depending on the who initiates the connection.
+>此選項可能會出現在連線設定組態或檢閱連線設定期間，視起始連線的人員而定。
 
-If you are a publisher forming a connection with an advertiser, you can choose to add advertiser names in the connection settings. This allows you to add multiple names by which the advertiser is known to you in your systems. 如果廣告商出現在多個地理位置，或在不同內容中以不同的名稱識別，這會特別有用。 稍後，當您建立專案時，您可以從連線設定中所設定的名稱清單中選取適當的廣告商名稱。
+如果您是發行者，與廣告商形成連線，則可選擇在連線設定中新增廣告商名稱。 這可讓您新增在您的系統中通知廣告商的多個名稱。 如果廣告商出現在多個地理位置，或在不同內容中以不同的名稱識別，這會特別有用。 稍後，當您建立專案時，您可以從連線設定中所設定的名稱清單中選取適當的廣告商名稱。
 
 ![連線設定工作區中的廣告商名稱。](/help/assets/connect/establish-connection/advertiser-names.png){zoomable="yes"}
 
@@ -303,6 +305,70 @@ If you are a publisher forming a connection with an advertiser, you can choose t
 
 接著，選取&#x200B;**[!UICONTROL 接受]**&#x200B;以繼續連線。 連線狀態將變更為&#x200B;**[!UICONTROL 作用中]**，您現在可以開始共同作業專案。
 
+## 邀請協作者 {#invite-collaborator}
+
+請依照下列步驟邀請您的合作夥伴加入Real-Time CDP Collaboration [!DNL Starter]。 如果您想瞭解Collaboration [!DNL Starter]的詳細資訊以及程式的逐步總覽，請參閱[[!DNL Starter] 總覽檔案](../overview/starter-overview.md)。
+
+在起始邀請程式之前，請先向共同作業人員收集下列資訊：
+
+| 欄位 | 說明 |
+|-------|-------------|
+| 公司 | 共同作業人員的公司名稱。 |
+| 名稱 | 您要邀請之人員的全名。 |
+| 電子郵件地址 | 共同作業人員用來存取Real-Time CDP Collaboration [!DNL Starter]的電子郵件地址。 |
+| 標題 | 主要連絡人的職稱。 |
+
+{style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>邀請其他共同作業人員，即表示您確認您有責任承擔因他們活動所產生的任何費用。 在Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)中進一步瞭解信用使用量和消耗量
+
+### 傳送邀請 {#send-invitation}
+
+請您的合作夥伴組織直接透過使用者介面加入Collaboration [!DNL Starter]。
+
+若要開始，請瀏覽至&#x200B;**[!UICONTROL 連線]**&#x200B;工作區，並選取右上角的加號圖示（![加號圖示](/help/assets/icons/plus.png)）。 然後，選取&#x200B;**[!UICONTROL 邀請共同作業人員]**。
+
+![以加號圖示顯示「連線」工作區，並反白顯示「邀請共同作業人員」選項。](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
+
+出現&#x200B;**[!UICONTROL 邀請共同作業人員]**&#x200B;對話方塊，提示您輸入受邀共同作業人員的資訊。 填寫[!UICONTROL 公司名稱]、[!UICONTROL 名字]、[!UICONTROL 姓氏]和[!UICONTROL 電子郵件]的必要欄位。
+
+>[!IMPORTANT]
+>
+>邀請&#x200B;**繫結至提供的電子郵件地址**。 Ensure the email address is accurate, as the invited user must use that exact email to accept the invitation and access the product.
+
+Next, use the dropdown to choose the appropriate role for your partner. See the [account roles documentation](../overview/roles.md) for details on available role types in Collaboration.
+
+![The Invite a collaborator dialog with the Role dropdown highlighted.](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
+
+When finished, review the information and select **[!UICONTROL Send invite]**.
+
+![The Invite a collaborator dialog with the Send invite option highlighted.](/help/assets/connect/establish-connection/invite-collaborator/send-invite.png){zoomable="yes"}
+
+A confirmation dialog confirms that the invite was successfully sent to your partner organization.
+
+![The confirmation dialog confirms that the invite was successfully sent.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
+
+### Accept the invitation and sign terms {#accept-invitation-sign-terms}
+
+After you send the invitation, your partner organization receives an email with instructions to review and accept the Real-Time Collaboration terms and conditions. They can also explore the features of Collaboration before accepting.
+
+![The invitation email to join Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
+
+Once your partner organization accepts the terms and conditions, Adobe begins provisioning Real-Time CDP Collaboration [!DNL Starter] for their account.
+
+### Provisioning confirmation {#provisioning-confirmation}
+
+When the provision process is complete, a welcome email is sent to the invited organization, confirming that Collaboration [!DNL Starter] is ready to use. This email provides instructions on how to:
+
+- [Configure administrator and user access](../setup/starter-admin-access.md)
+- [Set up permissions to access Collaboration](../setup/starter-permission-controls.md)
+
+![The welcome email sent to the invited organization with instructions to set up the necessary access and permissions.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
+
+Once your partner has access to Collaboration, both you and the invited organization can [establish a connection](#connect) and [set up the connection settings](#configure-connection-settings) to start collaborating on projects.
+
 ## 後續步驟
 
-與共同作業人員建立連線後，您和共同作業人員現在可以[建立專案](/help/guide/collaborate/manage-projects.md#create-project)。
+After establishing a connection with your collaborator, you and your collaborator can now [create projects](/help/guide/collaborate/manage-projects.md#create-project).
