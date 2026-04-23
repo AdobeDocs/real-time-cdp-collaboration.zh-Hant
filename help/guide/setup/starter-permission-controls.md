@@ -2,7 +2,7 @@
 title: 設定Collaboration [!DNL Starter] 上線的許可權控制項
 description: 瞭解如何使用Adobe Experience Cloud中的許可權設定Adobe Real-Time CDP Collaboration [!DNL Starter] 的許可權。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
 source-git-commit: 147fd5847bc5074e4b4f8a05a9a1c3afc089be56
 workflow-type: tm+mt
@@ -58,7 +58,7 @@ ht-degree: 4%
 
 {style="table-layout:auto"}
 
-如需特定角色及其許可權的深入概觀，請參閱[管理角色的許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)指南。
+如需特定角色及其許可權的深入概觀，請參閱[管理角色的許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions)指南。
 
 檢閱資訊，並選取要指派給帳號的角色。 完成後，選取&#x200B;**[!UICONTROL 儲存]**。
 
