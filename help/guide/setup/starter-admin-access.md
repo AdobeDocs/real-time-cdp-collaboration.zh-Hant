@@ -2,7 +2,7 @@
 title: 設定Collaboration [!DNL Starter] 上線的管理員存取權
 description: 瞭解如何使用Adobe Experience Cloud中的Admin Console設定Adobe Real-Time CDP Collaboration [!DNL Starter] 的管理員存取權。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
 source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
 workflow-type: tm+mt
