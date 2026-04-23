@@ -47,23 +47,23 @@ ht-degree: 21%
    * [建立共同作業人員連線](./connect/establishing-connections.md)
    * [管理連線](./connect/manage-connections.md)
    * Advertising平台連線 {#ad-platform-connections}
-      * [概觀](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
+      * [概觀](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 協作 {#collaborate}
-   * [概觀](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/overview)
+   * [概觀](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/collaborate/overview)
    * [管理專案](./collaborate/manage-projects.md)
    * 共同作業人員連線 {#collaborator-connections}
       * [探索](./collaborate/discover.md)
       * [啟動](./collaborate/activate.md)
       * [衡量](./collaborate/measure.md)
    * Advertising平台連線 {#ad-platform-connections}
-      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
+      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
       * {hide-from-toc}[建立AMC測量報告](./collaborate/advertising-platforms/amc-measure.md)
 * 目的地 {#destinations}
-   * [概觀](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/overview)
+   * [概觀](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/destinations/overview)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 權限 {#permissions}
-   * [概觀](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/overview)
+   * [概觀](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/permissions/overview)
    * [管理使用者存取權](./permissions/manage-user-access.md)
    * [管理角色](./permissions/manage-roles.md)
 * 參考 {#reference}
