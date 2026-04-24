@@ -83,7 +83,7 @@ ht-degree: 4%
 
 ### 瞭解信用使用情況 {#understand-credit-usage}
 
-所有Collaboration [!DNL Starter]活動都使用積分。 但是，身為受邀使用者，您不需要購買或管理這些積分。 邀請您的共同作業人員涵蓋與活動相關的所有信用使用情況。 若要深入瞭解，請參閱Collaboration [!DNL Starter]](../setup/starter-credit-usage.md)檔案中的[信用使用量和消耗量。
+所有Collaboration [!DNL Starter]活動都使用積分。 但是，身為受邀使用者，您不需要購買或管理這些積分。 邀請您的共同作業人員涵蓋與活動相關的所有信用使用情況。 若要深入瞭解，請參閱Collaboration [!DNL Starter][&#128279;](../setup/starter-credit-usage.md)檔案中的信用使用量和消耗量。
 
 ## 後續步驟 {#next-steps}
 
