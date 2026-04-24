@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration可讓廣告商與發佈商之間順暢且安全的資料共用及共同作業，促進即時受眾深入分析和個人化行銷策略。
-source-git-commit: 8d3b7ac316826b6a31d4d6b2f831ea8c2adb8daf
+source-git-commit: 60d33488987bba5f04d30cc5128a5df007887c86
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 21%
+source-wordcount: '209'
+ht-degree: 27%
 
 ---
 
@@ -47,23 +47,23 @@ ht-degree: 21%
    * [建立共同作業人員連線](./connect/establishing-connections.md)
    * [管理連線](./connect/manage-connections.md)
    * Advertising平台連線 {#ad-platform-connections}
-      * [概觀](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
+      * [概觀](/help/guide/connect/advertising-platforms/overview.md)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 協作 {#collaborate}
-   * [概觀](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/collaborate/overview)
+   * [概觀](/help/guide/collaborate/overview.md)
    * [管理專案](./collaborate/manage-projects.md)
    * 共同作業人員連線 {#collaborator-connections}
       * [探索](./collaborate/discover.md)
       * [啟動](./collaborate/activate.md)
       * [衡量](./collaborate/measure.md)
    * Advertising平台連線 {#ad-platform-connections}
-      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
+      * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
       * {hide-from-toc}[建立AMC測量報告](./collaborate/advertising-platforms/amc-measure.md)
 * 目的地 {#destinations}
-   * [概觀](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/destinations/overview)
+   * [概觀](/help/guide/destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 權限 {#permissions}
-   * [概觀](https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/permissions/overview)
+   * [概觀](/help/guide/permissions/overview.md)
    * [管理使用者存取權](./permissions/manage-user-access.md)
    * [管理角色](./permissions/manage-roles.md)
 * 參考 {#reference}

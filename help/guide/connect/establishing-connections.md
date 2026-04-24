@@ -4,9 +4,9 @@ description: 在發現潛在的共同作業人員後，瞭解如何建立連線�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 27fdbdf7e70ba83b323e1057ab614585aa7d0045
+source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3398'
 ht-degree: 8%
 
 ---
@@ -326,6 +326,12 @@ ht-degree: 8%
 
 ### 傳送邀請 {#send-invitation}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_starter_invite_collaborator"
+>title="邀請協作者"
+>abstract="填寫此表單，邀請您的合作夥伴組織加入Collaboration Starter。 受邀者將會收到一封邀請電子郵件，且必須使用指定的電子郵件地址來完成註冊。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="進一步瞭解Collaboration Starter"
+
 請您的合作夥伴組織直接透過使用者介面加入Collaboration [!DNL Starter]。
 
 若要開始，請瀏覽至&#x200B;**[!UICONTROL 連線]**&#x200B;工作區，並選取右上角的加號圖示（![加號圖示](/help/assets/icons/plus.png)）。 然後，選取&#x200B;**[!UICONTROL 邀請共同作業人員]**。
@@ -336,39 +342,39 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->邀請&#x200B;**繫結至提供的電子郵件地址**。 Ensure the email address is accurate, as the invited user must use that exact email to accept the invitation and access the product.
+>邀請&#x200B;**繫結至提供的電子郵件地址**。 請確定電子郵件地址正確，因為受邀使用者必須使用正確的電子郵件來接受邀請並存取產品。
 
-Next, use the dropdown to choose the appropriate role for your partner. See the [account roles documentation](../overview/roles.md) for details on available role types in Collaboration.
+接下來，使用下拉式選單為您的合作夥伴選擇適當的角色。 如需Collaboration中可用角色型別的詳細資訊，請參閱[帳戶角色檔案](../overview/roles.md)。
 
-![The Invite a collaborator dialog with the Role dropdown highlighted.](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
+![醒目提示「角色」下拉式清單的「邀請共同作業人員」對話方塊。](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
 
-When finished, review the information and select **[!UICONTROL Send invite]**.
+完成後，請檢閱資訊並選取&#x200B;**[!UICONTROL 傳送邀請]**。
 
-![The Invite a collaborator dialog with the Send invite option highlighted.](/help/assets/connect/establish-connection/invite-collaborator/send-invite.png){zoomable="yes"}
+![醒目提示「邀請共同作業人員」對話方塊中的「傳送邀請」選項。](/help/assets/connect/establish-connection/invite-collaborator/send-invite.png){zoomable="yes"}
 
-A confirmation dialog confirms that the invite was successfully sent to your partner organization.
+確認對話方塊會確認邀請已成功傳送給您的合作夥伴組織。
 
-![The confirmation dialog confirms that the invite was successfully sent.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
+![確認對話方塊會確認已成功傳送邀請。](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
 
-### Accept the invitation and sign terms {#accept-invitation-sign-terms}
+### 接受邀請並簽署條款 {#accept-invitation-sign-terms}
 
-After you send the invitation, your partner organization receives an email with instructions to review and accept the Real-Time Collaboration terms and conditions. They can also explore the features of Collaboration before accepting.
+傳送邀請後，您的合作夥伴組織會收到電子郵件，指示您檢閱及接受Real-Time Collaboration條款與條件。 在接受之前，他們也可以探索Collaboration的功能。
 
-![The invitation email to join Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
+![加入Collaboration Starter的邀請電子郵件。](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
-Once your partner organization accepts the terms and conditions, Adobe begins provisioning Real-Time CDP Collaboration [!DNL Starter] for their account.
+您的合作夥伴組織接受條款與條件後，Adobe就會開始為其帳戶布建Real-Time CDP Collaboration [!DNL Starter]。
 
-### Provisioning confirmation {#provisioning-confirmation}
+### 布建確認 {#provisioning-confirmation}
 
-When the provision process is complete, a welcome email is sent to the invited organization, confirming that Collaboration [!DNL Starter] is ready to use. This email provides instructions on how to:
+布建程式完成時，會傳送一封歡迎電子郵件給受邀的組織，確認Collaboration [!DNL Starter]已可供使用。 此電子郵件提供如何：
 
-- [Configure administrator and user access](../setup/starter-admin-access.md)
-- [Set up permissions to access Collaboration](../setup/starter-permission-controls.md)
+- [設定管理員和使用者存取權](../setup/starter-admin-access.md)
+- [設定存取Collaboration的許可權](../setup/starter-permission-controls.md)
 
-![The welcome email sent to the invited organization with instructions to set up the necessary access and permissions.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
+![此歡迎電子郵件已傳送給受邀組織，其中包含設定必要存取權和許可權的指示。](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
-Once your partner has access to Collaboration, both you and the invited organization can [establish a connection](#connect) and [set up the connection settings](#configure-connection-settings) to start collaborating on projects.
+一旦您的合作夥伴可以存取Collaboration，您和受邀組織就可以[建立連線](#connect)和[設定連線設定](#configure-connection-settings)，以開始共同作業專案。
 
 ## 後續步驟
 
-After establishing a connection with your collaborator, you and your collaborator can now [create projects](/help/guide/collaborate/manage-projects.md#create-project).
+與共同作業人員建立連線後，您和共同作業人員現在可以[建立專案](/help/guide/collaborate/manage-projects.md#create-project)。
