@@ -1,50 +1,50 @@
 ---
-title: RTCDP Collaboration Starter Overview
-description: Learn how Adobe Real-Time CDP Collaboration Starter helps you to expand and enhance privacy-centric collaboration with a licensed partner without requiring your own full Real-Time CDP license.
+title: RTCDP Collaboration入門概述
+description: 瞭解Adobe Real-Time CDP Collaboration Starter如何協助您與授權合作夥伴擴展及增強以隱私權為中心的協同合作，而不需要您自己的完整Real-Time CDP授權。
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: 3d29985d88e6370b4a0e8cd3d56358e85bb91e06
+source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 4%
 
 ---
 
-# Adobe Real-Time CDP Collaboration [!DNL Starter] Overview
+# Adobe Real-Time CDP Collaboration [!DNL Starter]總覽
 
-Use Adobe Real-Time CDP Collaboration [!DNL Starter] to collaborate with a licensed partner on privacy-centric data projects. You do not need your own Collaboration license to participate.
+使用Adobe Real-Time CDP Collaboration [!DNL Starter]與授權合作夥伴共同作業以隱私權為中心的資料專案。 您不需要自己的Collaboration授權即可參與。
 
-Your licensed partner invites you into Collaboration and uses their credits to fund your joint workflows, across both advertiser-to-publisher and brand-to-brand patterns. To learn more about these patterns and how they work, read the [collaboration patterns](./collaboration-patterns.md) and [end-to-end workflow](./end-to-end-workflow.md) guides.
+您的授權合作夥伴邀請您加入Collaboration，並使用其成果在廣告商對發佈商和品牌對品牌模式中，為您的聯合工作流程提供資金。 若要進一步瞭解這些模式及其運作方式，請閱讀[共同作業模式](./collaboration-patterns.md)和[端對端工作流程](./end-to-end-workflow.md)指南。
 
-As an invited [!DNL Starter] user, you can:
+身為受邀的[!DNL Starter]使用者，您可以：
 
-* Onboard and manage collaboration data in a [!DNL Starter] account.
-* Source and maintain audiences for use in joint projects.
-* Gain insights into audience overlaps with your partner to support effective targeting and campaign measurement.
-* Activate audiences and share them back to your partner for joint campaign activation and engagement.
+* 在[!DNL Starter]帳戶中上線及管理共同作業資料。
+* Source和維護對象，以用於聯合專案。
+* 深入瞭解與合作夥伴的對象重疊，以支援有效的目標定位和促銷活動測量。
+* 啟用對象並與您的合作夥伴分享，以進行聯合行銷活動啟用和參與。
 
 ## 先決條件 {#prerequisites}
 
-To get started with Collaboration [!DNL Starter], ensure that both your organization and your licensed partner are located in the same region. You must be invited by a partner who holds a Real-Time CDP Prime, Ultimate, or Collaboration license.
+若要開始使用Collaboration [!DNL Starter]，請確認您的組織和授權合作夥伴位於相同地區。 您必須受到擁有Real-Time CDP Prime、Ultimate或Collaboration授權的合作夥伴的邀請。
 
-To initiate the invitation, provide the following information to your licensed partner:
+若要啟動邀請，請提供下列資訊給您的授權合作夥伴：
 
-* Contact name
+* 連絡人姓名
 * 聯絡人電子郵件
 * 公司
-* Role (Advertiser/Publisher): Advertiser
+* 角色（廣告商/發佈商）：廣告商
 * 行業
 
-After you receive and accept the invitation, your organization must review and sign a no-cost Sales Order with Adobe to access Collaboration [!DNL Starter]. For more details on the invitation process, see the [inviting a collaborator to Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator-to-starter) guide.
+收到並接受邀請後，貴組織必須檢閱並簽署Adobe的免費銷售訂單，才能存取Collaboration [!DNL Starter]。 如需邀請程式的詳細資訊，請參閱[邀請共同作業人員加入Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator)指南。
 
 ## 護欄 {#guardrails}
 
-Read the following table to understand the key guardrails that apply to your [!DNL Starter] account. These include limits on audience sourcing, data volume, refresh frequency, audience overlaps and activation capabilities.
+請閱讀下表以瞭解適用於您[!DNL Starter]帳戶的重要護欄。 其中包括對象來源、資料量、重新整理頻率、對象重疊和啟用功能的限制。
 
-| Guardrail | 說明 |
+| 護欄 | 說明 |
 |----------| ------------|
-| 客群來源 | You can bring audience data into Collaboration with **[!DNL Amazon S3]** as your source. For step-by-step instructions, see [how to configure [!DNL Amazon S3] for audience sourcing](../setup/configure-aws-s3-audience-sourcing.md). |
+| 客群來源 | 您可以以&#x200B;**[!DNL Amazon S3]**&#x200B;作為來源，將受眾資料帶入Collaboration。 如需逐步指示，請參閱[如何設定 [!DNL Amazon S3] 對象來源](../setup/configure-aws-s3-audience-sourcing.md)。 |
 | 客群 | 您的[!DNL Starter]帳戶最多可享有：<ul><li>來自[!DNL AWS S3]貯體的10個對象</li><li>身分總計5,000萬（根據對象資料中的列數計算）</li><li>每個對象1次重新整理（每6天）</li></ul> |
 | 對象重疊和深入分析 | 您的對象執行對象重疊和深入分析的頻率沒有使用限制。 瞭解如何[探索重疊並比較對象](../collaborate/discover.md)。 |
 | 啟用 | 身為[!DNL Starter]使用者，您只能與邀請您的合作夥伴啟用及共用對象。 無法設定外部平台的目的地。 深入瞭解[啟用您的對象](../collaborate/activate.md)。 |
@@ -83,7 +83,7 @@ Read the following table to understand the key guardrails that apply to your [!D
 
 ### 瞭解信用使用情況 {#understand-credit-usage}
 
-所有Collaboration [!DNL Starter]活動都使用積分。 但是，身為受邀使用者，您不需要購買或管理這些積分。 邀請您的共同作業人員涵蓋與活動相關的所有信用使用情況。 若要深入瞭解，請參閱Collaboration [!DNL Starter][&#128279;](../setup/starter-credit-usage.md)檔案中的信用使用量和消耗量。
+所有Collaboration [!DNL Starter]活動都使用積分。 但是，身為受邀使用者，您不需要購買或管理這些積分。 邀請您的共同作業人員涵蓋與活動相關的所有信用使用情況。 若要深入瞭解，請參閱Collaboration [!DNL Starter]](../setup/starter-credit-usage.md)檔案中的[信用使用量和消耗量。
 
 ## 後續步驟 {#next-steps}
 
