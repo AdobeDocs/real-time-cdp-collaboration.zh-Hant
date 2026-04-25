@@ -4,10 +4,17 @@ description: 瞭解如何取得Adobe Real-Time Customer Data Platform (CDP) Coll
 audience: admin
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
+TQID: https://experienceleague.adobe.com/EIm85EKC4-YUePO5CTHQ4hi4KvawwhKXfiQEa7lw-P4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 2%
+source-wordcount: 980
+ht-degree: 4%
 
 ---
 
@@ -71,7 +78,7 @@ Adobe Real-Time CDP Collaboration的存取控制是透過[Adobe Experience Cloud
 | 現有Experience Platform系統管理員&#x200B;**的超級使用者，無** Experience Platform UI存取權。 | 系統管理員。 | [設定產品管理員存取權](./manage-user-access.md#admin-access) |
 | 產品管理員許可權和新產品管理員的Collaboration存取權。 | 系統管理員。 | [設定產品管理員存取權](./manage-user-access.md#admin-access) |
 | 現有Experience Platform產品管理員&#x200B;**的Collaboration存取權，具有** Experience Platform UI存取權。 | 系統或產品管理員。 | [設定Collaboration存取權](./manage-user-access.md#RTCDP-collab-access) |
-| 現有Experience Platform產品管理員&#x200B;**的Collaboration存取權(無** Experience Platform UI存取權)。 | 系統或產品管理員。 | [設定使用者存取權](./manage-user-access.md#user-access) |
+| 現有Experience Platform產品管理員&#x200B;**的Collaboration存取權（無** Experience Platform UI存取權）。 | 系統或產品管理員。 | [設定使用者存取權](./manage-user-access.md#user-access) |
 | 新一般使用者的Collaboration存取權。 | 系統或產品管理員。 | [設定使用者存取權](./manage-user-access.md#user-access) |
 | 具有Collaboration存取權的現有使用者的Experience Platform存取權。 | 系統或產品管理員。 | [設定Collaboration存取權](./manage-user-access.md#RTCDP-collab-access) |
 

@@ -1,13 +1,19 @@
 ---
 title: 設定和管理目的地
-description: 瞭解如何在Real-Time CDP Collaboration中設定和管理目的地。
+description: Learn how to configure and manage destinations in Real-Time CDP Collaboration.
 audience: admin, publisher
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+TQID: https://experienceleague.adobe.com/3JoqIEJ0ilX3NHYOVersSkaa98kgPzOhqk94UP6Xc50
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 1%
+source-wordcount: 401
+ht-degree: 4%
 
 ---
 
@@ -15,35 +21,35 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-目的地是用來將目標對象傳送至外部平台的整合。 這些整合可讓您啟用各行銷管道和平台上的對象，以用於行銷活動和客戶參與。
+Destinations are integrations used to send targeted audiences to external platforms. These integrations enable you to activate audiences across various marketing channels and platforms for use in campaigns and customer engagement.
 
-共同作業人員可設定目的地，以將對象傳送至外部平台，例如Adobe Experience Platform，以用於行銷活動。 共同作業人員可以[啟用專案中的對象](../collaborate/activate.md)，這些對象會傳送至其連線的設定目的地。 根據連線[中設定的對象啟用設定](/help/guide/connect/establishing-connections.md#configure-connection-settings)，可由共同作業人員完成啟用。
+Collaborators can configure destinations to send audiences to external platforms, such as Adobe Experience Platform, for use in campaigns. Collaborators can then [activate audiences within a project](../collaborate/activate.md), which are sent to their connection&#39;s configured destination. 根據連線[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定，可由共同作業人員完成啟用。
 
-![「設定」工作區中的「我的目的地」索引標籤顯示作用中的Adobe Experience Platform目的地。](/help/assets/setup/manage-destinations/my-destinations-overview.png)
+![The My destinations tab in the Setup workspace showing an active Adobe Experience Platform destinations.](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
-若要深入瞭解目的地，請參閱[目的地概觀](../destinations/overview.md)指南。
+To learn more about destinations, refer to the [destinations overview](../destinations/overview.md) guide.
 
-## 設定目的地 {#configure-destinations}
+## Configure destinations {#configure-destinations}
 
-已在Collaboration的&#x200B;**[!UICONTROL 設定]**&#x200B;區段中設定目的地。 若要設定目的地，請瀏覽至&#x200B;**[!UICONTROL 設定]**，然後選取&#x200B;**[!UICONTROL 我的目的地]**&#x200B;索引標籤。 在這裡，您可以檢視所有可用的目的地。
+Desintations are configured in the **[!UICONTROL Setup]** section of Collaboration. To configure a destination, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My destinations]** tab. Here, you can view all available destinations.
 
 >[!IMPORTANT]
 >
->若要設定和管理目的地，您的使用者必須擁有具有&#x200B;**管理對象資料**&#x200B;許可權的角色。 如需有關管理角色的詳細資訊，請參閱[管理角色](../permissions/manage-roles.md)指南。
+>To configure and manage desintations, your user must have a role with the **Manage Audience Data** permission assigned to them. For more information about managing roles, refer to the [manage roles](../permissions/manage-roles.md) guide.
 
-![設定工作區中的「我的目的地」索引標籤顯示可用的目的地。](/help/assets/setup/manage-destinations/my-destinations.png)
+![The My destinations tab in the Setup workspace showing the available destinations.](/help/assets/setup/manage-destinations/my-destinations.png)
 
-目的地的設定程式取決於您設定的目的地。 請參閱[可用的目的地](../destinations/overview.md#available-destinations)目錄，以檢視可用的目的地及其設定指南。
+The set up process for destinations is dependent on the destination you are configuring. Refer to the [available destinations](../destinations/overview.md#available-destinations) catalog to view the available destinations and their configuration guides.
 
 >[!NOTE]
 >
->目前，Real-Time CDP Collaboration中只有Adobe Experience Platform可做為自助目的地。 如果您有興趣設定不同的目的地，請聯絡您的Adobe代表。
+>Currently, only Adobe Experience Platform is available as a self-serve destination within Real-Time CDP Collaboration. If you are interested in configuring a different destination, please contact your Adobe representative.
 
 ## 刪除目的地 {#delete-destinations}
 
-刪除目的地會將其從您的帳戶中移除，會從目的地中移除任何先前傳送的對象，並防止任何未來的對象傳送至該目的地。
+Deleting a destination removes it from your account, removes any previously sent audiences from the destination, and prevents any future audiences from being sent to that destination.
 
-若要刪除目的地，請瀏覽至&#x200B;**[!UICONTROL 設定]**&#x200B;區段中的&#x200B;**[!UICONTROL 我的目的地]**&#x200B;索引標籤。 選取您要移除之目的地的&#x200B;**[!UICONTROL 刪除]**&#x200B;選項。
+To delete a destination, navigate to the **[!UICONTROL My destinations]** tab in the **[!UICONTROL Setup]** section. Select the **[!UICONTROL Delete]** option for the destination that you want to remove.
 
 ![針對Adobe Experience Platform目的地反白顯示「我的目的地」工作區與「刪除」選項。](/help/assets/setup/manage-destinations/delete-destination.png)
 

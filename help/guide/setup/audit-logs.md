@@ -4,10 +4,20 @@ description: 瞭解如何使用Real-Time CDP Collaboration中的稽核記錄功�
 audience: admin
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+TQID: https://experienceleague.adobe.com/zb09-bUpxJ2VPDknETHeayMuLpNRCaQ2VTnV9QnTRgE
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: 950
+ht-degree: 2%
 
 ---
 
@@ -79,28 +89,28 @@ ht-degree: 1%
 
 ## 優點
 
-稽核記錄為使用Collaboration的組織提供幾個優點：
+Audit logs provide several benefits for organizations using Collaboration:
 
-* **資料控管**：使用稽核記錄檔來確保平台內的所有活動都受到追蹤且可稽核。
-* **法規遵循**：此功能提供使用者活動的追蹤，以符合法規要求。
-* **疑難排解**：稽核記錄提供使用者動作的詳細記錄，以協助識別及解決問題。
+* **Data Governance**: Use audit logs to ensure that all activities within the platform are tracked and auditable.
+* **Regulatory Compliance**: The feature provides a trail of user activities to meet regulatory requirements.
+* **Troubleshooting**: Audit logs assist in identifying and resolving issues by providing detailed logs of user actions.
 
-## 類別和動作參考
+## Categories and actions reference
 
-下表提供Real-Time CDP Collaboration所有類別和動作的參考資料。
+The table below provides a reference of all categories and actions for Real-Time CDP Collaboration.
 
-![Real-Time CDP Collaboration稽核記錄中醒目提示的可用類別。](/help/assets/setup/audit-logs/available-categories.png)
+![Available categories highlighted in Real-Time CDP Collaboration audit logs.](/help/assets/setup/audit-logs/available-categories.png)
 
 | 類別 | 動作 | 說明 |
 |-------------------------------|------------------------------------------|-------------|
-| **[!UICONTROL Collaboration執行個體]** | 建立、更新、刪除 | 管理帳戶，包括建立、更新和刪除帳戶。 若要瞭解更多資訊，請閱讀[設定您的帳戶](/help/guide/setup/onboard-account.md)指南。 |
-| **[!UICONTROL Collaboration連線邀請]** | 建立、更新、刪除、核准、拒絕 | 管理連線邀請，包括建立、更新、刪除、核准和拒絕邀請。 如需詳細資訊，請參閱[建立連線](/help/guide/connect/establishing-connections.md)指南。 |
-| **[!UICONTROL Collaboration連線]** | 建立、更新、刪除、核准、拒絕、請求核准 | 管理連線，包括建立、更新、刪除、核准、拒絕和要求核准連線。 |
-| **[!UICONTROL Collaboration資料連線]** | 建立、更新、刪除 | 管理您來源及管理對象的資料連線，包括建立、更新和刪除資料連線。 如需詳細資訊，請參閱[管理資料連線](/help/guide/setup/manage-data-connection.md)指南。 |
-| **[!UICONTROL Collaboration資料實體]** | 建立、更新、刪除 | 管理Collaboration的資料實體，包括建立、更新和刪除資料實體。 此內容中的資料實體是指對象。 如需詳細資訊，請參閱[來源及管理對象](/help/guide/setup/onboard-audiences.md)指南。 |
-| **[!UICONTROL Collaboration專案]** | 建立、更新、刪除 | 在Collaboration中管理專案，包括建立、更新和刪除專案。 如需詳細資訊，請參閱[管理專案](/help/guide/collaborate/manage-projects.md)指南。 |
-| **[!UICONTROL Collaboration模組]** | 建立、更新、刪除 | 管理專案中的不同模組，包括在UI中建立、更新和刪除各種模組。 例如，[啟用對象](/help/guide/collaborate/activate.md)的功能。 |
+| **[!UICONTROL Collaboration Instance]** | create, update, delete | Manage accounts, including creating, updating, and deleting accounts. To learn morel, read the [configuring your accounts](/help/guide/setup/onboard-account.md) guide. |
+| **[!UICONTROL Collaboration Connection Invite]** | create, update, delete, approve, reject | Manage connection invites, including creating, updating, deleting, approving, and rejecting invites. For more information, read the [establishing connections](/help/guide/connect/establishing-connections.md) guide. |
+| **[!UICONTROL Collaboration Connection]** | create, update, delete, approve, reject, request approval | Manage connections, including creating, updating, deleting, approving, rejecting, and requesting approval for connections. |
+| **[!UICONTROL Collaboration Data Connection]** | create, update, delete | Manage the data connections from where you source and manage audiences, including creating, updating, and deleting data connections. For more information, read the [managing data connections](/help/guide/setup/manage-data-connection.md) guide. |
+| **[!UICONTROL Collaboration Data Entity]** | create, update, delete | Manage data entities for Collaboration, including creating, updating, and deleting data entities. Data entities in this context refers to audiences. For more information, read the [sourcing and managing audiences](/help/guide/setup/onboard-audiences.md) guide. |
+| **[!UICONTROL Collaboration Project]** | create, update, delete | Manage projects within Collaboration, including creating, updating, and deleting projects. For more information, read the [managing projects](/help/guide/collaborate/manage-projects.md) guide. |
+| **[!UICONTROL Collaboration Module]** | create, update, delete | Manage different modules within projects, including creating, updating, and deleting various modules in the UI. For example, the ability to [activate audiences](/help/guide/collaborate/activate.md). |
 
 {style="table-layout:auto"}
 
-運用稽核記錄功能，您可以維護Collaboration中所有活動的清楚詳細記錄，以確保透明度和問責制。
+By leveraging the audit logs functionality, you can maintain a clear and detailed record of all activities within Collaboration, ensuring transparency and accountability.

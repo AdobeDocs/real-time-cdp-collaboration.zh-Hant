@@ -4,10 +4,15 @@ description: 瞭解如何在Real-Time CDP Collaboration中管理連線。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: 1092
+ht-degree: 2%
 
 ---
 
@@ -62,7 +67,7 @@ ht-degree: 1%
 >
 >**所有者**&#x200B;是透過傳送邀請給&#x200B;**收件者**&#x200B;來啟動連線的共同作業人員。 如需詳細資訊，請參閱[與共同作業人員建立連線檔案](./establishing-connections.md)。
 
-若要編輯連線設定，請瀏覽至連線設定工作區。 選取三點圖示(![三點圖示。](/help/assets/icons/more.png))以檢視可用的動作，然後選取&#x200B;**[!UICONTROL 編輯]**。
+若要編輯連線設定，請瀏覽至連線設定工作區。 選取三點圖示（![三點圖示。](/help/assets/icons/more.png)） 若要檢視可用的動作，請選取&#x200B;**[!UICONTROL 編輯]**。
 
 ![連線設定工作區中反白顯示[編輯]選項。](/help/assets/connect/manage-connections/edit-connection.png){zoomable="yes"}
 

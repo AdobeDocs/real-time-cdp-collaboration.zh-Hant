@@ -4,9 +4,14 @@ description: 瞭解Adobe Real-Time CDP Collaboration中的兩種共同作業模�
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
-source-git-commit: 7efd33179b4f4e6751853f6c513bdded63c23ee7
+TQID: https://experienceleague.adobe.com/Hx4-KRShMbbHjdTdfVmI9HgYHxltzMbBvXayemL5qhY
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: 664
 ht-degree: 2%
 
 ---
@@ -45,28 +50,28 @@ Adobe Real-Time CDP Collaboration中的Collaboration模式是定義共同作業�
 
 ![廣告商對廣告平台共同作業的範例。](/help/assets/overview/advertiser-to-advertising-platform.png)
 
-若要進一步瞭解廣告商如何以這種模式與廣告平台共同作業，請閱讀[端對端工作流程](/help/guide/overview/end-to-end-workflow.md)指南。
+To learn more about how advertisers collaborate with advertising platforms in this pattern, read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md) guide.
 
-## 廣告商對資料合作夥伴 {#advertiser-to-data-partner}
+## Advertiser-to-data partner {#advertiser-to-data-partner}
 
-廣告商對資料的合作夥伴模式可讓品牌直接與第三方資料提供者合作，以豐富客戶設定檔、建立更精確的受眾，並存取潛在客戶人口以進行贏取。 此模式將傳統的外部資料工作流程帶入單一、隱私權安全的環境，其中第一方和第三方資料可以合併，而不需要原始資料移動。
+The advertiser-to-data partner pattern enables brands to collaborate directly with third-party data providers to enrich customer profiles, build more precise audiences, and access prospect populations for acquisition. This pattern brings traditionally external data workflows into a single, privacy-safe environment where first-party and third-party data can be combined without requiring raw data movement.
 
-![廣告商與資料合作夥伴共同作業的範例。](/help/assets/overview/advertiser-to-data-partner.png)
+![An example of advertiser-to-data partner collaboration.](/help/assets/overview/advertiser-to-data-partner.png)
 
-若要進一步瞭解廣告商和資料合作夥伴如何以這種模式共同作業，請閱讀[端對端工作流程](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow)指南。
+To learn more about how advertisers and data partners collaborate in this pattern, read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow) guide.
 
-## 代理商對發佈商 {#agency-to-publisher}
+## Agency-to-publisher {#agency-to-publisher}
 
-代理商對發佈商的模式可讓媒體代理商直接與發佈商合作，以使用共用的受眾深入分析來規劃、啟用和衡量行銷活動。 代理作為中介，利用廣告商資料（在許可下）來識別重疊，並與發佈商合作夥伴執行媒體策略。
+The agency-to-publisher pattern enables media agencies to collaborate directly with publishers to plan, activate, and measure campaigns using shared audience insights. Agencies act as intermediaries, leveraging advertiser data (with permission) to identify overlaps and execute media strategies with publisher partners.
 
-![代理與發佈者共同作業的範例。](/help/assets/overview/agency-to-publisher.png)
+![An example of agency-to-publisher collaboration.](/help/assets/overview/agency-to-publisher.png)
 
-若要進一步瞭解代理商與發行者如何以這種模式共同作業，請閱讀[端對端工作流程](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow)指南。
+To learn more about how agencies and publishers collaborate in this pattern, read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow) guide.
 
-## 廣告商對機構平台 {#advertiser-to-agency-platform}
+## Advertiser-to-agency platform {#advertiser-to-agency-platform}
 
-廣告商對代理商平台模式可讓品牌在隱私安全的環境中與他們的媒體代理商合作，讓廣告商可以與其代理商傳送和接收資料，而不需要直接的資料傳輸。 此模式支援行銷活動規劃、對象建立和啟動，同時維持廣告商對資料使用的控制。
+The advertiser-to-agency platform pattern enables brands to collaborate with their media agencies in a privacy-safe environment, allowing advertisers to send and receive data with their agency without requiring direct data transfers. This pattern supports campaign planning, audience building, and activation while maintaining advertiser control over data usage.
 
-![廣告商與代理商平台共同作業的範例。](/help/assets/overview/advertiser-to-agency-platform.png)
+![An example of advertiser-to-agency platform collaboration.](/help/assets/overview/advertiser-to-agency-platform.png)
 
-若要深入瞭解廣告商與機構平台如何以這種模式共同作業，請閱讀[端對端工作流程](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow)指南。
+To learn more about how advertisers and agency platforms collaborate in this pattern, read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow) guide.

@@ -4,9 +4,16 @@ description: 根據您的共同作業模式，瞭解使用Real-Time CDP Collabor
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 901b17c7493e76b17e780b6f7b05a69fa22303d2
+TQID: https://experienceleague.adobe.com/9edtg5tMbnB3BrdLrDkcHQ-AjBNOqMFGojAja3NCwCs
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: 1738
 ht-degree: 0%
 
 ---
@@ -61,72 +68,72 @@ ht-degree: 0%
 
 建立帳戶之後，[!UICONTROL Fit Apparel]和[!UICONTROL Luma]都需要[建立資料連線和來源對象](../setup/onboard-audiences.md)。 [!UICONTROL 適合的服飾]和[!UICONTROL Luma]都會啟用行銷活動的對象，因此兩者都需要[設定目的地](../setup/manage-destinations.md)。
 
-在取得其對象後，[!UICONTROL Fit Apparel]和[!UICONTROL Luma] [在平台內建立連線](../connect/establishing-connections.md)，以安全地共用對象資料。 若要這麼做，他們必須使用[私人連線邀請](../connect/establishing-connections.md#private-connection-invite)功能。 [!UICONTROL Luma]與[!UICONTROL Fit服飾]共用其連線代碼，後者會使用它來起始連線要求。 在[!UICONTROL Luma]接受連線要求後，[!UICONTROL Fit Apparel]會設定連線設定以定義他們將如何共同作業。 在設定中，[!UICONTROL Fit Apparel]指定兩個共同作業人員都可以啟用行銷活動的對象。 為了完成連線，[!UICONTROL Luma]接受在兩個品牌之間建立安全連結的要求。
+在取得其對象後，[!UICONTROL Fit Apparel]和[!UICONTROL Luma] [在平台內建立連線](../connect/establishing-connections.md)，以安全地共用對象資料。 To do so, they must make use of the [private connection invite](../connect/establishing-connections.md#private-connection-invite) feature. [!UICONTROL Luma] shares their connect code with [!UICONTROL Fit Apparel], who then uses it to initiate a connection request. After [!UICONTROL Luma] accepts the connection request, [!UICONTROL Fit Apparel] configures the connection settings to define how they will collaborate. In the configuration, [!UICONTROL Fit Apparel] specifies that both collaborators can activate audiences for marketing campaigns. To complete the connection, [!UICONTROL Luma] accepts the request to establish a secure link between the two brands.
 
-建立連線之後，[!UICONTROL Fit Apparel] [會建立專案](../collaborate/manage-projects.md)，以開始他們與[!UICONTROL Luma]的協同合作。 在專案設定期間，他們選擇最符合其目標的共同作業使用案例： [探索](../collaborate/discover.md)、[啟動](../collaborate/activate.md)以及[測量](../collaborate/measure.md)。
+After the connection is established, [!UICONTROL Fit Apparel] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL Luma]. 在專案設定期間，他們選擇最符合其目標的共同作業使用案例： [探索](../collaborate/discover.md)、[啟動](../collaborate/activate.md)以及[測量](../collaborate/measure.md)。
 
-[!UICONTROL Fit Apparel]和[!UICONTROL Luma]都可以使用[Discover](../collaborate/discover.md)使用案例來深入瞭解彼此的對象資料。 一旦他們識別出有價值的受眾區段，就會[啟用](../collaborate/activate.md)他們為行銷活動選擇的受眾。
+[!UICONTROL Fit Apparel] and [!UICONTROL Luma] can both use the [Discover](../collaborate/discover.md) use case to gain insights into each other&#39;s audience data. Once they have identified valuable audience segments, they [Activate](../collaborate/activate.md) their chosen audiences for marketing campaigns.
 
-最後，在執行其行銷活動後，兩個品牌都會上傳資料至[測量](../collaborate/measure.md)結果，並評估其共同作業的成效。
+Finally, after executing their campaigns, both brands upload data to [Measure](../collaborate/measure.md) the results and evaluate the effectiveness of their collaboration.
 
-## 廣告商對廣告平台工作流程 {#advertiser-to-advertising-platform-workflow}
+## Advertiser-to-advertising platform workflow {#advertiser-to-advertising-platform-workflow}
 
-[!UICONTROL Luma]，一家運動零售公司，想要與[!DNL Amazon Marketing Cloud] ([!DNL AMC])連線，以利用[!DNL AMC]的身分解析度和目標定位工具來增強其行銷能力。 Luma已有使用中的[!DNL Amazon Advertising]帳戶，且已核准使用[!DNL AMC]。
+[!UICONTROL Luma], an athletic retail company, wants to connect with [!DNL Amazon Marketing Cloud] ([!DNL AMC]) to enhance their marketing capabilities by leveraging [!DNL AMC]&#39;s identity resolution and targeting tools. Luma already has an active [!DNL Amazon Advertising] account and is approved to use [!DNL AMC].
 
-若要開始，[!UICONTROL Luma]需要以廣告商角色[建立帳戶](../setup/onboard-account.md)。 建立帳戶之後，[!UICONTROL Luma]必須[建立資料連線和來源對象](../setup/onboard-audiences.md)。 由於[!UICONTROL Luma]會針對行銷活動啟用對象，因此他們需要[設定目的地](../setup/manage-destinations.md)。
+To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role. After establishing their account, [!UICONTROL Luma] must [create a data connection and source audiences](../setup/onboard-audiences.md). Since [!UICONTROL Luma] will activate audiences for marketing campaigns, they need to [configure a destination](../setup/manage-destinations.md).
 
-在[!UICONTROL Luma]設定好帳戶後，他們便已準備好在平台內[與[!DNL AMC]建立連線](../connect/establishing-connections.md)。 [!UICONTROL Luma]使用[探索共同作業人員](../connect/discover-collaborators.md)功能尋找[!UICONTROL Amazon Marketing Cloud]並[起始連線要求](../connect/advertising-platforms/amc.md)。 透過[!DNL Amazon]登入頁面驗證並授權連線後，已建立與[!DNL AMC]的連線。
+Once [!UICONTROL Luma] has their account set up, they&#39;re ready to [form a connection](../connect/establishing-connections.md) with [!DNL AMC] within the platform. [!UICONTROL Luma] uses the [discover collaborators](../connect/discover-collaborators.md) feature to find [!UICONTROL Amazon Marketing Cloud] and [initiate a connection request](../connect/advertising-platforms/amc.md). After authenticating and authorizing the connection through the [!DNL Amazon] sign-in page, the connection with [!DNL AMC] is established.
 
-建立連線之後，[!UICONTROL Luma] [會建立專案](../collaborate/manage-projects.md)以開始他們與[!DNL AMC]的協同合作。 連線設定（包括使用案例）會根據廣告平台進行預先設定。 針對[!DNL AMC]，可用的使用案例是[探索](../collaborate/advertising-platforms/amc.md#discover)。
+After the connection is established, [!UICONTROL Luma] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!DNL AMC]. Connection settings, including use cases, are pre-configured depending on the advertising platform. For [!DNL AMC], the available use case is [Discover](../collaborate/advertising-platforms/amc.md#discover).
 
-[!UICONTROL Luma]利用[Discover](../collaborate/advertising-platforms/amc.md#discover)使用案例從[!DNL AMC]取得深入分析和對象資料。 使用這些深入分析，[!UICONTROL Luma]可以最佳化行銷策略，並提高行銷活動的成效。
+[!UICONTROL Luma] leverages the [Discover](../collaborate/advertising-platforms/amc.md#discover) use case to gain insights and audience data from [!DNL AMC]. Using these insights, [!UICONTROL Luma] can optimize their marketing strategies and improve campaign effectiveness.
 
-## 廣告商對資料合作夥伴工作流程 {#advertiser-to-data-partner-workflow}
+## Advertiser-to-data partner workflow {#advertiser-to-data-partner-workflow}
 
-[!UICONTROL Luma] （一家體育零售公司）想要與協力廠商資料提供者[!UICONTROL DataM8]共同作業，以豐富客戶設定檔並改善對象鎖定目標。
+[!UICONTROL Luma], an athletic retail company, wants to collaborate with [!UICONTROL DataM8], a third-party data provider, to enrich customer profiles and improve audience targeting.
 
-若要開始，[!UICONTROL Luma]需要以廣告商角色[建立帳戶](../setup/onboard-account.md)，而[!UICONTROL DataM8]則以資料合作夥伴角色建立帳戶。
+To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role, while [!UICONTROL DataM8] creates an account with the data partner role.
 
-建立帳戶之後，[!UICONTROL Luma]和[!UICONTROL DataM8]都必須[建立資料連線和來源對象](../setup/onboard-audiences.md)。 兩個共同作業人員都可以啟用行銷活動的對象，因此他們每個人都需要[設定目的地](../setup/manage-destinations.md)。
+After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL DataM8] must [create a data connection and source audiences](../setup/onboard-audiences.md). Both collaborators may activate audiences for marketing campaigns, so they each need to [configure a destination](../setup/manage-destinations.md).
 
-兩個共同作業人員設定好帳戶後，就可以在平台內[建立連線](../connect/establishing-connections.md)。 [!UICONTROL Luma]使用[探索共同作業人員](../collaborate/discover.md)功能尋找[!UICONTROL DataM8]並起始連線要求。 在[!UICONTROL DataM8]接受連線要求後，[!UICONTROL Luma]會設定連線設定以定義他們將如何共同作業。 [!UICONTROL DataM8]接受連線要求，以便在兩個共同作業人員之間建立安全連結。
+Once both collaborators have their accounts set up, they&#39;re ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../collaborate/discover.md) feature to find [!UICONTROL DataM8] and initiate a connection request. After [!UICONTROL DataM8] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how they will collaborate. [!UICONTROL DataM8] accepts the connection request to establish a secure link between the two collaborators.
 
-建立連線後，[!UICONTROL Luma] [會建立專案](../collaborate/manage-projects.md)以開始他們與[!UICONTROL DataM8]的協同合作。 在專案設定期間，他們選擇最符合其目標的共同作業使用案例： [探索](../collaborate/discover.md)、[啟動](../collaborate/activate.md)以及[測量](../collaborate/measure.md)。
+After the connection is established, [!UICONTROL Luma] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL DataM8]. During the project setup, they choose the collaboration use cases that best fit their objectives: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md), and [Measure](../collaborate/measure.md).
 
-[!UICONTROL Luma]利用[Discover](../collaborate/discover.md)使用案例來深入分析[!UICONTROL DataM8]的對象資料。 在[!UICONTROL Luma]識別目標對象區段後，他們[啟用](../collaborate/activate.md)這些對象。
+[!UICONTROL Luma] leverages the [Discover](../collaborate/discover.md) use case to gain insights into [!UICONTROL DataM8]&#39;s audience data. Once [!UICONTROL Luma] has identified the target audience segments, they [activate](../collaborate/activate.md) these audiences.
 
-[!UICONTROL DataM8]也可以[啟用](../collaborate/activate.md)其對象至[!UICONTROL Luma]。 [!UICONTROL Luma]使用這些功能將第三方屬性附加至其客戶設定檔並分析對象構成。 透過其CDP中直接提供的豐富資料，[!UICONTROL Luma]可以建立更精確的受眾，並將其啟用至付費媒體目的地，無需將資料移出其受管理的環境。
+[!UICONTROL DataM8] can also [activate](../collaborate/activate.md) their audiences to [!UICONTROL Luma]. [!UICONTROL Luma] uses these capabilities to append third-party attributes to its customer profiles and analyze audience composition. With enriched data available directly in its CDP, [!UICONTROL Luma] can build more precise audiences and activate them to paid media destinations without moving data outside its governed environment.
 
-## 代理商對發佈商工作流程 {#agency-to-publisher-workflow}
+## Agency-to-publisher workflow {#agency-to-publisher-workflow}
 
-[!UICONTROL Agency99]，一家媒體代理商，想要與數位串流供應商[!UICONTROL TV Tube]合作，透過鎖定目標的行銷活動觸及特定對象。
+[!UICONTROL Agency99], a media agency, wants to collaborate with [!UICONTROL TV Tube], a digital streaming provider, to reach specific audiences through targeted marketing campaigns.
 
-若要開始，[!UICONTROL Agency99]需要[以代理角色](../setup/onboard-account.md)建立帳戶，而[!UICONTROL TV Tube]則以發佈者角色建立帳戶。
+To begin, [!UICONTROL Agency99] needs to [create an account](../setup/onboard-account.md) with the agency role, while [!UICONTROL TV Tube] creates an account with the publisher role.
 
-建立帳戶之後，[!UICONTROL Agency99]和[!UICONTROL 電視管]都必須[建立資料連線和來源對象](../setup/onboard-audiences.md)。 [!UICONTROL Agency99]將會在其工作區中設定使用者端子帳戶和來源使用者端資料。 只有[!UICONTROL TV Tube]會啟用行銷活動的對象，因此他們需要[設定目的地](../setup/manage-destinations.md)。
+After establishing their accounts, both [!UICONTROL Agency99] and [!UICONTROL TV Tube] must [create a data connection and source audiences](../setup/onboard-audiences.md). [!UICONTROL Agency99] will set up client sub-accounts and source client data within its workspace. Only [!UICONTROL TV Tube] will activate audiences for marketing campaigns, so they need to [configure a destination](../setup/manage-destinations.md).
 
-兩個共同作業人員設定好帳戶後，就可以在平台內[建立連線](../connect/establishing-connections.md)。 [!UICONTROL Agency99]使用[探索共同作業人員](../collaborate/discover.md)功能尋找[!UICONTROL 電視管]並起始連線要求。 [!UICONTROL Agency99]將針對一或多個想要與[!UICONTROL TV Tube]共同作業的使用者端執行此動作。 在[!UICONTROL TV Tube]接受連線要求之後，[!UICONTROL Agency99]會設定連線設定，以定義每個共同作業的方式。 [!UICONTROL TV Tube]接受連線要求，以建立兩個品牌之間的安全連結。
+Once both collaborators have their accounts set up, they&#39;re ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Agency99] uses the [discover collaborators](../collaborate/discover.md) feature to find [!UICONTROL TV Tube] and initiate a connection request. [!UICONTROL Agency99] will do this for one or multiple clients that want to collaborate with [!UICONTROL TV Tube]. After [!UICONTROL TV Tube] accepts the connection request(s), [!UICONTROL Agency99] configures the connection settings to define how each collaboration. [!UICONTROL TV Tube] accepts the connection request(s) to establish a secure link between the two brands.
 
-建立連線之後，[!UICONTROL Agency99] [會建立專案](../collaborate/manage-projects.md)，以開始與每個使用者端子帳戶中的[!UICONTROL TV Tube]共同作業。 在專案設定期間，他們選擇最符合其目標的共同作業使用案例： [探索](../collaborate/discover.md)、[啟動](../collaborate/activate.md)以及[測量](../collaborate/measure.md)。
+After the connection is established, [!UICONTROL Agency99] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL TV Tube] in each client sub-account. During the project setup, they choose the collaboration use cases that best fit their objectives: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md), and [Measure](../collaborate/measure.md).
 
-[!UICONTROL Agency99]利用[Discover](../collaborate/discover.md)使用案例來深入瞭解[!UICONTROL 電視管]的對象資料。 一旦[!UICONTROL Agency99]識別目標對象區段，他們[啟用](../collaborate/activate.md)這些對象。
+[!UICONTROL Agency99] leverages the [Discover](../collaborate/discover.md) use case to gain insights into [!UICONTROL TV Tube]&#39;s audience data. Once [!UICONTROL Agency99] has identified the target audience segments, they [activate](../collaborate/activate.md) these audiences.
 
-啟用對象後，[!UICONTROL TV Tube]會執行目標式行銷活動，並將資料上傳至[測量](../collaborate/measure.md)結果，以評估其行銷活動的成效。
+After activating the audiences, [!UICONTROL TV Tube] runs targeted marketing campaigns and uploads data to [measure](../collaborate/measure.md) the results to evaluate the effectiveness of their campaign.
 
-## 廣告商對機構平台工作流程 {#advertiser-to-agency-platform-workflow}
+## Advertiser-to-agency platform workflow {#advertiser-to-agency-platform-workflow}
 
-[!UICONTROL Luma]是運動零售公司，想要與代理平台[!UICONTROL Holdco]共同合作，以共用資料並接收付費媒體深入分析。
+[!UICONTROL Luma], an athletic retail company, wants to collaborate with [!UICONTROL Holdco], an agency platform, to share data and receive paid media insights.
 
-若要開始，[!UICONTROL Luma]需要以廣告商角色[建立帳戶](../setup/onboard-account.md)，而[!UICONTROL Holdco]則以代理商角色建立帳戶。 
+To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role, while [!UICONTROL Holdco] creates an account with the agency role. 
 
-建立帳戶之後，[!UICONTROL Luma]和[!UICONTROL Holdco]都必須[建立資料連線和來源對象](../setup/onboard-audiences.md)。 兩個共同作業人員都可以啟用行銷活動的對象，因此他們每個人都需要[設定目的地](../setup/manage-destinations.md)。 
+After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL Holdco] must [create a data connection and source audiences](../setup/onboard-audiences.md). Both collaborators may activate audiences for marketing campaigns, so they each need to [configure a destination](../setup/manage-destinations.md). 
 
-兩個共同作業人員設定好帳戶後，就可以在平台內[建立連線](../connect/establishing-connections.md)。 [!UICONTROL Luma]使用[探索共同作業人員](../collaborate/discover.md)功能尋找[!UICONTROL Holdco]並起始連線要求。 在[!UICONTROL Holdco]接受連線要求之後，[!UICONTROL Luma]會設定連線設定以定義他們將如何共同作業。
+Once both collaborators have their accounts set up, they&#39;re ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../collaborate/discover.md) feature to find [!UICONTROL Holdco] and initiate a connection request. After [!UICONTROL Holdco] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how they will collaborate.
 
-[!UICONTROL Holdco]接受連線要求，以便在兩個共同作業人員之間建立安全連結。
+[!UICONTROL Holdco] accepts the connection request to establish a secure link between the two collaborators.
 
-建立連線之後，[!UICONTROL Luma] [會建立專案](../collaborate/manage-projects.md)以開始他們與[!UICONTROL Holdco]的協同合作。 在專案設定期間，他們選擇最符合其目標的共同作業使用案例： [探索](../collaborate/discover.md)、[啟動](../collaborate/activate.md)以及[測量](../collaborate/measure.md)。
+After the connection is established, [!UICONTROL Luma] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL Holdco]. During the project setup, they choose the collaboration use cases that best fit their objectives: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md), and [Measure](../collaborate/measure.md).
 
-[!UICONTROL Luma]利用[Discover](../collaborate/discover.md)使用案例來深入分析[!UICONTROL Holdco]的對象資料。 在[!UICONTROL Luma]識別目標對象區段後，他們[啟用](../collaborate/activate.md)這些對象。
+[!UICONTROL Luma] leverages the [Discover](../collaborate/discover.md) use case to gain insights into [!UICONTROL Holdco]&#39;s audience data. Once [!UICONTROL Luma] has identified the target audience segments, they [activate](../collaborate/activate.md) these audiences.
 
-[!UICONTROL Holdco]也可以[啟用](../collaborate/activate.md)其對象至[!UICONTROL Luma]。 [!UICONTROL Luma]使用這些功能，從機構執行的行銷活動中接收付費媒體深入分析，以用於深入分析、CDP設定檔附加和自有媒體協調。
+[!UICONTROL Holdco] can also [activate](../collaborate/activate.md) their audiences to [!UICONTROL Luma]. [!UICONTROL Luma] uses these capabilities to receive paid media insights from agency-run campaigns for insights, CDP profile appends and owned media orchestration.

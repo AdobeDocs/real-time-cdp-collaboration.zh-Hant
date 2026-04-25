@@ -1,12 +1,18 @@
 ---
-title: 設計概述
-description: 瞭解Real-Time CDP Collaboration中的目的地。
+title: Desintations overview
+description: Learn about destinations in Real-Time CDP Collaboration.
 audience: admin, publisher
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
+TQID: https://experienceleague.adobe.com/1VvnSt3Z65dfQBfXnjJJi3H0Oj9BxFStexq3icVKxkY
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: 360
 ht-degree: 6%
 
 ---
@@ -15,31 +21,31 @@ ht-degree: 6%
 
 {{limited-availability-release-note}}
 
-目的地是用來將目標對象傳送至外部平台的整合。 這些整合可讓您啟用各行銷管道和平台上的對象，以用於行銷活動和客戶參與。
+Destinations are integrations used to send targeted audiences to external platforms. These integrations enable you to activate audiences across various marketing channels and platforms for use in campaigns and customer engagement.
 
-共同作業人員可設定目的地，以將對象傳送至外部平台，例如Adobe Experience Platform，以用於行銷活動。 共同作業人員可以[啟用專案中的對象](../collaborate/activate.md)，這些對象會傳送至其連線的設定目的地。 根據連線[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定，可由共同作業人員完成啟用。
+Collaborators can configure destinations to send audiences to external platforms, such as Adobe Experience Platform, for use in campaigns. Collaborators can then [activate audiences within a project](../collaborate/activate.md), which are sent to their connection&#39;s configured destination. 根據連線[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定，可由共同作業人員完成啟用。
 
 >[!IMPORTANT]
 >
->目前，當共同作業人員啟用專案中的對象時，會自動傳送至其連線所設定的目的地。 您&#x200B;**必須**&#x200B;先設定目的地，共同作業人員才能在專案中啟用對象。
+>Currently, when collaborators activate audiences within a project, they are automatically sent to their connection&#39;s configured destination. You **must** configure a destination before your collaborator can activate audiences within a project.
 
-## 設定目的地 {#configure-destinations}
+## Configure destinations {#configure-destinations}
 
-若要設定目的地，請瀏覽至&#x200B;**[!UICONTROL 設定]**，然後選取&#x200B;**[!UICONTROL 我的目的地]**&#x200B;索引標籤。 在這裡，您可以檢視所有可用的目的地。
+To configure a destination, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My destinations]** tab. Here, you can view all available destinations.
 
 >[!NOTE]
 >
-> 目前，Collaboration中只有Adobe Experience Platform可做為自助目的地。 如果您有興趣設定Amazon S3或Snowflake之類的目的地，請聯絡您的Adobe代表。
+> Currently, only Adobe Experience Platform is available as a self-serve destination within Collaboration. If you are interested in configuring a destination such as Amazon S3 or Snowflake, please contact your Adobe representative.
 
-![設定工作區中的「我的目的地」索引標籤顯示可用的目的地。](/help/assets/destinations/overview/my-destinations-overview.png)
+![The My destinations tab in the Setup workspace showing the available destinations.](/help/assets/destinations/overview/my-destinations-overview.png)
 
-若要開始設定目的地，請在您選擇的目的地中選取&#x200B;**[!UICONTROL 設定]**&#x200B;選項。 如需設定特定目的地的詳細資訊，請參閱[可用目的地](#available-destinations)表格中的指南。
+To begin configuring a destination, select the **[!UICONTROL Set up]** option within the destination of your choice. For information on configuring specific destinations, refer to the guides in the [available destinations](#available-destinations) table.
 
-![針對Adobe Experience Platform目的地反白顯示「我的目的地」工作區與「設定」選項。](/help/assets/destinations/overview/my-destinations-set-up.png)
+![The My destinations workspace with the Set up option highlighted for the Adobe Experience Platform desintation.](/help/assets/destinations/overview/my-destinations-set-up.png)
 
-### 可用的目的地 {#available-destinations}
+### Available destinations {#available-destinations}
 
-下列目的地可用於Collaboration中的設定。 若要檢視該目的地的組態指南，請在下表中選取目的地名稱。 如果您想要設定目前無法使用的目的地，請聯絡您的Adobe代表。
+The following destinations are available for configuration in Collaboration. To view the configuration guide for that destination, select the destination name in the table below. If you are interested in configuring a destination that is not currently available, please contact your Adobe representative.
 
 | 目標 | 可用性 |
 | --- | --- |

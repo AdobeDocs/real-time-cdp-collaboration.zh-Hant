@@ -4,10 +4,21 @@ description: 瞭解Adobe Real-Time CDP Collaboration每個使用案例的主要�
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: 66db8aa03d779b4b81021b6d502613a7f13d0771
+TQID: https://experienceleague.adobe.com/2dJ1AD-ZbnY903-uk8fjAge7AAOnyGfNvLq7iThzZuU
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 1%
+source-wordcount: 272
+ht-degree: 6%
 
 ---
 
@@ -17,7 +28,7 @@ ht-degree: 1%
 
 Adobe Real-Time CDP Collaboration可與廣告商及發佈商共同作業，開啟受眾探索、啟用和測量的新商機。 這些連線可運用共用資料，同時維護隱私權和安全性，進而增強行銷策略。
 
-Collaboration提供您與其他共同作業人員建立連線時的三個主要使用案例：探索、啟用和測量。 每個使用案例都提供獨特的好處和功能，以增強您的行銷工作。 當您與共同作業人員建立專案[以啟動行銷活動時，會](../collaborate/manage-projects.md#project-use-cases)選取這些使用案例，並將決定該專案中可用的功能。
+Collaboration提供您與其他共同作業人員建立連線時的三個主要使用案例：探索、啟用和測量。 每個使用案例都提供獨特的好處和功能，以增強您的行銷工作。 當您與共同作業人員建立專案[&#128279;](../collaborate/manage-projects.md#project-use-cases)以啟動行銷活動時，會選取這些使用案例，並將決定該專案中可用的功能。
 
 ## 探索 {#discover}
 
