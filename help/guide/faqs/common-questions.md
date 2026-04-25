@@ -2,7 +2,7 @@
 title: 常見問題
 description: 尋找有關Adobe Real-Time CDP Collaboration最常見問題的解答
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 07fa043a-ce42-494d-a262-fa1d5cad7476
 TQID: https://experienceleague.adobe.com/Nqxmunvm-nnvs5rnIPMjmkOzY9RnL7ZsAR9onMRQrdA
 product_v2:

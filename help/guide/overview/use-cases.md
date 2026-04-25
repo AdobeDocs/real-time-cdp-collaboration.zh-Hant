@@ -2,7 +2,7 @@
 title: Adobe Real-Time CDP Collaboration中的使用案例
 description: 瞭解Adobe Real-Time CDP Collaboration每個使用案例的主要優點。
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 TQID: https://experienceleague.adobe.com/2dJ1AD-ZbnY903-uk8fjAge7AAOnyGfNvLq7iThzZuU
 product_v2:
