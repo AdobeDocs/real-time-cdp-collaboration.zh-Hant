@@ -5,8 +5,11 @@ audience: admin, publisher
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
 TQID: https://experienceleague.adobe.com/3JoqIEJ0ilX3NHYOVersSkaa98kgPzOhqk94UP6Xc50
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 401
@@ -20,7 +23,7 @@ ht-degree: 4%
 
 Destinations are integrations used to send targeted audiences to external platforms. These integrations enable you to activate audiences across various marketing channels and platforms for use in campaigns and customer engagement.
 
-Collaborators can configure destinations to send audiences to external platforms, such as Adobe Experience Platform, for use in campaigns. Collaborators can then [activate audiences within a project](../collaborate/activate.md), which are sent to their connection&#39;s configured destination. 根據連線](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定[，可由共同作業人員完成啟用。
+Collaborators can configure destinations to send audiences to external platforms, such as Adobe Experience Platform, for use in campaigns. Collaborators can then [activate audiences within a project](../collaborate/activate.md), which are sent to their connection&#39;s configured destination. 根據連線[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定，可由共同作業人員完成啟用。
 
 ![The My destinations tab in the Setup workspace showing an active Adobe Experience Platform destinations.](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 

@@ -3,8 +3,11 @@ title: Upload CSV file for Audience Sourcing
 description: Learn how to upload your CSV file as a self-service data source to ingest audience data into Real-Time CDP Collaboration.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 1100
@@ -137,4 +140,4 @@ Choose **[!UICONTROL Select from computer]** to upload a CSV file from your loca
 * 檢閱對象重疊和深入分析。 請參閱[測量行銷活動績效](../../guide/collaborate/measure.md)。
 * 管理您的對象設定和可見度。 請參閱[Source並管理對象](./onboard-audiences.md)。
 
-如需其他對象來源方法的相關資訊，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)或來自Experience Platform](./onboard-audiences.md)的[Source對象。
+如需其他對象來源方法的相關資訊，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)或來自Experience Platform[&#128279;](./onboard-audiences.md)的Source對象。

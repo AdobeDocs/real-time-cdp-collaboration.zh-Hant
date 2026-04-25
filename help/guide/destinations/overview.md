@@ -5,8 +5,11 @@ audience: admin, publisher
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
 TQID: https://experienceleague.adobe.com/1VvnSt3Z65dfQBfXnjJJi3H0Oj9BxFStexq3icVKxkY
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 360
@@ -20,7 +23,7 @@ ht-degree: 6%
 
 Destinations are integrations used to send targeted audiences to external platforms. These integrations enable you to activate audiences across various marketing channels and platforms for use in campaigns and customer engagement.
 
-Collaborators can configure destinations to send audiences to external platforms, such as Adobe Experience Platform, for use in campaigns. Collaborators can then [activate audiences within a project](../collaborate/activate.md), which are sent to their connection&#39;s configured destination. 根據連線](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定[，可由共同作業人員完成啟用。
+Collaborators can configure destinations to send audiences to external platforms, such as Adobe Experience Platform, for use in campaigns. Collaborators can then [activate audiences within a project](../collaborate/activate.md), which are sent to their connection&#39;s configured destination. 根據連線[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定，可由共同作業人員完成啟用。
 
 >[!IMPORTANT]
 >
@@ -54,7 +57,7 @@ The following destinations are available for configuration in Collaboration. To 
 
 >[!NOTE]
 >
->此資料表中的&#x200B;**[!DNL Google Cloud Storage]**&#x200B;參考&#x200B;**目的地** （Collaboration會在啟用期間傳送對象）。 若要&#x200B;**從**[!UICONTROL &#x200B;設定&#x200B;]**工作區中的GCS儲存貯體**&#x200B;取得對象，請參閱[設定對象來源的GCS](../setup/configure-gcs-audience-sourcing.md)。
+>此資料表中的&#x200B;**[!DNL Google Cloud Storage]**&#x200B;參考&#x200B;**目的地** （Collaboration會在啟用期間傳送對象）。 若要&#x200B;**從**&#x200B;[!UICONTROL &#x200B;設定&#x200B;]&#x200B;**工作區中的GCS儲存貯體**&#x200B;取得對象，請參閱[設定對象來源的GCS](../setup/configure-gcs-audience-sourcing.md)。
 
 ## 後續步驟
 

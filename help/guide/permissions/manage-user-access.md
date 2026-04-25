@@ -5,8 +5,10 @@ audience: admin
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
 TQID: https://experienceleague.adobe.com/uPFss3qIstJmeVFF1YpQQJ0V848SiDEfy6BYyEcgPZw
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 1406
@@ -78,7 +80,7 @@ Adobe Experience Platform控制面板隨即顯示。 選取&#x200B;**[!UICONTROL
 
 ![選取了「選取產品設定檔」對話方塊，其中的「AEP-Default-All-Users」和「預設全部生產存取」選項已選取並套用，反白顯示。](../../assets/permissions/select-product-profiles.png){zoomable="yes"}
 
-確認資訊正確，然後選取[儲存]。****
+確認資訊正確，然後選取[儲存]。**&#x200B;**
 
 ![「將使用者新增至產品」對話方塊會顯示使用者資訊和產品設定檔，並反白顯示「儲存」。](../../assets/permissions/save-selections.png){zoomable="yes"}
 

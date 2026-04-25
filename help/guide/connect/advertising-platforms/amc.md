@@ -5,8 +5,11 @@ audience: publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 18169bd5-fe9f-4c39-96d5-2ae2b10578c5
 TQID: https://experienceleague.adobe.com/unC9PV6C3VOQ7OXsqFWSj73JV81uZwE37QeUPKBlO2A
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 271
@@ -30,7 +33,7 @@ ht-degree: 6%
 
 ![已選取[!DNL Amazon Marketing Cloud]連線選項的Discover共同作業人員工作區。](/help/assets/connect/advertising-platforms/amc-discover-collaborators.png){zoomable="yes"}
 
-**[!UICONTROL 連線至Amazon Marketing Cloud]**&#x200B;對話方塊隨即顯示。 檢閱後續步驟和資料共用詳細資料，然後選取[同意]並連線&#x200B;]**。**[!UICONTROL 
+**[!UICONTROL 連線至Amazon Marketing Cloud]**&#x200B;對話方塊隨即顯示。 檢閱後續步驟和資料共用詳細資料，然後選取[同意]並連線&#x200B;**。**
 
 ![[連線至[!DNL Amazon Marketing Cloud]]對話方塊的[同意並連線]按鈕已反白顯示。](/help/assets/connect/advertising-platforms/connect-to-amc.png){zoomable="yes"}
 
