@@ -2,12 +2,16 @@
 title: 透過許可權管理角色
 description: 瞭解可讓您存取Real-Time CDP Collaboration UI中不同元件的所有可用角色資源。
 audience: admin
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 59cf5bf2-421b-4ebc-beab-30eafb098649
-source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
+TQID: https://experienceleague.adobe.com/dB7nEQtEGG8PvCSE7eDDelH-ml2EhKOQ8ovvGXG1Ejg
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 1%
+source-wordcount: 623
+ht-degree: 3%
 
 ---
 
@@ -15,7 +19,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-若要管理Adobe Real-Time CDP Collaboration UI不同元件的使用者存取權，[管理員](./manage-user-access.md#system-admin-gain-access)可以定義並指派角色。 角色定義系統管理員或使用者對貴組織中[資源](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home#permissions){target="_blank"}的存取權。 本指南將提供Real-Time CDP Collaboration所提供標準角色的資訊，以及可指派給自訂角色的個別許可權。
+若要管理Adobe Real-Time CDP Collaboration UI不同元件的使用者存取權，[管理員](./manage-user-access.md#system-admin-gain-access)可以定義並指派角色。 角色定義系統管理員或使用者對貴組織中[資源](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target="_blank"}的存取權。 本指南將提供Real-Time CDP Collaboration所提供標準角色的資訊，以及可指派給自訂角色的個別許可權。
 
 若要開始管理角色，管理員需要存取Experience Platform產品。 如需取得管理存取權或取得Experience Platform存取權的資訊，請參閱[管理使用者存取權](./manage-user-access.md#manage-user-access-through-permissions)指南。
 
@@ -32,7 +36,7 @@ ht-degree: 1%
 
 ## 建立特定的存取角色 {#specific-access-roles}
 
-您可能會想要建立其他角色，為不同使用者提供不同等級的存取權。 建立角色時，您可以選取&#x200B;**[!UICONTROL 共同作業]**&#x200B;資源中的特定許可權，以管理不同的存取層級。 若要瞭解如何建立和管理角色，請參閱[角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}指南。
+您可能會想要建立其他角色，為不同使用者提供不同等級的存取權。 建立角色時，您可以選取&#x200B;**[!UICONTROL 共同作業]**&#x200B;資源中的特定許可權，以管理不同的存取層級。 若要瞭解如何建立和管理角色，請參閱[角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}指南。
 
 >[!NOTE]
 > 若要存取Collaboration，使用者必須擁有Adobe Experience Platform中&#x200B;**[!UICONTROL Prod]**&#x200B;沙箱的存取權。 若要授與使用者存取此沙箱的許可權，必須將他們指派給&#x200B;**[!UICONTROL 沙箱]**&#x200B;資源中包含&#x200B;**[!UICONTROL Prod]**&#x200B;許可權的角色。
@@ -61,4 +65,4 @@ ht-degree: 1%
 
 ## 後續步驟
 
-建立定義Collaboration存取權的角色後，您需要[將角色](./manage-user-access.md#assign-a-role)指派給管理員和使用者。 如需管理角色的完整概觀，請參閱[角色的管理許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions)指南。
+建立定義Collaboration存取權的角色後，您需要[將角色](./manage-user-access.md#assign-a-role)指派給管理員和使用者。 如需管理角色的完整概觀，請參閱[角色的管理許可權](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)指南。

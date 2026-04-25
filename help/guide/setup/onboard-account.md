@@ -1,12 +1,15 @@
 ---
 title: 設定和管理您的帳戶
-description: 瞭解如何在Real-Time CDP Collaboration中設定和管理帳戶的各種層面
+description: Learn how to configure and manage various aspects of your account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
+TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: 1393
 ht-degree: 14%
 
 ---
@@ -15,17 +18,17 @@ ht-degree: 14%
 
 {{limited-availability-release-note}}
 
-瞭解如何在Real-Time CDP Collaboration中設定您的帳戶，為與其他共同作業人員的連線做好準備。 本指南涵蓋您帳戶的初始設定，包括新增帳戶詳細資料、選取相符金鑰以及管理您的帳戶設定。
+Learn how to set up your account in Real-Time CDP Collaboration to prepare for connections with other collaborators. This guide covers the initial setup of your account, including adding account details, selecting match keys, and managing your account&#39;s settings.
 
-![顯示設定帳戶的安裝程式工作區。](/help/assets/setup/manage-account/my-account.png){zoomable="yes"}
+![The setup workspace showing a configured account.](/help/assets/setup/manage-account/my-account.png){zoomable="yes"}
 
-## 設定您的帳戶 {#set-up-account}
+## Set up your account {#set-up-account}
 
-第一次存取Collaboration時，系統會提示您設定帳戶。 此為一次性程式，可讓您設定帳戶詳細資料和比對金鑰。 如果這是您組織的第一個帳戶，會立即引導您完成入門流程，從設定您的[帳戶詳細資料](#set-up-details)開始。
+When you first access Collaboration, you are prompted to set up your account. This is a one-time process that allows you to configure your account details and match keys. If this is your organization&#39;s first account, you&#39;ll be directed through the onboarding process immediately, starting with setting up your [account details](#set-up-details).
 
-若要新增其他組織，請導覽至左側邊欄中的&#x200B;**[!UICONTROL 設定]**，然後選取新增圖示（![新增圖示。](/help/assets/icons/plus.png)） 在右上角。 接著，選取&#x200B;**[!UICONTROL 帳戶]**。
+To add additional organizations, navigate to **[!UICONTROL Setup]** in the left rail and select the add icon (![Add icon.](/help/assets/icons/plus.png)) in the upper right corner. Next, select **[!UICONTROL Account]**.
 
-![含有[我的帳戶]索引標籤和[帳戶]選項的設定工作區已反白顯示。](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
+![The setup workspace with the My account tab and Account option highlighted.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
 ### 設定詳細資訊 {#set-up-details}
 
@@ -39,13 +42,13 @@ ht-degree: 14%
 >title="連接代碼"
 >abstract="此連接代碼是您帳戶的唯一識別碼。 在 Real-Time CDP Collaboration 中會使用此代碼與其他協作者建立連線。"
 
-若要開始設定帳戶，您必須先設定帳戶詳細資料。 這需要您新增下列資訊：
+To begin configuring your account, you must first set up the account details. This requires you to add the following information:
 
-* 新增明確代表您品牌的&#x200B;**[!UICONTROL 帳戶名稱]**。
-* 新增品牌的&#x200B;**[!UICONTROL 描述]**。 這是選用的功能，但可協助其他共同作業人員更清楚瞭解您的品牌。
-* 選取您的&#x200B;**[!UICONTROL 角色]**。 您可以選取&#x200B;**[!UICONTROL 廣告商]**&#x200B;與&#x200B;**[!UICONTROL 發佈者]**&#x200B;之間。 閱讀[角色](/help/guide/overview/roles.md)指南，瞭解兩種帳戶角色型別之間的相似之處和工作流程細微差異。
-* 為您的帳戶選取&#x200B;**[!UICONTROL 產業]**。 某些範例包括&#x200B;**[!UICONTROL 零售業]**、**[!UICONTROL 電信業]**&#x200B;或&#x200B;**[!UICONTROL 金融服務]**。
-* 已根據您的Adobe Experience Cloud帳戶自動設定&#x200B;**[!UICONTROL 地區]**。 此設定隨時無法變更。
+* Add an **[!UICONTROL Account name]** that clearly represents your brand.
+* Add a **[!UICONTROL Description]** about your brand. This is optional, but it helps other collaborators understand your brand better.
+* Select your **[!UICONTROL Role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [roles](/help/guide/overview/roles.md) guide to see similarities and slight differences in workflow between the two account role types.
+* Select the **[!UICONTROL Industry]** for your account. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
+* The **[!UICONTROL Region]** is automatically set based on your Adobe Experience Cloud account. 此設定隨時無法變更。
 * 為您的帳戶新增&#x200B;**[!UICONTROL 連絡人電子郵件]**。 這應為團隊或角色型電子郵件地址。 不應提供個人電子郵件地址。
 * 為您的帳戶上傳&#x200B;**[!UICONTROL 標誌]**。 目前支援SVG型別的影像。 這是選擇性的作法，但上傳標誌有助於在Collaboration介面中以視覺化方式呈現您的品牌
 * 選取帳戶頁首圖片的影像。
@@ -150,7 +153,7 @@ Collaboration支援三種型別的相符金鑰：第一方人員ID、第一方�
 
 ![反白顯示[我的帳戶]索引標籤和[編輯]選項的[設定]工作區。](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-您現在可以編輯帳戶詳細資料。 更新您要變更的任何欄位，然後選取[儲存]以確認變更。**&#x200B;**
+您現在可以編輯帳戶詳細資料。 更新您要變更的任何欄位，然後選取[儲存]以確認變更。****
 
 ![編輯帳戶詳細資料對話方塊。](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 

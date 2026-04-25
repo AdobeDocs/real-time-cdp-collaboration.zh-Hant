@@ -1,13 +1,16 @@
 ---
 title: 身分識別交叉對照表
-description: 瞭解Real-Time CDP Collaboration中身分交叉通路的所有資訊，包括如何從不同來源引進身分交叉通路，以及如何管理身分交叉通路
+description: Learn all about identity crosswalks in Real-Time CDP Collaboration, including how bring identity crosswalks in from different sources, and how to manage identity crosswalks
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: bd2227e8eaac82a30566df1299f4cd3ca2cbe60b
+TQID: https://experienceleague.adobe.com/0vUk3-vtaZvCoBmzkbrfMQF1NFaFg2NqsjJIje1sVcg
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: 546
 ht-degree: 24%
 
 ---
@@ -16,41 +19,41 @@ ht-degree: 24%
 
 {{limited-availability-release-note}}
 
-瞭解Real-Time CDP Collaboration中身分交叉通路的所有資訊，包括如何從不同來源引進身分交叉通路，以及如何管理身分交叉通路。
+Learn all about identity crosswalks in Real-Time CDP Collaboration, including how to bring identity crosswalks in from different sources, and how to manage identity crosswalks.
 
-身分交叉通路可促進跨多個資料集和平台的安全且符合隱私權要求的客戶身分連結。 透過使用雜湊識別碼，Real-Time CDP Collaboration可確保使用者同步並調解身分，而不需揭露個人識別資訊(PII)。 這可讓客戶獲得統一的檢視，以便進行更好的共同作業和目標式行銷工作。
+Identity crosswalks facilitate the secure and privacy-compliant linking of customer identities across multiple datasets and platforms. By utilizing hashed identifiers, Real-Time CDP Collaboration ensures that users can synchronize and reconcile identities without exposing personal identifiable information (PII). This enables a unified view of the customer for better collaboration and targeted marketing efforts.
 
-首先，您必須將身分橫幅匯入至Real-Time CDP Collaboration。 若要將身分交叉通路匯入Real-Time CDP Collaboration，請閱讀以下章節：
+As a first step, you must import identity crosswalks into Real-Time CDP Collaboration. To import identity crosswalks into Real-Time CDP Collaboration, read the section below:
 
 >[!NOTE]
 >
->在Real-Time CDP Collaboration的Beta版中，您可以從Real-Time CDP中的資料集匯入身分交叉通道。 後續版本將提供其他選項。
+>In the beta release of Real-Time CDP Collaboration, you can import identity crosswalks from your datasets in Real-Time CDP. Further options will be available in subsequent releases.
 
-## 將身分交叉通路匯入Real-Time CDP Collaboration {#import-crosswalk}
+## Import identity crosswalks into Real-Time CDP Collaboration {#import-crosswalk}
 
-導覽至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 身分識別交叉管道]**&#x200B;標籤，選取新增圖示（![新增圖示。](/help/assets/icons/plus.png)），然後選取&#x200B;**[!UICONTROL 身分識別交叉管道]**
+Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity crosswalks]** tab, select the add icon (![Add icon.](/help/assets/icons/plus.png)), and select **[!UICONTROL Identity crosswalk]**
 
-![錄製如何進入熒幕以新增身分交叉通道](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
+![Recording of how to get to the screen to add identity crosswalks](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
 ### 選取交叉對照表來源
 
-選取要從中匯入身分交叉路徑的來源。 在Real-Time CDP Collaboration的第一個版本中，Experience Platform是匯入人行橫幅的唯一支援來源。
+Select a source where you will be importing the identity crosswalk from. In the first release of Real-Time CDP Collaboration, Experience Platform is the only supported source for importing crosswalks.
 
 >[!TIP]
 >
->您從Experience Platform匯入的交叉分析在Platform中稱為&#x200B;*資料集*。
+>The crosswalks that you are importing from Experience Platform are referred to as *datasets* in Platform.
 
-選取Experience Platform作為行人穿越道的來源後，選取您要匯入身分識別行人穿越道的[Experience Platform沙箱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home)。
+After selecting Experience Platform as the source of your crosswalks, select the [Experience Platform sandbox](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/home) from which you are importing the identity crosswalk.
 
-![如何選取人行橫線來源的錄製](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
+![Recording of how to select a crosswalk source](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
 
 ### 選取交叉對照表
 
-選取Experience Platform作為行人穿越道的來源後，
+After selecting Experience Platform as the source of your crosswalks,
 
 ### 提供詳細資料
 
-提供您要匯入產品中的身分交叉路線的名稱和描述。
+Provide a name and a description for the identity crosswalk that you are importing into the product.
 
 ### 選取聯結索引鍵 {#select-join-key}
 
@@ -59,16 +62,16 @@ ht-degree: 24%
 >title="聯結索引鍵"
 >abstract="聯結索引鍵用於比對和連結不同資料集間之記錄的唯一識別碼。 可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。 所選取之交叉對照表中任何欄標題都可以做為聯結索引鍵。"
 
-聯結索引鍵用於比對和連結不同資料集間之記錄的唯一識別碼。 可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。 藉由選取適當的聯結索引鍵，您可以有效地合併與調解資料，進而提高行銷活動的正確性與完整性。
+聯結索引鍵用於比對和連結不同資料集間之記錄的唯一識別碼。 可確保來自各種來源的資料能夠準確地與同一個體或實體相關聯。 By selecting the appropriate join key, you can effectively merge and reconcile data, enhancing the accuracy and completeness of your campaigns.
 
 所選取之交叉對照表中任何欄標題都可以做為聯結索引鍵。
 
-選取交叉分析表所需的聯結索引鍵，並選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以繼續執行下一個步驟。
+Select the desired join key for the crosswalk table and select **[!UICONTROL Next]** to proceed to the next step.
 
 ### 檢閱
 
-檢閱先前畫面中的任何選取專案。 對您的選擇感到滿意時，選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以完成工作流程。
+Review any of the selections in the previous screens. When satisfied with your selection, select **[!UICONTROL Next]** to complete the workflow.
 
 ## 後續步驟
 
-瞭解如何將身分交叉管道匯入Real-Time CDP後，您就可以檢視目前新增至Real-Time CDP Collaboration的所有身分交叉管道。 您現在也可以使用將受眾匯入Real-Time CDP Collaboration時匯入的身分交叉通道。
+After learning how to import identity crosswalks into Real-Time CDP, you can view all the identity crosswalks that you have so far added to Real-Time CDP Collaboration. You can also now use the identity crosswalks that you have imported when importing audiences into Real-Time CDP Collaboration.

@@ -2,11 +2,15 @@
 title: 探索重疊並比較對象
 description: 探索您和共同作業人員的對象之間的重疊。 瞭解如何探索最佳對象，以用於您的行銷活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
+TQID: https://experienceleague.adobe.com/ny3FgyvKMu4caNcmNTLrPRHXjBOKa6lDvPQ3C9YG9vo
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: 2169
 ht-degree: 17%
 
 ---
@@ -17,7 +21,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**對象探索**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式](../connect/establishing-connections.md#connection-settings)期間已啟用[的&#x200B;**對象探索**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 在[建立專案](/help/guide/collaborate/manage-projects.md)之後，您可以比較對象與共同作業人員。 這可幫助您識別行銷活動的相關對象，並決定要將哪些對象傳送給共同作業人員以進行啟用。
 
@@ -25,7 +29,7 @@ ht-degree: 17%
 >
 >任何[未更新或未重新整理的資料草圖](/help/guide/glossary.md#sketches)將在7天後刪除。 發生此情況時，此頁面上各種重疊報表中顯示的數字會變成零，且這些過期的對象將無法共用對象。 具有[作用中重新整理排程](/help/guide/setup/onboard-audiences.md#schedule)的對象會自動重新整理資料草圖。
 
-在連線程式[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)期間，已設定用來探索和比較對象的比對金鑰。 相符索引鍵會用於計算對象之間的重疊，且可切換為開啟或關閉。 若要編輯比對索引鍵，請選取&#x200B;**[!UICONTROL 編輯比對索引鍵]**&#x200B;選項。
+在連線程式](/help/guide/connect/establishing-connections.md#connection-settings)期間，已設定[用來探索和比較對象的比對金鑰。 相符索引鍵會用於計算對象之間的重疊，且可切換為開啟或關閉。 若要編輯比對索引鍵，請選取&#x200B;**[!UICONTROL 編輯比對索引鍵]**&#x200B;選項。
 
 ![Dicover標籤工作區，展示Audience深入分析。](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -106,26 +110,26 @@ ht-degree: 17%
 
 **[!UICONTROL 探索]**&#x200B;標籤中的&#x200B;**[!UICONTROL 相關對象]**&#x200B;區段會根據共同作業人員的對象與所有對象之間的重疊百分比，提供前五個對象的精選清單。 此功能可協助您快速識別重疊程度最高的對象，讓您更有效地鎖定行銷活動。 使用區段右上角的頁面選取器，在相關對象之間切換。
 
-![醒目提示「發現相關對象」區段的Discover工作區。](/help/assets/collaborate/discover/relevant-audiences.png)
+![The Discover workspace with the Relevant audiences section highlighted.](/help/assets/collaborate/discover/relevant-audiences.png)
 
 >[!NOTE]
 >
->共同作業人員對象的可見度取決於共同作業人員在[連線存取區段](/help/guide/setup/onboard-audiences.md#connection-access)和[中繼資料可見度區段](/help/guide/setup/onboard-audiences.md#metadata-visibility)中為對象選擇的設定。 如果您的共同作業人員已將所有對象設為私人，此區段將不會顯示任何對象。
+>The visibility of your collaborator&#39;s audiences depends on the setting that your collaborator chose for an audience in the [connection access section](/help/guide/setup/onboard-audiences.md#connection-access) and the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). If your collaborator has set all audiences to private, this section will not display any audiences.
 
-**[!UICONTROL 相關對象]**&#x200B;區段會顯示每個建議對象的下列資訊：
+The **[!UICONTROL Relevant audiences]** section displays the following information for each recommended audience:
 
 | 量度 | 說明 |
 |---------|----------|
-| **[!UICONTROL 身分計數]** | 對象中的唯一ID數量。 |
-| **[!UICONTROL 重疊的身分]** | 建議的對象與您的所有對象之間重疊的唯一ID數量。 |
-| **[!UICONTROL 重疊%]** | 建議的對象與您的所有對象之間的重疊身分百分比。 |
+| **[!UICONTROL 身分計數]** | The number of unique IDs within the audience. |
+| **[!UICONTROL 重疊的身分]** | The number of unique IDs that overlap between the recommended audience and all your audiences. |
+| **[!UICONTROL 重疊%]** | The percentage of overlapping identities between the recommended audience and all your audiences. |
 | **[!UICONTROL 對象索引]** | 根據基礎受眾規模和重疊來指出一個對象與另一個對象之間關聯強度的分數。 若要深入瞭解分數涵義，請閱讀[對象索引分數](#audience-index-score)區段。 |
-| **[!UICONTROL 對象類別]** | 您的共同作業人員已指派給對象的類別。 |
-| **[!UICONTROL 相符金鑰]** | 共同作業人員為對象選取的相符金鑰。 |
+| **[!UICONTROL Audience categories]** | The categories your collaborator has assigned to the audience. |
+| **[!UICONTROL 相符金鑰]** | The match keys your collaborator selected for the audience. |
 
 {style="table-layout:auto"}
 
-如果您為任何共同作業人員的對象啟用對象索引分數，則相關對象將會根據對象索引分數，而未啟用對象索引的任何對象將不會包括在內。 系統會根據對象索引分數來排序相關對象，因此會先顯示最高索引分數。 如果您未針對任何共同作業人員的對象啟用對象索引，則相關對象將會根據重疊百分比。
+If audience index score is enabled for any of your collaborator&#39;s audiences, relevant audiences will be based on the audience index score, and any audiences where the audience index has not been enabled will not be included. Relevant audiences based on the audience index score are sorted so the highest index score is displayed first. If audience index is not enabled for any of your collaborator&#39;s audiences, the relevant audiences will be based on the overlap percentage.
 
 ## 探索重疊 {#discover-overlaps}
 
@@ -134,13 +138,13 @@ ht-degree: 17%
 >title="探索與個別客群的重疊處"
 >abstract="取得您與協作者的客群之間重疊情況的洞察。"
 
-探索重疊，以深入瞭解您的對象與共同作業人員的對象相較之下的情形。 依預設，此區段會將您的所有對象與您的共同作業人員的每個對象進行比較。 使用區段底部的分頁控制項，以導覽至可用的對象。
+Discover overlaps to get insights into how your audiences compare against your collaborator&#39;s audiences. By default, this section compares all of your audiences against each of your collaborator&#39;s audiences. Use the pagination control at the bottom of the section to navigate through the available audiences.
 
-![反白顯示Discover重疊區段的Discover工作區。](/help/assets/collaborate/discover/discover-overlaps.png)
+![The Discover workspace with the Discover overlaps section highlighted.](/help/assets/collaborate/discover/discover-overlaps.png)
 
 >[!NOTE]
 >
->共同作業人員對象的可見度取決於共同作業人員在[連線存取區段](/help/guide/setup/onboard-audiences.md#connection-access)和[中繼資料可見度區段](/help/guide/setup/onboard-audiences.md#metadata-visibility)中為對象選擇的設定。 如果您的共同作業人員已將所有對象設為私人，此區段將不會顯示任何對象。
+>The visibility of your collaborator&#39;s audiences depends on the setting that your collaborator chose for an audience in the [connection access section](/help/guide/setup/onboard-audiences.md#connection-access) and the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). 如果您的共同作業人員已將所有對象設為私人，此區段將不會顯示任何對象。
 
 如果您的共同作業人員尚未啟用對象索引或重疊百分比，則不會顯示對象。
 
@@ -148,7 +152,7 @@ ht-degree: 17%
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 

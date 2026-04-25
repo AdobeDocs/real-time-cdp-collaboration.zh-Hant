@@ -2,11 +2,15 @@
 title: Amazon Marketing Cloud
 description: 瞭解如何在Real-Time CDP Collaboration中與Amazon Marketing Cloud合作。
 audience: publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
-source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
+TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: 665
 ht-degree: 21%
 
 ---
@@ -57,7 +61,7 @@ ht-degree: 21%
 
 >[!IMPORTANT]
 >
->系統會從上傳至您[!DNL Amazon Ads]帳戶的對象中處理對象資料。 若要瞭解如何使用Experience Platform的目的地功能傳送您的對象到您的[!DNL Amazon Ads]帳戶，請閱讀[Amazon Ads連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/advertising/amazon-ads)指南。
+>系統會從上傳至您[!DNL Amazon Ads]帳戶的對象中處理對象資料。 若要瞭解如何使用Experience Platform的目的地功能傳送您的對象到您的[!DNL Amazon Ads]帳戶，請閱讀[Amazon Ads連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads)指南。
 
 ![使用Amazon Marketing Cloud的專案中的Discover區段。](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
