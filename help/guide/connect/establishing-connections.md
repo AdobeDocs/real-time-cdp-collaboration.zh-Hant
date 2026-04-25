@@ -5,9 +5,14 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 3398
@@ -148,7 +153,7 @@ ht-degree: 8%
 
 會出現對話方塊，提示您接受邀請。 選取&#x200B;**[!UICONTROL 接受邀請]**&#x200B;以繼續。
 
-![ Accept連線邀請對話方塊中反白顯示Accept邀請選項。](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
+![&#x200B; Accept連線邀請對話方塊中反白顯示Accept邀請選項。](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
 
 連線的狀態變更為&#x200B;**[!UICONTROL 擱置中]**。 擁有者現在可以設定連線設定。
 
@@ -326,7 +331,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->邀請其他共同作業人員，即表示您確認您有責任承擔因他們活動所產生的任何費用。 在Collaboration Starter](../setup/starter-credit-usage.md)中進一步瞭解[信用使用量和消耗量
+>邀請其他共同作業人員，即表示您確認您有責任承擔因他們活動所產生的任何費用。 在Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)中進一步瞭解信用使用量和消耗量
 
 ### 傳送邀請 {#send-invitation}
 
