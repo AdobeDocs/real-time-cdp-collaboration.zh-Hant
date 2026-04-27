@@ -3,9 +3,9 @@ title: 設定 [!DNL Google Cloud Storage] 以取得對象來源
 description: 瞭解如何在Real-Time CDP Collaboration中連線 [!DNL Google Cloud Storage] 貯體作為自助受眾來源，包括先決條件、驗證、欄位對應、排程和驗證。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 2f1a40f60d244bda70d6e36a653cb46885c424ac
+source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2858'
 ht-degree: 7%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 7%
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="準備您的資料以進行上線流程"
 >abstract="請參閱Audience Sourcing規格指南，瞭解如何格式化和建構適用於Collaboration的Google雲端儲存空間的對象資料。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱指南"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱對象來源規格指南"
 
 資料來源選取畫面會列出所有可用的連線型別。 選取&#x200B;**[!UICONTROL Google雲端儲存空間]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
