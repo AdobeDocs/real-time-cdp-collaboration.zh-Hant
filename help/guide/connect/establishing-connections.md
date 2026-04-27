@@ -2,7 +2,7 @@
 title: 與共同作業人員建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
 product_v2:
@@ -339,7 +339,7 @@ ht-degree: 8%
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="邀請協作者"
 >abstract="填寫此表單，邀請您的合作夥伴組織加入Collaboration Starter。 受邀者將會收到一封邀請電子郵件，且必須使用指定的電子郵件地址來完成註冊。"
->additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="進一步瞭解Collaboration Starter"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="進一步瞭解Collaboration Starter"
 
 請您的合作夥伴組織直接透過使用者介面加入Collaboration [!DNL Starter]。
 
