@@ -6,7 +6,7 @@ badgelimitedavailability: label="有限可用性" type="Informative" url="https:
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
 source-wordcount: '2858'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -73,12 +73,12 @@ ht-degree: 7%
 
 ![反白顯示[新增資料連線]選項的[新增對象]工作區。](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-### 選取[!DNL Google Cloud Storage]作為資料來源 {#select-gcs}
+### 選取 [!DNL Google Cloud Storage] 作為資料來源。 {#select-gcs}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="準備您的資料以進行上線流程"
->abstract="請參閱Audience Sourcing規格指南，瞭解如何格式化和建構適用於Collaboration的Google雲端儲存空間的對象資料。"
+>abstract="參閱客群來源規範指南，瞭解如何格式化及建構用於 Collaboration 的 Google Cloud Storage 客群資料。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱對象來源規格指南"
 
 資料來源選取畫面會列出所有可用的連線型別。 選取&#x200B;**[!UICONTROL Google雲端儲存空間]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
