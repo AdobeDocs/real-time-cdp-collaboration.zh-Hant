@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 3680
+source-wordcount: 3753
 ht-degree: 18%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 18%
 >
 >建立您的第一個資料連線並取得第一個對象後，您就可以從現有的資料連線取得多個對象。 新增其他對象時，由於資料連線已建立，您將從[選取對象](#select-audiences)步驟開始。
 
-資料連線是您將對象擷取到Collaboration中的來源。 支援的來源包括Adobe Experience Platform、CSV檔案上傳、[!DNL Amazon S3]、[!DNL Snowflake]和[!DNL Google Cloud Storage]，每個都有自己的工作流程。
+資料連線是您將對象擷取到Collaboration中的來源。 支援的來源包括Adobe Experience Platform、CSV檔案上傳、[!DNL Amazon S3]、[!DNL Snowflake]和[!DNL Google Cloud Storage]，每個都有自己的工作流程。 Adobe Audience Manager即將推出。
 
 以下各節說明如何選取&#x200B;**Adobe Experience Platform**&#x200B;以及完成Experience Platform的特定步驟（沙箱、控管和同意）。 如果您選擇CSV、[!DNL Amazon S3]、[!DNL Snowflake]或[!DNL Google Cloud Storage]，請使用該選項的[選取資料來源](#select-data-source)下連結的指南。
 
@@ -63,7 +63,7 @@ ht-degree: 18%
 
 ![反白顯示[新增資料連線]選項的[新增對象]工作區。](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-#### 選取資料來源
+#### 選取資料來源 {#select-data-source}
 
 接下來，您將選擇資料連線的來源。 可用的來源包括：
 
@@ -72,12 +72,13 @@ ht-degree: 18%
 * **Amazon Web Services**：直接從S3儲存貯體連線至您的Amazon S3儲存體，以取得對象資料。 如需逐步指示，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)指南。
 * **Snowflake**：使用您的Snowflake資料倉儲，順暢地提取對象資料。 請參閱[設定 [!DNL Snowflake] 對象來源](./configure-snowflake-audience-sourcing.md)指南。
 * **Google雲端儲存空間**：連線至您的GCS貯體，以取得來源受眾資料。 如需逐步指示，請參閱[設定對象來源的GCS](./configure-gcs-audience-sourcing.md)指南。
+* **Adobe Audience Manager** （_即將推出_）：從Adobe Audience ManagerSource您的對象區段。
 
 選取您的資料來源，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
 ![反白顯示Adobe Experience Platform選項的「新增對象」工作區。](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
-#### 選取沙箱
+#### 選取沙箱 {#select-sandbox}
 
 選取資料來源後，您必須選取沙箱，其中包含您要用於Collaboration的對象。 從可用沙箱清單中選取沙箱，然後選取&#x200B;**[!UICONTROL 下一步]**
 
@@ -107,7 +108,7 @@ ht-degree: 18%
 
 ![以核取方塊和[確定]選項標示的[治理原則與強制執行]動作對話方塊。](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
-### 提供詳細資料
+### 提供詳細資料 {#provide-details}
 
 接下來，為您的資料連線提供名稱和說明。 此資訊可協助您稍後識別資料連線。
 
@@ -142,11 +143,9 @@ ht-degree: 18%
 >abstract="從聯集結構中選取 Experience Platform 輪廓類別屬性。 此視圖會顯示存在於聯集結構中，且屬於 XDM 個體輪廓類別的屬性。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hant" text="Experience Platform 中的聯集結構"
 
-接下來，您將選取來源欄位，以對應至Collaboration中的目標欄位。 可用的目標欄位將根據您在帳戶設定期間選取的相符金鑰。
+接下來，您將選取來源欄位，以對應至Collaboration中的目標欄位。 可用的目標欄位將根據您在[帳戶設定](./onboard-account.md#set-up-match-keys)期間選取的相符金鑰。
 
->[!IMPORTANT]
->
->目前，您無法編輯資料連線以包含新的對應欄位。 如果您在建立資料連線後，將新的相符金鑰新增至您的帳戶，您將需要建立新的資料連線以對應至這些金鑰。
+如果您在帳戶設定期間選取[!DNL Demdex ID (ECID)]作為比對索引鍵，則會自動從ECID擷取及對應[!DNL Demdex ID]，而您不需要採取任何動作。 若要深入瞭解[!DNL Demdex IDs]，請參閱[[!DNL Demdex ID]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/identity/unified-identity-support)指南。
 
 ![新增對象工作區，可選擇將來源欄位對應至目標欄位。](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -177,6 +176,11 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 繼續為每個目標欄位新增對應配對。 如果您不想使用比對索引鍵，可以使用欄位旁的刪除（![刪除圖示](/help/assets/icons/delete.png)）圖示將其移除。 如果移除比對索引鍵，您將無法從連線中取得任何對象。
 
 ![醒目提示目標欄位旁的新增對象工作區具有[刪除]選項。](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+如果您新增欄位並選取&#x200B;**[!UICONTROL Demdex ID (ECID)]**&#x200B;作為目標欄位，系統會自動選取&#x200B;**[!UICONTROL ECID]**&#x200B;作為對應的來源欄位。 不需要進一步動作。
+
+<!-- The current screenshot does not show the text under the mapping dropdown as in design. Update this when it's available in the UI. -->
+![具有ECID來源欄位的新增對象工作區會自動對應到Demdex ID (ECID)目標欄位。](/help/assets/setup/add-manage-audiences/ECID-automapped-field.png){zoomable="yes"}
 
 完成欄位對應後，選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以繼續。
 

@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1012
+source-wordcount: 997
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->至少必須選取一個符合索引鍵。 在目前的版本中，唯一可用的相符金鑰是&#x200B;**[!UICONTROL 雜湊電子郵件]**，因此您無法移除此相符金鑰。
+>至少必須選取一個符合索引鍵。
 
 ![受眾啟動工作流程中的[編輯相符金鑰]對話方塊。](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
@@ -119,18 +119,18 @@ ht-degree: 3%
 | **[!UICONTROL 目標]** | 受眾啟用的目的地。 |
 | **[!UICONTROL 相符金鑰]** | 表示用於對象的比對索引鍵。 |
 
-## Delete sent audiences {#delete-sent-audiences}
+## 刪除已傳送的對象 {#delete-sent-audiences}
 
-You can delete sent audiences that you no longer want to activate. When you delete a sent audience, it is removed from the **[!UICONTROL Sent audiences to]** section, and it will no longer be activated to your collaborator&#39;s destination.
+您可以刪除不想再啟用的已傳送對象。 當您刪除已傳送的對象時，該對象會從&#x200B;**[!UICONTROL 已傳送對象至]**&#x200B;區段中移除，且不會再在您的共同作業人員的目的地啟用。
 
-To delete a sent audience, select the **[!UICONTROL Delete]** icon (![Delete icon.](/help/assets/icons/delete.png)) next to the audience in the **[!UICONTROL Sent audiences to]** section.
+若要刪除已傳送的對象，請選取&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示（![刪除圖示。](/help/assets/icons/delete.png)） 在&#x200B;**[!UICONTROL 傳送對象至]**&#x200B;區段中的對象旁邊。
 
-![The Delete option in the Sent audiences to section.](/help/assets/collaborate/activate/delete-sent-audiences.png)
+![「傳送對象至區段」中的「刪除」選項。](/help/assets/collaborate/activate/delete-sent-audiences.png)
 
-A confirmation dialog opens, asking you to confirm the deletion. 請選取「**[!UICONTROL 刪除]**」完成確認。
+確認對話方塊隨即開啟，要求您確認刪除。 請選取「**[!UICONTROL 刪除]**」完成確認。
 
-![The Delete confirmation dialog.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
+![刪除確認對話方塊。](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
 
 ## 後續步驟 {#next-steps}
 
-After activating audiences and running campaigns, work with the Adobe enablement and engineering team to upload measurement data and view the corresponding [measurement reports](/help/guide/collaborate/measure.md).
+啟用對象並執行行銷活動後，請與Adobe啟用與工程團隊合作，上傳測量資料並檢視對應的[測量報表](/help/guide/collaborate/measure.md)。

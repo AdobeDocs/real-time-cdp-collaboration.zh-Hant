@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1179
-ht-degree: 99%
+source-wordcount: 1253
+ht-degree: 93%
 
 ---
 
@@ -115,6 +115,14 @@ ht-degree: 99%
 如果您想要將非雜湊欄位來源至雜湊目標欄位，例如，將純文字電子郵件來源欄位對應至&#x200B;**[!UICONTROL 雜湊電子郵件]**&#x200B;目標欄位時，請使用&#x200B;**[!UICONTROL 套用轉換]**&#x200B;選項。
 
 ![下拉式功能表會顯示所有可用的目標欄位，以與新的來源欄位對應。](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+
+##### 新增[!DNL Demdex ID (ECID)] {#add-demdex-id-ecid}
+
+如果您想要將[!DNL Demdex ID (ECID)]新增為相符金鑰，請先確定已在您的帳戶設定[&#128279;](../setup/onboard-account.md#set-up-match-keys)中啟用。 如需有關[!DNL Demdex ID (ECID)]的詳細資訊，請閱讀[支援的相符金鑰](../setup/onboard-account.md#supported-match-keys)。
+
+在&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;對話方塊中，新增對應欄位列。 然後，選取&#x200B;**[!UICONTROL ECID]**&#x200B;作為來源欄位，並從下拉式清單中選取&#x200B;**[!UICONTROL Demdex ID (ECID)]**&#x200B;作為目標欄位。
+
+![具有Demdex ID (ECID)比對索引鍵之對應欄位的[比對索引鍵]對話方塊已反白顯示。](/help/assets/setup/manage-data-connection/demdex-id-ecid-match-key.png){zoomable="yes"}
 
 完成對應欄位後，請檢閱更新並選取&#x200B;**[!UICONTROL 確認]**&#x200B;以套用變更。
 
