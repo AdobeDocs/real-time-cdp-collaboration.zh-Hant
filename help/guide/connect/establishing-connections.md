@@ -2,21 +2,16 @@
 title: 與共同作業人員建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
 source-wordcount: 3398
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -153,7 +148,7 @@ ht-degree: 8%
 
 會出現對話方塊，提示您接受邀請。 選取&#x200B;**[!UICONTROL 接受邀請]**&#x200B;以繼續。
 
-![&#x200B; Accept連線邀請對話方塊中反白顯示Accept邀請選項。](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
+![ Accept連線邀請對話方塊中反白顯示Accept邀請選項。](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
 
 連線的狀態變更為&#x200B;**[!UICONTROL 擱置中]**。 擁有者現在可以設定連線設定。
 
@@ -282,7 +277,7 @@ ht-degree: 8%
 
 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
 
-建立專案時，廣告商名稱將根據連線期間建立的下列設定預先填入    ：
+建立專案時，將根據連線期間建立的下列設定，預先填入廣告商名稱：
 
 1. **未設定廣告商名稱**：如果未新增廣告商名稱，Collaboration預設會使用廣告商名稱做為廣告商名稱。
 2. **一個廣告商名稱集**：如果新增了單一廣告商名稱，Collaboration會自動使用該名稱作為專案的廣告商名稱。
@@ -331,15 +326,15 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->邀請其他共同作業人員，即表示您確認您有責任承擔因他們活動所產生的任何費用。 在Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)中進一步瞭解信用使用量和消耗量
+>邀請其他共同作業人員，即表示您確認您有責任承擔因他們活動所產生的任何費用。 在Collaboration Starter](../setup/starter-credit-usage.md)中進一步瞭解[信用使用量和消耗量
 
 ### 傳送邀請 {#send-invitation}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="邀請協作者"
->abstract="填寫此表單，邀請您的合作夥伴組織加入Collaboration Starter。 受邀者將會收到一封邀請電子郵件，且必須使用指定的電子郵件地址來完成註冊。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="進一步瞭解Collaboration Starter"
+>abstract="填寫此表單，邀請您的合作夥伴組織加入 Collaboration Starter。 受邀者將會收到一封邀請電子郵件，並且必須使用指定的電子郵件地址才能完成註冊。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="深入了解 Collaboration Starter"
 
 請您的合作夥伴組織直接透過使用者介面加入Collaboration [!DNL Starter]。
 
