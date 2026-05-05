@@ -5,9 +5,13 @@ audience: administrator, data engineer
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 1253
@@ -114,7 +118,7 @@ ht-degree: 93%
 
 ##### 新增[!DNL Demdex ID (ECID)] {#add-demdex-id-ecid}
 
-如果您想要將[!DNL Demdex ID (ECID)]新增為相符金鑰，請先確定已在您的帳戶設定](../setup/onboard-account.md#set-up-match-keys)中啟用[。 如需有關[!DNL Demdex ID (ECID)]的詳細資訊，請閱讀[支援的相符金鑰](../setup/onboard-account.md#supported-match-keys)。
+如果您想要將[!DNL Demdex ID (ECID)]新增為相符金鑰，請先確定已在您的帳戶設定[&#128279;](../setup/onboard-account.md#set-up-match-keys)中啟用。 如需有關[!DNL Demdex ID (ECID)]的詳細資訊，請閱讀[支援的相符金鑰](../setup/onboard-account.md#supported-match-keys)。
 
 在&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;對話方塊中，新增對應欄位列。 然後，選取&#x200B;**[!UICONTROL ECID]**&#x200B;作為來源欄位，並從下拉式清單中選取&#x200B;**[!UICONTROL Demdex ID (ECID)]**&#x200B;作為目標欄位。
 
