@@ -2,19 +2,15 @@
 title: 啟用客群
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中啟用對象。
 audience: admin, publisher
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1012
+source-wordcount: 997
 ht-degree: 3%
 
 ---
@@ -25,9 +21,9 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 啟用]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間啟用&#x200B;**對象啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 啟用]**&#x200B;工作區只有在連線程式](../connect/establishing-connections.md#connection-settings)期間[啟用&#x200B;**對象啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
-對象啟用可讓您啟用對象，以用於行銷活動。 根據連線[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定，可由共同作業人員完成啟用。 在您[探索行銷活動的最佳對象](./discover.md)後，請啟用對象以供使用。 當您啟用對象時，系統會將其傳送至共同作業人員預先設定的目的地（例如Adobe Experience Platform），以便在行銷活動中使用。 如需設定目的地的詳細資訊，請參閱[目的地概觀](../destinations/overview.md)指南。
+對象啟用可讓您啟用對象，以用於行銷活動。 根據連線](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定[，可由共同作業人員完成啟用。 在您[探索行銷活動的最佳對象](./discover.md)後，請啟用對象以供使用。 當您啟用對象時，系統會將其傳送至共同作業人員預先設定的目的地（例如Adobe Experience Platform），以便在行銷活動中使用。 如需設定目的地的詳細資訊，請參閱[目的地概觀](../destinations/overview.md)指南。
 
 ## 啟用新對象 {#activate-new-audiences}
 
@@ -69,7 +65,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->至少必須選取一個符合索引鍵。 在目前的版本中，唯一可用的相符金鑰是&#x200B;**[!UICONTROL 雜湊電子郵件]**，因此您無法移除此相符金鑰。
+>至少必須選取一個符合索引鍵。
 
 ![受眾啟動工作流程中的[編輯相符金鑰]對話方塊。](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
@@ -119,18 +115,18 @@ ht-degree: 3%
 | **[!UICONTROL 目標]** | 受眾啟用的目的地。 |
 | **[!UICONTROL 相符金鑰]** | 表示用於對象的比對索引鍵。 |
 
-## Delete sent audiences {#delete-sent-audiences}
+## 刪除已傳送的對象 {#delete-sent-audiences}
 
-You can delete sent audiences that you no longer want to activate. When you delete a sent audience, it is removed from the **[!UICONTROL Sent audiences to]** section, and it will no longer be activated to your collaborator&#39;s destination.
+您可以刪除不想再啟用的已傳送對象。 當您刪除已傳送的對象時，該對象會從&#x200B;**[!UICONTROL 已傳送對象至]**&#x200B;區段中移除，且不會再在您的共同作業人員的目的地啟用。
 
-To delete a sent audience, select the **[!UICONTROL Delete]** icon (![Delete icon.](/help/assets/icons/delete.png)) next to the audience in the **[!UICONTROL Sent audiences to]** section.
+若要刪除已傳送的對象，請選取&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示（![刪除圖示。](/help/assets/icons/delete.png)） 在&#x200B;**[!UICONTROL 傳送對象至]**&#x200B;區段中的對象旁邊。
 
-![The Delete option in the Sent audiences to section.](/help/assets/collaborate/activate/delete-sent-audiences.png)
+![「傳送對象至區段」中的「刪除」選項。](/help/assets/collaborate/activate/delete-sent-audiences.png)
 
-A confirmation dialog opens, asking you to confirm the deletion. 請選取「**[!UICONTROL 刪除]**」完成確認。
+確認對話方塊隨即開啟，要求您確認刪除。 請選取「**[!UICONTROL 刪除]**」完成確認。
 
-![The Delete confirmation dialog.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
+![刪除確認對話方塊。](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
 
 ## 後續步驟 {#next-steps}
 
-After activating audiences and running campaigns, work with the Adobe enablement and engineering team to upload measurement data and view the corresponding [measurement reports](/help/guide/collaborate/measure.md).
+啟用對象並執行行銷活動後，請與Adobe啟用與工程團隊合作，上傳測量資料並檢視對應的[測量報表](/help/guide/collaborate/measure.md)。
