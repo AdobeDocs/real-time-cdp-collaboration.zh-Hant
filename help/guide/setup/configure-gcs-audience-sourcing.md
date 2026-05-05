@@ -79,7 +79,7 @@ ht-degree: 8%
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="準備您的資料以進行上線流程"
 >abstract="參閱客群來源規範指南，瞭解如何格式化及建構用於 Collaboration 的 Google Cloud Storage 客群資料。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱對象來源規格指南"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱客群來源規格指南"
 
 資料來源選取畫面會列出所有可用的連線型別。 選取&#x200B;**[!UICONTROL Google雲端儲存空間]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
 

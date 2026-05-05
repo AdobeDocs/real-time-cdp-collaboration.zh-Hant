@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
 source-wordcount: 3398
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -282,7 +282,7 @@ ht-degree: 8%
 
 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
 
-建立專案時，廣告商名稱將根據連線期間建立的下列設定預先填入    ：
+建立專案時，將根據連線期間建立的下列設定，預先填入廣告商名稱：
 
 1. **未設定廣告商名稱**：如果未新增廣告商名稱，Collaboration預設會使用廣告商名稱做為廣告商名稱。
 2. **一個廣告商名稱集**：如果新增了單一廣告商名稱，Collaboration會自動使用該名稱作為專案的廣告商名稱。
@@ -338,8 +338,8 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="邀請協作者"
->abstract="填寫此表單，邀請您的合作夥伴組織加入Collaboration Starter。 受邀者將會收到一封邀請電子郵件，且必須使用指定的電子郵件地址來完成註冊。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="進一步瞭解Collaboration Starter"
+>abstract="填寫此表單，邀請您的合作夥伴組織加入 Collaboration Starter。 受邀者將會收到一封邀請電子郵件，並且必須使用指定的電子郵件地址才能完成註冊。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="深入了解 Collaboration Starter"
 
 請您的合作夥伴組織直接透過使用者介面加入Collaboration [!DNL Starter]。
 
