@@ -1,43 +1,40 @@
 ---
-title: Upload CSV file for Audience Sourcing
-description: Learn how to upload your CSV file as a self-service data source to ingest audience data into Real-Time CDP Collaboration.
+title: 上傳用於Audience Sourcing的CSV檔案
+description: 瞭解如何上傳CSV檔案作為自助資料來源，以將受眾資料擷取至Real-Time CDP Collaboration。
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: 1100
+source-wordcount: 1121
 ht-degree: 16%
 
 ---
 
 # 上傳CSV檔案以取得對象
 
-This guide provides steps to upload a CSV file in the Adobe Real-Time CDP Collaboration UI to source your audience data for use in collaboration projects.
+本指南提供在Adobe Real-Time CDP Collaboration UI中上傳CSV檔案的步驟，以取得您的對象資料以用於共同作業專案。
 
 ## 概觀 {#overview}
 
-CSV file upload is one method to source first-party audience data for collaboration projects. This is an alternative to [connecting your AWS S3 bucket](./configure-aws-s3-audience-sourcing.md), [connecting Google Cloud Storage](./configure-gcs-audience-sourcing.md), or [sourcing audiences from Experience Platform](./onboard-audiences.md).
+CSV檔案上傳是為共同作業專案取得第一方對象資料的一種方法。 這是[連線您的AWS S3貯體](./configure-aws-s3-audience-sourcing.md)、[連線Google Cloud Storage](./configure-gcs-audience-sourcing.md)或[從Experience Platform取得對象的替代方式](./onboard-audiences.md)。
 
-Follow this workflow to upload a CSV file containing your audience data to source and manage first-party audiences within Collaboration. You can map identity fields for activation and overlap analysis. Once your file is uploaded and processed, the sourced audience becomes available in the **[!UICONTROL My audiences]** workspace, where you can review, activate, and manage for your collaboration projects.
+依照此工作流程，將包含您對象資料的CSV檔案上傳至Collaboration中的來源並管理第一方對象。 您可以對應身分欄位以進行啟用和重疊分析。 上傳並處理您的檔案後，**[!UICONTROL 我的對象]**&#x200B;工作區中即可使用來源對象，您可在此處檢閱、啟用及管理您的共同作業專案。
 
 >[!IMPORTANT]
 >
->* Audiences sourced through CSV upload are available for **7 days**. After this period, the audience expires and must be re-uploaded for use in your collaboration projects.
+>* 透過CSV上傳取得的對象可使用&#x200B;**7天**。 在此期間後，對象會過期，必須重新上傳以用於您的共同作業專案。
 >
->* You can upload one CSV file per session at this time. To add additional audiences, complete the upload workflow again for each file you wish to source.
+>* 您現在可以在每個工作階段上傳一個CSV檔案。 若要新增其他受眾，請針對您想要來源的每個檔案再次完成上傳工作流程。
 
 ## 先決條件 {#prerequisites}
 
-Before you can upload CSV files for audience sourcing, ensure you have:
+在您可以上傳CSV檔案來取得對象之前，請確定您擁有：
 
-* Completed account onboarding in Real-Time CDP Collaboration. See [Onboard your account](./onboard-account.md) for step-by-step instructions.
-* The necessary permissions to add audiences in your organization.
-* A CSV file containing your audience data with identity fields such as email or phone.
+* 已在Real-Time CDP Collaboration中完成帳戶上線。 如需逐步指示，請參閱[加入您的帳戶](./onboard-account.md)。
+* 在組織中新增對象所需的許可權。
+* CSV檔案，其中包含您具有身分欄位（例如電子郵件或電話）的對象資料。
 
 ## 上傳 CSV 檔案 {#upload-csv-file}
 
@@ -51,19 +48,24 @@ Before you can upload CSV files for audience sourcing, ensure you have:
 
 ![反白顯示[新增資料連線]選項的[新增對象]工作區。](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-### Select CSV File as the data connection {#select-csv-file}
+### 選取CSV檔案作為資料連線 {#select-csv-file}
 
-Select **[!UICONTROL CSV File]** as a data connection, followed by **[!UICONTROL Next]**.
+選取&#x200B;**[!UICONTROL CSV檔案]**&#x200B;做為資料連線，接著選取&#x200B;**[!UICONTROL 下一步]**。
 
-![The data connection selection screen with CSV File available as a selectable option.](../../assets/setup/csv-audience-sourcing/select-csv-data-connection.png)
+![資料連線選取畫面的CSV檔案可作為選取選項使用。](../../assets/setup/csv-audience-sourcing/select-csv-data-connection.png)
 
-### Select file {#select-file}
+### 選取檔案 {#select-file}
 
-Choose **[!UICONTROL Select from computer]** to upload a CSV file from your local system. Alternatively, you can drag and drop the CSV file you want to upload into the [!UICONTROL Drag and drop a CSV file] panel.
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_csv"
+>title="從CSV檔案新增對象"
+>abstract="從您的電腦上傳CSV檔案，以將您的對象來源至Real-Time CDP Collaboration。"
+
+選擇&#x200B;**[!UICONTROL 從電腦選取]**&#x200B;以從您的本機系統上傳CSV檔案。 或者，您也可以將您要上傳的CSV檔案拖放到[!UICONTROL 拖放CSV檔案]面板。
 
 >[!IMPORTANT]
 >
->Only CSV files are supported. 檔案大小上限為&#x200B;**2 GB**。
+>僅支援CSV檔案。 檔案大小上限為&#x200B;**2 GB**。
 
 ![從您的本機系統選取包含對象資料的CSV檔案。](../../assets/setup/csv-audience-sourcing/select-file.png)
 
@@ -140,4 +142,4 @@ Choose **[!UICONTROL Select from computer]** to upload a CSV file from your loca
 * 檢閱對象重疊和深入分析。 請參閱[測量行銷活動績效](../../guide/collaborate/measure.md)。
 * 管理您的對象設定和可見度。 請參閱[Source並管理對象](./onboard-audiences.md)。
 
-如需其他對象來源方法的相關資訊，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)或來自Experience Platform[&#128279;](./onboard-audiences.md)的Source對象。
+如需其他對象來源方法的相關資訊，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)或來自Experience Platform](./onboard-audiences.md)的[Source對象。
