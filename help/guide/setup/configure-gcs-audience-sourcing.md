@@ -3,9 +3,9 @@ title: 設定 [!DNL Google Cloud Storage] 以取得對象來源
 description: 瞭解如何在Real-Time CDP Collaboration中連線 [!DNL Google Cloud Storage] 貯體作為自助受眾來源，包括先決條件、驗證、欄位對應、排程和驗證。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2898'
 ht-degree: 8%
 
 ---
@@ -90,6 +90,11 @@ ht-degree: 8%
 ![「準備您的GCS儲存貯體供上線」強制回應清單的先決條件，包括建立GCS儲存貯體、設定Adobe的IAM存取權，以及遵守「對象來源規格」，並提供「取消」和「開始上線」選項。](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
 ### 輸入您的[!DNL Google Cloud Storage]連線詳細資料 {#authenticate-gcs-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_gcs"
+>title="從Google雲端儲存空間新增對象"
+>abstract="若要連線您的Google雲端儲存空間，請授權Adobe的服務使用者擷取您的對象資料以進行處理。 請依照Experience League中概述的步驟，授予Adobe對您Google雲端儲存空間的存取權。"
 
 提供允許Collaboration存取您的[!DNL Google Cloud Storage]儲存貯體所需的詳細資料。 輸入必要資訊後，選取&#x200B;**[!UICONTROL 下一步]**。
 
