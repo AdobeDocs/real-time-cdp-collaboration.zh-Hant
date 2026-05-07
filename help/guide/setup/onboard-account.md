@@ -2,15 +2,11 @@
 title: 設定和管理您的帳戶
 description: 瞭解如何在Real-Time CDP Collaboration中設定和管理帳戶的各種層面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 1410
@@ -167,7 +163,7 @@ Collaboration支援三種型別的相符金鑰：人員ID、裝置ID和合作夥
 
 ![反白顯示[我的帳戶]索引標籤和[編輯]選項的[設定]工作區。](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-您現在可以編輯帳戶詳細資料。 更新您要變更的任何欄位，然後選取[儲存]以確認變更。**&#x200B;**
+您現在可以編輯帳戶詳細資料。 更新您要變更的任何欄位，然後選取[儲存]以確認變更。****
 
 ![編輯帳戶詳細資料對話方塊。](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
