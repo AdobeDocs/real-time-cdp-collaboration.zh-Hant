@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 7affd3abf7a10019503825cb20d9be1ad4000603
 workflow-type: tm+mt
-source-wordcount: 1461
+source-wordcount: 1903
 ht-degree: 3%
 
 ---
@@ -26,9 +26,48 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**上次更新日期**：2026年1月。
+**上次更新日期**：2026年4月。
 
 下列發行說明涵蓋Adobe Real-Time CDP Collaboration中發行的功能。 Collaboration版本會在持續傳遞模式上運作，允許大約每月發行。 這些發行說明會經常更新，請務必定期檢視。
+
+## 2026 年 4 月 {#april-2026}
+
+Real-Time CDP Collaboration現在提供新功能。 其中包括邀請合作夥伴的Collaboration [!DNL Starter]、從[!DNL Snowflake]和[!DNL Google Cloud Storage]擴大受眾來源、支援[!DNL Demdex ID (ECID)]作為比對索引鍵，以及兩個新的共同作業人員角色：代理和資料合作夥伴。
+
+**新功能或更新功能**
+
+| 功能 | 說明 |
+| ------- | ----------- |
+| Real-Time CDP Collaboration [!DNL Starter] | 您現在可以邀請沒有Collaboration授權的合作夥伴透過Collaboration [!DNL Starter]與您共同作業。 受邀合作夥伴可以在共用連線中取得對象、探索重疊以及啟用對象。 請參閱[Collaboration [!DNL Starter] 總覽](../overview/starter-overview.md)以開始使用。 |
+| 來自[!DNL Snowflake]和[!DNL Google Cloud Storage]的自助受眾來源 | 您現在可以直接從您的[!DNL Snowflake Secure Data Share]或[!DNL Google Cloud Storage]貯體將第一方對象來源至Collaboration。 如需設定說明，請參閱下列指南： <ul><li>[設定 [!DNL Snowflake] 對象來源](../setup/configure-snowflake-audience-sourcing.md) </li><li> [設定 [!DNL Google Cloud Storage] 對象來源](../setup/configure-gcs-audience-sourcing.md) </li></ul> |
+| [!DNL Demdex ID]個相符索引鍵 | [!DNL Demdex ID] (ECID)現在支援作為跨平台比對匿名Cookie型身分的比對金鑰。 它改善了對象重疊的準確性，而不需依賴已驗證的使用者資料。 如需詳細資訊，請參閱[支援的相符金鑰](../setup/onboard-account.md#supported-match-keys)。 |
+| 新的共同作業人員角色 | Collaboration現在支援兩個額外的共同作業人員角色，包括&#x200B;**機構**&#x200B;和&#x200B;**資料合作夥伴**。 這些角色可擴充不同組織在平台中參與及共同作業的方式。 進一步瞭解： <ul><li>[共同作業人員帳戶角色](../overview/roles.md)</li><li>[Collaboration模式](../overview/collaboration-patterns.md)</li><li>[端對端工作流程](../overview/end-to-end-workflow.md)</li></ul> |
+
+{style="table-layout:auto"}
+
+## 2026年3月 {#march-2026}
+
+您現在可以在Real-Time CDP Collaboration中產生行銷活動測量報告並管理測量資料。
+
+**新功能或更新功能**
+
+| 功能 | 說明 |
+| ------- | ----------- |
+| 測量一般可用性 | 測量報告現在通常可在Collaboration中使用。 您現在可以輸入與行銷活動關聯的行銷活動ID作為發佈者，輸入來源轉換資料作為廣告商，並產生兩種型別的報表：整體行銷活動結果的&#x200B;**行銷活動摘要**&#x200B;以及行銷活動成效深入分析的&#x200B;**歸因**。 若要開始使用，請參閱下列指南： <ul><li>[輸入行銷活動ID](../collaborate/manage-projects.md#manage-campaign-id)</li><li>[Source轉換資料](../setup/onboard-measurement-data.md)</li><li>[建立和檢視測量報告](../collaborate/measure.md)</li></ul> |
+| 測量生命週期管理 | Collaboration也支援測量管理：<ul><li> 廣告商現在可以編輯或刪除測量資料連線和關聯的轉換事件，以確保準確且最新的行銷活動分析。 如需詳細資訊，請參閱[管理測量資料連線](../setup/manage-measurement-data-connection.md)和[管理轉換事件](../setup/onboard-measurement-data.md#edit-measurement-data)。</li><li>您也可以在任何共同作業專案中，直接從&#x200B;**[!UICONTROL 測量]**&#x200B;索引標籤編輯或刪除排程的測量報告。 所有使用者都可使用此功能。 如需詳細資訊，請參閱[管理測量報告指南](../collaborate/measure.md)。</li></ul> |
+
+{style="table-layout:auto"}
+
+## 2026 年 2 月 {#february-2026}
+
+Real-Time CDP Collaboration現在支援直接在介面中編輯現有的連線和資料連線設定。
+
+**新增或更新功能**
+
+| 功能 | 說明 |
+| ------- | ----------- |
+| 編輯連線設定 | 連線擁有者現在可以在連線建立後更新使用案例、比對金鑰、啟用許可權和評分分割。 如需逐步指示，請參閱[編輯連線](../connect/manage-connections.md#edit-connection)。 |
+| 編輯資料連線 | 直接在Collaboration中更新現有資料連線的比對索引鍵和排程設定。 如需逐步指示，請參閱[編輯資料連線](../setup/manage-data-connection.md#edit-data-connection)。 |
 
 ## 2026 年 1 月 {#january-2026}
 
@@ -75,20 +114,20 @@ Real-time CDP Collaboration現在支援品牌對品牌共同作業。 共同作�
 * [自助服務目的地](../setup/manage-destinations.md)現在可供廣告商和發佈者使用。
 * 現在連線中的兩個共同作業人員都可以使用對象啟用，無論他們的[帳戶角色](../overview/roles.md)為何。 在[建立連線](../connect/establishing-connections.md#configure-connection-settings)時設定對象啟用設定，可讓您指定哪些共同作業人員可以啟用對象。 若要深入瞭解對象啟用，請閱讀[啟用對象](../collaborate/activate.md)指南。
 * **[!UICONTROL 啟用]**&#x200B;使用案例已重新設定為支援品牌對品牌共同作業。 專案中的「啟動&#x200B;**&#x200B;**」標籤現在會顯示已傳送給共同作業人員的對象，以及共同作業人員啟動至您目的地的對象。 若要深入瞭解，請閱讀[啟用對象](../collaborate/activate.md)指南。<br> ![啟用儀表板，其中包含傳送至的對象和啟用對象的區段。](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
-* Audience index scores are now available in the **[!UICONTROL Discover]** tab of a project. The audience index score is a measure of how well an audience matches your collaborator&#39;s audience. This score is calculated based on on underlying audience counts &amp; overlaps. To learn more about audience index scores, read the [audience index score](../collaborate/discover.md#audience-index-score) guide.
+* 現在可在專案的&#x200B;**[!UICONTROL 探索]**&#x200B;索引標籤中使用對象索引分數。 對象索引分數是評估對象與共同作業人員對象相符程度的量度。 此分數是根據基礎受眾規模和重疊來計算。 若要深入瞭解對象索引分數，請閱讀[對象索引分數](../collaborate/discover.md#audience-index-score)指南。
 
 ## 2025 年 5 月 {#may-2025}
 
-* Real-Time CDP Collaboration is now available to customers in **Australia** and **New Zealand**. 它會自動提供給這些地區的Real-Time CDP Prime和Ultimate客戶。
-* Real-Time CDP Collaboration now offers [self-serve destinations](../setup/manage-destinations.md) through the **[!UICONTROL My destinations]** tab in the **[!UICONTROL Setup]** section. Destinations allow you to activate audiences in third-party platforms, such as advertising networks or data management platforms, to reach your customers across various channels. Currently, only Adobe Experience Platform destinations are supported. If you are interested in configuring a different destination, please contact your Adobe representative. To learn more about destinations, read the [destinations overview](../destinations/overview.md) guide.
-   * Destinations also adds support to view Collaboration audiences in the [Adobe Experience Platform audience portal](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
-* You can now edit the audience refresh frequency for existing data connections in Collaboration. Currently, you can choose to refresh your audiences daily or every two to six days. To learn more about how to edit the audience refresh frequency, read the [manage data connections](../setup/manage-data-connection.md#scheduling) guide.
-* Credit splits between collaborators are now set for each use case selected within the connection. You can set different credit consumption rules for each use case to better control how your credits are used. To learn more about about the credit split funtionality, read the [connection settings](../connect/establishing-connections.md#connection-settings) guide. To learn more about how credits are consumed, read the [credit activity types](../setup/my-activity.md#types-of-activities) guide. <br> ![Connection settings screen showing the credit split functionality.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
-* Publishers can now set advertiser names and IDs before accepting the connection settings from an advertiser. Publishers can set names and IDs that align with their internal systems, which can be different from the advertiser&#39;s names and IDs. To learn more about adding advertiser names and IDs, read the [connection settings](../connect/establishing-connections.md#connection-settings.md) guide. <br> ![Connection settings screen showing the publisher setting advertiser names and IDs.](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
+* Real-Time CDP Collaboration現在可供&#x200B;**澳洲**&#x200B;和&#x200B;**紐西蘭**&#x200B;的客戶使用。 它會自動提供給這些地區的Real-Time CDP Prime和Ultimate客戶。
+* Real-Time CDP Collaboration現在透過&#x200B;**[!UICONTROL 設定]**&#x200B;區段中的&#x200B;**[!UICONTROL 我的目的地]**&#x200B;索引標籤，提供[自助目的地](../setup/manage-destinations.md)。 目的地可讓您在第三方平台（例如廣告網路或資料管理平台）中啟用對象，以便透過各種管道觸及您的客戶。 目前僅支援Adobe Experience Platform目的地。 如果您有興趣設定不同的目的地，請聯絡您的Adobe代表。 若要深入瞭解目的地，請閱讀[目的地概觀](../destinations/overview.md)指南。
+   * 目的地也新增支援，以便在[Collaboration對象入口網站](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)中檢視Adobe Experience Platform對象。
+* 您現在可以在Collaboration中編輯現有資料連線的對象重新整理頻率。 目前，您可以選擇每天或每兩到六天重新整理一次對象。 若要深入瞭解如何編輯對象重新整理頻率，請參閱[管理資料連線](../setup/manage-data-connection.md#scheduling)指南。
+* 現在已針對連線中選取的每個使用案例，設定共同作業人員之間的評分分割。 您可以針對每個使用案例設定不同的信用沖銷規則，以便更妥善地控制信用額的使用方式。 若要深入瞭解信用分割功能，請閱讀[連線設定](../connect/establishing-connections.md#connection-settings)指南。 若要進一步瞭解如何使用信用額度，請閱讀[信用活動型別](../setup/my-activity.md#types-of-activities)指南。<br> ![顯示信用分割功能的連線設定畫面。](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
+* 發佈者現在在接受廣告商的連線設定之前，可以設定廣告商名稱和ID。 發佈者可設定與其內部系統一致的名稱和ID，此名稱和ID可能與廣告商的名稱和ID不同。 若要進一步瞭解新增廣告商名稱和ID，請閱讀[連線設定](../connect/establishing-connections.md#connection-settings.md)指南。<br> ![連線設定畫面顯示發行者設定廣告商名稱和ID。](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
 
 ## 2025 年 4 月 {#april-2025}
 
-* A new **[!UICONTROL Inputs Processed]** column has been added to the credit consumption activity table. 此欄顯示針對每個活動處理的輸入總數（例如ID或列）。 [閱讀更多資訊](/help/guide/setup/my-activity.md#inputs-processed)。<br> ![輸入我的活動檢視中強調的處理資料行。](/help/assets/release-notes/2025/inputs-processed-column.png){zoomable="yes"}
+* 新的&#x200B;**[!UICONTROL 已處理的輸入]**&#x200B;資料行已新增至信用消耗活動表格。 此欄顯示針對每個活動處理的輸入總數（例如ID或列）。 [閱讀更多資訊](/help/guide/setup/my-activity.md#inputs-processed)。<br> ![輸入我的活動檢視中強調的處理資料行。](/help/assets/release-notes/2025/inputs-processed-column.png){zoomable="yes"}
 * 帳戶建立已新增新的連絡人電子郵件選項。 這可協助合作夥伴的共同作業人員在連線程式期間視需要與您聯絡。 [閱讀全文](../setup/onboard-account.md)。
 
 ## 2025 年 3 月 {#march-2025}
