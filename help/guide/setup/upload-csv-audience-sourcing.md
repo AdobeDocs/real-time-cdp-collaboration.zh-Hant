@@ -3,15 +3,12 @@ title: 上傳用於Audience Sourcing的CSV檔案
 description: 瞭解如何上傳CSV檔案作為自助資料來源，以將受眾資料擷取至Real-Time CDP Collaboration。
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: 1121
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -61,8 +58,8 @@ CSV檔案上傳是為共同作業專案取得第一方對象資料的一種方�
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_csv"
->title="從CSV檔案新增對象"
->abstract="從您的電腦上傳CSV檔案，以將您的對象來源至Real-Time CDP Collaboration。"
+>title="從 CSV 檔案新增客群"
+>abstract="從您的電腦上傳 CSV 檔案，作為 Real-Time CDP Collaboration 的客群來源。"
 
 選擇&#x200B;**[!UICONTROL 從電腦選取]**&#x200B;以從您的本機系統上傳CSV檔案。 或者，您也可以將您要上傳的CSV檔案拖放到[!UICONTROL 拖放CSV檔案]面板。
 
@@ -145,4 +142,4 @@ CSV檔案上傳是為共同作業專案取得第一方對象資料的一種方�
 * 檢閱對象重疊和深入分析。 請參閱[測量行銷活動績效](../../guide/collaborate/measure.md)。
 * 管理您的對象設定和可見度。 請參閱[Source並管理對象](./onboard-audiences.md)。
 
-如需其他對象來源方法的相關資訊，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)或來自Experience Platform[&#128279;](./onboard-audiences.md)的Source對象。
+如需其他對象來源方法的相關資訊，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)或來自Experience Platform](./onboard-audiences.md)的[Source對象。
