@@ -1,5 +1,5 @@
 ---
-title: Real-Time CDP Collaboration Quick Start & Setup Guide
+title: Real-Time CDP Collaboration快速入門與設定指南
 description: 了解如何設定 Real-Time CDP Collaboration、設定角色和帳戶、獲取客群來源、啟用資料，以及安全地與合作夥伴連線。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
@@ -16,56 +16,56 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 5f2ab62d1e7be17c2fe98e263d7de630bf96f14a
 workflow-type: tm+mt
 source-wordcount: 1417
 ht-degree: 3%
 
 ---
 
-# Real-Time CDP Collaboration quick start guide
+# Real-Time CDP Collaboration快速入門手冊
 
 {{limited-availability-release-note}}
 
-Get started with Real-Time CDP Collaboration by configuring your organization, sourcing audiences, and enabling privacy-focused activation and measurement.
+透過設定您的組織、sourcing audiences及啟用以隱私權為中心的啟用和測量，開始使用Real-Time CDP Collaboration。
 
 ## 先決條件
 
-Before you begin, ensure you have the following:
+開始之前，請確定您具備下列條件：
 
-- An active Real-Time CDP Collaboration license.
-- [System or product administrator access to Adobe Experience Platform](./permissions/overview.md).
-- [Access provisioned for end users](./permissions/manage-user-access.md).
-- [Roles created for your organization and assigned to users](./permissions/manage-roles.md).
-- Access to branding assets, such as your organization&#39;s name, logo, and banner.
-- A [defined match key strategy](./setup/onboard-account.md#set-up-match-keys)
-- (Optional) Access to a supported cloud source (Amazon S3, Google Cloud Storage, or Snowflake) if you&#39;re not using Experience Platform for audience management.
+- 有效的Real-Time CDP Collaboration授權。
+- [系統或產品管理員存取Adobe Experience Platform](./permissions/overview.md)。
+- [已布建使用者存取權](./permissions/manage-user-access.md)。
+- 為您的組織建立並指派給使用者的[角色](./permissions/manage-roles.md)。
+- 存取品牌化資產，例如貴組織的名稱、標誌和橫幅。
+- [定義的相符金鑰策略](./setup/onboard-account.md#set-up-match-keys)
+- （選用）如果您未使用Experience Platform進行對象管理，可存取支援的雲端來源（Amazon S3、Google Cloud Storage或Snowflake）。
 
-## Step 1: Complete role-based setup {#complete-role-based-setup}
+## 步驟1：完成角色型設定 {#complete-role-based-setup}
 
-Your organization&#39;s access roles determine what users can see and do in Collaboration. Before proceeding, make sure role-based permissions are set up correctly to ensure appropriate access and visibility in the platform.
+您組織的存取角色會決定使用者可以在Collaboration中檢視及執行的動作。 繼續進行之前，請確定已正確設定角色型許可權，以確保在平台中擁有適當的存取權和可見度。
 
-**Resources:**
+**資源：**
 
-- [User Access Documentation](./permissions/manage-user-access.md)
-- [Role Setup Documentation](./permissions/manage-roles.md)
+- [使用者存取權檔案](./permissions/manage-user-access.md)
+- [角色設定檔案](./permissions/manage-roles.md)
 
 
-Watch this video to learn how to assign product access and permissions for Collaboration using the Admin Console and Experience Platform.
+觀看此影片以瞭解如何使用Admin Console和Experience Platform為Collaboration指派產品存取權和許可權。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452241/?captions=chi_hant&learn=on&enablevpops)
 
-## Step 2: Set up your Collaboration account {#set-up-your-account}
+## 步驟2：設定您的Collaboration帳戶 {#set-up-your-account}
 
-Before you can source audiences, you must configure your account in Collaboration. This governs how you appear and what you have access to in the interface.
+您必須先在Collaboration中設定帳戶，才能取得受眾。 這會控制您顯示在介面中的方式以及您可在介面中存取的內容。
 
-If you don&#39;t have the necessary access, please refer back to step 1 or contact your organization&#39;s administrator for help completing this setup.
+如果您沒有必要的存取權，請參考步驟1，或連絡您組織的管理員，以取得完成此設定的協助。
 
-Define your account&#39;s role in Collaboration, provide branding assets, and configure match keys to align audiences across connections.
+定義您的帳戶在Collaboration中的角色、提供品牌資產，並設定比對索引鍵以跨連線對齊對象。
 
 >[!NOTE]
 >
->You can create one or more accounts (such as advertiser and a publisher) during setup. Certain fields, like branding assets and contact email, can be updated later in the **[!UICONTROL Settings]** workspace.
+>您可以在設定期間建立一或多個帳戶（例如廣告商和發佈者）。 某些欄位（例如品牌推廣資產和連絡人電子郵件）稍後可在&#x200B;**[!UICONTROL 設定]**&#x200B;工作區中更新。
 
 - **指派角色** — 判斷您的帳戶是廣告商還是發行者。 您的角色會定義您在Collaboration中擁有哪些功能。 若要進一步瞭解角色對共同作業工作流程的影響，請參閱[角色](./overview/roles.md)指南。
 - **品牌推廣資產** — 新增下列專案至您的帳戶：
@@ -134,7 +134,7 @@ Define your account&#39;s role in Collaboration, provide branding assets, and co
 
 ### 選項B：來自Snowflake、Amazon S3或Google雲端儲存空間的Source
 
-若要設定雲端來源（例如[!DNL Snowflake]、[!DNL Amazon S3]或[!DNL Google Cloud Storage]），請使用[對象規格PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)準備您的對象資料
+若要設定雲端來源（例如[!DNL Snowflake]、[!DNL Amazon S3]或[!DNL Google Cloud Storage]），請使用[對象規格PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)準備您的對象資料
 
 您可以將[!DNL Amazon S3]、[!DNL Google Cloud Storage]或[!DNL Snowflake]設定為自助資料來源。 如需設定指示，請參閱[Amazon S3來源指南](./setup/configure-aws-s3-audience-sourcing.md)、[GCS來源指南](./setup/configure-gcs-audience-sourcing.md)或[Snowflake來源指南](./setup/configure-snowflake-audience-sourcing.md)。
 
@@ -144,36 +144,36 @@ Define your account&#39;s role in Collaboration, provide branding assets, and co
 >
 >雲端型對象檔案必須符合對象規格PDF中概述的必要結構。 檔案必須包含雜湊識別碼（小寫SHA256）、`segment_name`和`activation_id`等必要中繼資料欄位，並使用支援的格式，例如CSV或Parquet。 Adobe不會在啟用前標準化資料。 TTL會根據對象的生命週期強制執行。
 >
->在此階段，上傳檔案中的所有對象都已完整來源。 The [audience visibility setting](/help/guide/setup/onboard-audiences.md#metadata-visibility) determines whether your collaborators can view your audience and is managed through the Collaboration UI.
+>在此階段，上傳檔案中的所有對象都已完整來源。 [對象可見度設定](/help/guide/setup/onboard-audiences.md#metadata-visibility)會決定您的共同作業人員是否可以檢視您的對象，以及是否透過Collaboration UI進行管理。
 
-## Step 4: Activate audiences (to Experience Platform or a cloud destination) {#activate-audiences}
+## 步驟4：啟用對象（前往Experience Platform或雲端目的地） {#activate-audiences}
 
-Next, activate audiences to either your Experience Platform instance or a cloud destination.
+接下來，在您的Experience Platform執行個體或雲端目的地啟用對象。
 
-### Option A: Activate to Experience Platform
+### 選項A：啟動至Experience Platform
 
-Complete the following steps outlined in the [configure Adobe Experience Platform as a destination](/help/guide/destinations/experience-platform.md) guide.
+完成[將Adobe Experience Platform設定為目的地](/help/guide/destinations/experience-platform.md)指南中概述的下列步驟。
 
-- **Create a destination** – Use the UI to set up an Experience Platform destination (sandbox-level).
-- **Map match keys** – Select the identifier (e.g., `hashedEmail`).
-- **Define TTL** – Set expiration (1–30 days).
-- **Verify in Audience Portal** – Once a collaborator sends you an audience, verify that it appears in the Audience Portal under the origin &quot;[!UICONTROL Real-Time CDP Collaboration].&quot;
+- **建立目的地** — 使用使用者介面設定Experience Platform目的地（沙箱層級）。
+- **對應比對索引鍵** — 選取識別碼（例如，`hashedEmail`）。
+- **定義TTL** — 設定到期日（1-30天）。
+- **在對象入口網站中驗證** — 共同作業人員傳送對象給您後，請確定該對象出現在來源「[!UICONTROL Real-Time CDP Collaboration]」下的對象入口網站中。
 
-### Option B: Activate to cloud
+### 選項B：啟用至雲端
 
-To configure a cloud destination (for example, [!DNL AWS S3] or [!DNL Snowflake]), contact your Adobe account representative to initiate the setup process. Depending on the cloud destination, you will need to provide cloud destination details such as file path, credentials, account locators etc. Once required information is provided, Adobe will configure the cloud destination setup.
+若要設定雲端目的地（例如，[!DNL AWS S3]或[!DNL Snowflake]），請聯絡您的Adobe客戶代表以啟動設定程式。 根據雲端目的地，您需要提供雲端目的地詳細資訊，例如檔案路徑、憑證、帳戶位置等。提供必要資訊後，Adobe將設定雲端目的地設定。
 
-Audience data sent to a cloud destination follows a predefined schema. For a detailed description of the required fields and format, download the [Collaboration Audience Activation Guide](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf).
+傳送至雲端目的地的對象資料會遵循預先定義的結構描述。 如需必要欄位和格式的詳細說明，請下載[Collaboration Audience Activation指南](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf)。
 
-## Step 5: Set up measurement (optional) {#set-up-measurement}
+## 步驟5：設定測量（選擇性） {#set-up-measurement}
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Measure]** workspace is only available if the **[!UICONTROL Measurement]** use case was enabled [during the connection process](./connect/establishing-connections.md#connection-settings). 如需使用案例的詳細資訊，請參閱[管理專案](./collaborate/manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式[&#128279;](./connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./collaborate/manage-projects.md#project-use-cases)指南。
 
-Collaboration offers a variety of reports to analyze campaign reach, frequency, and effectiveness. While the **[!UICONTROL Measure]** workspace is available in the UI, full reporting functionality may require backend enablement.
+Collaboration提供多種報表，可分析行銷活動的觸及率、頻率和成效。 雖然&#x200B;**[!UICONTROL Measure]**&#x200B;工作區可在UI中使用，但完整的報告功能可能需要後端啟用。
 
-To learn how to view and interpret measurement reports, see the [Measurement guide](./collaborate/measure.md). It covers attribution, campaign summary metrics, and dashboards such as reach curves and frequency distribution.
+若要瞭解如何檢視和解讀測量報告，請參閱[測量指南](./collaborate/measure.md)。 它涵蓋歸因、行銷活動摘要量度和控制面板，例如觸及曲線和頻率分佈。
 
 <!-- 
 Commenting out the below information as this workflow is not yet in Beta but will be imminently. A guided measurement configuration workflow will be available in a future release."
@@ -224,11 +224,11 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Submit the report. It will run on the selected date and populate within 24 hours. 
 -->
 
-## Step 6: Connect with collaborators {#connect-with-collaborators}
+## 步驟6：與共同作業人員交流 {#connect-with-collaborators}
 
-With setup complete, your organization is now ready to connect with collaborators by sending or accepting invitations and submitting project settings for approval. This connection process involves sending or receiving invitations, reviewing and submitting connection settings (such as use cases and credit consumption), and confirming the connection.
+設定完成後，您的組織現在已準備好透過傳送或接受邀請並提交專案設定以進行核准，與共同作業人員連線。 此連線程式包含傳送或接收邀請、檢閱及提交連線設定（例如使用案例和信用沖銷），以及確認連線。
 
-As an advertiser, use the **[!UICONTROL Connect]** workspace from the left navigation menu to browse available publishers. 或者，共同作業人員可透過[私人連線邀請](./connect/establishing-connections.md#private-connection-invite){target="_blank"}直接相互連線。
+作為廣告商，請使用左側導覽功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;工作區來瀏覽可用的發行者。 或者，共同作業人員可透過[私人連線邀請](./connect/establishing-connections.md#private-connection-invite){target="_blank"}直接相互連線。
 
 >[!NOTE]
 >

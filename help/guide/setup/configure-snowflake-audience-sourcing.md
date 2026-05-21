@@ -4,10 +4,10 @@ description: 瞭解如何將您的 [!DNL Snowflake Secure Data Share] 設定為�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '1586'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 18%
    * **結構描述**
    * **檢視**
 
-* 您[!DNL Snowflake Secure Data Share]中的對象資料必須符合[對象來源規格(v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)指南中概述的格式需求。
+* 您[!DNL Snowflake Secure Data Share]中的對象資料必須符合[對象來源規格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)指南中概述的格式需求。
 * [!DNL Snowflake]對象檔案中的所有相符金鑰也必須針對您的Collaboration帳戶啟用。 瞭解如何[啟用相符金鑰](./onboard-account.md#set-up-match-keys)或[新增相符金鑰](./onboard-account.md#edit-match-keys)至您的帳戶。
 
 ## 設定[!DNL Snowflake]許可權 {#setup-snowflake-permissions}
@@ -146,18 +146,18 @@ ht-degree: 18%
 >abstract="參閱客群來源規範指南，瞭解如何格式化及建構用於 Collaboration 的 Snowflake 客群資料。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱指南"
 
-會出現一個對話方塊，說明[!DNL Snowflake Share]和[!DNL Snowflake]對象檔案的需求，然後才能開始sourcing。 確定您的[!DNL Snowflake Share]是以正確的共用名稱、帳戶識別碼、結構描述和檢視所建立。 若要確認您的對象資料已正確格式化且結構正確，以便在Collaboration中使用，請檢閱&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;指南。
+會出現一個對話方塊，說明[!DNL Snowflake Share]和[!DNL Snowflake]對象檔案的需求，然後才能開始sourcing。 確定您的[!DNL Snowflake Share]是以正確的共用名稱、帳戶識別碼、結構描述和檢視所建立。 若要確認您的對象資料已正確格式化且結構正確，以便在Collaboration中使用，請檢閱&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;指南。
 
 完成後，請選取&#x200B;**[!UICONTROL 開始上線]**。
 
 ![準備您的[!DNL Snowflake Share]加入具有對象來源規格連結的對話方塊。](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
 
-### 驗證[!DNL Snowflake Share]連線 {#authenticate-snowflake-share-connection}
+### 驗證 [!DNL Snowflake Share] 連線 {#authenticate-snowflake-share-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_snowflake"
->title="從Snowflake新增對象"
->abstract="若要連線您的Snowflake共用，請授權Adobe的服務使用者擷取您的對象資料以進行處理。 請依照Experience League中概述的步驟，授予Adobe對您Snowflake共用的存取權。"
+>title="從 Snowflake 新增客群"
+>abstract="若要連接您的 Snowflake Share，請授權 Adobe 的服務使用者檢索客群資料以進行處理。 請依照 Experience League 中概述的步驟，授予 Adobe 您的 Snowflake Share 存取權。"
 
 在此步驟中，您必須提供必要的[!DNL Snowflake Share]認證，才能將您的[!DNL Snowflake Share]連線至Collaboration：
 
@@ -186,7 +186,7 @@ ht-degree: 18%
 
 ### 對應欄位 {#map-fields}
 
-**[!UICONTROL 對應]**&#x200B;畫面目前為唯讀。 您無法新增、刪除或套用轉換。 Collaboration會根據&#x200B;**[對象來源規格(v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**，自動將您[!DNL Snowflake Share]資料中的來源身分識別欄位對應到目標欄位。
+**[!UICONTROL 對應]**&#x200B;畫面目前為唯讀。 您無法新增、刪除或套用轉換。 Collaboration會根據&#x200B;**[對象來源規格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**，自動將您[!DNL Snowflake Share]資料中的來源身分識別欄位對應到目標欄位。
 
 以視覺化方式確認對應的欄位，並選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以繼續。 您也可以使用&#x200B;**[!UICONTROL 預覽來源資料]**&#x200B;選項，預覽[!DNL Snowflake Share]中的範例資料。
 
