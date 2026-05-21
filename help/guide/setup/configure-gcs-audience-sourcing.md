@@ -2,7 +2,7 @@
 title: 設定 [!DNL Google Cloud Storage] 以取得對象來源
 description: 瞭解如何在Real-Time CDP Collaboration中連線 [!DNL Google Cloud Storage] 貯體作為自助受眾來源，包括先決條件、驗證、欄位對應、排程和驗證。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '2898'
