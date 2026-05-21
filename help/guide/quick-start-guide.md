@@ -2,21 +2,13 @@
 title: Real-Time CDP Collaboration快速入門與設定指南
 description: 了解如何設定 Real-Time CDP Collaboration、設定角色和帳戶、獲取客群來源、啟用資料，以及安全地與合作夥伴連線。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 TQID: https://experienceleague.adobe.com/rhIArZZm0Thkj3E-qiHtVHO6qxpr1vd-Qs4hWt4tf1U
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5f2ab62d1e7be17c2fe98e263d7de630bf96f14a
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: 1417
 ht-degree: 3%
@@ -53,7 +45,7 @@ ht-degree: 3%
 
 觀看此影片以瞭解如何使用Admin Console和Experience Platform為Collaboration指派產品存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452241/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 步驟2：設定您的Collaboration帳戶 {#set-up-your-account}
 
@@ -130,11 +122,11 @@ ht-degree: 3%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，您也可以參閱Collaboration[&#128279;](./setup/onboard-audiences.md#source-and-manage-audiences)中sourcing audiences的檔案。
+或者，您也可以參閱Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences)中[sourcing audiences的檔案。
 
 ### 選項B：來自Snowflake、Amazon S3或Google雲端儲存空間的Source
 
-若要設定雲端來源（例如[!DNL Snowflake]、[!DNL Amazon S3]或[!DNL Google Cloud Storage]），請使用[對象規格PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)準備您的對象資料
+若要設定雲端來源（例如[!DNL Snowflake]、[!DNL Amazon S3]或[!DNL Google Cloud Storage]），請使用[對象規格PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)準備您的對象資料。
 
 您可以將[!DNL Amazon S3]、[!DNL Google Cloud Storage]或[!DNL Snowflake]設定為自助資料來源。 如需設定指示，請參閱[Amazon S3來源指南](./setup/configure-aws-s3-audience-sourcing.md)、[GCS來源指南](./setup/configure-gcs-audience-sourcing.md)或[Snowflake來源指南](./setup/configure-snowflake-audience-sourcing.md)。
 
@@ -169,7 +161,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式[&#128279;](./connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./collaborate/manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式](./connect/establishing-connections.md#connection-settings)期間已啟用[的&#x200B;**[!UICONTROL Measurement]**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./collaborate/manage-projects.md#project-use-cases)指南。
 
 Collaboration提供多種報表，可分析行銷活動的觸及率、頻率和成效。 雖然&#x200B;**[!UICONTROL Measure]**&#x200B;工作區可在UI中使用，但完整的報告功能可能需要後端啟用。
 

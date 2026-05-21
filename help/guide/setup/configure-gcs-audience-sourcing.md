@@ -2,8 +2,8 @@
 title: 設定 [!DNL Google Cloud Storage] 以取得對象來源
 description: 瞭解如何在Real-Time CDP Collaboration中連線 [!DNL Google Cloud Storage] 貯體作為自助受眾來源，包括先決條件、驗證、欄位對應、排程和驗證。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 9%
@@ -38,7 +38,7 @@ ht-degree: 9%
 
 ### 準備您的對象資料 {#prepare-audience-data}
 
-您的對象檔案必須符合&#x200B;**[對象來源規格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**，才能開始來源。 檢閱完整結構描述定義和欄位層級範例的規格。 主要需求包括：
+您的對象檔案必須符合&#x200B;**[對象來源規格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**，才能開始來源。 檢閱完整結構描述定義和欄位層級範例的規格。 主要需求包括：
 
 * **檔案格式：** CSV，使用逗號作為欄位分隔符號，使用直立線符號(`|`)作為單一欄位中多個值的分隔符號。
 * **必要欄位：**&#x200B;每個記錄都必須包含`AUDIENCE_ID`欄和至少一個支援的相符索引鍵欄。
@@ -85,7 +85,7 @@ ht-degree: 9%
 
 ![此新增對象工作流程會顯示資料來源選取畫面，其中已選取Google雲端儲存空間，並反白顯示「下一步」。](../../assets/setup/gcs-audience-sourcing/gcs-data-source-selection.png)
 
-先決條件對話方塊會出現，概述必要的設定步驟（例如GCS貯體設定和IAM角色指派），並注意資料必須符合&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**。 選取&#x200B;**[!UICONTROL 開始上線]**&#x200B;以確認合規性，然後再繼續。
+先決條件對話方塊會出現，概述必要的設定步驟（例如GCS貯體設定和IAM角色指派），並注意資料必須符合&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**。 選取&#x200B;**[!UICONTROL 開始上線]**&#x200B;以確認合規性，然後再繼續。
 
 ![「準備您的GCS儲存貯體供上線」強制回應清單的先決條件，包括建立GCS儲存貯體、設定Adobe的IAM存取權，以及遵守「對象來源規格」，並提供「取消」和「開始上線」選項。](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
@@ -100,7 +100,7 @@ ht-degree: 9%
 
 | 欄位 | 說明 |
 | --- | --- |
-| **[!UICONTROL 貯體]** | 您的[!DNL Google Cloud Storage]儲存貯體的名稱。 檢視開始[&#128279;](#required-values)前所需的值。 |
+| **[!UICONTROL 貯體]** | 您的[!DNL Google Cloud Storage]儲存貯體的名稱。 檢視開始](#required-values)前所需的[值。 |
 | **[!UICONTROL 路徑]** | 儲存對象檔案之貯體中的路徑前置詞。 |
 
 ![此新增對象工作流程會顯示Google Cloud Storage驗證表單（含貯體名稱和資料夾路徑欄位），以及[下一步]按鈕。](../../assets/setup/gcs-audience-sourcing/gcs-data-connection-authentication.png)
@@ -130,7 +130,7 @@ ht-degree: 9%
 
 ![此「GCS資料預覽」對話方塊顯示對象資料的範例表格，其中包含AUDIENCE_ID和HASHED_EMAIL_SHA_256等欄，以及右下角的「關閉」按鈕。](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
 
-確認顯示的對應反映對象檔案中的欄位。 如果不符合，請先停止並修正您的檔案，使其符合[Audience Sourcing規格](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)，然後再繼續。 選取&#x200B;**[!UICONTROL 「下一步」]**&#x200B;以繼續。
+確認顯示的對應反映對象檔案中的欄位。 如果不符合，請先停止並修正您的檔案，使其符合[Audience Sourcing規格](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)，然後再繼續。 選取&#x200B;**[!UICONTROL 「下一步」]**&#x200B;以繼續。
 
 ![在「對應欄位」步驟中新增對象工作流程，顯示自動對應的來源欄位（AUDIENCE\_ID和HASHED\_EMAIL\_SHA\_256）以鎖定身分欄位，並顯示「預覽來源資料」選項和右上角的「下一步」按鈕。](../../assets/setup/gcs-audience-sourcing/gcs-mapping-auto-fields.png)
 
@@ -173,7 +173,7 @@ ht-degree: 9%
 
 當Collaboration擷取您的對象資料時，**[!UICONTROL 我的對象]**&#x200B;工作區頂端的橫幅會指出來源補充正在進行中。 個別對象只有在每個對象的sourcing完成後才會出現在清單中。
 
-![&#x200B; 「我的對象」標籤上的設定工作區會顯示「對象來源正在進行」橫幅，指出對象是從Google雲端儲存空間資料連線取得，且對象清單顯示如下。](../../assets/setup/gcs-audience-sourcing/gcs-sourcing-in-progress.png)
+![ 「我的對象」標籤上的設定工作區會顯示「對象來源正在進行」橫幅，指出對象是從Google雲端儲存空間資料連線取得，且對象清單顯示如下。](../../assets/setup/gcs-audience-sourcing/gcs-sourcing-in-progress.png)
 
 >[!TIP]
 >
@@ -233,7 +233,7 @@ ht-degree: 9%
 
 **排程重新整理期間發生對象檔案格式錯誤**
 
-* 確認儲存貯體中的更新檔案符合[對象來源規格](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)中的欄位結構和欄位要求。
+* 確認儲存貯體中的更新檔案符合[對象來源規格](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)中的欄位結構和欄位要求。
 * 請確定設定資料夾路徑中的所有檔案都使用相同的欄結構。 相同路徑中的混合格式檔案可能會導致部分sourcing失敗。
 
 ## 設定[!DNL Google Cloud Storage]許可權 {#setup-gcs-permissions}
@@ -280,7 +280,7 @@ ht-degree: 9%
 
 #### 指派IAM角色給Adobe {#assign-role}
 
-接下來，在[!DNL Google Cloud Console]中開啟&#x200B;[**[!DNL Buckets]**&#x200B;頁面](https://console.cloud.google.com/storage/browser)，並選取包含您對象資料的貯體。
+接下來，在[!DNL Google Cloud Console]中開啟&#x200B;[**[!DNL Buckets]**頁面](https://console.cloud.google.com/storage/browser)，並選取包含您對象資料的貯體。
 
 導覽至&#x200B;**[!DNL Permissions]**&#x200B;標籤，選擇&#x200B;**[!DNL View by principals]**，然後選取&#x200B;**[!DNL Grant access]**。
 
