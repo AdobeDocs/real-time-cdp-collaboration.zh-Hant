@@ -2,7 +2,7 @@
 title: 設定 [!DNL Amazon S3] 以取得對象來源
 description: 瞭解如何設定並連線您的 [!DNL Amazon S3] 儲存裝置作為自助資料來源，以將對象資料擷取到Real-Time CDP Collaboration。
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 93%
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 在設定S3資料連線之前，請確定下列事項：
 
-* 您可以存取包含符合&#x200B;**[對象來源規格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;之對象檔案的有效&#x200B;**[!DNL Amazon S3]貯體**。
+* 您可以存取包含符合&#x200B;**[對象來源規格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;之對象檔案的有效&#x200B;**[!DNL Amazon S3]貯體**。
 * 您已在AWS中建立&#x200B;**IAM角色**，授予Adobe使用&#x200B;**假設的角色**&#x200B;方法（非存取/密碼金鑰）存取貯體的許可權。 如需詳細指示，請參閱&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**。 IAM角色必須包含下列許可權：
 
    * `ListBucket`
@@ -71,7 +71,7 @@ ht-degree: 93%
 >abstract="參閱客群來源規範指南，了解如何格式化及建構適用於 Collaboration 的 Amazon S3 客群資料。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱指南"
 
-會出現一個對話方塊，說明您的對象檔案必須如何建構。 使用指向&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;的連結來瞭解如何格式化和建構來自[!DNL Amazon S3]的對象資料，以便Collaboration正確讀取。
+會出現一個對話方塊，說明您的對象檔案必須如何建構。 使用指向&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;的連結來瞭解如何格式化和建構來自[!DNL Amazon S3]的對象資料，以便Collaboration正確讀取。
 
 >[!IMPORTANT]
 >
