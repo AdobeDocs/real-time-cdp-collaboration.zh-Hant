@@ -3,6 +3,7 @@ cloud: Experience Cloud
 solution: Real-Time Customer Data Platform
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+usetq: true
 product: experience cloud
 landing-page-name: experience-platform
 landing-page-breadcrumb-title: Experience Platform
@@ -10,15 +11,15 @@ type: Documentation
 mini-toc-levels: 2
 index: true
 git-repo: https://github.com/AdobeDocs/real-time-cdp-collaboration.zh-Hant
-source-git-commit: b0e5c09908a21feba58b2825bb23976ee1d4a169
+source-git-commit: 38d2fd88c9fe4fff27664ec7e97179bc8485c085
 workflow-type: tm+mt
 source-wordcount: 71
-ht-degree: 73%
+ht-degree: 90%
 
 ---
 
 
-# 僅限內部使用的中繼資料
+# 內部專用中繼資料
 
 metadata.md 檔案包含存放庫層級的中繼資料，會將這些資料傳遞至存放庫中的使用者指南 TOC.md 檔案。 如果您想變更任何使用者指南的 metadata.md 內容，請在任何 TOC.md 檔案中進行變更。
 
