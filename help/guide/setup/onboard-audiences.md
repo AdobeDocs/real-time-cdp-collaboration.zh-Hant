@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 3753
+source-wordcount: 3741
 ht-degree: 18%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 18%
 >
 >建立您的第一個資料連線並取得第一個對象後，您就可以從現有的資料連線取得多個對象。 新增其他對象時，由於資料連線已建立，您將從[選取對象](#select-audiences)步驟開始。
 
-資料連線是您將對象擷取到Collaboration中的來源。 支援的來源包括Adobe Experience Platform、CSV檔案上傳、[!DNL Amazon S3]、[!DNL Snowflake]和[!DNL Google Cloud Storage]，每個都有自己的工作流程。 Adobe Audience Manager即將推出。
+資料連線是您將對象擷取到Collaboration中的來源。 若要進一步瞭解所有可用的來源，請參閱[來源概觀](./source-overview.md)。
 
 以下各節說明如何選取&#x200B;**Adobe Experience Platform**&#x200B;以及完成Experience Platform的特定步驟（沙箱、控管和同意）。 如果您選擇CSV、[!DNL Amazon S3]、[!DNL Snowflake]或[!DNL Google Cloud Storage]，請使用該選項的[選取資料來源](#select-data-source)下連結的指南。
 
@@ -343,7 +343,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="中繼資料顯示"
->abstract="<p>表示其他協作者在與您聯繫之前或在專案視圖中，可以看到哪些客群的中繼資料。</p> <p> **身分識別計數**&#x200B;控制您的協作者在探索索引標籤中檢視重疊報告時，是否可以檢視您客群的身分識別計數。</p><p> **客群重疊百分比**&#x200B;控制協作者是否能夠得知其客群與您客群之間重疊的百分比。</p><p> **[!UICONTROL 客群指數]** 控制協作者是否可以檢視專案內的客群指數。 您必須擁有 3 個或以上的使用中客群，才能使用此功能。</p> <br>若要讓後設資料可見度設定生效，必須將客群設定為公開或自訂。"
+>abstract="<p>表示其他協作者在與您聯繫之前或在專案視圖中，可以看到哪些客群的後設資料。</p> <p> **身分識別計數**&#x200B;控制您的協作者在探索索引標籤中檢視重疊報告時，是否可以檢視您客群的身分識別計數。</p><p> **客群重疊百分比**&#x200B;控制協作者是否能夠得知其客群與您客群之間重疊的百分比。</p><p> **[!UICONTROL 客群指數]** 控制協作者是否可以檢視專案內的客群指數。 您必須擁有 3 個或以上的使用中客群，才能使用此功能。</p> <br>若要讓後設資料可見度設定生效，必須將客群設定為公開或自訂。"
 
 >[!NOTE]
 >
