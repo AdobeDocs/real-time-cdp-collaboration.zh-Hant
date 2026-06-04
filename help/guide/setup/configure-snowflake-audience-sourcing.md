@@ -2,11 +2,11 @@
 title: 設定 [!DNL Snowflake] 以取得對象來源
 description: 瞭解如何將您的 [!DNL Snowflake Secure Data Share] 設定為自助資料來源並加以連線，以將對象資料擷取至Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1598'
 ht-degree: 21%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 ## 概觀 {#overview}
 
-[!DNL Snowflake]是支援的選項之一，可將第一方對象資料來源至Collaboration。 其他可用方法包括從[Experience Platform](./onboard-audiences.md)取得對象、連線[[!DNL AWS S3] 貯體](./configure-aws-s3-audience-sourcing.md)或上傳[CSV檔案](./upload-csv-audience-sourcing.md)。
+[!DNL Snowflake]是支援的選項之一，可將第一方對象資料來源至Collaboration。 其他可用方法包括從[Experience Platform](./onboard-audiences.md)取得對象、連線[[!DNL AWS S3] 貯體](./configure-aws-s3-audience-sourcing.md)或上傳[CSV檔案](./upload-csv-audience-sourcing.md)。 若要進一步瞭解Collaboration中的所有可用來源，請參閱[來源概觀](./source-overview.md)。
 
 請依照下列步驟連線您的[!DNL Snowflake Secure Data Share]，並將您的對象資料來源至Collaboration。 設定完成後，您可以檢閱、啟用和管理共同作業專案的來源對象。
 
