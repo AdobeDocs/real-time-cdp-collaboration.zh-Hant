@@ -4,7 +4,7 @@ description: 瞭解Adobe Real-Time CDP Collaboration Starter如何協助您與�
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
+source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 4%
@@ -36,7 +36,7 @@ ht-degree: 4%
 * 角色（廣告商/發佈商）：廣告商
 * 行業
 
-收到並接受邀請後，貴組織必須檢閱並簽署Adobe的免費銷售訂單，才能存取Collaboration [!DNL Starter]。 如需邀請程式的詳細資訊，請參閱[邀請共同作業人員加入Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator)指南。
+收到並接受邀請後，貴組織必須檢閱並簽署Adobe的免費銷售訂單，才能存取Collaboration [!DNL Starter]。 如需邀請程式的詳細資訊，請參閱[邀請共同作業人員加入Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-non-licensed-collaborator)指南。
 
 ## 護欄 {#guardrails}
 
@@ -61,9 +61,9 @@ ht-degree: 4%
 
 首先，使用&#x200B;**管理員存取權**&#x200B;工作區來授予您必要的存取權。 這可確保您同時擁有Experience Platform產品的管理許可權和使用者存取權。 如需設定初始存取許可權的詳細步驟，請參閱[管理員存取指示](../setup/starter-admin-access.md)。
 
-完成後，您應該會在[Experience Platform](https://experience.adobe.com/){target="_blank"}首頁的&#x200B;**[!UICONTROL 快速存取]**&#x200B;區段中，看到&#x200B;**[!UICONTROL 許可權]**、**[!UICONTROL Adobe Experience Cloud]**&#x200B;和&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**。
+完成後，您應該會在[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}首頁的&#x200B;**[!UICONTROL 快速存取]**&#x200B;區段中，看到&#x200B;**[!UICONTROL 許可權]**、**[!UICONTROL Experience Platform]**&#x200B;和&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**。
 
-![產品管理員存取設定後，Adobe Experience Cloud工作區會顯示許可權、Experience Platform和Real-Time CDP Collaboration。](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
+![產品管理員存取設定後，Adobe Experience Cloud工作區顯示許可權、Experience Platform和Real-Time CDP Collaboration。](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
 
 如需有關存取角色和不同Adobe Experience Cloud產品的詳細資訊，請閱讀[存取控制總覽](../permissions/overview.md)。
 
@@ -71,7 +71,7 @@ ht-degree: 4%
 
 現在您擁有管理員許可權，可以將角色和許可權指派給您自己和組織中的其他使用者。 您必須先執行此步驟，才能存取Real-Time CDP Collaboration或允許其他人使用。 如需詳細指示，請參閱[如何設定許可權](../setup/starter-permission-controls.md)。 如需Collaboration中不同角色和許可權的詳細資訊，請參閱[管理角色](../permissions/manage-roles.md)檔案。
 
-指派角色和許可權後，請確認您可以存取Collaboration。 導覽至[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}，並在&#x200B;**[!UICONTROL 快速存取]**&#x200B;區段內選取&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**。 這會開啟&#x200B;**[!UICONTROL Adobe Real-Time CDP Collaboration]**&#x200B;工作區，您可在此開始使用Collaboration功能。
+指派角色和許可權後，請確認您可以存取Collaboration。 導覽至[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}，並在&#x200B;**[!UICONTROL 快速存取]**&#x200B;區段中選取&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**。 這會開啟&#x200B;**[!UICONTROL Adobe Real-Time CDP Collaboration]**&#x200B;工作區，您可在此開始使用Collaboration功能。
 
 ### 設定連線 {#set-up-connections}
 
