@@ -2,20 +2,15 @@
 title: 與共同作業人員建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 06d4477f3254e9811f410340c934ec5682a92cb0
 workflow-type: tm+mt
-source-wordcount: 3398
+source-wordcount: 3420
 ht-degree: 10%
 
 ---
@@ -25,6 +20,13 @@ ht-degree: 10%
 {{limited-availability-release-note}}
 
 共同作業人員必須建立連線，才能共同處理行銷活動。 此連線可讓他們啟用對象、建立專案，以及執行行銷活動績效報表。
+
+Collaboration支援下列邀請方法：
+
+- [公用連線邀請](#discover-collaborators)：透過&#x200B;**[!UICONTROL 探索共同作業人員]**&#x200B;工作區與另一個授權客戶連線。
+- [私人連線邀請](#private-connection-invite)：使用連線代碼直接連線至其他授權客戶。
+- [入門邀請](#invite-non-licensed-collaborator)：連線到沒有授權的組織。
+- [驗證](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)：與支援的協力廠商廣告平台連線。
 
 系統會根據您選擇的共同作業模式來建立連線。 Collaboration支援兩種關鍵共同作業模式：廣告商對發佈商和品牌對品牌。 若要深入瞭解這些模式，請參閱[使用案例](/help/guide/overview/use-cases.md)指南。
 
@@ -55,9 +57,6 @@ ht-degree: 10%
 
 ![品牌對品牌連線程式的高階圖表。](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
->[!TIP]
->
->本指南說明廣告商對發佈商和品牌對品牌共同作業模式的連線程式。 若要瞭解如何與廣告平台連線，請參閱[連線總覽](/help/guide/connect/overview.md)指南中的[廣告商與廣告平台連線](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)區段。
 
 ## CONNECT {#connect}
 
@@ -153,7 +152,7 @@ ht-degree: 10%
 
 會出現對話方塊，提示您接受邀請。 選取&#x200B;**[!UICONTROL 接受邀請]**&#x200B;以繼續。
 
-![&#x200B; Accept連線邀請對話方塊中反白顯示Accept邀請選項。](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
+![ Accept連線邀請對話方塊中反白顯示Accept邀請選項。](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
 
 連線的狀態變更為&#x200B;**[!UICONTROL 擱置中]**。 擁有者現在可以設定連線設定。
 
@@ -314,9 +313,9 @@ ht-degree: 10%
 
 接著，選取&#x200B;**[!UICONTROL 接受]**&#x200B;以繼續連線。 連線狀態將變更為&#x200B;**[!UICONTROL 作用中]**，您現在可以開始共同作業專案。
 
-## 邀請協作者 {#invite-collaborator}
+## 邀請未獲授權的共同作業人員（入門） {#invite-non-licensed-collaborator}
 
-請依照下列步驟邀請您的合作夥伴加入Real-Time CDP Collaboration [!DNL Starter]。 如果您想瞭解Collaboration [!DNL Starter]的詳細資訊以及程式的逐步總覽，請參閱[[!DNL Starter] 總覽檔案](../overview/starter-overview.md)。
+請依照下列步驟，邀請您的未授權合作夥伴加入Real-Time CDP Collaboration [!DNL Starter]。 如果您想瞭解Collaboration [!DNL Starter]的詳細資訊以及程式的逐步總覽，請參閱[[!DNL Starter] 總覽檔案](../overview/starter-overview.md)。
 
 在起始邀請程式之前，請先向共同作業人員收集下列資訊：
 
@@ -331,7 +330,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->邀請其他共同作業人員，即表示您確認您有責任承擔因他們活動所產生的任何費用。 在Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)中進一步瞭解信用使用量和消耗量
+>邀請其他共同作業人員，即表示您確認您有責任承擔因他們活動所產生的任何費用。 在Collaboration Starter](../setup/starter-credit-usage.md)中進一步瞭解[信用使用量和消耗量
 
 ### 傳送邀請 {#send-invitation}
 
