@@ -2,7 +2,7 @@
 title: 追蹤您的點數耗用活動
 description: 瞭解如何在Real-Time CDP Collaboration中檢視您組織的「信用公事包」及追蹤信用沖銷活動。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 TQID: https://experienceleague.adobe.com/hDvkKFUCBYvsX8wntcYFrL6qZTxOo5CZOWAbxNwk7mw
 product_v2:
@@ -88,6 +88,6 @@ ht-degree: 4%
 
 若要有效管理您的信用沖銷，請執行下列步驟：
 
-1. **瞭解**&#x200B;與每個活動相關的信用耗用量。 檢查[Collaboration產品說明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}，取得每個活動使用的積分表。
+1. **瞭解**&#x200B;與每個活動相關的信用耗用量。 檢查[Collaboration產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}，取得每個活動使用的積分表。
 2. **定期監視使用狀況**：檢閱您可用的學分和活動表格，以瞭解跨對象管理、對象存取、對象輸出和測量活動的使用模式。
 3. **依連線追蹤**：使用連線名稱來識別哪些連線使用最多積分。
