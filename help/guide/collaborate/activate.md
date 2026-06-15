@@ -2,19 +2,15 @@
 title: 啟用客群
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中啟用對象。
 audience: admin, publisher
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1063
 ht-degree: 3%
 
 ---
@@ -25,9 +21,9 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 啟用]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間啟用&#x200B;**對象啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 啟用]**&#x200B;工作區只有在連線程式](../connect/establishing-connections.md#connection-settings)期間[啟用&#x200B;**對象啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
-對象啟用可讓您啟用對象，以用於行銷活動。 根據連線[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定，可由共同作業人員完成啟用。 在您[探索行銷活動的最佳對象](./discover.md)後，請啟用對象以供使用。 當您啟用對象時，系統會將其傳送至共同作業人員預先設定的目的地（例如Adobe Experience Platform），以便在行銷活動中使用。 如需設定目的地的詳細資訊，請參閱[目的地概觀](../destinations/overview.md)指南。
+對象啟用可讓您啟用對象，以用於行銷活動。 根據連線](/help/guide/connect/establishing-connections.md#configure-connection-settings)中設定的對象啟用設定[，可由共同作業人員完成啟用。 在您[探索行銷活動的最佳對象](./discover.md)後，請啟用對象以供使用。 當您啟用對象時，系統會將其傳送至共同作業人員預先設定的目的地（例如Adobe Experience Platform），以便在行銷活動中使用。 如需設定目的地的詳細資訊，請參閱[目的地概觀](../destinations/overview.md)指南。
 
 ## 啟用新對象 {#activate-new-audiences}
 
@@ -75,9 +71,11 @@ ht-degree: 3%
 
 ### 設定對象重新整理頻率 {#set-audience-refresh-frequency}
 
-最後，設定對象重新整理的所需頻率和日期範圍。 在目前的版本中，唯一支援的頻率選項是&#x200B;**[!UICONTROL 一次]**。 **[!UICONTROL 一次]**&#x200B;頻率表示對象僅啟用一次，不會重新整理。 **[!UICONTROL 日期]**&#x200B;選項會自動填入目前的日期。
+最後，設定對象啟用的所需頻率和日期範圍。 使用&#x200B;**[!UICONTROL 頻率]**&#x200B;下拉式清單來選擇對象是啟用一次還是按照週期性排程重新整理。 選取&#x200B;**[!UICONTROL 一次]**&#x200B;以一次啟動對象，或選取循環頻率，例如&#x200B;**[!UICONTROL 每日]**、**[!UICONTROL 每兩天]**、**[!UICONTROL 每三天]**、**[!UICONTROL 每四天]**、**[!UICONTROL 每五天]**、**[!UICONTROL 每六天]**、**[!UICONTROL 每兩週]**、**[!UICONTROL 每三週]**&#x200B;或&#x200B;**[!UICONTROL 每月]**。
 
-![已反白顯示「頻率」區段的Audience啟用工作流程。](/help/assets/collaborate/activate/audience-frequency.png)
+![對象啟動工作流程中的「頻率」下拉式清單會顯示可用的選項，包括「一次」、「每日」、「每2至6天」、「每2至3週」和「每月」。](/help/assets/collaborate/activate/activation-frequency.png)
+
+使用&#x200B;**[!UICONTROL 日期範圍]**&#x200B;欄位來定義啟動排程的開始和結束時間。
 
 對您的選取感到滿意時，請選取&#x200B;**[!UICONTROL 啟動]**&#x200B;以完成工作流程。
 
@@ -100,7 +98,7 @@ ht-degree: 3%
 | **[!UICONTROL 身分計數]** | 對象中的身分數量。 |
 | **[!UICONTROL 重疊的身分]** | 此對象與共同作業人員詳細目錄中的設定檔總人口之間的重疊身分數。 |
 | **[!UICONTROL 已建立]** | 最初傳送對象的日期。 |
-| **[!UICONTROL 上次傳送時間]** | 上次傳送對象給共同作業人員的日期。 |
+| **[!UICONTROL 上次傳送時間]** | 透過啟動工作流程（一次啟動或循環排程），上次提供對象給共同作業人員的日期。 |
 | **[!UICONTROL 相符金鑰]** | 表示用於對象的比對索引鍵。 |
 
 ## 檢視啟用的對象 {#view-activated-audiences}
@@ -115,7 +113,7 @@ ht-degree: 3%
 | **[!UICONTROL 狀態]** | 已啟動對象的狀態。 |
 | **[!UICONTROL 身分計數]** | 根據共同作業人員傳送對象時的重疊身分啟用的身分數量。 |
 | **[!UICONTROL 已建立]** | 啟用對象的日期。 |
-| **[!UICONTROL 上次重新整理時間]** | 根據啟動期間選擇的重新整理排程，上次重新整理對象的日期。 |
+| **[!UICONTROL 上次重新整理時間]** | 根據啟動期間選取的頻率，上次重新整理對象的日期。 |
 | **[!UICONTROL 目標]** | 受眾啟用的目的地。 |
 | **[!UICONTROL 相符金鑰]** | 表示用於對象的比對索引鍵。 |
 
