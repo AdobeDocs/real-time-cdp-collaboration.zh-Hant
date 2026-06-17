@@ -2,21 +2,16 @@
 title: 與共同作業人員建立連線
 description: 在發現潛在的共同作業人員後，瞭解如何建立連線並開始共同作業專案。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fb824ee8d84cb8dc125da82a4afd6f50e3ce80cf
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
 workflow-type: tm+mt
-source-wordcount: 3420
-ht-degree: 10%
+source-wordcount: 3459
+ht-degree: 9%
 
 ---
 
@@ -157,7 +152,7 @@ Collaboration支援下列邀請方法：
 
 會出現對話方塊，提示您接受邀請。 選取&#x200B;**[!UICONTROL 接受邀請]**&#x200B;以繼續。
 
-![&#x200B; Accept連線邀請對話方塊中反白顯示Accept邀請選項。](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
+![ Accept連線邀請對話方塊中反白顯示Accept邀請選項。](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
 
 連線的狀態變更為&#x200B;**[!UICONTROL 擱置中]**。 擁有者現在可以設定連線設定。
 
@@ -320,7 +315,7 @@ Collaboration支援下列邀請方法：
 
 ## 邀請未獲授權的共同作業人員（入門） {#invite-non-licensed-collaborator}
 
-請依照下列步驟，邀請您的未授權合作夥伴加入Real-Time CDP Collaboration [!DNL Starter]。 如果您想瞭解Collaboration [!DNL Starter]的詳細資訊以及程式的逐步總覽，請參閱[[!DNL Starter] 總覽檔案](../overview/starter-overview.md)。
+請依照下列步驟，邀請您的未授權合作夥伴加入Real-Time CDP Collaboration [!DNL Starter]。 邀請會直接傳送給共同作業人員的電子郵件地址，而且必須先接受邀請才能建立連線。 如果您想瞭解Collaboration [!DNL Starter]的詳細資訊以及程式的逐步總覽，請參閱[[!DNL Starter] 總覽檔案](../overview/starter-overview.md)。
 
 在起始邀請程式之前，請先向共同作業人員收集下列資訊：
 
@@ -335,7 +330,7 @@ Collaboration支援下列邀請方法：
 
 >[!IMPORTANT]
 >
->邀請其他共同作業人員，即表示您確認您有責任承擔因他們活動所產生的任何費用。 在Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)中進一步瞭解信用使用量和消耗量
+>邀請其他共同作業人員，即表示您確認您有責任承擔因他們活動所產生的任何費用。 在Collaboration Starter](../setup/starter-credit-usage.md)中進一步瞭解[信用使用量和消耗量
 
 ### 傳送邀請 {#send-invitation}
 
@@ -369,9 +364,14 @@ Collaboration支援下列邀請方法：
 
 ![確認對話方塊會確認已成功傳送邀請。](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
 
+傳送邀請後，您的合作夥伴組織會收到電子郵件，指示您檢閱及簽署「即時Collaboration」條款與條件。
+
 ### 接受邀請並簽署條款 {#accept-invitation-sign-terms}
 
-傳送邀請後，您的合作夥伴組織會收到電子郵件，指示您檢閱及接受Real-Time Collaboration條款與條件。 在接受之前，他們也可以探索Collaboration的功能。
+若要繼續，您的受邀合作夥伴組織必須：
+
+- 開啟邀請電子郵件。
+- 請依照連結檢閱並簽署Real-Time CDP Collaboration條款與條件。
 
 ![加入Collaboration Starter的邀請電子郵件。](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
@@ -379,10 +379,11 @@ Collaboration支援下列邀請方法：
 
 ### 布建確認 {#provisioning-confirmation}
 
-布建程式完成時，會傳送一封歡迎電子郵件給受邀的組織，確認Collaboration [!DNL Starter]已可供使用。 此電子郵件提供如何：
+布建程式完成時，會傳送第二封電子郵件給受邀組織，確認Collaboration [!DNL Starter]已可供使用。 此歡迎電子郵件提供如何：
 
 - [設定管理員和使用者存取權](../setup/starter-admin-access.md)
 - [設定存取Collaboration的許可權](../setup/starter-permission-controls.md)
+- [與邀請的共同作業人員建立連線](#connect)
 
 ![此歡迎電子郵件已傳送給受邀組織，其中包含設定必要存取權和許可權的指示。](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
@@ -390,4 +391,4 @@ Collaboration支援下列邀請方法：
 
 ## 後續步驟
 
-與共同作業人員建立連線後，您和共同作業人員現在可以[建立專案](/help/guide/collaborate/manage-projects.md#create-project)。
+建立連線後，您可與共同作業人員[建立專案](/help/guide/collaborate/manage-projects.md#create-project)。
