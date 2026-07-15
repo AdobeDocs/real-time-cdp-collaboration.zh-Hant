@@ -2,7 +2,7 @@
 title: 設定 [!DNL Databricks Delta Share] 以取得對象來源
 description: 瞭解如何在Real-Time CDP Collaboration中設定並連線 [!DNL Databricks Delta Share] 以取得對象來源。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
 workflow-type: tm+mt
 source-wordcount: '2816'
