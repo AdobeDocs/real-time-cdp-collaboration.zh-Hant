@@ -1,11 +1,11 @@
 ---
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
-user-guide-description: Adobe Real-Time CDP Collaboration可讓廣告商與發佈商之間順暢且安全的資料共用及共同作業，促進即時受眾深入分析和個人化行銷策略。
-source-git-commit: eeaa3053e4b701d6eac00d8c012c387efb4c3509
+user-guide-description: Adobe Real-Time CDP Collaboration 可實現廣告商和發佈者之間順暢且安全的資料共用和協作，促進即時客群洞察和個人化行銷策略。
+source-git-commit: 87518fe97611cffe65c9081418029d88bb29abc1
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 29%
+source-wordcount: '224'
+ht-degree: 40%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 29%
       * [設定GCS以取得對象](./setup/configure-gcs-audience-sourcing.md)
       * [上傳CSV檔案以取得對象](./setup/upload-csv-audience-sourcing.md)
       * [設定Snowflake以取得對象](./setup/configure-snowflake-audience-sourcing.md)
+      * [設定Audience Sourcing的資料庫差異份額](./setup/configure-databricks-audience-sourcing.md)
    * [管理資料連線](./setup/manage-data-connection.md)
    * [設定和管理目的地](./setup/manage-destinations.md)
    * [追蹤您的點數耗用活動](/help/guide/setup/my-activity.md)
