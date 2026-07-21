@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration 可實現廣告商和發佈者之間順暢且安全的資料共用和協作，促進即時客群洞察和個人化行銷策略。
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+source-git-commit: 884e5d87448de554ba258a0d24f023979fc4768c
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 39%
+source-wordcount: '238'
+ht-degree: 38%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 39%
 * 設定 {#setup}
   * [設定區段概觀](./setup/setup-overview.md)
   * [入門並管理您的帳戶](./setup/onboard-account.md)
+  * {hide-from-toc}[對象總覽](./setup/audiences-overview.md)
   * Source和管理對象 {#source-audiences}
     * [來源概觀](./setup/source-overview.md)
     * [設定AEP以取得對象](./setup/onboard-audiences.md)
@@ -65,6 +66,7 @@ ht-degree: 39%
     * {hide-from-toc}[建立AMC測量報告](./collaborate/advertising-platforms/amc-measure.md)
 * 目的地 {#destinations}
   * [概觀](/help/guide/destinations/overview.md)
+  * {hide-from-toc}[設定並管理目的地](./destinations/manage-destinations.md)
   * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 權限 {#permissions}
   * [概觀](/help/guide/permissions/overview.md)
