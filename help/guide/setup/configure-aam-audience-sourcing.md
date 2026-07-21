@@ -2,7 +2,7 @@
 title: 設定Adobe Audience Manager以進行Audience Sourcing
 description: 瞭解如何將Adobe Audience Manager連結為資料來源，以便您將合格的第一方對象來源至Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: be12b4c3b1d3d40fa9ceb43b319f55254b05e4df
 workflow-type: tm+mt
 source-wordcount: '1901'
