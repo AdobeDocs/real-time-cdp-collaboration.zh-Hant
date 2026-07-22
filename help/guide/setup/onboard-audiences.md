@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
+source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
 workflow-type: tm+mt
-source-wordcount: 3741
+source-wordcount: 3773
 ht-degree: 18%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 18%
 
 資料連線是您將對象擷取到Collaboration中的來源。 若要進一步瞭解所有可用的來源，請參閱[來源概觀](./source-overview.md)。
 
-以下各節說明如何選取&#x200B;**Adobe Experience Platform**&#x200B;以及完成Experience Platform的特定步驟（沙箱、控管和同意）。 如果您選擇CSV、[!DNL Amazon S3]、[!DNL Snowflake]或[!DNL Google Cloud Storage]，請使用該選項的[選取資料來源](#select-data-source)下連結的指南。
+以下各節說明如何選取&#x200B;**Adobe Experience Platform**&#x200B;以及完成Experience Platform的特定步驟（沙箱、控管和同意）。 如果您選擇CSV、[!DNL Amazon S3]、[!DNL Snowflake]、[!DNL Google Cloud Storage]、Adobe Audience Manager或[!DNL Databricks Delta Share]，請針對該選項使用連結在「[選取資料來源](#select-data-source)」下的指南。
 
 您為Experience Platform資料連線設定的任何設定都會套用至源自該連線的所有對象。
 
@@ -72,7 +72,8 @@ ht-degree: 18%
 * **Amazon Web Services**：直接從S3儲存貯體連線至您的Amazon S3儲存體，以取得對象資料。 如需逐步指示，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)指南。
 * **Snowflake**：使用您的Snowflake資料倉儲，順暢地提取對象資料。 請參閱[設定 [!DNL Snowflake] 對象來源](./configure-snowflake-audience-sourcing.md)指南。
 * **Google雲端儲存空間**：連線至您的GCS貯體，以取得來源受眾資料。 如需逐步指示，請參閱[設定對象來源的GCS](./configure-gcs-audience-sourcing.md)指南。
-* **Adobe Audience Manager** （_即將推出_）：從Adobe Audience ManagerSource您的對象區段。
+* **[!DNL Databricks Delta Share]**：連線至您的[!DNL Databricks Delta Share]，以從您的[!DNL Databricks]環境取得第一方對象資料。 請參閱[設定 [!DNL Databricks Delta Share] 對象來源](./configure-databricks-audience-sourcing.md)指南。
+* **Adobe Audience Manager**：從Adobe Audience ManagerSource您的對象區段。 若要開始使用，請參閱[設定Adobe Audience Manager以取得對象來源](./configure-aam-audience-sourcing.md)指南。
 
 選取您的資料來源，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
