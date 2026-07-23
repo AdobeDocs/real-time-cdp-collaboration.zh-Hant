@@ -15,10 +15,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 7affd3abf7a10019503825cb20d9be1ad4000603
+source-git-commit: e6156a39107edb0e15e2115db0762f6a86801ed6
 workflow-type: tm+mt
-source-wordcount: 1903
-ht-degree: 3%
+source-wordcount: 1968
+ht-degree: 4%
 
 ---
 
@@ -26,9 +26,21 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**上次更新日期**：2026年4月。
+**上次更新日期**：2026年7月。
 
 下列發行說明涵蓋Adobe Real-Time CDP Collaboration中發行的功能。 Collaboration版本會在持續傳遞模式上運作，允許大約每月發行。 這些發行說明會經常更新，請務必定期檢視。
+
+## 2026年7月 {#july-2026}
+
+Real-Time CDP Collaboration現在支援其他自助受眾來源選項。
+
+**新功能或更新功能**
+
+| 功能 | 說明 |
+| ------- | ----------- |
+| 來自[!DNL Databricks Delta Share]和Adobe Audience Manager的自助受眾來源 | 您現在可以直接從您的[!DNL Databricks Delta Share]取得第一方對象，或將符合資格的Adobe Audience Manager區段帶入Collaboration。 如需設定說明，請參閱下列指南： <ul><li>[設定 [!DNL Databricks Delta Share] 對象來源](../setup/configure-databricks-audience-sourcing.md)</li><li>[設定Adobe Audience Manager以取得對象](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+
+{style="table-layout:auto"}
 
 ## 2026 年 4 月 {#april-2026}
 
@@ -91,12 +103,12 @@ Real-Time CDP Collaboration現在可供&#x200B;**歐洲、中東和非洲(EMEA))
 **加拿大**&#x200B;的客戶現在可使用Real-Time CDP Collaboration。 它會自動提供給這些地區的Real-Time CDP Prime和Ultimate客戶。
 
 * Collaboration現在支援下列[相符金鑰](../setup/onboard-account.md#supported-match-keys)：
-   * 已雜湊的電子郵件
-   * 雜湊電話號碼
-   * CRM ID
-   * 忠誠度 ID
-   * 已雜湊的 IPv4
-   * AdFixus ID
+  * 已雜湊的電子郵件
+  * 雜湊電話號碼
+  * CRM ID
+  * 忠誠度 ID
+  * 已雜湊的 IPv4
+  * AdFixus ID
 * Collaboration現在提供多個相符索引鍵，讓您能夠擴大受眾規模並提高相符率。 搜尋對象、建立連線和啟用對象時，可以使用多個相符索引鍵。 若要進一步瞭解如何使用多個比對索引鍵，請閱讀[設定比對索引鍵](../setup/onboard-account.md)和[來源受眾](../setup/onboard-audiences.md#map-fields)指南。
 
 >[!IMPORTANT]
@@ -120,7 +132,7 @@ Real-time CDP Collaboration現在支援品牌對品牌共同作業。 共同作�
 
 * Real-Time CDP Collaboration現在可供&#x200B;**澳洲**&#x200B;和&#x200B;**紐西蘭**&#x200B;的客戶使用。 它會自動提供給這些地區的Real-Time CDP Prime和Ultimate客戶。
 * Real-Time CDP Collaboration現在透過&#x200B;**[!UICONTROL 設定]**&#x200B;區段中的&#x200B;**[!UICONTROL 我的目的地]**&#x200B;索引標籤，提供[自助目的地](../setup/manage-destinations.md)。 目的地可讓您在第三方平台（例如廣告網路或資料管理平台）中啟用對象，以便透過各種管道觸及您的客戶。 目前僅支援Adobe Experience Platform目的地。 如果您有興趣設定不同的目的地，請聯絡您的Adobe代表。 若要深入瞭解目的地，請閱讀[目的地概觀](../destinations/overview.md)指南。
-   * 目的地也新增支援，以便在[Collaboration對象入口網站](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)中檢視Adobe Experience Platform對象。
+  * 目的地也新增支援，以便在[Collaboration對象入口網站](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)中檢視Adobe Experience Platform對象。
 * 您現在可以在Collaboration中編輯現有資料連線的對象重新整理頻率。 目前，您可以選擇每天或每兩到六天重新整理一次對象。 若要深入瞭解如何編輯對象重新整理頻率，請參閱[管理資料連線](../setup/manage-data-connection.md#scheduling)指南。
 * 現在已針對連線中選取的每個使用案例，設定共同作業人員之間的評分分割。 您可以針對每個使用案例設定不同的信用沖銷規則，以便更妥善地控制信用額的使用方式。 若要深入瞭解信用分割功能，請閱讀[連線設定](../connect/establishing-connections.md#connection-settings)指南。 若要進一步瞭解如何使用信用額度，請閱讀[信用活動型別](../setup/my-activity.md#types-of-activities)指南。<br> ![顯示信用分割功能的連線設定畫面。](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
 * 發佈者現在在接受廣告商的連線設定之前，可以設定廣告商名稱和ID。 發佈者可設定與其內部系統一致的名稱和ID，此名稱和ID可能與廣告商的名稱和ID不同。 若要進一步瞭解新增廣告商名稱和ID，請閱讀[連線設定](../connect/establishing-connections.md#connection-settings.md)指南。<br> ![連線設定畫面顯示發行者設定廣告商名稱和ID。](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
@@ -134,9 +146,9 @@ Real-time CDP Collaboration現在支援品牌對品牌共同作業。 共同作�
 
 * 當[將對象](/help/guide/setup/onboard-audiences.md)來源至Collaboration時，您現在可以設定對象重新整理頻率，從&#x200B;**每隔1天到6天**，以便更妥善地管理[對象管理信用活動](/help/guide/setup/my-activity.md#types-of-activities)。 如需詳細資訊，請閱讀[管理對象](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)指南。<br> ![排程畫面，顯示更新對象成員資格的不同頻率間隔。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "排程畫面，顯示更新對象成員資格的不同頻率間隔。"){width="250" align="center" zoomable="yes"}
 * 與共同作業人員建立連線時，您現在可以從預先定義的&#x200B;**使用案例**&#x200B;中進行選取。 所選的使用案例決定哪些專案區段和產品功能可供使用。 如需詳細資訊，請閱讀[管理專案](/help/guide/collaborate/manage-projects.md#project-use-cases)指南。
-   * *測量*&#x200B;啟用&#x200B;**測量**&#x200B;專案區段。
-   * *對象探索*&#x200B;啟用&#x200B;**探索**&#x200B;專案區段。
-   * *對象啟用*&#x200B;會啟用&#x200B;**啟用**&#x200B;專案區段<br>
+  * *測量*&#x200B;啟用&#x200B;**測量**&#x200B;專案區段。
+  * *對象探索*&#x200B;啟用&#x200B;**探索**&#x200B;專案區段。
+  * *對象啟用*&#x200B;會啟用&#x200B;**啟用**&#x200B;專案區段<br>
 * 您現在可以刪除與不想再使用的共同作業人員之間的連線。 若要瞭解如何刪除連線，請閱讀[刪除連線](/help/guide/connect/establishing-connections.md#delete-connections)指南。
 
 ## 2025 年 2 月 {#february-2025}
