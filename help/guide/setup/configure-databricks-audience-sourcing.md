@@ -2,11 +2,11 @@
 title: 設定 [!DNL Databricks Delta Share] 以取得對象來源
 description: 瞭解如何在Real-Time CDP Collaboration中設定並連線 [!DNL Databricks Delta Share] 以取得對象來源。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
 workflow-type: tm+mt
-source-wordcount: '2816'
-ht-degree: 8%
+source-wordcount: '2771'
+ht-degree: 9%
 
 ---
 
@@ -88,21 +88,21 @@ ht-degree: 8%
 
 ![此新增對象工作流程會顯示資料來源選取畫面，其中已選取「資料庫差異共用」，並反白顯示「下一步」。](../../assets/setup/databricks-audience-sourcing/databricks-data-source-selection.png)
 
-### 連線您的[!DNL Delta Share] {#connect-delta-share}
+### 連接您的 [!DNL Delta Share] {#connect-delta-share}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_databricks"
 >title="Experience League"
->abstract="請參閱[!DNL Databricks Delta Share] sourcing指南，以取得設定您共用對象來源的相關指示"
+>abstract="請參閱 [!DNL Databricks Delta Share] 來源指南，以取得設定您的客群來源共用的相關指示"
 
-提供允許Collaboration存取您的[!DNL Delta Share]所需的詳細資料。 輸入您[!DNL Databricks Delta Share]的提供者、共用、結構描述及資料表詳細資料。 共用結構描述中必須有必要的成員資格表格。 如果您使用中繼資料表格，它也必須可在相同的共用結構描述中使用。
-輸入必要資訊後，選取&#x200B;**[!UICONTROL 連線]**。
+提供允許Collaboration存取您的[!DNL Delta Share]所需的詳細資料。輸入您[!DNL Databricks Delta Share]的提供者、共用、結構描述及資料表詳細資訊。共用結構描述中必須有必要的成員資格表格。如果您使用中繼資料表格，它也必須可在相同的共用結構描述中使用。
+輸入必要資訊後，請選取**[!UICONTROL 連線]**。
 
 Collaboration會驗證共用並掛載至Adobe的工作區。 此步驟最多可能需要一分鐘。 建立連線時，會出現進度指示器。
 
 | 欄位 | 說明 |
 | --- | --- |
-| **[!UICONTROL 提供者名稱]** | Adobe用來使用您共用的Unity Catalog提供者名稱。 檢視開始[&#128279;](#required-values)前所需的值。 |
+| **[!UICONTROL 提供者名稱]** | Adobe用來使用您共用的Unity Catalog提供者名稱。 檢視開始](#required-values)前所需的[值。 |
 | **[!UICONTROL 共用名稱]** | 發佈至Adobe的[!DNL Delta Share]名稱。 |
 | **[!UICONTROL 結構描述]** | 共用中包含對象表格的綱要。 |
 | **[!UICONTROL 資料表]** | 結構描述中的表格名稱，其中包含對象成員資格列（對象中每個設定檔各一列）。 |
