@@ -2,16 +2,18 @@
 title: 來源概觀
 description: 瞭解Adobe Real-Time CDP Collaboration中的來源聯結器
 audience: admin, publisher, advertiser
-source-git-commit: 23f7d91d37d0d9c9b352716caa4827dcc87093d8
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 10%
+source-wordcount: '433'
+ht-degree: 9%
 
 ---
 
 # 來源概觀
 
 在Adobe Real-Time CDP Collaboration中，來源（或資料連線）是您對象資料的來源。 您可以從您的本機系統連線到各種來源型別，例如Adobe應用程式、雲端儲存空間或檔案，以便[為您的Collaboration專案提供來源並管理對象](./onboard-audiences.md)。 在對象來源工作流程中，您可以根據組織的需求選擇及設定偏好的來源。
+
+如需對象、來源、資料連線、專案和目的地在Collaboration中如何組合的概念性概觀，請參閱[對象概觀](./audiences-overview.md)。
 
 ## 連接來源 {#connect-a-source}
 
