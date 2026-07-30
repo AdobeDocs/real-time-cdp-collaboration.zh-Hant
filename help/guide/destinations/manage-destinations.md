@@ -3,8 +3,11 @@ title: 設定和管理雲端儲存空間目的地
 description: 瞭解如何在Real-Time CDP Collaboration中設定、檢視和刪除雲端儲存空間目的地。
 audience: admin, publisher
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 60124235569ca9b17b3bb1cef502d57d39e82e1f
 workflow-type: tm+mt
 source-wordcount: 885
@@ -31,7 +34,7 @@ ht-degree: 2%
 * 您可以存取&#x200B;**[!UICONTROL 啟用]**&#x200B;工作區。
 * 您擁有雲端儲存空間提供者所需的連線資訊。
 * 如果您需要建立帳戶，則需具備所需的認證或許可權。
-* 您已檢閱您的雲端儲存空間目的地](./cloud-storage-destination-requirements.md)的[需求。
+* 您已檢閱您的雲端儲存空間目的地[&#128279;](./cloud-storage-destination-requirements.md)的需求。
 
 ## 設定目的地 {#configure-destination}
 

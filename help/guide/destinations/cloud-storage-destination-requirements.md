@@ -42,7 +42,7 @@ Collaboration支援&#x200B;**[!UICONTROL 存取金鑰]**&#x200B;和&#x200B;**[!U
 
 ### SFTP {#sftp}
 
-Collaboration支援使用密碼的&#x200B;**[!UICONTROL SFTP]**&#x200B;和使用SSH金鑰&#x200B;]**驗證的**[!UICONTROL  SFTP。 這兩種方法都需要伺服器網域、連線埠和使用者名稱。 連線埠預設為`22`。
+Collaboration支援使用密碼的&#x200B;**[!UICONTROL SFTP]**&#x200B;和使用SSH金鑰&#x200B;**驗證的** SFTP。 這兩種方法都需要伺服器網域、連線埠和使用者名稱。 連線埠預設為`22`。
 
 如需SSH金鑰格式、伺服器、網路和允許清單需求，請參閱[SFTP驗證資訊](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/sftp#authentication-information)。
 
