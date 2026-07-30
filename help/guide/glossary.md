@@ -2,26 +2,17 @@
 title: 字彙表
 description: 瞭解Real-Time CDP Collaboration的重要術語
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
 TQID: https://experienceleague.adobe.com/aamkkPQbkaATqzByHmnTU2QGiUXLOn1yhz1jPA8LgGc
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
-source-wordcount: 837
-ht-degree: 5%
+source-wordcount: 934
+ht-degree: 4%
 
 ---
 
@@ -32,6 +23,14 @@ ht-degree: 5%
 本辭彙表提供Adobe Real-Time CDP Collaboration產品與檔案中識別之重要辭彙的定義。 瞭解這些術語將有助於您更好地利用產品及其功能。
 
 ## A
+
+### 啟動（對共同作業人員）
+
+是指將對象傳送至共用專案中另一個共同作業人員的動作。 當您對共同作業人員啟用對象時，系統會傳送至該共同作業人員預先設定的目的地，以便用於行銷活動。 如需指示，請參閱[啟用對象](/help/guide/collaborate/activate.md)。 不要與&#x200B;**啟動（至目的地）**&#x200B;混淆。
+
+### 啟動（至目的地）
+
+是指已啟用的對象著陸的目的地（例如雲端儲存平台或Adobe Experience Platform），以及設定、瀏覽及監控目的地的工作區。 對象仍會透過專案中的[啟用對象](/help/guide/collaborate/activate.md)動作到達目的地；此工作區會控制哪些目的地可供使用以及這些目的地的設定方式。 如需指示，請參閱[目的地概觀](/help/guide/destinations/overview.md)。 不要與&#x200B;**啟動（至共同作業人員）**&#x200B;混淆。
 
 ### 廣告商
 
@@ -127,7 +126,7 @@ Adobe Real-Time CDP Collaboration中的專案是工作區，使用者可在其�
 
 ### 草圖 {#sketches}
 
-草圖（或資料草圖）是Real-Time CDP Collaboration中使用的對象資料的簡化摘要。 它們可讓品牌和發佈商分析受眾重疊和見解，而不需要共用實際客戶資料。 將其視為匿名人數，而不是詳細的客戶檔案。
+草圖（或資料草圖）是Real-Time CDP Collaboration中使用的對象資料的簡化摘要。它們可讓品牌和發佈商分析受眾重疊和見解，而不需要共用實際客戶資料。將其視為匿名人數，而不是詳細的客戶檔案。
 在Adobe Real-Time CDP Collaboration中，資料草圖：
 
 * 協助判斷兩個對象是否相似

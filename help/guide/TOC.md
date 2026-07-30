@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration 可實現廣告商和發佈者之間順暢且安全的資料共用和協作，促進即時客群洞察和個人化行銷策略。
-source-git-commit: 884e5d87448de554ba258a0d24f023979fc4768c
+source-git-commit: 3e31c6bc68a516698ee9b4e24ab4773afae5551b
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 38%
+source-wordcount: '243'
+ht-degree: 36%
 
 ---
 
@@ -36,7 +36,6 @@ ht-degree: 38%
     * [設定Audience Sourcing的資料庫差異份額](./setup/configure-databricks-audience-sourcing.md)
     * [設定Adobe Audience Manager以取得對象](./setup/configure-aam-audience-sourcing.md)
   * [管理資料連線](./setup/manage-data-connection.md)
-  * [設定和管理目的地](./setup/manage-destinations.md)
   * [追蹤您的點數耗用活動](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[身分交叉通道](./setup/identity-crosswalk.md)
   * [新增及管理測量資料](./setup/onboard-measurement-data.md)
@@ -66,8 +65,9 @@ ht-degree: 38%
     * {hide-from-toc}[建立AMC測量報告](./collaborate/advertising-platforms/amc-measure.md)
 * 目的地 {#destinations}
   * [概觀](/help/guide/destinations/overview.md)
-  * {hide-from-toc}[設定並管理目的地](./destinations/manage-destinations.md)
-  * [Adobe Experience Platform](./destinations/experience-platform.md)
+  * [設定和管理雲端儲存空間目的地](./destinations/manage-destinations.md)
+  * [雲端儲存空間目的地需求](./destinations/cloud-storage-destination-requirements.md)
+  * [將Adobe Experience Platform設定為目的地](./destinations/experience-platform.md)
 * 權限 {#permissions}
   * [概觀](/help/guide/permissions/overview.md)
   * [管理使用者存取權](./permissions/manage-user-access.md)
