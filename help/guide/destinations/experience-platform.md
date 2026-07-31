@@ -12,18 +12,18 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
 workflow-type: tm+mt
-source-wordcount: 1534
-ht-degree: 14%
+source-wordcount: 1548
+ht-degree: 15%
 
 ---
 
 # 將Adobe Experience Platform設定為目的地
 
-{{limited-availability-release-note}}
-
 設定此目的地以將對象從您的專案啟動至Adobe Experience Platform。 在Adobe Experience Platform中啟用對象可讓您善用平台的功能，以便在各種行銷管道中進行對象細分、分析和啟用。 若要進一步瞭解Adobe Experience Platform，請參閱[Experience Platform概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home){target="_blank"}。
+
+Adobe Experience Platform使用的目的地特定設定工作流程不同於[設定和管理雲端儲存空間目的地](./manage-destinations.md)中所述的雲端儲存空間目的地工作流程。
 
 >[!WARNING]
 >
@@ -31,13 +31,11 @@ ht-degree: 14%
 
 ## 設定目的地 {#configure-destination}
 
-若要將Adobe Experience Platform設定為目的地，請導覽至「**[!UICONTROL 設定]**」，然後選取「**[!UICONTROL 我的目的地]**」標籤。 選取Adobe Experience Platform的&#x200B;**[!UICONTROL 設定]**。
+若要將Adobe Experience Platform設定為目的地，請導覽至&#x200B;**[!UICONTROL 啟用]**&#x200B;工作區，選取&#x200B;**[!UICONTROL 目錄]**&#x200B;索引標籤，然後選取Adobe Experience Platform的&#x200B;**[!UICONTROL 設定]**。
 
-![針對Adobe Experience Platform目的地反白顯示「我的目的地」工作區與「設定」選項。](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
+![目錄索引標籤會顯示目的地提供者卡片，並反白顯示Adobe Experience Platform卡片。](../../assets/destinations/adobe-experience-platform/setup-experience-platform.png)
 
 **[!UICONTROL 建立目的地]**&#x200B;工作流程隨即顯示。
-
-![為Adobe Experience Platform建立目的地工作流程。](/help/assets/destinations/adobe-experience-platform/create-destination.png)
 
 ### 設定沙箱 {#configure-sandbox}
 
@@ -79,7 +77,7 @@ ht-degree: 14%
 >title="目標命名空間"
 >abstract="目標命名空間指定在 Adobe Experience Platform 中比對索引鍵將對應到的身分識別命名空間。 雜湊比對索引鍵必須對應到支援雜湊值的目標命名空間。"
 
-根據預設，為您的帳戶啟用的所有相符金鑰都會包含在啟用對應中。 如果您不想將比對索引鍵直接對應到目標名稱空間，可以使用連結索引鍵選項將其替換為不同的比對索引鍵。 如需連結金鑰的詳細資訊，請參閱下方的[區段](#linked-keys)。
+根據預設，為您的帳戶啟用的所有相符金鑰都會包含在啟用對應中。 如果您不想將比對索引鍵直接對應到目標名稱空間，可以使用連結索引鍵選項以不同的比對索引鍵來取代。 如需連結金鑰的詳細資訊，請參閱下方的[區段](#linked-keys)。
 
 #### 對應目標名稱空間 {#map-target-namespaces}
 
@@ -144,9 +142,9 @@ retailer希望將正在啟用至Experience Platform的資料傳送至其CRM系�
 
 >[!IMPORTANT]
 >
->您&#x200B;**必須**&#x200B;將Experience Platform設定為目的地&#x200B;*，然後*&#x200B;您的共同作業人員才能啟用對象。 如果未設定目的地，系統會將對象傳送給您，並顯示在專案的「**[!UICONTROL 啟用]**」標籤中，但不會啟用至Experience Platform。
+>您&#x200B;**必須**&#x200B;將Experience Platform設定為目的地&#x200B;*，然後*&#x200B;您的共同作業人員才能啟用對象。 如果未設定目的地，則會將對象傳送給您並在專案層級的「**[!UICONTROL 啟用]**」索引標籤中顯示，但不會啟用至Experience Platform。
 
-對象啟動後，即可在Experience Platform的[對象入口網站](#audience-portal)中使用，其來源為Real-Time CDP Collaboration。  這些對象隨後可用於行銷活動和客戶參與。
+對象啟動後，即可在Experience Platform的[對象入口網站](#audience-portal)中使用，其來源為Real-Time CDP Collaboration。 這些對象隨後可用於行銷活動和客戶參與。
 
 ### Audience Portal {#audience-portal}
 

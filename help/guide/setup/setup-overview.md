@@ -9,10 +9,10 @@ product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
-source-wordcount: 126
-ht-degree: 30%
+source-wordcount: 119
+ht-degree: 32%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 30%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time CDP Collaboration中的「設定」區段提供集中式工作區，讓您管理帳戶的設定和組態。 使用下列指南瞭解如何設定您的帳戶、來源對象、管理資料連線、設定目的地以及追蹤您的信用消費活動。
+Adobe Real-Time CDP Collaboration中的「設定」區段提供集中式工作區，讓您管理帳戶的設定和組態。 使用下列指南瞭解如何設定您的帳戶、來源對象、管理資料連線以及追蹤您的信用消費活動。
 
 ![帳戶的設定工作區，提供其目前設定的概觀。](/help/assets/setup/overview.png){zoomable="yes"}
 
@@ -29,6 +29,5 @@ Adobe Real-Time CDP Collaboration中的「設定」區段提供集中式工作�
 * [設定和管理您的帳戶](/help/guide/setup/onboard-account.md)
 * [Source和管理對象](/help/guide/setup/onboard-audiences.md)
 * [管理資料連線](/help/guide/setup/manage-data-connection.md)
-* [設定和管理目的地](/help/guide/setup/manage-destinations.md)
 * [追蹤您的點數耗用活動](/help/guide/setup/my-activity.md)
 * [檢視稽核記錄](/help/guide/setup/audit-logs.md)

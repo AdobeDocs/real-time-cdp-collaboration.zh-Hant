@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 3773
+source-wordcount: 3758
 ht-degree: 18%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 18%
 {{limited-availability-release-note}}
 
 受眾是根據各種屬性劃分的特定使用者或客戶群組。 這些功能可讓共同作業人員共同處理目標式行銷和個人化體驗，以提升廣告行銷的成效。 本指南說明如何在Real-Time CDP Collaboration中取得受眾、檢視受眾控制面板，以及管理個別受眾。
+
+如需Collaboration中對象的概念性說明，請參閱[對象總覽](../setup/audiences-overview.md)。
 
 ## Source受眾進入Collaboration {#source-audiences}
 
@@ -239,7 +241,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 | **[!UICONTROL 名稱]** | 對象名稱。 |
 | **[!UICONTROL 身分]** | 表示此對象中存在的身分數量。 請注意，如果相同設定檔有兩個或多個身分，而這些身分在專案中作為相符索引鍵使用，則設定檔會在計數中顯示兩次。 |
 | **[!UICONTROL 狀態]** | 指出對象是否作用中以及是否可用於專案。 **[!UICONTROL 擱置中]**&#x200B;狀態表示對象最近剛取得來源，且身分尚未填入。 來源受眾會在初次重新整理後填入設定檔，這通常發生在資料連線設定後的24小時內。 |
-| **[!UICONTROL Source]** | 指出閱聽眾的來源。 在目前版本的Collaboration中，Experience Platform是唯一受支援的來源。 |
+| **[!UICONTROL Source]** | 指出閱聽眾的來源。 |
 | **[!UICONTROL 資料連線]** | 受眾來源的資料連線。 您可以選取名稱以檢視資料連線。 |
 | **[!UICONTROL 連線存取]** | 定義對象是私人或公開。 可在重疊報表中找到的公開對象，並可於專案中啟動。 |
 | **[!UICONTROL 已建立]** | 表示最初將對象來源至Collaboration的時間。 |
@@ -265,7 +267,7 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 | 項目 | 說明 |
 |----------|---------|
 | **[!UICONTROL 狀態]** | 指出對象是否作用中以及是否可用於專案。 |
-| **[!UICONTROL Source]** | 指出閱聽眾的來源。 在目前版本的Collaboration中，Experience Platform是唯一受支援的來源。 |
+| **[!UICONTROL Source]** | 指出閱聽眾的來源。 |
 | **[!UICONTROL 資料連線]** | 受眾來源的資料連線。 |
 | **[!UICONTROL 上次更新時間]** | 表示上次在Collaboration中更新對象的日期和時間。 這並非指閱聽眾最後一次重新整理的時間，而是閱聽眾的設定或中繼資料最後一次變更的時間 |
 | **[!UICONTROL 上次更新者]** | 表示上次更新對象的使用者。 |
