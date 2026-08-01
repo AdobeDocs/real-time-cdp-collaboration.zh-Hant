@@ -15,10 +15,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ec15512bc5c6579ade907fc238cfe5394862dc7e
+source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
 workflow-type: tm+mt
-source-wordcount: 1968
-ht-degree: 4%
+source-wordcount: 2054
+ht-degree: 3%
 
 ---
 
@@ -32,13 +32,15 @@ ht-degree: 4%
 
 ## 2026年7月 {#july-2026}
 
-Real-Time CDP Collaboration現在支援其他自助受眾來源選項。
+Real-Time CDP Collaboration現在支援其他自助受眾來源選項，以及更輕鬆的啟用和目的地設定工作流程。
 
 **新功能或更新功能**
 
 | 功能 | 說明 |
 | ------- | ----------- |
 | 來自[!DNL Databricks Delta Share]和Adobe Audience Manager的自助受眾來源 | 您現在可以直接從您的[!DNL Databricks Delta Share]取得第一方對象，或將符合資格的Adobe Audience Manager區段帶入Collaboration。 如需設定說明，請參閱下列指南： <ul><li>[設定 [!DNL Databricks Delta Share] 對象來源](../setup/configure-databricks-audience-sourcing.md)</li><li>[設定Adobe Audience Manager以取得對象](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| 手動啟動已接收的對象 | 您現在可以手動啟用從共同作業人員接收至設定目的地的對象，並選擇啟用執行時間。 這可讓收件者更能掌控受眾傳送。 如需逐步指示，請參閱[啟用對象](../collaborate/activate.md)。 |
+| 自助式雲端儲存空間目的地 | 您現在可以直接從Activation Workspace設定和管理受支援的雲端儲存空間目標，並使用它們來啟動收到的對象。 如需設定指示，請參閱[設定和管理雲端儲存空間目的地](../destinations/manage-destinations.md)。 |
 
 {style="table-layout:auto"}
 
