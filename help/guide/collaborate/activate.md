@@ -4,16 +4,12 @@ description: 瞭解如何將受眾傳送給共同作業人員，並手動將收�
 audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
-source-wordcount: 1565
+source-wordcount: 1589
 ht-degree: 2%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 啟用]**&#x200B;索引標籤只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間啟用&#x200B;**對象啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)。
+>**[!UICONTROL 啟用]**&#x200B;索引標籤只有在連線程式](../connect/establishing-connections.md#connection-settings)期間[啟用&#x200B;**對象啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)。
 
 使用[探索標籤](./discover.md)來識別最符合行銷活動的對象，然後傳送給您的共同作業人員。 接收共同作業人員會選取已設定的目的地，並排程要啟用的接收對象。
 
@@ -59,6 +55,10 @@ ht-degree: 2%
 
 **[!UICONTROL 傳送對象]**&#x200B;工作流程隨即開啟。 使用對象選擇器來尋找對象，或選取&#x200B;**[!UICONTROL 瀏覽對象]**&#x200B;來比較可用的對象。
 
+>[!IMPORTANT]
+>
+>只有具有超過1000個重疊身分的對象才可供啟用。 如果對象重疊接近1000身分臨界值，啟用可能會失敗。
+
 ![包含對象選擇器和「瀏覽對象」按鈕的「傳送對象」工作流程。 工作流程可讓寄件者在設定比對金鑰和存取設定之前選擇對象。](/help/assets/collaborate/activate/audience-activation.png)
 
 在&#x200B;**[!UICONTROL 瀏覽對象]**&#x200B;對話方塊中，檢閱每個對象的&#x200B;**[!UICONTROL 身分計數]**、**[!UICONTROL 重疊身分]**&#x200B;和&#x200B;**[!UICONTROL 重疊%]**。
@@ -69,7 +69,7 @@ ht-degree: 2%
 >
 >如果對象使用多個比對索引鍵，則每個選取的比對索引鍵都必須符合必要的重疊臨界值。 使用[探索標籤](./discover.md)確認對象符合重疊需求，再傳送。
 
-選取您要傳送的對象，然後選取[儲存]。**&#x200B;**
+選取您要傳送的對象，然後選取[儲存]。****
 
 所選對象會以其身分和重疊資訊出現在工作流程中。
 
