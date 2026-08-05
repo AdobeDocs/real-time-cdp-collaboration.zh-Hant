@@ -5,9 +5,13 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 TQID: https://experienceleague.adobe.com/ny3FgyvKMu4caNcmNTLrPRHXjBOKa6lDvPQ3C9YG9vo
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
 source-wordcount: 2137
@@ -21,7 +25,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式](../connect/establishing-connections.md#connection-settings)期間已啟用[的&#x200B;**對象探索**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 探索]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**對象探索**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 在[建立專案](/help/guide/collaborate/manage-projects.md)之後，您可以比較對象與共同作業人員。 這可幫助您識別行銷活動的相關對象，並決定要將哪些對象傳送給共同作業人員以進行啟用。
 
@@ -29,7 +33,7 @@ ht-degree: 17%
 >
 >任何[未更新或未重新整理的資料草圖](/help/guide/glossary.md#sketches)將在7天後刪除。 發生此情況時，此頁面上各種重疊報表中顯示的數字會變成零，且這些過期的對象將無法共用對象。 具有[作用中重新整理排程](/help/guide/setup/onboard-audiences.md#schedule)的對象會自動重新整理資料草圖。
 
-在連線程式](/help/guide/connect/establishing-connections.md#connection-settings)期間，已設定[用來探索和比較對象的比對金鑰。 相符索引鍵會用於計算對象之間的重疊，且可切換為開啟或關閉。 若要編輯比對索引鍵，請選取&#x200B;**[!UICONTROL 編輯比對索引鍵]**&#x200B;選項。
+在連線程式[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)期間，已設定用來探索和比較對象的比對金鑰。 相符索引鍵會用於計算對象之間的重疊，且可切換為開啟或關閉。 若要編輯比對索引鍵，請選取&#x200B;**[!UICONTROL 編輯比對索引鍵]**&#x200B;選項。
 
 ![Dicover標籤工作區，展示Audience深入分析。](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -158,7 +162,7 @@ ht-degree: 17%
 
 ![醒目提示「探索工作區」的「變更對象」選項。](/help/assets/collaborate/discover/change-audience.png)
 
-**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。****
+**[!UICONTROL 變更對象]**&#x200B;對話方塊開啟，您可以在其中選取特定對象，與共同作業人員的對象進行比較。 選取想要的對象，或清除您的選取以選取所有對象，然後選取[儲存]。**&#x200B;**
 
 ![探索工作區中的[變更對象]對話方塊。](/help/assets/collaborate/discover/change-audience-selection.png)
 
