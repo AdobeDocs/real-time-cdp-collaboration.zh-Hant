@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
+source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
-source-wordcount: 1565
+source-wordcount: 1589
 ht-degree: 2%
 
 ---
@@ -58,6 +58,10 @@ ht-degree: 2%
 ![未傳送任何對象時，專案層級的「啟動」標籤。 空白顯示訊息說明您尚未傳送對象，並顯示[傳送對象]按鈕。](/help/assets/collaborate/activate/activate-new-audiences.png)
 
 **[!UICONTROL 傳送對象]**&#x200B;工作流程隨即開啟。 使用對象選擇器來尋找對象，或選取&#x200B;**[!UICONTROL 瀏覽對象]**&#x200B;來比較可用的對象。
+
+>[!IMPORTANT]
+>
+>只有具有超過1000個重疊身分的對象才可供啟用。 如果對象重疊接近1000身分臨界值，啟用可能會失敗。
 
 ![包含對象選擇器和「瀏覽對象」按鈕的「傳送對象」工作流程。 工作流程可讓寄件者在設定比對金鑰和存取設定之前選擇對象。](/help/assets/collaborate/activate/audience-activation.png)
 
