@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 21%
+source-wordcount: 699
+ht-degree: 11%
 
 ---
 
@@ -23,11 +23,7 @@ ht-degree: 21%
 
 {{limited-availability-release-note}}
 
-與[!DNL Amazon Marketing Cloud] ([!DNL AMC])建立連線後，廣告商可以[建立專案](../manage-projects.md#create-project)以與[!DNL AMC]共同作業，以利用其進階分析功能。 建立專案後，您可以使用&#x200B;**[!UICONTROL 探索]**&#x200B;區段來比較對象深入分析，並探索行銷活動的相關對象。
-
->[!IMPORTANT]
->
->[!DNL AMC]唯一支援的使用案例是&#x200B;**對象探索**&#x200B;和&#x200B;**測量**。 目前，您的專案中只有&#x200B;**[!UICONTROL Discover]**&#x200B;區段可以使用[!DNL AMC]。
+與[!DNL Amazon Marketing Cloud] ([!DNL AMC])建立連線後，廣告商可以[建立專案](../manage-projects.md#create-project)以與[!DNL AMC]共同作業。 [!DNL AMC]專案支援兩種使用案例： **使用**&#x200B;[!UICONTROL &#x200B; Discover &#x200B;]&#x200B;**區段的對象探索**，以及使用&#x200B;**[!UICONTROL 量值]**&#x200B;索引標籤的&#x200B;**量值**。
 
 ## 探索 {#discover}
 
@@ -44,22 +40,22 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="已解析的 ID"
->abstract="Amazon 的身分解析使用您客群資料能夠解析的 ID 數量。"
+>abstract="Amazon的身分解析能夠使用您的對象資料解析的ID數量。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
 >title="重疊的廣告曝光 ID"
->abstract="這代表已上傳的客群中，亦經由 Amazon Ads 接觸廣告的「已解析 ID」數量。"
+>abstract="這代表已上傳對象中也透過Amazon Ads向廣告公開的「已解決ID」數量。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="重疊 %"
->abstract="已經由 Amazon Ads 接觸廣告的「已解析 ID」比例。"
+>abstract="已透過Amazon Ads向廣告公開的「已解決ID」比例。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="依 Amazon 廣告產品劃分"
->abstract="Amazon Ads 贊助產品和/或 Amazon Ads DSP 達到的「重疊廣告曝光 ID」劃分。"
+>abstract="Amazon Ads贊助產品及/或Amazon Ads DSP達到的「重疊廣告公開ID」劃分。"
 
 在&#x200B;**[!UICONTROL 探索]**&#x200B;區段中，您可以將AMC對象與您的Amazon廣告觸及的所有消費者進行比較。 您也可以檢視對象與最高重疊率的Amazon目標定位區段，僅考量DSP曝光數（這些區段只能在DSP中定位）。
 
@@ -75,7 +71,7 @@ ht-degree: 21%
 
 | 量度 | 說明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL 已解析的ID] | 使用您的對象資料能夠解析的ID數量[!DNL Amazon’s Identity Resolution]。 |
+| [!UICONTROL 已解析的ID] | 使用您的對象資料能夠解析的ID數量[!DNL Amazon's Identity Resolution]。 |
 | [!UICONTROL 重疊的廣告公開ID] | 已上傳對象中已透過[!DNL Amazon Ads]向廣告公開的[!UICONTROL 已解析ID]的數量。 |
 | [!UICONTROL 重疊%] | 已透過[!DNL Amazon Ads]向廣告公開的[!UICONTROL 已解析ID]比例。 |
 | 依Amazon廣告產品[!UICONTROL 劃分] | 由[!UICONTROL 贊助的產品]和/或[!UICONTROL DSP]所達到的[!UICONTROL 重疊廣告公開的ID]劃分。 每個廣告都會以廣告公開ID總數的個別百分比表示。 由於識別碼同時屬於[!UICONTROL 贊助產品]和[!UICONTROL DSP]，所以百分比總和不能為100%。 |
@@ -87,7 +83,7 @@ ht-degree: 21%
 
 | 量度 | 說明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL 已解析的ID] | 使用您的對象資料能夠解析的ID數量[!DNL Amazon’s Identity Resolution]。 |
+| [!UICONTROL 已解析的ID] | 使用您的對象資料能夠解析的ID數量[!DNL Amazon's Identity Resolution]。 |
 | [!UICONTROL 重疊的廣告公開ID] | 這代表已上傳對象中也透過[!DNL Amazon Ads]向廣告公開的[!UICONTROL 已解析ID]數目。 這只會考慮DSP曝光數。 |
 | [!UICONTROL 重疊%] | 已透過[!DNL Amazon Ads]向廣告公開的[!UICONTROL 已解析ID]比例。 |
 | [!UICONTROL 類別] | 對象所屬的類別。 一個對象可以屬於多個類別。 |
@@ -98,6 +94,12 @@ ht-degree: 21%
 
 | 量度 | 說明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL 已解析的ID] | 使用您的對象資料能夠解析的ID數量[!DNL Amazon’s Identity Resolution]。 |
+| [!UICONTROL 已解析的ID] | 使用您的對象資料能夠解析的ID數量[!DNL Amazon's Identity Resolution]。 |
 | [!UICONTROL 重疊的廣告公開ID] | 這代表已上傳對象中也透過[!DNL Amazon Ads]向廣告公開的[!UICONTROL 已解析ID]數目。 這只會考慮DSP曝光數。 |
 | [!UICONTROL 重疊%] | 已透過[!DNL Amazon Ads]向廣告公開的[!UICONTROL 已解析ID]比例。 |
+
+## 衡量 {#measure}
+
+當您的[!DNL AMC]執行個體包含行銷活動ID時，**[!UICONTROL 量值]**&#x200B;索引標籤可供使用。 當您建立專案時，Real-Time CDP Collaboration會針對您的[!DNL AMC]資料執行背景查詢，以填入[!UICONTROL Discover]區段以及用於設定測量報告的行銷活動和轉換事件清單。
+
+如需建立和解譯[!DNL AMC]測量報告的逐步指示，請閱讀[建立AMC測量報告](./amc-measure.md)指南。
