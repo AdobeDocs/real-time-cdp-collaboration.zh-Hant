@@ -102,7 +102,7 @@ ht-degree: 6%
 
 報告執行後，結果會顯示在您[!DNL AMC]專案的&#x200B;**[!UICONTROL 量值]**&#x200B;索引標籤中。 找到您的報告並選取&#x200B;**[!UICONTROL 檢視完整報告]**&#x200B;以檢視結果。
 
-![ [!DNL AMC]專案中的「量值」索引標籤會顯示已完成的報表卡及其執行日期、報表型別，以及反白顯示的「檢視完整報表」按鈕。](../../../assets/collaborate/advertising-platforms/view-full-report.png){zoomable="yes"}
+![&#x200B; [!DNL AMC]專案中的「量值」索引標籤會顯示已完成的報表卡及其執行日期、報表型別，以及反白顯示的「檢視完整報表」按鈕。](../../../assets/collaborate/advertising-platforms/view-full-report.png){zoomable="yes"}
 
 報表會顯示所選報表型別的可用結果。 **[!UICONTROL 行銷活動摘要]**&#x200B;報告會顯示所選Amazon行銷活動的傳遞結果。
 
