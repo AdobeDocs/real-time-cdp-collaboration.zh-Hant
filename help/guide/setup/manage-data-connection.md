@@ -2,20 +2,16 @@
 title: 管理資料連線
 description: 瞭解如何在Real-Time CDP Collaboration中管理資料連線，包括比對索引鍵、排程、使用案例和對象篩選
 audience: administrator, data engineer
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
-ht-degree: 93%
+source-wordcount: 1299
+ht-degree: 89%
 
 ---
 
@@ -110,6 +106,8 @@ ht-degree: 93%
 
 ![已選取GAID選項的[選取來源欄位]對話方塊。](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
 
+在&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;選項下，某些來源欄位會在清單中建模，清單是一個物件陣列。 您可以展開這些清單欄位，並選取巢狀內嵌的欄位，以對應至相符索引鍵。 如需詳細資訊，請參閱[對應欄位](./onboard-audiences.md#map-fields)指南。
+
 在&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;對話方塊中，使用下拉式功能表將新的來源欄位對應到目標欄位。 所有可用的目標欄位都是為您的Collaborator帳戶設定的相符金鑰。 如果您沒有看到所需的目標欄位，請[編輯您帳戶的相符金鑰](./onboard-account.md#edit-match-keys)以將其新增。
 
 如果您想要將非雜湊欄位來源至雜湊目標欄位，例如，將純文字電子郵件來源欄位對應至&#x200B;**[!UICONTROL 雜湊電子郵件]**&#x200B;目標欄位時，請使用&#x200B;**[!UICONTROL 套用轉換]**&#x200B;選項。
@@ -118,7 +116,7 @@ ht-degree: 93%
 
 ##### 新增[!DNL Demdex ID (ECID)] {#add-demdex-id-ecid}
 
-如果您想要將[!DNL Demdex ID (ECID)]新增為相符金鑰，請先確定已在您的帳戶設定[&#128279;](../setup/onboard-account.md#set-up-match-keys)中啟用。 如需有關[!DNL Demdex ID (ECID)]的詳細資訊，請閱讀[支援的相符金鑰](../setup/onboard-account.md#supported-match-keys)。
+如果您想要將[!DNL Demdex ID (ECID)]新增為相符金鑰，請先確定已在您的帳戶設定](../setup/onboard-account.md#set-up-match-keys)中啟用[。 如需有關[!DNL Demdex ID (ECID)]的詳細資訊，請閱讀[支援的相符金鑰](../setup/onboard-account.md#supported-match-keys)。
 
 在&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;對話方塊中，新增對應欄位列。 然後，選取&#x200B;**[!UICONTROL ECID]**&#x200B;作為來源欄位，並從下拉式清單中選取&#x200B;**[!UICONTROL Demdex ID (ECID)]**&#x200B;作為目標欄位。
 
