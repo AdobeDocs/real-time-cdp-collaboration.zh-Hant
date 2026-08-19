@@ -5,9 +5,13 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 TQID: https://experienceleague.adobe.com/pr-qF4sd-NHd55kxh1dCstHRnVCUEhIvtv-47-ljiu4
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ab26b139fe8ea3d22e38b234b55862c4d83b5c54
 workflow-type: tm+mt
 source-wordcount: 2776
@@ -21,7 +25,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式](../connect/establishing-connections.md#connection-settings)期間已啟用[的&#x200B;**Measurement**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL Measure]**&#x200B;工作區只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間已啟用的&#x200B;**Measurement**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)指南。
 
 瞭解Adobe Real-Time CDP Collaboration中的可用報表，並瞭解如何測量和分析各種管道中行銷活動的效能。
 
@@ -33,7 +37,7 @@ ht-degree: 5%
 * 與您的共同作業人員至少在一個專案上共同作業。 瞭解如何[建立專案](/help/guide/collaborate/manage-projects.md#create-project)。
 * 執行您的行銷活動，並確定已提供行銷活動的[行銷活動ID](../collaborate/manage-projects.md#manage-campaign-id)：
   * 如果您是發佈者，請輸入連結至廣告商促銷活動的Campaign ID。
-  * 如果您是廣告商，請要求共同作業人員（發佈者）提供促銷活動ID。 這是在Measure工作區](#create-measurement-report)中[產生報表的必要專案。
+  * 如果您是廣告商，請要求共同作業人員（發佈者）提供促銷活動ID。 這是在Measure工作區[&#128279;](#create-measurement-report)中產生報表的必要專案。
 * 如果要[建立歸因報表](#create-attribution-report)，請[將測量資料](/help/guide/setup/onboard-measurement-data.md)上傳到Collaboration。
 
 ## 檢視報告 {#view-reports}
@@ -200,7 +204,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
-> 您必須先將測量資料](../setup/onboard-measurement-data.md#add-measurement-data)來源至Collaboration，才能產生歸因報表。[
+> 您必須先將測量資料[&#128279;](../setup/onboard-measurement-data.md#add-measurement-data)來源至Collaboration，才能產生歸因報表。
 >![具有測量資料需求及停用的測量選項的[測量]索引標籤。](/help/assets/collaborate/measure/require-measurement-data.png)
 
 若要產生&#x200B;**歸因**&#x200B;報告，請從&#x200B;**[!UICONTROL Collaborator]**&#x200B;工作區瀏覽至專案工作區。 從&#x200B;**[!UICONTROL 量值]**&#x200B;索引標籤中，選取新增圖示（![新增圖示。](/help/assets/icons/plus.png)） 然後選取&#x200B;**[!UICONTROL 量值]**。
@@ -308,7 +312,7 @@ ht-degree: 5%
 * 如果您選擇&#x200B;**[!UICONTROL 歸因]**&#x200B;作為報表型別，則必須在&#x200B;**[!UICONTROL 歸因]**&#x200B;區段中填寫必填欄位。 如需設定指示，請參閱[歸因報告詳細資料](#report-details-attribution)區段。
 * 如果您先前在建立報告時已設定歸因設定，您可以選擇編輯回顧期間（以天為單位測量），並選取要報告的轉換事件。
 
-若要以天數&#x200B;]**更新**[!UICONTROL &#x200B;回顧期間，請輸入數值，或使用增加/減少選項進行調整。 接著，選取您要報告的轉換事件。 您可以從可用清單中選擇最多&#x200B;**3**&#x200B;個轉換。
+若要以天數&#x200B;**更新**&#x200B;回顧期間，請輸入數值，或使用增加/減少選項進行調整。 接著，選取您要報告的轉換事件。 您可以從可用清單中選擇最多&#x200B;**3**&#x200B;個轉換。
 
 ![「編輯測量報告」對話方塊會醒目顯示更新的轉換事件。](/help/assets/collaborate/measure/edit-conversion-events.png)
 
