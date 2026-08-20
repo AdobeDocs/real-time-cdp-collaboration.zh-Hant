@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
-ht-degree: 93%
+source-wordcount: 1299
+ht-degree: 89%
 
 ---
 
@@ -109,6 +109,8 @@ ht-degree: 93%
 選擇您想要的來源欄位，然後選取&#x200B;**[!UICONTROL 選取]**。
 
 ![已選取GAID選項的[選取來源欄位]對話方塊。](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;選項下，某些來源欄位會在清單中建模，清單是一個物件陣列。 您可以展開這些清單欄位，並選取巢狀內嵌的欄位，以對應至相符索引鍵。 如需詳細資訊，請參閱[對應欄位](./onboard-audiences.md#map-fields)指南。
 
 在&#x200B;**[!UICONTROL 比對索引鍵]**&#x200B;對話方塊中，使用下拉式功能表將新的來源欄位對應到目標欄位。 所有可用的目標欄位都是為您的Collaborator帳戶設定的相符金鑰。 如果您沒有看到所需的目標欄位，請[編輯您帳戶的相符金鑰](./onboard-account.md#edit-match-keys)以將其新增。
 

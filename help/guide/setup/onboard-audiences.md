@@ -11,10 +11,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
 workflow-type: tm+mt
-source-wordcount: 3758
-ht-degree: 18%
+source-wordcount: 3958
+ht-degree: 17%
 
 ---
 
@@ -171,6 +171,22 @@ Source欄位會對應至Collaboration中定義的目標欄位。
 若要開始對應欄位，請選取目標欄位旁邊的空白來源欄位。 **[!UICONTROL 選取來源欄位]**&#x200B;對話方塊將會出現。 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;和&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;選項之間選取，以尋找所需的來源欄位，然後從清單中選取欄位。 您也可以使用搜尋選項來尋找所需欄位。
 
 ![顯示電子郵件選項的[選取來源欄位]對話方塊。](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
+
+某些設定檔屬性在清單中建模，清單是一個物件陣列（在對話方塊中顯示為`Object[]`）。 金鑰識別碼或屬性通常位於這些重複記錄內，例如帳號或車輛識別碼。
+
+在&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;選項下，展開&#x200B;**[!UICONTROL 選取來源欄位]**&#x200B;對話方塊中的清單欄位，然後選取要對應至相符索引鍵的巢狀欄位。 例如，展開`devices`並選取`Device ID`。 巢狀欄位接著會填入該對應列的來源欄位，而您將其對應到目標欄位，方式與任何其他來源欄位相同。
+
+如果設定檔在巢狀欄位中有多個值，Collaboration會分別比對及計算每個值。 您不需要事先將資料平面化或重組。
+
+![選取來源欄位對話方塊，其中展開裝置清單，並選取要對應的裝置ID欄位。](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>選取巢狀內嵌在清單中的欄位有以下限制：
+>
+>* 您只能選取符合索引鍵的巢狀欄位。 不支援選取巢狀欄位做為屬性。
+>* 您可以一次為每個清單選取一個巢狀欄位。
+>* 簡單值清單（而非物件清單）會顯示在對話方塊中，但您無法選取它們。
 
 若要處理將非雜湊欄位來源化為雜湊目標欄位，請使用&#x200B;**[!UICONTROL 套用轉換]**&#x200B;選項。 例如，若要新增第二個電子郵件欄位，請選取&#x200B;**[!UICONTROL 新增欄位]**&#x200B;選項以新增列，然後為目標欄位選取&#x200B;**[!UICONTROL 雜湊電子郵件]**。 選取非雜湊電子郵件來源欄位，然後選取&#x200B;**[!UICONTROL 套用轉換]**。
 
