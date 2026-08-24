@@ -11,10 +11,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
+source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
 workflow-type: tm+mt
-source-wordcount: 3958
-ht-degree: 17%
+source-wordcount: 3970
+ht-degree: 16%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="行銷動作"
->abstract="<p>使用行銷動作來控制要從 Experience Platform 匯入哪一些客群資料到 Real-Time CDP Collaboration。 <strong>資料共同作業</strong>行銷動作支援 C4、C5 和 C9 資料使用情況標籤。 <strong>資料科學</strong>行銷動作支援 C9 資料使用情況標籤。</p> <p> <ul><li> 核取方塊<em>啟用</em>後，Experience Platform 中標有上述標籤的任何資料都將被排除，並且<strong>不會</strong>帶入 Real-Time CDP Collaboration 中。</li><li> 核取方塊<em>停用</em>後，在 Real-Time CDP Collaboration 中將 Experience Platform 的資料當成來源時，沒有任何限制。</li></ul></p>"
+>abstract="<p>使用行銷動作來控制要從 Experience Platform 匯入哪一些客群資料到 Real-Time CDP Collaboration。 <strong>資料Collaboration</strong>行銷動作支援C4、C5、C9、S1、S2、PSPD和RHD資料使用標籤。 <strong>資料科學</strong>行銷動作支援 C9 資料使用情況標籤。</p> <p> <ul><li> 核取方塊<em>啟用</em>後，Experience Platform 中標有上述標籤的任何資料都將被排除，並且<strong>不會</strong>帶入 Real-Time CDP Collaboration 中。</li><li> 核取方塊<em>停用</em>後，在 Real-Time CDP Collaboration 中將 Experience Platform 的資料當成來源時，沒有任何限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hant" text="資料使用標籤概觀"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant" text="資料使用標籤字彙表"
 
@@ -91,9 +91,9 @@ ht-degree: 17%
 
 接下來，您必須確定已在來源資料上設定正確的行銷動作。 您也必須同意來自Experience Platform的資料，才能將其用於資料共同作業。
 
-使用行銷動作來控制要從Experience Platform將哪些對象資料帶入Collaboration。 **[!UICONTROL 資料共同作業]**&#x200B;行銷動作支援 C4、C5 和 C9 資料使用情況標籤。 **[!UICONTROL 資料科學]**&#x200B;行銷動作支援 C9 資料使用情況標籤。
+使用行銷動作來控制要從Experience Platform將哪些對象資料帶入Collaboration。 **[!UICONTROL 資料Collaboration]**&#x200B;行銷動作支援C4、C5、C9、S1、S2、PSPD和RHD資料使用標籤。 **[!UICONTROL 資料科學]**&#x200B;行銷動作支援 C9 資料使用情況標籤。
 
-深入瞭解[C4、C5和C9資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+深入瞭解[C4、C5、C9、S1、S2、PSPD與RHD資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
 * 當核取方塊為&#x200B;***已啟用***&#x200B;時，Experience Platform中如上所述標示的任何資料都會被排除，且&#x200B;**不會**&#x200B;帶入Collaboration。
 * 核取方塊&#x200B;***已停用***，對來自Experience Platform的資料沒有限制。
