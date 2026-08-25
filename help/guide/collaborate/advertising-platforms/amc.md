@@ -5,9 +5,13 @@ audience: publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
 source-wordcount: 699
@@ -19,7 +23,7 @@ ht-degree: 21%
 
 {{limited-availability-release-note}}
 
-與[!DNL Amazon Marketing Cloud] ([!DNL AMC])建立連線後，廣告商可以[建立專案](../manage-projects.md#create-project)以與[!DNL AMC]共同作業。 [!DNL AMC]專案支援兩種使用案例： **使用**[!UICONTROL  Discover ]**區段的對象探索**，以及使用&#x200B;**[!UICONTROL 量值]**&#x200B;索引標籤的&#x200B;**量值**。
+與[!DNL Amazon Marketing Cloud] ([!DNL AMC])建立連線後，廣告商可以[建立專案](../manage-projects.md#create-project)以與[!DNL AMC]共同作業。 [!DNL AMC]專案支援兩種使用案例： **使用**&#x200B;[!UICONTROL &#x200B; Discover &#x200B;]&#x200B;**區段的對象探索**，以及使用&#x200B;**[!UICONTROL 量值]**&#x200B;索引標籤的&#x200B;**量值**。
 
 ## 探索 {#discover}
 
