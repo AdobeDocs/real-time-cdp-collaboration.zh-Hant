@@ -8,7 +8,7 @@ badgelimitedavailability: label="有限可用性" type="Informative" url="https:
 source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -38,17 +38,17 @@ ht-degree: 6%
 
 如果未列出您需要的行銷活動，請確認它屬於已連線的[!DNL Amazon Ads]帳戶，並檢閱[疑難排解](#troubleshooting)。 如需臨界值的詳細資訊，請參閱[AMC彙總臨界值檔案](https://advertising.amazon.com/API/docs/en-us/guides/amazon-marketing-cloud/aggregation-threshold)。
 
-#### 日期範圍、執行日期和報表名稱 {#dates}
+#### 日期範圍、執行日期和報告名稱 {#dates}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_date_range"
 >title="日期範圍"
->abstract="設定報表要包含之行銷活動資料的開始和結束日期。 日期範圍限製為365天的回溯期，最大跨度為90天。 您只能報告過去的行銷活動。"
+>abstract="針對要納入報告中的行銷活動資料設定開始日期和結束日期。 日期範圍僅限於 365 天的回顧期間，最長可涵蓋 90 天。 您只能針對過去的行銷活動產生報告。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_run_date"
 >title="執行日期"
->abstract="報表執行的日期。 報表結束日期之後至少必須有一天，且未來最多可達46天。"
+>abstract="報告執行的日期。 必須至少比報告結束日期晚一天，且最多可設定至未來 46 天。"
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_conversion_events"
 >title="轉換事件"
->abstract="選取最多三個要納入歸因報表中的轉換事件。 系統會自動從您的[!DNL AMC]執行個體探索可用的事件。 如果未顯示任何事件，則表示您的[!DNL AMC]執行個體可能沒有任何已記錄的轉換事件，且將無法使用歸因。"
+>abstract="最多選取三個要納入歸因報告中的轉換事件。 系統會從您的 [!DNL AMC] 實例中自動探索可用事件。 如果未顯示任何事件，則表示您的 [!DNL AMC] 實例可能沒有任何已記錄的轉換事件，且將無法使用歸因。"
 
 >[!NOTE]
 >

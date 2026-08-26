@@ -31,15 +31,15 @@ ht-degree: 93%
 * 您可以存取包含符合&#x200B;**[對象來源規格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;之對象檔案的有效&#x200B;**[!DNL Amazon S3]貯體**。
 * 您已在AWS中建立&#x200B;**IAM角色**，授予Adobe使用&#x200B;**假設的角色**&#x200B;方法（非存取/密碼金鑰）存取貯體的許可權。 如需詳細指示，請參閱&#x200B;**[設定對象來源的AWS許可權](./configure-aws-permissions-audience-sourcing.md)**。 IAM角色必須包含下列許可權：
 
-   * `ListBucket`
-   * `GetBucketLocation`
-   * `GetObject`
+  * `ListBucket`
+  * `GetBucketLocation`
+  * `GetObject`
 
 * 您已準備好下列值：
 
-   * **IAM角色Amazon資源名稱(ARN)**
-   * **S3 bucket名稱**
-   * **資料夾路徑** （包含對象檔案的目錄前置詞）
+  * **IAM角色Amazon資源名稱(ARN)**
+  * **S3 bucket名稱**
+  * **資料夾路徑** （包含對象檔案的目錄前置詞）
 
 >[!NOTE]
 >
@@ -191,7 +191,10 @@ ht-degree: 93%
 
 在網格檢視或表格檢視中，選取列專案或&#x200B;**[!UICONTROL 檢視對象]**&#x200B;以檢視特定對象的概觀。 它會顯示對象的狀態、來源和資料連線名稱，以及下列專案的詳細面板：
 
-**[!UICONTROL 身分]**：顯示資料可供使用時的身分計數和劃分總數。**[!UICONTROL 類別]**：列出用於組織或篩選對象的任何標籤。**[!UICONTROL 連線存取]**：指出對象是私人、公開或與特定共同作業人員共用。**[!UICONTROL 中繼資料可見性]**：定義共同作業人員可看到的對象資訊（例如身分計數、重疊百分比和索引）。
+**[!UICONTROL 身分]**：顯示資料可供使用時的身分計數和劃分總數。
+**[!UICONTROL 類別]**：列出用於組織或篩選對象的任何標籤。
+**[!UICONTROL 連線存取]**：指出對象是私人、公開或與特定共同作業人員共用。
+**[!UICONTROL 中繼資料可見性]**：定義共同作業人員可看到的對象資訊（例如身分計數、重疊百分比和索引）。
 
 在共同作業專案中使用對象之前，使用此檢視來確認對象組態和可見度設定。
 

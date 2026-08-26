@@ -15,7 +15,7 @@ topic_v2:
 source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
 source-wordcount: 699
-ht-degree: 11%
+ht-degree: 21%
 
 ---
 
@@ -40,22 +40,22 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="已解析的 ID"
->abstract="Amazon的身分解析能夠使用您的對象資料解析的ID數量。"
+>abstract="Amazon 的身分解析功能使用您的客群資料所解析出來的 ID 數量。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="重疊的廣告曝光 ID"
->abstract="這代表已上傳對象中也透過Amazon Ads向廣告公開的「已解決ID」數量。"
+>title="重疊廣告曝光 ID"
+>abstract="這代表已上傳的客群中同時也曾透過 Amazon Ads 接觸廣告的「已解析 ID」數量。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="重疊 %"
->abstract="已透過Amazon Ads向廣告公開的「已解決ID」比例。"
+>abstract="透過 Amazon Ads 接觸過廣告的「已解析 ID」所占比例。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="依 Amazon 廣告產品劃分"
->abstract="Amazon Ads贊助產品及/或Amazon Ads DSP達到的「重疊廣告公開ID」劃分。"
+>abstract="透過 Amazon Ads 贊助產品和/或 Amazon Ads DSP 觸及的「重疊廣告曝光 ID」之細項劃分。"
 
 在&#x200B;**[!UICONTROL 探索]**&#x200B;區段中，您可以將AMC對象與您的Amazon廣告觸及的所有消費者進行比較。 您也可以檢視對象與最高重疊率的Amazon目標定位區段，僅考量DSP曝光數（這些區段只能在DSP中定位）。
 
