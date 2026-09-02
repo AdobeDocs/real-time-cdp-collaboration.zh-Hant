@@ -5,9 +5,16 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
 workflow-type: tm+mt
 source-wordcount: 2255
@@ -134,7 +141,7 @@ Real-time CDP Collaboration現在支援品牌對品牌共同作業。 共同作�
 * 共同作業人員現在可以使用[私人連線邀請](../connect/establishing-connections.md#private-connection-invites)互相連線。 與共同作業人員共用您帳戶的唯一連執行緒式碼，然後共同作業人員就可以使用該程式碼直接與您連線。 這是品牌對品牌共同作業的核心功能，可讓共同作業人員建立超越廣告商探索&#x200B;**[!UICONTROL 探索共同作業人員]**&#x200B;目錄的連線。
 * [自助服務目的地](../destinations/overview.md)現在可供廣告商和發佈者使用。
 * 現在連線中的兩個共同作業人員都可以使用對象啟用，無論他們的[帳戶角色](../overview/roles.md)為何。 在[建立連線](../connect/establishing-connections.md#configure-connection-settings)時設定對象啟用設定，可讓您指定哪些共同作業人員可以啟用對象。 若要深入瞭解對象啟用，請閱讀[啟用對象](../collaborate/activate.md)指南。
-* **[!UICONTROL 啟用]**&#x200B;使用案例已重新設定為支援品牌對品牌共同作業。 專案中的「啟動&#x200B;****」標籤現在會顯示已傳送給共同作業人員的對象，以及共同作業人員啟動至您目的地的對象。 若要深入瞭解，請閱讀[啟用對象](../collaborate/activate.md)指南。<br> ![啟用儀表板，其中包含傳送至的對象和啟用對象的區段。](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
+* **[!UICONTROL 啟用]**&#x200B;使用案例已重新設定為支援品牌對品牌共同作業。 專案中的「啟動&#x200B;**&#x200B;**」標籤現在會顯示已傳送給共同作業人員的對象，以及共同作業人員啟動至您目的地的對象。 若要深入瞭解，請閱讀[啟用對象](../collaborate/activate.md)指南。<br> ![啟用儀表板，其中包含傳送至的對象和啟用對象的區段。](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
 * 現在可在專案的&#x200B;**[!UICONTROL 探索]**&#x200B;索引標籤中使用對象索引分數。 對象索引分數是評估對象與共同作業人員對象相符程度的量度。 此分數是根據基礎受眾規模和重疊來計算。 若要深入瞭解對象索引分數，請閱讀[對象索引分數](../collaborate/discover.md#audience-index-score)指南。
 
 ## 2025 年 5 月 {#may-2025}
