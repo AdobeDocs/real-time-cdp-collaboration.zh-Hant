@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
+source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
 workflow-type: tm+mt
-source-wordcount: 2131
+source-wordcount: 2255
 ht-degree: 4%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 下列發行說明涵蓋Adobe Real-Time CDP Collaboration中發行的功能。 Collaboration版本會在持續傳遞模式上運作，允許大約每月發行。 這些發行說明會經常更新，請務必定期檢視。
 
-## 2026年8月 {#august-2026}
+## 2026 年 8 月 {#august-2026}
 
 Real-Time CDP Collaboration現在支援[!DNL Amazon Marketing Cloud] (AMC)測量報告，可讓您在[!DNL AMC]專案中測量Amazon Ads促銷活動的成效。
 
@@ -38,11 +38,13 @@ Real-Time CDP Collaboration現在支援[!DNL Amazon Marketing Cloud] (AMC)測量
 
 | 功能 | 說明 |
 | ------- | ----------- |
-| [!DNL AMC]測量報告 | 直接在Collaboration中使用[!DNL AMC]資料來測量Amazon Ads行銷活動的效能。 您可以從[!DNL AMC]專案中的[!UICONTROL 測量]索引標籤建立&#x200B;**行銷活動摘要**&#x200B;和&#x200B;**歸因**&#x200B;報告，以評估行銷活動績效並了解轉換歸因。 如需詳細資訊，請參閱[建立Amazon Marketing Cloud測量報告](../collaborate/advertising-platforms/amc-measure.md)。 |
+| [!DNL AMC]測量報告 | 直接在Collaboration中使用[!DNL AMC]資料來測量Amazon Ads行銷活動的效能。 您可以從[!DNL AMC]專案中的&#x200B;**[!UICONTROL 測量]**&#x200B;索引標籤建立&#x200B;**行銷活動摘要**&#x200B;和&#x200B;**歸因**&#x200B;報告，以評估行銷活動績效並了解轉換歸因。 如需詳細資訊，請參閱[建立Amazon Marketing Cloud測量報告](../collaborate/advertising-platforms/amc-measure.md)。 |
+| 符合巢狀設定檔屬性的索引鍵對應 | 您現在可以將比對索引鍵對應到巢狀內嵌於清單型設定檔欄位中的欄位，例如`devices`陣列中的裝置ID，而不需要預先平面化或重組資料。 Collaboration會分別比對及計算巢狀欄位中的每個值。 巢狀欄位目前僅支援比對索引鍵，不支援做為設定檔屬性。 如需詳細資訊，請參閱[對應欄位](../setup/onboard-audiences.md#map-fields)。 |
+| 位置層級轉換報表 | 歸因報表現在包含依位置&#x200B;**的**&#x200B;轉換，顯示行銷活動ID中每個位置ID的轉換計數和轉換值。 這會為您提供多個版位的行銷活動個別結果。 先前的&#x200B;**[!UICONTROL 預估收入]**&#x200B;量度標籤已更新為&#x200B;**[!UICONTROL 轉換值]**，以更明確說明。 如需詳細資訊，請參閱[依位置轉換](../collaborate/measure.md#conversions-by-placement)。 |
 
 {style="table-layout:auto"}
 
-## 2026年7月 {#july-2026}
+## 2026 年 7 月 {#july-2026}
 
 Real-Time CDP Collaboration現在支援其他自助受眾來源選項，以及更輕鬆的啟用和目的地設定工作流程。
 
