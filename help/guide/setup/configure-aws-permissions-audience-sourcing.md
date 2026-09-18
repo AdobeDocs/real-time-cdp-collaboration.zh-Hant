@@ -1,13 +1,12 @@
 ---
 title: 設定Audience Sourcing的AWS許可權
-description: 瞭解如何設定AWS Identity and Access Management (IAM)許可權，以授予Adobe對您的 [!DNL Amazon S3] 貯體的安全、唯讀存取權，用於Real-Time CDP Collaboration中的受眾來源。
-source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
+description: 瞭解如何設定AWS Identity and Access Management (IAM)許可權，以授予Adobe對您的[!DNL Amazon S3]貯體的安全、唯讀存取權，以便在Real-Time CDP Collaboration中取得對象來源。
+exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
+source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '659'
 ht-degree: 1%
-
 ---
-
 # 設定對象來源的AWS許可權
 
 使用本指南來設定AWS Identity and Access Management (IAM)原則與角色，授予Adobe對Amazon S3儲存貯體的安全、唯讀存取權。 此存取權可讓Real-Time CDP Collaboration從S3貯體取得受眾。
@@ -86,14 +85,14 @@ ht-degree: 1%
 
 在Amazon S3管理主控台的&#x200B;**[!DNL IAM]**&#x200B;標籤中，導覽至&#x200B;**[!DNL Roles]** > **[!DNL Create role]**。
 
-在[!DNL Step 1]工作流程的[!DNL Create role]下，在&#x200B;**[!DNL Trusted entity type]**&#x200B;區段中，選取&#x200B;**[!DNL Custom trust policy]**。 然後，在&#x200B;**[!DNL Custom trust policy]**&#x200B;編輯器中，貼上以下範例並以您所在地區的值取代`<Adobe IAM Role ARN>`。
+在[!DNL Create role]工作流程的[!DNL Step 1]下，在&#x200B;**[!DNL Trusted entity type]**&#x200B;區段中，選取&#x200B;**[!DNL Custom trust policy]**。 然後，在&#x200B;**[!DNL Custom trust policy]**&#x200B;編輯器中，貼上以下範例並以您所在地區的值取代`<Adobe IAM Role ARN>`。
 
 * 適合您地區的Adobe IAM角色ARN：
 
 | 區域 | Adobe IAM角色ARN |
 |---------|-------------------|
 | 北美 | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-va6-role` |
-| 澳洲 | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-aus3-role` |
+| 澳大利亞 | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-aus3-role` |
 | 歐洲、中東和非洲地區 | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-deu1-role` |
 
 信任原則範例：
@@ -116,7 +115,7 @@ ht-degree: 1%
 
 檢閱原則並選取&#x200B;**下一步**&#x200B;以繼續。
 
-在[!DNL Step 2]工作流程的&#x200B;**[!DNL Add permissions]** [!DNL Create role]區段中，搜尋並附加您先前建立的[IAM原則](#create-policy)。 選取原則，接著選取&#x200B;**[!DNL Next]**&#x200B;以繼續進行[!DNL Step 3]。
+在[!DNL Create role]工作流程的[!DNL Step 2] **[!DNL Add permissions]**&#x200B;區段中，搜尋並附加您先前建立的[IAM原則](#create-policy)。 選取原則，接著選取&#x200B;**[!DNL Next]**&#x200B;以繼續進行[!DNL Step 3]。
 
 在[!DNL Step 3] **[!DNL Name review, and create - Role details]**&#x200B;區段中，提供角色名稱（例如，`s3-iam-role`）和選用的說明。
 
@@ -126,7 +125,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->在建立角色後，您必須記錄Amazon資源名稱(ARN)。 在&#x200B;**設定AWS S3以取得對象來源**&#x200B;工作流程的[驗證您的S3連線](./configure-aws-s3-audience-sourcing.md)步驟中，您將需要提供IAM角色ARN。
+>在建立角色後，您必須記錄Amazon資源名稱(ARN)。 在[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)工作流程的&#x200B;**驗證您的S3連線**&#x200B;步驟中，您將需要提供IAM角色ARN。
 
 ## 後續步驟 {#next-steps}
 
