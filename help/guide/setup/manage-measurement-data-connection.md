@@ -2,7 +2,7 @@
 title: 管理測量資料連線
 description: 瞭解如何管理測量資料連線，包括Real-Time CDP Collaboration中的詳細資訊和比對索引鍵
 audience: administrator, data engineer
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: dfe72315-6fcc-4ad7-b100-fc992ba9abbc
 source-git-commit: 874005b191d002e14aa134264f6678ec38a0d6a7
 workflow-type: tm+mt
