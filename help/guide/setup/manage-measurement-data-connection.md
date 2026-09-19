@@ -3,13 +3,12 @@ title: 管理測量資料連線
 description: 瞭解如何管理測量資料連線，包括Real-Time CDP Collaboration中的詳細資訊和比對索引鍵
 audience: administrator, data engineer
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 494277f421606eda62b74c254f1fdd29b22e3473
+exl-id: dfe72315-6fcc-4ad7-b100-fc992ba9abbc
+source-git-commit: 874005b191d002e14aa134264f6678ec38a0d6a7
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 23%
-
 ---
-
 # 管理測量資料連線
 
 {{limited-availability-release-note}}
@@ -75,7 +74,7 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->編輯資料連線的相符鍵之前，請注意下列事項：
+>編輯資料連線的比對索引鍵之前，請注意下列事項：
 >
 >* 只有為您的帳戶設定的相符金鑰才能用於資料連線。
 >* 此時，您可以將其他比對金鑰新增至資料連線，但一旦啟用比對金鑰，就無法移除比對金鑰。
