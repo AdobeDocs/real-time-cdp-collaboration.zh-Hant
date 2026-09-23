@@ -1,12 +1,12 @@
 ---
 title: 在「展開」中建立展開對象
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中使用共同作業人員的受眾族群，從種子受眾建立擴充受眾。
-source-git-commit: 88cd685742a4d85850cbf732ef93ab215287c22a
+source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 1%
 ---
-# 在「展開」中建立展開對象
+# (Beta)在「展開」中建立展開對象
 
 使用專案中的&#x200B;**[!UICONTROL 展開]**&#x200B;標籤，從您的其中一個對象建立展開對象。 Collaboration會使用共同作業人員的受眾母體來尋找與種子受眾類似的設定檔，協助您觸及新的潛在客戶，而不會公開共同作業人員的基礎受眾資料。 產生的擴充對象會傳送給您的共同作業人員以進行啟用。
 
