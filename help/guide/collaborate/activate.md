@@ -1,34 +1,38 @@
 ---
 title: 啟用客群
-description: 瞭解如何將受眾傳送給共同作業人員，並手動將收到的受眾啟用至Adobe Real-Time CDP Collaboration中的目的地。
+description: 瞭解如何傳送受眾，並自動或手動將收到的受眾啟用至Adobe Real-Time CDP Collaboration中的目的地。
 audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
+    internal-label: Insights
+source-git-commit: df0c7fe0d09203a02a192931135abaa1715e593f
 workflow-type: tm+mt
-source-wordcount: 1589
-ht-degree: 2%
-
+source-wordcount: '2043'
+ht-degree: 1%
 ---
-
 # 啟用客群
 
-使用專案中的&#x200B;**[!UICONTROL 啟用]**&#x200B;標籤將對象傳送給您的共同作業人員、檢閱從您的共同作業人員收到的對象，並啟用收到的對象以傳送至設定的目的地。 若要從最上層&#x200B;**[!UICONTROL 啟用]**&#x200B;工作區設定和管理目的地，請參閱[目的地概觀](../destinations/overview.md)。
+使用專案中的&#x200B;**[!UICONTROL 啟用]**&#x200B;標籤將對象傳送給您的共同作業人員、檢閱從您的共同作業人員收到的對象，並啟用收到的對象以傳送至設定的目的地。 接收對象時，可自動建立啟用，或由接收共同作業人員手動建立。 若要從最上層&#x200B;**[!UICONTROL 啟用]**&#x200B;工作區設定和管理目的地，請參閱[目的地概觀](../destinations/overview.md)。
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 啟用]**&#x200B;索引標籤只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間啟用&#x200B;**對象啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)。
+>**[!UICONTROL 啟用]**&#x200B;索引標籤只有在連線程式](../connect/establishing-connections.md#connection-settings)期間[啟用&#x200B;**對象啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)。
 
-使用[探索標籤](./discover.md)來識別最符合行銷活動的對象，然後傳送給您的共同作業人員。 接收共同作業人員會選取已設定的目的地，並排程要啟用的接收對象。
+使用[探索標籤](./discover.md)來識別最符合行銷活動的對象，然後傳送給您的共同作業人員。
 
-傳送和啟用是不同的動作。 傳送可讓您的共同作業人員存取對象。 然後，接收共同作業人員會選取目的地，並手動啟用接收的對象。
+如果接收者在連線設定中設定了自動啟用目的地，傳送者在傳送對象時就會選取啟用排程。 寄件者的目的地是唯讀的。 接收對象時，對象會根據傳送者的啟用排程，自動啟用至接收者所設定的目的地。 如需連線設定指示，請參閱[設定自動啟用目的地](../connect/manage-connections.md#configure-auto-activation-destination)。
+
+如果接收者未設定自動啟用目的地，則傳送和啟用仍會保留個別動作。 傳送可讓接收者存取對象，而接收者在手動啟用對象時，會選取目的地和排程。 在專案中只能選取預先設定的目的地進行啟用。 如需目的地組態指示，請參閱[管理目的地](../destinations/manage-destinations.md)。
 
 您可以使用的區段和動作取決於您的組織是傳送還是接收專案中的對象。 **[!UICONTROL 啟動]**&#x200B;索引標籤包含下列區段：
 
@@ -36,16 +40,19 @@ ht-degree: 2%
 |---|---|
 | **[!UICONTROL 傳送對象給[共同作業人員]]** | 您已傳送給共同作業人員的對象。 |
 | **[!UICONTROL 已接收對象]** | 共同作業人員已傳送給您且可啟用的對象。 |
-| **[!UICONTROL 啟用的對象]** | 收到您已啟用至目的地的對象。 |
+| **[!UICONTROL 啟用的對象]** | 已收到具有自動或手動建立啟用的對象。 |
 
-![專案層級的「啟動」索引標籤頂端有摘要計數，並展開「傳送的對象」、「接收的對象」和「啟動的對象」區段。 每個區段都會顯示狀態計數和對象詳細資訊表格。](/help/assets/collaborate/activate/activate-dashboard.png)
+![專案層級的「啟動」索引標籤頂端有摘要計數，並展開「傳送的對象」、「接收的對象」和「啟動的對象」區段。 每個區段都會顯示狀態計數和對象詳細資訊表格。](/help/assets/collaborate/activate/activate-dashboard.png){zoomable="yes"}
 
 ## 先決條件 {#prerequisites}
 
 在傳送或啟用對象之前，請確定：
 
 - 受眾是來源且可供傳送。 如需詳細資訊，請參閱[Source和管理對象](../setup/onboard-audiences.md)。
+- 對象符合傳送和啟用所需的最低1,000個身分重疊臨界值。
+- 使用多個比對索引鍵對象時，會使用所需的比對索引鍵來設定對象。
 - 如果您需要啟用收到的對象，則至少會設定一個目的地。 如需詳細資訊，請參閱[目的地概觀](../destinations/overview.md)。
+- 對於自動啟用，接收者擁有使用中的目的地，並選取它做為連線的[自動啟用目的地](../connect/manage-connections.md#configure-auto-activation-destination)。
 
 ## 傳送客群 {#send-audiences}
 
@@ -55,7 +62,7 @@ ht-degree: 2%
 
 在&#x200B;**[!UICONTROL 將對象傳送至[共同作業人員]]**&#x200B;區段中，選取新增圖示（![新增圖示。](/help/assets/icons/plus.png)）。 如果尚未傳送對象，請改為從空白顯示選取&#x200B;**[!UICONTROL 傳送對象]**。
 
-![未傳送任何對象時，專案層級的「啟動」標籤。 空白顯示訊息說明您尚未傳送對象，並顯示[傳送對象]按鈕。](/help/assets/collaborate/activate/activate-new-audiences.png)
+![未傳送任何對象時，專案層級的「啟動」標籤。 空白顯示訊息說明您尚未傳送對象，並顯示[傳送對象]按鈕。](/help/assets/collaborate/activate/activate-new-audiences.png){zoomable="yes"}
 
 **[!UICONTROL 傳送對象]**&#x200B;工作流程隨即開啟。 使用對象選擇器來尋找對象，或選取&#x200B;**[!UICONTROL 瀏覽對象]**&#x200B;來比較可用的對象。
 
@@ -63,21 +70,21 @@ ht-degree: 2%
 >
 >只有具有超過1000個重疊身分的對象才可供啟用。 如果對象重疊接近1000身分臨界值，啟用可能會失敗。
 
-![包含對象選擇器和「瀏覽對象」按鈕的「傳送對象」工作流程。 工作流程可讓寄件者在設定比對金鑰和存取設定之前選擇對象。](/help/assets/collaborate/activate/audience-activation.png)
+![包含對象選擇器和「瀏覽對象」按鈕的「傳送對象」工作流程。 工作流程可讓寄件者在設定比對金鑰和存取設定之前選擇對象。](/help/assets/collaborate/activate/audience-activation.png){zoomable="yes"}
 
 在&#x200B;**[!UICONTROL 瀏覽對象]**&#x200B;對話方塊中，檢閱每個對象的&#x200B;**[!UICONTROL 身分計數]**、**[!UICONTROL 重疊身分]**&#x200B;和&#x200B;**[!UICONTROL 重疊%]**。
 
-![瀏覽對象對話方塊列出可用的對象，及其身分計數、重疊身分計數和重疊百分比。](/help/assets/collaborate/activate/browse-audiences.png)
+![瀏覽對象對話方塊列出可用的對象，及其身分計數、重疊身分計數和重疊百分比。](/help/assets/collaborate/activate/browse-audiences.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
 >如果對象使用多個比對索引鍵，則每個選取的比對索引鍵都必須符合必要的重疊臨界值。 使用[探索標籤](./discover.md)確認對象符合重疊需求，再傳送。
 
-選取您要傳送的對象，然後選取[儲存]。**&#x200B;**
+選取您要傳送的對象，然後選取[儲存]。****
 
 所選對象會以其身分和重疊資訊出現在工作流程中。
 
-![傳送對象工作流程中，選取的對象顯示其身分計數、重疊身分計數、重疊百分比、相符金鑰以及編輯相符金鑰選項。](/help/assets/collaborate/activate/audience-selected.png)
+![傳送對象工作流程中，選取的對象顯示其身分計數、重疊身分計數、重疊百分比、相符金鑰以及編輯相符金鑰選項。](/help/assets/collaborate/activate/audience-selected.png){zoomable="yes"}
 
 ### 編輯比對索引鍵 {#edit-match-keys}
 
@@ -85,7 +92,7 @@ ht-degree: 2%
 
 在選取的對象中選取&#x200B;**[!UICONTROL 編輯相符金鑰]**。
 
-![在「傳送對象」工作流程中，選取「編輯相符索引鍵」選項的對象。](/help/assets/collaborate/activate/edit-match-keys.png)
+![在「傳送對象」工作流程中，選取「編輯相符索引鍵」選項的對象。](/help/assets/collaborate/activate/edit-match-keys.png){zoomable="yes"}
 
 **[!UICONTROL 編輯比對索引鍵]**&#x200B;對話方塊就會顯示。 關閉任何您不想使用的相符金鑰，然後選取&#x200B;**[!UICONTROL 儲存]**。
 
@@ -93,7 +100,7 @@ ht-degree: 2%
 >
 >至少必須選取一個比對索引鍵。
 
-![「編輯相符金鑰」對話方塊具有切換控制項，可透過Collaborator連線和「儲存」按鈕取得相符金鑰。](/help/assets/collaborate/activate/edit-match-keys-selection.png)
+![「編輯相符金鑰」對話方塊具有切換控制項，可透過Collaborator連線和「儲存」按鈕取得相符金鑰。](/help/assets/collaborate/activate/edit-match-keys-selection.png){zoomable="yes"}
 
 ### 設定對象存取權 {#configure-audience-access}
 
@@ -106,9 +113,23 @@ ht-degree: 2%
 
 ![「傳送對象」工作流程中的「存取期間」步驟，其中包含傳送對象一次或排程週期性對象傳送的選項。 循環選項會顯示定義存取期間的日期控制項。](/help/assets/collaborate/activate/activation-frequency.png)
 
+### 選擇自動啟用排程 {#auto-activation-schedule}
+
+如果您的共同作業人員設定了連線的自動啟用目的地，**[!UICONTROL 啟用]**&#x200B;區段會指出已啟用&#x200B;**[!UICONTROL 自動啟用]**。 接收者選取的目的地顯示為唯讀。 以寄件者身分，使用&#x200B;**[!UICONTROL 頻率]**&#x200B;選擇啟用執行時間：
+
+- **[!UICONTROL 立即啟用（一次性）]**：收到對象時執行啟用一次。
+- **[!UICONTROL 排程一次性的對象啟用]**：在您選取的未來日期和時間執行一次啟用。
+- **[!UICONTROL 排程週期性啟動]**：在選取的日期範圍內，依您設定的排程執行啟動。
+
+![已啟用「自動啟用」的「傳送對象」工作流程，以及「頻率」功能表，顯示立即、未來的一次性和循環啟用選項。](/help/assets/collaborate/activate/choose-auto-activation-schedule.png){zoomable="yes"}
+
+對於循環啟動，請設定啟動排程、開始時間和日期範圍。 自動啟用支援立即、未來單次或循環排程；不需要重複執行。
+
+![使用每日循環啟用排程、開始時間和日期範圍設定的「傳送對象」工作流程。](/help/assets/collaborate/activate/configure-recurring-auto-activation.png){zoomable="yes"}
+
 當對象和存取設定完成時，請選取&#x200B;**[!UICONTROL 傳送]**。
 
-對象會顯示在您的&#x200B;**[!UICONTROL 傳送給[共同作業人員]]**&#x200B;區段中的對象。 您的共同作業人員可以在其&#x200B;**[!UICONTROL 已接收對象]**&#x200B;區段中加以檢閱。
+對象會顯示在您的&#x200B;**[!UICONTROL 傳送給[共同作業人員]]**&#x200B;區段中的對象。 您的共同作業人員可以在其&#x200B;**[!UICONTROL 已接收對象]**&#x200B;區段中加以檢閱。 如果啟用自動啟用，Collaboration也會建立接收者的啟用，且啟用會根據您選取的排程執行。
 
 ## 檢視已傳送的對象 {#view-sent-audiences}
 
@@ -133,7 +154,7 @@ ht-degree: 2%
 
 選取刪除圖示（![刪除圖示。](/help/assets/icons/delete.png)） 在&#x200B;**[!UICONTROL 傳送對象給[共同作業人員]]**&#x200B;區段中的對象旁。
 
-![對象列旁會顯示刪除圖示的「已傳送對象」區段。](/help/assets/collaborate/activate/delete-sent-audiences.png)
+![對象列旁會顯示刪除圖示的「已傳送對象」區段。](/help/assets/collaborate/activate/delete-sent-audiences.png){zoomable="yes"}
 
 確認對話方塊隨即顯示。 請選取「**[!UICONTROL 刪除]**」完成確認。
 
@@ -143,7 +164,7 @@ ht-degree: 2%
 
 ## 檢視收到的對象 {#received-audiences}
 
-使用&#x200B;**[!UICONTROL 已接收對象]**&#x200B;區段來檢閱您的共同作業人員已傳送給您的對象。 收到的對象資料傳送至目的地前，必須先手動啟用。
+使用&#x200B;**[!UICONTROL 已接收對象]**&#x200B;區段來檢閱您的共同作業人員已傳送給您的對象。 如果在傳送對象前已設定自動啟用目的地，Collaboration會在收到對象時自動建立啟用。 對於循環自動啟用，您也可以建立對其他目的地的手動啟用。 如需詳細資料，請參閱[手動啟用收到的對象](#activate-received-audience)。 如果未設定自動啟用目的地，請手動啟用對象。
 
 每個收到的對象都會顯示下列資訊：
 
@@ -157,11 +178,11 @@ ht-degree: 2%
 | **[!UICONTROL 存取期間]** | 傳送對象的共同作業人員所設定的存取設定。 |
 | **[!UICONTROL 相符金鑰]** | 用於對象的比對索引鍵。 |
 
-![具有使用中及過期受眾規模的「已接收對象」區段。 每個對象列會顯示其名稱、狀態、身分資訊、上次資料流執行、存取持續時間、比對金鑰，以及用於開始啟用的新增圖示。](/help/assets/collaborate/activate/received-audiences-section.png)
+![具有使用中及過期受眾規模的「已接收對象」區段。 每個對象列會顯示其名稱、狀態、身分資訊、上次資料流執行、存取持續時間、比對金鑰，以及用於開始啟用的新增圖示。](/help/assets/collaborate/activate/received-audiences-section.png){zoomable="yes"}
 
-### 啟用已接收的對象 {#activate-received-audience}
+### 手動啟用已接收的對象 {#activate-received-audience}
 
-啟用已接收的對象，將其資料傳送至您設定的其中一個目的地。
+手動啟用已接收的對象，將其資料傳送至您設定的其中一個目的地。
 
 在&#x200B;**[!UICONTROL 已接收對象]**&#x200B;區段中，選取新增圖示（![新增圖示。](/help/assets/icons/plus.png)） ，位於您要啟用的對象旁。
 
@@ -169,15 +190,23 @@ ht-degree: 2%
 
 使用&#x200B;**[!UICONTROL 目的地]**&#x200B;來選取接收對象資料的目的地。 如果目的地清單是空的，請先設定目的地，然後再繼續。 如需指示，請參閱[目的地概觀](../destinations/overview.md)。
 
-使用&#x200B;**[!UICONTROL 日期]**&#x200B;選取啟動執行的日期，然後選取&#x200B;**[!UICONTROL 啟動]**。
+設定&#x200B;**[!UICONTROL 頻率]**&#x200B;和可用的排程控制項，以選擇執行啟動的時間和頻率。 然後選取&#x200B;**[!UICONTROL 啟動]**。
 
-![從接收對象開啟「啟用對象」對話方塊。 此對話方塊包含用於選取已設定目的地的「目的地」下拉式清單、具有行事曆控制項的「日期」欄位，以及「取消」和「啟動」按鈕。](/help/assets/collaborate/activate/activate-received-audience.png)
+下列範例顯示選取&#x200B;**[!UICONTROL Northstar Audience Exports]**&#x200B;作為目的地的手動啟動工作流程。
+
+![Northstar Fall Campaign客戶的手動「啟用對象」對話方塊範例，已選取Northstar對象匯出，並設定每日排程、開始時間和日期範圍。](/help/assets/collaborate/activate/manually-activate-received-audience.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>對於具有循環自動啟用的已接收對象，您可以手動為該對象建立額外啟用，並移至其他目的地。 循環自動啟用會獨立繼續。
 
 對話方塊關閉，且啟動會顯示在&#x200B;**[!UICONTROL 已啟動對象]**&#x200B;區段中。 已接收的對象在&#x200B;**[!UICONTROL 已接收的對象]**&#x200B;區段中仍可使用，而其存取權仍保持作用中。
 
 ## 檢視啟用的對象 {#activated-audiences}
 
-使用「**[!UICONTROL 已啟用的對象]**」區段來確認已啟用的已接收對象，並檢閱其目的地和傳遞狀態。
+使用「**[!UICONTROL 已啟用的對象]**」區段來確認哪些已接收的對象已自動或手動建立啟用，並檢閱其目的地和傳遞狀態。 自動建立的啟用會顯示於此處，不需要接收者完成手動啟用工作流程。
+
+![「啟動」索引標籤顯示已接收對象中的Northstar Fall Campaign客戶，及其在已啟動對象中對Northstar對象匯出自動建立的每日啟動。](/help/assets/collaborate/activate/view-auto-activated-audience.png){zoomable="yes"}
 
 每個已啟用的對象會顯示下列資訊：
 
@@ -188,11 +217,11 @@ ht-degree: 2%
 | **[!UICONTROL 啟動計數]** | 啟用到目的地的身分數量。 |
 | **[!UICONTROL 上次重新整理時間]** | 啟用的對象最近重新整理的日期和時間。 |
 | **[!UICONTROL 目標]** | 接收受眾資料的目的地。 |
-| **[!UICONTROL 頻率]** | 啟用頻率。 手動啟用顯示&#x200B;**[!UICONTROL 一次]**。 |
-| **[!UICONTROL 日期]** | 啟動執行的日期。 |
+| **[!UICONTROL 頻率]** | 啟動頻率，例如一次性或循環排程。 |
+| **[!UICONTROL 日期]** | 執行啟動時的日期或日期範圍。 |
 | **[!UICONTROL 相符金鑰]** | 啟用的對象中包含的相符索引鍵。 |
 
-![啟用對象區段具有使用中、已封存及已暫停的啟用計數。 每一列會顯示對象名稱、狀態、啟用計數、上次重新整理日期、目的地、頻率、啟用日期、比對索引鍵以及刪除圖示。](/help/assets/collaborate/activate/activated-audiences-section.png)
+![啟用對象區段具有使用中、已封存及已暫停的啟用計數。 每一列會顯示對象名稱、狀態、啟用計數、上次重新整理日期、目的地、頻率、啟用日期、比對索引鍵以及刪除圖示。](/help/assets/collaborate/activate/activated-audiences-section.png){zoomable="yes"}
 
 ### 刪除已啟用的對象 {#delete-activated-audience}
 
