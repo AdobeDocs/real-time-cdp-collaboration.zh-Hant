@@ -26,7 +26,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 啟用]**&#x200B;索引標籤只有在連線程式](../connect/establishing-connections.md#connection-settings)期間[啟用&#x200B;**對象啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)。
+>**[!UICONTROL 啟用]**&#x200B;索引標籤只有在連線程式[&#128279;](../connect/establishing-connections.md#connection-settings)期間啟用&#x200B;**對象啟用**&#x200B;使用案例時才可用。 如需使用案例的詳細資訊，請參閱[管理專案](./manage-projects.md#project-use-cases)。
 
 使用[探索標籤](./discover.md)來識別最符合行銷活動的對象，然後傳送給您的共同作業人員。
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 >
 >如果對象使用多個比對索引鍵，則每個選取的比對索引鍵都必須符合必要的重疊臨界值。 使用[探索標籤](./discover.md)確認對象符合重疊需求，再傳送。
 
-選取您要傳送的對象，然後選取[儲存]。****
+選取您要傳送的對象，然後選取[儲存]。**&#x200B;**
 
 所選對象會以其身分和重疊資訊出現在工作流程中。
 
