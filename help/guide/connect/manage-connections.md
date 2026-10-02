@@ -1,21 +1,21 @@
 ---
 title: 管理連線
-description: 瞭解如何在Real-Time CDP Collaboration中管理連線。
+description: 瞭解如何在Real-Time CDP Collaboration中管理連線及設定自動啟用。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+    internal-label: Insights
+source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: '1297'
 ht-degree: 2%
-
 ---
-
 # 管理連線 {#manage-connections}
 
 {{limited-availability-release-note}}
@@ -35,6 +35,22 @@ ht-degree: 2%
 連線設定工作區隨即顯示，顯示您與共同作業人員之間的連線詳細資料。 在這裡，您可以檢視連線過程中選取的所有設定、連線的目前狀態、連線擁有者，以及共同作業人員的連絡資訊。 如需特定連線設定的詳細資訊，請參閱[連線設定](/help/guide/connect/establishing-connections.md#connection-settings)指南。
 
 ![顯示連線詳細資料的連線設定工作區。](/help/assets/connect/manage-connections/connection-settings.png){zoomable="yes"}
+
+### 設定自動啟用目的地 {#configure-auto-activation-destination}
+
+身為接收共同作業人員，您可以選取Collaboration用來自動啟用透過連線傳送給您的對象的目的地。 開始之前，請確定您至少擁有一個使用中的目的地。 如需設定目的地的指示，請參閱[目的地概觀](../destinations/overview.md)。
+
+在連線設定工作區中，移至&#x200B;**[!UICONTROL 啟用控制項]**&#x200B;並選取&#x200B;**[!UICONTROL 編輯]**。 接著，從下拉式清單中選擇&#x200B;**[!UICONTROL 自動啟用目的地]**，並選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以進行確認。
+
+>[!NOTE]
+>
+>自動啟用適用於所有目的地。
+
+![選取Northstar Audience Exports作為自動啟用目的地且[儲存]按鈕反白顯示的[啟用控制項]對話方塊。](/help/assets/connect/manage-connections/configure-auto-activation-destination.png){zoomable="yes"}
+
+儲存目的地後，傳送對象的共同作業人員會選擇其啟用排程。 您的目的地在其傳送工作流程中顯示為唯讀選項。 收到對象時，Collaboration會根據該排程為您建立啟用。 換句話說，接收者會選擇目的地、傳送者會選擇排程，而Collaboration則會建立啟用。
+
+對自動啟用目的地所做的變更只會套用至變更後共用的對象。 現有的自動建立啟用會繼續使用其原始目的地。 若要關閉未來共用的自動啟用功能，請清除自動啟用目的地並儲存您的變更。
 
 ## 刪除連線 {#delete-connection}
 
