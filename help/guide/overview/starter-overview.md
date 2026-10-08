@@ -2,15 +2,16 @@
 title: RTCDP Collaboration入門概述
 description: 瞭解Adobe Real-Time CDP Collaboration Starter如何協助您與授權合作夥伴擴展及增強以隱私權為中心的協同合作，而不需要您自己的完整Real-Time CDP授權。
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 4%
-
 ---
-
 # Adobe Real-Time CDP Collaboration [!DNL Starter]總覽
 
 使用Adobe Real-Time CDP Collaboration [!DNL Starter]與授權合作夥伴共同作業以隱私權為中心的資料專案。 您不需要自己的Collaboration授權即可參與。
@@ -83,7 +84,7 @@ ht-degree: 4%
 
 ### 瞭解信用使用情況 {#understand-credit-usage}
 
-所有Collaboration [!DNL Starter]活動都使用積分。 但是，身為受邀使用者，您不需要購買或管理這些積分。 邀請您的共同作業人員涵蓋與活動相關的所有信用使用情況。 若要深入瞭解，請參閱Collaboration [!DNL Starter][&#128279;](../setup/starter-credit-usage.md)檔案中的信用使用量和消耗量。
+所有Collaboration [!DNL Starter]活動都使用積分。 但是，身為受邀使用者，您不需要購買或管理這些積分。 邀請您的共同作業人員涵蓋與活動相關的所有信用使用情況。 若要深入瞭解，請參閱Collaboration [!DNL Starter]](../setup/starter-credit-usage.md)檔案中的[信用使用量和消耗量。
 
 ## 後續步驟 {#next-steps}
 
@@ -91,6 +92,6 @@ ht-degree: 4%
 
 * [Source和管理對象](../setup/onboard-audiences.md)
 * [專案使用案例](../collaborate/overview.md#project-use-cases)：
-   * [探索重疊並比較對象](../collaborate/discover.md)
-   * [啟用客群](../collaborate/activate.md)
-   * [測量行銷活動績效](../collaborate/measure.md)
+  * [探索重疊並比較對象](../collaborate/discover.md)
+  * [啟用客群](../collaborate/activate.md)
+  * [測量行銷活動績效](../collaborate/measure.md)

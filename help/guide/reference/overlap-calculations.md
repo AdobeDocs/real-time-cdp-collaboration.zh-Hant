@@ -2,14 +2,15 @@
 title: 計算重疊計數和百分比
 description: 瞭解重疊計數和百分比在Adobe Real-Time CDP Collaboration各區域的計算方式
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 8%
-
 ---
-
 
 # 計算重疊計數和百分比
 

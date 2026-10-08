@@ -2,14 +2,15 @@
 title: 設定Adobe Audience Manager以進行Audience Sourcing
 description: 瞭解如何將Adobe Audience Manager連結為資料來源，以便您將合格的第一方對象來源至Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: be12b4c3b1d3d40fa9ceb43b319f55254b05e4df
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 8%
-
 ---
-
 
 # 設定Adobe Audience Manager以取得對象
 
@@ -63,7 +64,7 @@ ht-degree: 8%
 
 ![設定工作區中的「我的對象」索引標籤，其中顯示「新增」圖示和「新增對象」選項。](../../assets/setup/snowflake-audience-sourcing/add-audience.png)
 
-「新增對象」工作流程隨即顯示。 選取&#x200B;**[!UICONTROL 新增資料連線]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
+「新增客群」工作流程隨即顯示。 選取&#x200B;**[!UICONTROL 新增資料連線]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
 ![反白顯示[新增資料連線]選項的[新增對象]工作區。](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
@@ -175,7 +176,7 @@ ht-degree: 8%
 
 ![個別對象詳細資料檢視顯示「狀態：作用中」、頂端有來源系統，且有資料連線名稱，下方有四個面板：顯示身分計數和劃分的身分、顯示套用標籤的類別、顯示對象型別和可見性的連線存取，以及顯示身分計數、重疊百分比和對象索引設定的中繼資料可見性。](../../assets/setup/aam-audience-sourcing/audience-manager-sourced-audience-details.png)
 
-在共同作業專案中使用對象之前，使用此檢視來確認對象組態和可見度設定。 若要更新類別、連線存取權或中繼資料可見度，請參閱[檢視和管理個別對象](./onboard-audiences.md#view-individual-audiences)。
+在共同作業專案中使用客群之前，使用此檢視來確認客群組態和可見度設定。 若要更新類別、連線存取權或中繼資料可見度，請參閱[檢視和管理個別對象](./onboard-audiences.md#view-individual-audiences)。
 
 ## 已知限制
 

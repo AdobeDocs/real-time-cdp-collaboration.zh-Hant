@@ -4,14 +4,15 @@ description: 瞭解如何在Real-Time CDP Collaboration中為Amazon Marketing Cl
 audience: advertiser
 keywords: AMC， Amazon Marketing Cloud，測量報告，行銷活動摘要，歸因， Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fb6a47ca-2fb2-4cbc-8224-2e6b6cd3238f
+    internal-label: Real-Time Customer Data Platform Collaboration
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 13%
-
 ---
-
 
 # 建立[!DNL Amazon Marketing Cloud]測量報告 {#amc-measurement-reports}
 
@@ -102,7 +103,7 @@ ht-degree: 13%
 
 報告執行後，結果會顯示在您[!DNL AMC]專案的&#x200B;**[!UICONTROL 量值]**&#x200B;索引標籤中。 找到您的報告並選取&#x200B;**[!UICONTROL 檢視完整報告]**&#x200B;以檢視結果。
 
-![&#x200B; [!DNL AMC]專案中的「量值」索引標籤會顯示已完成的報表卡及其執行日期、報表型別，以及反白顯示的「檢視完整報表」按鈕。](../../../assets/collaborate/advertising-platforms/view-full-report.png){zoomable="yes"}
+![ [!DNL AMC]專案中的「量值」索引標籤會顯示已完成的報表卡及其執行日期、報表型別，以及反白顯示的「檢視完整報表」按鈕。](../../../assets/collaborate/advertising-platforms/view-full-report.png){zoomable="yes"}
 
 報表會顯示所選報表型別的可用結果。 **[!UICONTROL 行銷活動摘要]**&#x200B;報告會顯示所選Amazon行銷活動的傳遞結果。
 

@@ -2,15 +2,16 @@
 title: Real-Time CDP Collaboration [!DNL Starter]中的信用使用量和消耗量
 description: 瞭解Adobe Real-Time CDP Collaboration [!DNL Starter]中信用使用量和消耗量的運作方式。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d1c15141-56c4-48aa-aba8-8d6f77024f63
-source-git-commit: 1952ea15da6da320b5630307528fb2f9fdb17118
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 6%
-
 ---
-
 # Real-Time CDP Collaboration [!DNL Starter]中的信用使用量和消耗量
 
 本檔案提供當您以受邀使用者身分加入Adobe Real-Time CDP Collaboration [!DNL Starter]時如何使用積分的詳細資訊。 瞭解更多關於誰應負責信用使用情況，以及存取和管理的重要考量。
@@ -27,8 +28,8 @@ Collaboration **不**&#x200B;會自動強制使用信用或可用性。 這表�
 
 * 身為受邀使用者，您必須直接與邀請您討論信用使用的組織或合作夥伴協調。
 * 您的邀請組織負責決定：
-   * 何時可以存取及使用Collaboration功能
-   * 關於信用消耗的限制、限制或治理有哪些
+  * 何時可以存取及使用Collaboration功能
+  * 關於信用消耗的限制、限制或治理有哪些
 
 >[!IMPORTANT]
 >

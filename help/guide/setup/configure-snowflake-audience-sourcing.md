@@ -1,16 +1,17 @@
 ---
-title: 設定 [!DNL Snowflake] 以取得對象來源
-description: 瞭解如何將您的 [!DNL Snowflake Secure Data Share] 設定為自助資料來源並加以連線，以將對象資料擷取至Real-Time CDP Collaboration。
+title: 設定[!DNL Snowflake]以取得對象來源
+description: 瞭解如何將您的[!DNL Snowflake Secure Data Share]設定為自助資料來源並加以連線，以將對象資料擷取至Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1600'
 ht-degree: 21%
-
 ---
-
 # 設定[!DNL Snowflake]以取得對象來源
 
 瞭解如何在Adobe Real-Time CDP Collaboration UI中設定並連線您的[!DNL Snowflake Secure Data Share]，以取得對象資料以進行啟用和重疊分析。
@@ -28,10 +29,10 @@ ht-degree: 21%
 * 您已建立[!DNL Snowflake Share]並在您的[!DNL Snowflake]帳戶中設定必要的許可權，以授予Adobe存取許可權給您的[!DNL Snowflake Secure Data Share]。 瞭解[如何設定 [!DNL Snowflake] 許可權](#set-up-snowflake-permissions)。
 * 您備妥下列[!DNL Snowflake Share]個值：
 
-   * **共用名稱**
-   * **帳戶識別碼**
-   * **結構描述**
-   * **檢視**
+  * **共用名稱**
+  * **帳戶識別碼**
+  * **結構描述**
+  * **檢視**
 
 * 您[!DNL Snowflake Secure Data Share]中的對象資料必須符合[對象來源規格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)指南中概述的格式需求。
 * [!DNL Snowflake]對象檔案中的所有相符金鑰也必須針對您的Collaboration帳戶啟用。 瞭解如何[啟用相符金鑰](./onboard-account.md#set-up-match-keys)或[新增相符金鑰](./onboard-account.md#edit-match-keys)至您的帳戶。
@@ -128,7 +129,7 @@ ht-degree: 21%
 
 ![設定工作區中的「我的對象」索引標籤，其中顯示「新增」圖示和「新增對象」選項。](../../assets/setup/snowflake-audience-sourcing/add-audience.png)
 
-「新增對象」工作流程隨即顯示。 選取&#x200B;**[!UICONTROL 新增資料連線]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
+「新增客群」工作流程隨即顯示。 選取&#x200B;**[!UICONTROL 新增資料連線]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
 ![反白顯示[新增資料連線]選項的[新增對象]工作區。](../../assets/setup/snowflake-audience-sourcing/add-data-connection.png){zoomable="yes"}
 
@@ -242,7 +243,7 @@ ht-degree: 21%
 
 在網格檢視或表格檢視中，選取列專案或&#x200B;**[!UICONTROL 檢視對象]**&#x200B;以檢視特定對象的概觀。 它會顯示對象的狀態、來源和資料連線名稱，以及&#x200B;**[!UICONTROL 身分]**、**[!UICONTROL 類別]**、**[!UICONTROL 連線存取]**&#x200B;和&#x200B;**[!UICONTROL 中繼資料可見性]**&#x200B;的詳細面板。 如需詳細資訊，請參閱[如何檢視個別對象](./onboard-audiences.md#view-individual-audiences)。
 
-在共同作業專案中使用對象之前，使用此檢視來確認對象組態和可見度設定。
+在共同作業專案中使用客群之前，使用此檢視來確認客群組態和可見度設定。
 
 ## 檢視您的[!DNL Snowflake]資料連線 {#view-snowflake-connection}
 
