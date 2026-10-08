@@ -2,13 +2,14 @@
 title: 目的地連線需求
 description: 檢閱在Real-Time CDP Collaboration中設定支援的目的地所需的連線資訊。
 audience: admin, publisher
-source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
-
 ---
-
 # 目的地連線需求
 
 在Real-Time CDP Collaboration中設定目的地之前，請先取得目的地提供者所需的憑證和連線資訊。
@@ -21,7 +22,7 @@ ht-degree: 1%
 
 ## 需求一覽 {#requirements-at-a-glance}
 
-| 目標 | 驗證或連線方法 | 開始前準備 | 詳細需求 |
+| 目的地 | 驗證或連線方法 | 開始前準備 | 詳細需求 |
 |---|---|---|---|
 | [!DNL Amazon S3] | 存取金鑰和秘密金鑰，或假定的角色 | AWS存取金鑰組或IAM角色ARN；貯體和資料夾資訊 | [[!DNL Amazon S3] 目的地檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3) |
 | SFTP | 密碼或SSH金鑰 | 伺服器網域、連線埠、使用者名稱、驗證認證和資料夾路徑 | [SFTP目的地檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/cloud-storage/sftp) |

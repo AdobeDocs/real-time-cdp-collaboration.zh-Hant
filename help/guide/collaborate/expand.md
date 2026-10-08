@@ -1,7 +1,10 @@
 ---
 title: 在「展開」中建立展開對象
 description: 瞭解如何在Adobe Real-Time CDP Collaboration中使用共同作業人員的受眾族群，從種子受眾建立擴充受眾。
-source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 1%

@@ -1,15 +1,16 @@
 ---
-title: 設定 [!DNL Databricks Delta Share] 以取得對象來源
-description: 瞭解如何在Real-Time CDP Collaboration中設定並連線 [!DNL Databricks Delta Share] 以取得對象來源。
+title: 設定[!DNL Databricks Delta Share]以取得對象來源
+description: 瞭解如何在Real-Time CDP Collaboration中設定並連線[!DNL Databricks Delta Share]以取得對象來源。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2771'
-ht-degree: 9%
-
+source-wordcount: '2818'
+ht-degree: 8%
 ---
-
 
 # 設定[!DNL Databricks Delta Share]以取得對象來源
 
@@ -78,7 +79,7 @@ ht-degree: 9%
 
 ![設定工作區中的「我的對象」索引標籤，其中顯示「新增」圖示和「新增對象」選項。](../../assets/setup/add-manage-audiences/add-audiences.png)
 
-「新增對象」工作流程隨即顯示。 選取&#x200B;**[!UICONTROL 新增資料連線]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
+「新增客群」工作流程隨即顯示。 選取&#x200B;**[!UICONTROL 新增資料連線]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
 ![反白顯示[新增資料連線]選項的[新增對象]工作區。](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
@@ -95,8 +96,8 @@ ht-degree: 9%
 >title="Experience League"
 >abstract="請參閱 [!DNL Databricks Delta Share] 來源指南，以取得設定您的客群來源共用的相關指示"
 
-提供允許Collaboration存取您的[!DNL Delta Share]所需的詳細資料。輸入您[!DNL Databricks Delta Share]的提供者、共用、結構描述及資料表詳細資訊。共用結構描述中必須有必要的成員資格表格。如果您使用中繼資料表格，它也必須可在相同的共用結構描述中使用。
-輸入必要資訊後，請選取&#x200B;**[!UICONTROL 連線]**。
+提供允許Collaboration存取您的[!DNL Delta Share]所需的詳細資料。 輸入您[!DNL Databricks Delta Share]的提供者、共用、結構描述及資料表詳細資料。 共用結構描述中必須有必要的成員資格表格。 如果您使用中繼資料表格，它也必須可在相同的共用結構描述中使用。
+輸入必要資訊後，選取&#x200B;**[!UICONTROL 連線]**。
 
 Collaboration會驗證共用並掛載至Adobe的工作區。 此步驟最多可能需要一分鐘。 建立連線時，會出現進度指示器。
 

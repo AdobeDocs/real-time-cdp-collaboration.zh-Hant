@@ -1,14 +1,15 @@
 ---
-title: 設定 [!DNL Amazon S3] 以取得對象來源
-description: 瞭解如何設定並連線您的 [!DNL Amazon S3] 儲存裝置作為自助資料來源，以將對象資料擷取到Real-Time CDP Collaboration。
+title: 設定[!DNL Amazon S3]以取得對象來源
+description: 瞭解如何設定並連線您的[!DNL Amazon S3]儲存體作為自助資料來源，以將對象資料擷取到Real-Time CDP Collaboration。
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 93%
-
+source-wordcount: '1626'
+ht-degree: 92%
 ---
-
 # 設定[!DNL Amazon S3]以取得對象來源
 
 瞭解如何在Adobe Real-Time CDP Collaboration UI中設定並連線您的[!DNL Amazon S3]儲存空間，以取得對象資料以進行啟用和重疊分析。
@@ -22,7 +23,7 @@ ht-degree: 93%
 
 使用此工作流程直接從[!DNL Amazon S3]取得及管理第一方對象。 完成設定後，Collaboration會自動從S3貯體取得受眾，並供深入分析和啟用之用。
 
-透過S3取得的對象會遵循與透過Adobe Experience Platform取得的對象相同的治理和資料處理規則。
+透過S3取得的客群會遵循與透過Adobe Experience Platform取得的客群相同的治理和資料處理規則。
 
 ## 先決條件 {#prerequisites}
 
@@ -53,7 +54,7 @@ ht-degree: 93%
 
 ![設定工作區中的「我的對象」索引標籤，其中顯示「新增」圖示和「新增對象」選項。](../../assets/setup/add-manage-audiences/add-audiences.png)
 
-「新增對象」工作流程隨即顯示。 選取&#x200B;**[!UICONTROL 新增資料連線]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
+「新增客群」工作流程隨即顯示。 選取&#x200B;**[!UICONTROL 新增資料連線]**，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
 ![反白顯示[新增資料連線]選項的[新增對象]工作區。](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
@@ -71,13 +72,13 @@ ht-degree: 93%
 >abstract="參閱客群來源規範指南，了解如何格式化及建構適用於 Collaboration 的 Amazon S3 客群資料。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="請參閱指南"
 
-會出現一個對話方塊，說明您的對象檔案必須如何建構。 使用指向&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;的連結來瞭解如何格式化和建構來自[!DNL Amazon S3]的對象資料，以便Collaboration正確讀取。
+會出現一個對話方塊，說明您的客群檔案必須如何建構。 使用指向&#x200B;**[[!UICONTROL 對象來源規格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;的連結來瞭解如何格式化和建構來自[!DNL Amazon S3]的對象資料，以便Collaboration正確讀取。
 
 >[!IMPORTANT]
 >
 >您必須已授權Adobe為[!DNL Amazon S3]使用者，Adobe才能從[!DNL Amazon S3]儲存空間中擷取資料以進行處理。
 
-您的對象檔案必須符合「對象來源規格」。 比對索引鍵會根據所需的格式自動對應。
+您的客群檔案必須符合「客群來源規格」。 比對索引鍵會根據所需的格式自動對應。
 
 主要考量事項包括：
 
@@ -93,7 +94,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_sources_s3_folderpath"
 >title="資料夾路徑格式"
->abstract="輸入儲存客群檔案之 [!DNL Amazon S3] 貯體中的資料夾路徑 (前置詞)。<br><ul><li>請勿以正斜線 (/) 做為路徑的開頭。</li><li>於路徑結尾納入結尾斜線。</li><ul><br>有效範例：`base/path/`<br>無效範例：`/base/path`"
+>abstract="輸入儲存客群檔案之 [!DNL Amazon S3] 貯體中的資料夾路徑 (前置詞)。<br><ul><li>請勿以正斜線 (/) 做為路徑的開頭。</li><li>請在路徑結尾加上斜線。</li><ul><br>有效範例：`base/path/`<br>無效範例：`/base/path`"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_amazon_s3"
@@ -106,7 +107,7 @@ ht-degree: 93%
 [!DNL Amazon S3]儲存空間。 完成後，將您的值輸入到以下UI欄位中：
 
 * IAM 角色
-* S3 Bucket名稱
+* S3 桶名稱
 * 資料夾路徑
 
 ![具有IAM角色、S3 Bucket名稱和資料夾路徑欄位的[!DNL Amazon S3]連線表單。](../../assets/setup/aws-audience-sourcing/s3-authentication-credentials-form.png)
@@ -125,9 +126,9 @@ ht-degree: 93%
 |---| ---|---|
 | **成功** | **[!UICONTROL 驗證成功]** | 您與[!DNL Amazon S3]的連線已成功建立。 |
 | **已失敗** | **[!UICONTROL 驗證失敗]** | 請檢查您的認證，然後再試一次。 |
-| **拒絕存取** | **[!UICONTROL 拒絕存取]** | 您的認證沒有存取此[!DNL Amazon S3]儲存貯體的必要許可權。 請驗證存取設定，或連絡您的管理員。 |
-| **無效的檔案格式** | **[!UICONTROL 無效的檔案格式]** | 對象資料不符合預期結構。 請確定您的檔案符合「對象來源規格」。 |
-| **找不到對象檔案** | **[!UICONTROL 找不到對象檔案]** | 請確認您的對象檔案存在於指定的資料夾路徑中，以及該路徑可供存取。 |
+| **拒絕存取** | **[!UICONTROL 拒絕存取]** | 您的認證沒有存取此[!DNL Amazon S3]儲存貯體的必要許可權。 請驗證存取設定，或聯絡您的管理員。 |
+| **無效的檔案格式** | **[!UICONTROL 無效的檔案格式]** | 客群資料不符合預期結構。 請確定您的檔案符合「客群來源規格」。 |
+| **找不到對象檔案** | **[!UICONTROL 找不到對象檔案]** | 請確認您的客群檔案存在於指定的資料夾路徑中，以及該路徑可供存取。 |
 | **內部錯誤** | **[!UICONTROL 發生內部錯誤]** | 請重試。 如果問題仍然存在，請聯絡客戶支援。 |
 
 
@@ -140,7 +141,7 @@ ht-degree: 93%
 
 ![資料連線詳細資料表單，其中包含連線名稱和說明的欄位。](../../assets/setup/aws-audience-sourcing/s3-connection-name-description.png)
 
-### 檢閱自動對應的身分欄位 {#auto-mapped-fields}
+### 檢閱自動對應的身分識別欄位 {#auto-mapped-fields}
 
 **[!UICONTROL 對應]**&#x200B;畫面是唯讀的。 您無法新增、刪除或套用轉換。 Collaboration會根據對象來源規格，自動將對象檔案中的來源身分欄位對應到目標欄位。
 
@@ -154,7 +155,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->為了有效管理您的Collaboration積分，請將重新整理頻率設定為符合或超過基礎S3資料的更新頻率。 支援的最低重新整理間隔是每六天一次。
+>為了有效管理您 的Collaboration 積分，請將重新整理頻率設定為符合或超過基礎 S3 資料的更新頻率。 支援的最低重新整理間隔是每六天一次。
 
 ![排程設定畫麵包含重新整理頻率選項和日期範圍設定。](../../assets/setup/aws-audience-sourcing/s3-schedule-refresh-frequency.png)
 
@@ -177,19 +178,19 @@ ht-degree: 93%
 
 完成設定後，Collaboration會開始從S3貯體取得受眾。 透過[!DNL Amazon S3]貯體取得的對象會顯示在「**[!UICONTROL 我的對象]**」標籤中，且具有與來自Experience Platform之對象相同的功能和資訊。
 
-如果對象來源正在進行中，畫面頂端會顯示橫幅。 個別對象只會在來源完成之後顯示。
+如果客群來源正在進行中，畫面頂端會顯示橫幅。 只有在受眾來源處理完成後，個別受眾才會顯示。
 
 ![「對象」標籤顯示[!DNL Amazon S3]個對象正在進行來源取得。](../../assets/setup/aws-audience-sourcing/s3-audiences-sourcing-in-progress.png)
 
-取得S3對象的來源後，表格或卡片檢視就會提供您的可用對象清單。
+S3 受眾來源處理完成後，您可在表格或卡片檢視中查看可用受眾清單。
 
 >[!TIP]
 >
->對象來源時間會因S3資料大小和您設定的重新整理頻率而有所不同。 較大的資料集或不太頻繁的重新整理排程可能需要更長的時間才會出現在&#x200B;**[!UICONTROL 我的對象]**&#x200B;工作區中。
+>客群來源時間會因S3資料大小和您設定的重新整理頻率而有所不同。 較大的資料集或不太頻繁的重新整理排程可能需要更長的時間才會出現在&#x200B;**[!UICONTROL 我的對象]**&#x200B;工作區中。
 
 ![「對象」標籤顯示來源對象的表格清單。](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
 
-在網格檢視或表格檢視中，選取列專案或&#x200B;**[!UICONTROL 檢視對象]**&#x200B;以檢視特定對象的概觀。 它會顯示對象的狀態、來源和資料連線名稱，以及下列專案的詳細面板：
+在網格檢視或表格檢視中，選取列專案或&#x200B;**[!UICONTROL 檢視對象]**&#x200B;以檢視特定對象的概觀。 它會顯示客群的狀態、來源和資料連線名稱，以及下列專案的詳細面板：
 
 **[!UICONTROL 身分]**：顯示資料可供使用時的身分計數和劃分總數。
 **[!UICONTROL 類別]**：列出用於組織或篩選對象的任何標籤。
@@ -204,7 +205,7 @@ ht-degree: 93%
 
 您新增的[!DNL Amazon S3]連線立即可在&#x200B;**[!UICONTROL 我的資料連線]**&#x200B;索引標籤中使用。 對象來源顯示為[!UICONTROL Amazon S3]。
 
-您的S3資料連線包含與其他對象資料連線相同的功能和詳細資料，但您無法直接從此檢視新增或編輯對象。
+您的S3資料連線包含與其他客群資料連線相同的功能和詳細資料，但您無法直接從此檢視新增或編輯客群。
 
 >[!NOTE]
 >

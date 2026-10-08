@@ -1,16 +1,17 @@
 ---
-title: 設定Collaboration [!DNL Starter] 上線的許可權控制項
-description: 瞭解如何使用Adobe Experience Cloud中的許可權設定Adobe Real-Time CDP Collaboration [!DNL Starter] 的許可權。
+title: 設定Collaboration [!DNL Starter]上線的許可權控制項
+description: 瞭解如何使用Adobe Experience Cloud中的許可權設定Adobe Real-Time CDP Collaboration [!DNL Starter]的許可權。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
-source-git-commit: 147fd5847bc5074e4b4f8a05a9a1c3afc089be56
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 4%
-
 ---
-
 # 設定Collaboration [!DNL Starter]上線的許可權控制項
 
 在設定Adobe Experience Platform產品的管理員和使用者存取權後，您需要為您自己指派具有Real-Time CDP Collaboration適當許可權的角色。 閱讀本指南，瞭解如何透過Experience Cloud許可權介面將正確的角色新增至您的帳戶，以便您可以存取和管理使用者對Collaboration功能的存取權。
@@ -29,7 +30,7 @@ ht-degree: 4%
 
 登入後，瀏覽至&#x200B;**[!UICONTROL 快速存取]**&#x200B;區段並選取&#x200B;**[!UICONTROL 許可權]**。 這樣會開啟「許可權」控制面板，讓您指派必要的角色給自己。
 
-![Experience Cloud首頁的「快速存取」區段中的許可權已反白顯示。](../../assets/setup/starter/access-permissions.png){zoomable="yes"}
+![具有「快速存取」區段內許可權的Experience Cloud首頁反白顯示。](../../assets/setup/starter/access-permissions.png){zoomable="yes"}
 
 ### 選取使用者 {#select-user}
 

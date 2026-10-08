@@ -1,15 +1,16 @@
 ---
-title: 來自Real-Time CDP Collaboration中 [!DNL Azure] 儲存空間的Source對象
+title: 來自Real-Time CDP Collaboration中[!DNL Azure]儲存空間的Source對象
 description: Source第一方對象資料從Azure Blob Storage或Azure Data Lake Storage Gen2移至Real-Time CDP Collaboration。
-keywords: Real-Time CDP Collaboration；對象來源； [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
+keywords: Real-Time CDP Collaboration；對象來源；[!DNL Azure Blob Storage]；[!DNL Azure Data Lake Storage] Gen2
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 3b62837cecf6cf7c288ce1633d43312ff6a92664
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2051'
 ht-degree: 4%
-
 ---
-
 # 來自Azure儲存空間的Source對象
 
 將[!DNL Azure Blob Storage]或[!DNL Azure Data Lake Storage] (ADLS) Gen2連線至Adobe Real-Time CDP Collaboration，以取得第一方對象資料以進行啟用和重疊分析。

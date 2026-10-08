@@ -1,16 +1,17 @@
 ---
-title: 設定Collaboration [!DNL Starter] 上線的管理員存取權
-description: 瞭解如何使用Adobe Experience Cloud中的Admin Console設定Adobe Real-Time CDP Collaboration [!DNL Starter] 的管理員存取權。
+title: 設定Collaboration [!DNL Starter]上線的管理員存取權
+description: 瞭解如何使用Adobe Experience Cloud中的Admin Console設定Adobe Real-Time CDP Collaboration [!DNL Starter]的管理員存取權。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
-source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '830'
 ht-degree: 3%
-
 ---
-
 # 設定Collaboration [!DNL Starter]上線的管理員存取權
 
 作為您組織中第一個透過Collaboration [!DNL Starter]存取Adobe Experience Platform的使用者，您負責設定和管理您團隊的存取權。 您必須授予自己必要的管理員和使用者許可權，才能開始在Real-Time CDP Collaboration中工作。 閱讀本指南，瞭解如何在Admin Console中設定必要的存取權，以便您可以在許可權介面中管理共同作業的許可權。
@@ -73,7 +74,7 @@ ht-degree: 3%
 
 若要開始設定使用者存取權，請完成下列步驟：
 
-1. [從Admin Console首頁](#access-admin-console)存取Adobe Experience Cloud。
+1. [從Adobe Experience Cloud首頁存取Admin Console](#access-admin-console)。
 2. [導覽至Adobe Experience Platform產品儀表板](#access-adobe-experience-platform)。
 
 #### 將使用者新增至產品 {#add-user}
@@ -98,7 +99,7 @@ ht-degree: 3%
 
 取得使用者存取權後，請導覽回[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}。 確認&#x200B;**[!UICONTROL 許可權]**&#x200B;和&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**&#x200B;可以在&#x200B;**[!UICONTROL 快速存取]**&#x200B;下使用。
 
-![Adobe Experience Cloud首頁畫面顯示「快速存取」底下所列的許可權和Real-Time CDP Collaboration，並反白顯示。](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
+![Adobe Experience Cloud首頁畫面顯示「快速存取」底下所列的許可權和Real-Time CDP Collaboration，且反白顯示。](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
 
 >[!TIP]
 >

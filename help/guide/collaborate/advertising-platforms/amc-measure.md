@@ -5,13 +5,14 @@ audience: advertiser
 keywords: AMC， Amazon Marketing Cloud，測量報告，行銷活動摘要，歸因， Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
 badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
+product_v2:
+  - id: fb6a47ca-2fb2-4cbc-8224-2e6b6cd3238f
+    internal-label: Real-Time Customer Data Platform Collaboration
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 13%
-
 ---
-
 
 # 建立[!DNL Amazon Marketing Cloud]測量報告 {#amc-measurement-reports}
 
