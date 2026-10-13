@@ -2,7 +2,7 @@
 title: 管理連線
 description: 瞭解如何在Real-Time CDP Collaboration中管理連線及設定自動啟用。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
 product_v2:
@@ -11,9 +11,9 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
+source-git-commit: 3c781fcb761c0d74241d66a7e75e3206fc1bc1da
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1311'
 ht-degree: 2%
 ---
 # 管理連線 {#manage-connections}
@@ -38,7 +38,9 @@ ht-degree: 2%
 
 ### 設定自動啟用目的地 {#configure-auto-activation-destination}
 
-身為接收共同作業人員，您可以選取Collaboration用來自動啟用透過連線傳送給您的對象的目的地。 開始之前，請確定您至少擁有一個使用中的目的地。 如需設定目的地的指示，請參閱[目的地概觀](../destinations/overview.md)。
+身為接收共同作業人員，您可以選取Collaboration用來自動啟用透過連線傳送給您的對象的目的地。 如果您未設定自動啟用目的地，則必須手動啟用收到的對象。
+
+開始之前，請確定您至少擁有一個使用中的目的地。 如需設定目的地的指示，請參閱[目的地概觀](../destinations/overview.md)。
 
 在連線設定工作區中，移至&#x200B;**[!UICONTROL 啟用控制項]**&#x200B;並選取&#x200B;**[!UICONTROL 編輯]**。 接著，從下拉式清單中選擇&#x200B;**[!UICONTROL 自動啟用目的地]**，並選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以進行確認。
 
