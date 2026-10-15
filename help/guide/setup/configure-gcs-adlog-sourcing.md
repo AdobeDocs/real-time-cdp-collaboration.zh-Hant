@@ -2,7 +2,7 @@
 title: 設定[!DNL Google Cloud Storage]以取得廣告曝光資料
 description: 瞭解如何在Real-Time CDP Collaboration測量中將[!DNL Google Cloud Storage]貯體連結為廣告曝光的自助服務廣告記錄來源。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1712'

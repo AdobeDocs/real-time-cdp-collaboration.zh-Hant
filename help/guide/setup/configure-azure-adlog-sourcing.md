@@ -2,7 +2,7 @@
 title: 設定[!DNL Azure]儲存空間用於廣告曝光來源
 description: Source廣告曝光（廣告記錄）資料從Azure資料湖儲存或Blob儲存移至Real-Time CDP Collaboration，以隱私權為中心的測量。
 keywords: Real-Time CDP Collaboration；廣告記錄檔來源； [!DNL Azure Data Lake Storage]； [!DNL Azure Blob Storage]
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1779'
