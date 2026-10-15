@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration 可實現廣告商和發佈者之間順暢且安全的資料共用和協作，促進即時客群洞察和個人化行銷策略。
-source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
+source-git-commit: f9fe55ec41c41d94c5acef6ef611a6f645a7e0ea
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 35%
+source-wordcount: '263'
+ht-degree: 33%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -37,6 +37,9 @@ ht-degree: 35%
   * [追蹤您的點數耗用活動](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[身分交叉通道](./setup/identity-crosswalk.md)
   * [新增及管理測量資料](./setup/onboard-measurement-data.md)
+  * Source廣告曝光（廣告記錄） {#source-adlogs}
+    * [設定GCS以取得廣告曝光度](./setup/configure-gcs-adlog-sourcing.md)
+    * [設定Azure儲存空間以取得廣告曝光數](./setup/configure-azure-adlog-sourcing.md)
   * [管理測量資料連線](./setup/manage-measurement-data-connection.md)
   * [稽核記錄](./setup/audit-logs.md)
   * Real-Time CDP Collaboration入門設定 {#starter-setup}
@@ -62,8 +65,8 @@ ht-degree: 35%
   * Advertising平台連線 {#ad-platform-connections}
     * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
     * [建立AMC測量報表](./collaborate/advertising-platforms/amc-measure.md)
-* 目的地 {#destinations}
-  * [概觀](/help/guide/destinations/overview.md)
+* 目標 {#destinations}
+  * [概覽](/help/guide/destinations/overview.md)
   * [設定和管理雲端儲存空間目的地](./destinations/manage-destinations.md)
   * [雲端儲存空間目的地需求](./destinations/cloud-storage-destination-requirements.md)
   * [將Adobe Experience Platform設定為目的地](./destinations/experience-platform.md)
