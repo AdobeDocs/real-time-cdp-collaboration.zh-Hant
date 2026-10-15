@@ -2,7 +2,7 @@
 title: 設定[!DNL Snowflake]以取得對象來源
 description: 瞭解如何將您的[!DNL Snowflake Secure Data Share]設定為自助資料來源並加以連線，以將對象資料擷取至Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
