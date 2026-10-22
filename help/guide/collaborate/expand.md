@@ -4,9 +4,9 @@ description: 瞭解如何在Adobe Real-Time CDP Collaboration中使用共同作�
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 3fa87a65d9f231fe717df3dd5f63f1e6720c90e9
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '892'
 ht-degree: 1%
 ---
 # (Beta)在「展開」中建立展開對象
@@ -15,12 +15,14 @@ ht-degree: 1%
 
 ## 先決條件 {#prerequisites}
 
-在使用&#x200B;**[!UICONTROL 展開]**&#x200B;標籤之前，您應該要：
+使用&#x200B;**[!UICONTROL 展開]**&#x200B;標籤前，請先完成下列必要條件：
 
-* [來源](/help/guide/setup/onboard-audiences.md)至少一個要作為種子對象的對象
-* [已連線](/help/guide/connect/establishing-connections.md)共同作業人員
-* [已與該共同作業人員建立專案](/help/guide/collaborate/manage-projects.md)
-* 如果您正在接收擴充對象，則設定[目的地](/help/guide/destinations/overview.md)來接收啟用的對象
+* [Source至少要有一個對象](/help/guide/setup/onboard-audiences.md)做為種子對象。
+* [與共同作業人員連線](/help/guide/connect/establishing-connections.md)。
+* [與該共同作業人員建立專案](/help/guide/collaborate/manage-projects.md)。
+* 如果您收到擴充對象，請[設定連線的自動啟用目的地](/help/guide/connect/manage-connections.md#configure-auto-activation-destination)。 在設定自動啟用之前，您必須擁有作用中的目的地。
+
+如需傳送對象與啟用接收對象的詳細資訊，請參閱[啟用對象](/help/guide/collaborate/activate.md)。
 
 ## 展開概觀 {#expand-overview}
 
