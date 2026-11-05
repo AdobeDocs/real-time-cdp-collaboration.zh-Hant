@@ -2,7 +2,7 @@
 title: 設定概述
 description: 了解 Adobe Real-Time CDP Collaboration 設定區段中的所有可用選項和工作流程
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 TQID: https://experienceleague.adobe.com/A01vUw6jGKigHNQHQc9nYfC5V9f6xB4mKeLqnPBfl2o
 product_v2:
@@ -11,13 +11,11 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
+source-git-commit: 6a7fb27f1b657e9053025207cf571b918509a4f8
 workflow-type: tm+mt
-source-wordcount: 119
-ht-degree: 32%
-
+source-wordcount: '125'
+ht-degree: 31%
 ---
-
 # 設定區段概觀
 
 {{limited-availability-release-note}}
@@ -31,5 +29,6 @@ Adobe Real-Time CDP Collaboration中的「設定」區段提供集中式工作�
 * [設定和管理您的帳戶](/help/guide/setup/onboard-account.md)
 * [Source和管理對象](/help/guide/setup/onboard-audiences.md)
 * [管理資料連線](/help/guide/setup/manage-data-connection.md)
+* [設定及管理身分解析](/help/guide/setup/identity-resolution.md)
 * [追蹤您的點數耗用活動](/help/guide/setup/my-activity.md)
 * [檢視稽核記錄](/help/guide/setup/audit-logs.md)
