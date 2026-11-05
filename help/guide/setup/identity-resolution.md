@@ -2,13 +2,13 @@
 title: 設定及管理身分解析
 description: 瞭解如何在Real-Time CDP Collaboration中設定和管理身分解析。
 audience: admin, publisher, advertiser, agency
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: ff233017fb78a63b2e911dc0dc94d67f2b18af04
+source-git-commit: 7554535fc7e29879d982b928e1b78d8ebb9c61f7
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1095'
 ht-degree: 2%
 ---
 # 設定及管理身分解析
@@ -19,11 +19,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->本指南中的步驟和熒幕擷取畫面以[!DNL Epsilon Core ID]為例。 需求和可用選項可能會因您的身分提供者而異。
-
->[!AVAILABILITY]
->
->啟動時，只有[!DNL Epsilon Core ID]可供設定。 Epsilon核心ID身分解析僅適用於美國布建的Real-Time CDP Collaboration帳戶。
+>目前，只有Epsilon核心ID可供設定，且僅適用於美國布建的Real-Time CDP Collaboration帳戶。 本指南中的步驟和熒幕擷取畫面皆使用Epsilon Core ID。
 
 ## 先決條件 {#prerequisites}
 
