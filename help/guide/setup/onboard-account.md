@@ -15,13 +15,11 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: b40ca0030b48f01a4f27716fbf39e587d858e3f4
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: '1432'
 ht-degree: 14%
-
 ---
-
 # 設定和管理您的帳戶
 
 {{limited-availability-release-note}}
@@ -59,7 +57,7 @@ ht-degree: 14%
 * 已根據您的Adobe Experience Cloud帳戶自動設定&#x200B;**[!UICONTROL 地區]**。 此設定隨時無法變更。
 * 為您的帳戶新增&#x200B;**[!UICONTROL 連絡人電子郵件]**。 這應為團隊或角色型電子郵件地址。 不應提供個人電子郵件地址。
 * 為您的帳戶上傳&#x200B;**[!UICONTROL 標誌]**。 目前支援SVG型別的影像。 這是選擇性的作法，但上傳標誌有助於在Collaboration介面中以視覺化方式呈現您的品牌
-* 選取帳戶頁首圖片的影像。
+* 選取一張影像作為您的帳戶頁首圖片。
 
 >[!NOTE]
 >
@@ -92,7 +90,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="支援的合作夥伴 ID"
->abstract="合作夥伴 ID 是外部合作夥伴提供之客群調和的識別碼。 合作夥伴 ID 沒有直接與個體輪廓連線。"
+>abstract="合作夥伴 ID 是由外部合作夥伴提供、用於客群調和的識別碼。 合作夥伴 ID 沒有直接與個體輪廓連線。"
 
 下表顯示Collaboration中支援的相符索引鍵：
 
@@ -104,6 +102,10 @@ ht-degree: 14%
 | [!DNL Loyalty ID] | [!DNL Demdex ID (ECID)] | |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>[!DNL Epsilon Core ID]身分解析使用的名稱和郵寄位址列位未設定為帳戶層級的相符金鑰。 設定對象資料連線時，請對應這些欄位。 如需詳細資訊，請參閱[對應欄位](./onboard-audiences.md#map-fields)。
 
 >[!IMPORTANT]
 >
@@ -130,7 +132,6 @@ Collaboration支援三種型別的相符金鑰：人員ID、裝置ID和合作夥
 * **[!UICONTROL 雜湊電話]**
 * **[!UICONTROL CRM ID]**
 * **[!UICONTROL 忠誠度識別碼]**
-<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### 裝置 ID
 
@@ -143,7 +144,7 @@ Collaboration支援三種型別的相符金鑰：人員ID、裝置ID和合作夥
 
 ##### 合作夥伴 ID
 
-合作夥伴 ID 是外部合作夥伴提供之客群調和的識別碼。 目前支援的ID為：
+合作夥伴 ID 是由外部合作夥伴提供、用於客群對應的識別碼。 目前支援的ID為：
 
 * **[!UICONTROL AdFixus ID]**
 
@@ -151,13 +152,9 @@ Collaboration支援三種型別的相符金鑰：人員ID、裝置ID和合作夥
 >
 >Adobe與[!DNL AdFixus]的整合將每個帳戶的唯一的[!UICONTROL AdFixus ID]對應到通用的Adobe編碼格式。 這些對應可用來識別共同作業人員之間的重疊。 使用&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;啟用對象時，會使用原始的ID。 Adobe編碼格式永遠不會離開Collaboration。
 
-選取&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;時，您需要在&#x200B;**[!UICONTROL 帳戶認證]**&#x200B;區段中提供外部合作夥伴的對應ID。 此選項僅可在&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;上的&#x200B;*切換後*&#x200B;使用。 在&#x200B;**[!UICONTROL 帳戶ID]**&#x200B;欄位中輸入您的AdFixus ID，請務必仔細檢查值是否準確。
+選取&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;時，您需要在&#x200B;**[!UICONTROL 帳戶認證]**&#x200B;區段中提供外部合作夥伴的對應ID。 此選項僅可在&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;上的&#x200B;*切換後*&#x200B;使用。 在&#x200B;**[!UICONTROL 帳戶ID]**&#x200B;欄位中輸入您的AdFixus ID，請務必仔細檢查值是否準確。 選取所有需要的相符金鑰後，選取&#x200B;**[!UICONTROL 完成]**&#x200B;以完成帳戶設定工作流程。
 
 ![已開啟[比對金鑰]對話方塊，並開啟[AdFixus ID]及[帳戶認證]區段。](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
-
-選取所有需要的相符金鑰後，選取&#x200B;**[!UICONTROL 完成]**&#x200B;以完成帳戶設定工作流程。
-
-![已顯示[設定帳戶工作區]的[比對金鑰]區段。](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## 編輯帳戶 {#edit-account}
 
