@@ -174,6 +174,6 @@ Do not treat example formats or supported input match keys as confirmed output r
 
 ## 後續步驟 {#next-steps}
 
-在您內嵌及驗證屬性後，結合擴充訊號與第一方資料，在[!DNL Adobe Real-Time CDP]中建立對象。 如需詳細資訊，請參閱[對象產生器指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}。
+在您內嵌及驗證屬性後，結合擴充訊號與第一方資料，在[!DNL Adobe Real-Time CDP]中建立對象。 如需詳細資訊，請參閱[對象產生器指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}。
 
-若要針對目的地、個人化或客戶歷程啟用對象，請參閱[對象啟用指南](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}。
+若要針對目的地、個人化或客戶歷程啟用對象，請參閱[對象啟用指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}。
