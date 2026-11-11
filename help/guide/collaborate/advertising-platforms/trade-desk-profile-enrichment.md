@@ -53,7 +53,7 @@ CSV檔案到達[!DNL Amazon S3]匯出目的地後，將其擷取到[!DNL Adobe R
    ![Collaborator目錄列出[!DNL The Trade Desk]及其[!UICONTROL 連線]選項。](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
 1. 選取[!DNL The Trade Desk]的&#x200B;**[!UICONTROL 連線]**，然後遵循連線對話方塊中的指示。
    ![連線對話方塊說明[!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}的REDS授權和合作夥伴ID設定
-1. 連線啟動之後，請開啟&#x200B;**[!UICONTROL 連線設定]**。 在&#x200B;**[!UICONTROL 廣告商資訊]**&#x200B;中，選取&#x200B;**[!UICONTROL 編輯]**&#x200B;以更新現有資訊，或選取&#x200B;**[!UICONTROL 新增]**以輸入新資訊。
+1. 連線啟動之後，請開啟&#x200B;**[!UICONTROL 連線設定]**。 在&#x200B;**[!UICONTROL 廣告商資訊]**&#x200B;中，選取&#x200B;**[!UICONTROL 編輯]**&#x200B;以更新現有資訊，或選取&#x200B;**[!UICONTROL 新增]**&#x200B;以輸入新資訊。
    ![使用中的連線設定顯示[!UICONTROL 廣告商資訊]和[!UICONTROL 編輯]控制項。](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
 1. 在&#x200B;**[!UICONTROL 合作夥伴ID]**&#x200B;和&#x200B;**[!UICONTROL 合作夥伴名稱]**&#x200B;中輸入您的合作夥伴ID和合作夥伴名稱，然後選取&#x200B;**[!UICONTROL 儲存]**。 在&#x200B;**[!UICONTROL 名額識別碼]**&#x200B;下的[!DNL The Trade Desk]帳戶中尋找您的合作夥伴ID。
    ![「廣告商資訊」對話方塊必須有「合作夥伴識別碼」和「合作夥伴名稱」欄位，以及[!UICONTROL 儲存]控制項。](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
@@ -67,7 +67,7 @@ CSV檔案到達[!DNL Amazon S3]匯出目的地後，將其擷取到[!DNL Adobe R
 1. 在&#x200B;**[!UICONTROL 共同作業]**&#x200B;中，選取&#x200B;**[!UICONTROL 我的專案]**。
 1. 選取&#x200B;**[!UICONTROL 建立專案]**&#x200B;或新增圖示（![新增專案。](/help/assets/icons/plus.png)）。
 1. 在&#x200B;**[!UICONTROL 建立專案]**&#x200B;中，從&#x200B;**[!UICONTROL 共同作業人員]**&#x200B;中選取[!DNL The Trade Desk]。
-   ![ [!UICONTROL 建立專案]表單列出[!DNL The Trade Desk]，並包含專案名稱、說明和影像欄位。](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
+   ![&#x200B; [!UICONTROL 建立專案]表單列出[!DNL The Trade Desk]，並包含專案名稱、說明和影像欄位。](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
 1. 輸入&#x200B;**[!UICONTROL 專案名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**，然後選擇影像以識別專案。
 1. 選取「**[!UICONTROL 建立]**」。
 
@@ -82,7 +82,7 @@ CSV檔案到達[!DNL Amazon S3]匯出目的地後，將其擷取到[!DNL Adobe R
 1. 開啟專案並選取&#x200B;**[!UICONTROL 擴充]**。
 1. 檢閱每個屬性的涵蓋範圍值，以瞭解訊號可用性。
 1. 選取要用於擴充的屬性。
-   ![ [!UICONTROL 擴充]頁面會依類別將可選取的訊號分組，並顯示涵蓋範圍值。](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
+   ![&#x200B; [!UICONTROL 擴充]頁面會依類別將可選取的訊號分組，並顯示涵蓋範圍值。](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
 1. 選取為擴充輸出設定的[!DNL Amazon S3]匯出目的地。 若要設定目的地，請參閱[設定和管理雲端儲存體目的地](/help/guide/destinations/manage-destinations.md)。
    <!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
 1. 檢閱選取的屬性和目的地，然後選取&#x200B;**[!UICONTROL 匯出屬性]**。
