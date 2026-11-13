@@ -70,7 +70,7 @@ CSV檔案到達[!DNL Amazon S3]匯出目的地後，將其擷取到[!DNL Adobe R
 
 在&#x200B;**[!UICONTROL 建立專案]**&#x200B;中，從&#x200B;**[!UICONTROL 共同作業人員]**&#x200B;中選取[!DNL The Trade Desk]。
 
-![ [!UICONTROL 建立專案]表單列出[!DNL The Trade Desk]，並包含專案名稱、說明和影像欄位。](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
+![&#x200B; [!UICONTROL 建立專案]表單列出[!DNL The Trade Desk]，並包含專案名稱、說明和影像欄位。](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
 
 若要識別專案，請輸入&#x200B;**[!UICONTROL 專案名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**，然後選取影像。 專案詳細資料完成時，選取&#x200B;**[!UICONTROL 建立]**。
 
@@ -80,7 +80,7 @@ CSV檔案到達[!DNL Amazon S3]匯出目的地後，將其擷取到[!DNL Adobe R
 
 若要選取要匯出的擴充屬性，請開啟專案並選取&#x200B;**[!UICONTROL 擴充]**。 若要瞭解訊號可用性，請先檢閱每個屬性的涵蓋範圍值，再選取您要使用的屬性。
 
-![ [!UICONTROL 擴充]頁面會依類別將可選取的訊號分組，並顯示涵蓋範圍值。](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
+![&#x200B; [!UICONTROL 擴充]頁面會依類別將可選取的訊號分組，並顯示涵蓋範圍值。](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
 
 <!-- TODO: Replace the destination screenshot with one showing the [!UICONTROL Export Attributes] action. -->
 
