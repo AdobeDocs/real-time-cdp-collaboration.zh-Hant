@@ -1,15 +1,15 @@
 ---
 title: 設定[!DNL Databricks Delta Share]以取得對象來源
-description: 瞭解如何在Real-Time CDP Collaboration中設定並連線[!DNL Databricks Delta Share]以取得對象來源。
+description: 瞭解如何在Real-Time CDP Collaboration中設定並連線[!DNL Databricks Delta Share]以取得對象，包括歷史共用。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 2c6b8967566bcb1ea1851763a13d965bddfb9236
 workflow-type: tm+mt
-source-wordcount: '2818'
-ht-degree: 8%
+source-wordcount: '3294'
+ht-degree: 7%
 ---
 
 # 設定[!DNL Databricks Delta Share]以取得對象來源
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 當您連線[!DNL Databricks Delta Share]時，Collaboration會直接從您的Unity Catalog共用讀取對象資料。 sourcing完成後，您即可在共同作業專案中使用對象進行啟用和重疊分析。
 
-本指南說明如何準備先決條件、連線您的[!DNL Delta Share]、指定來源表格、對應身分欄位，以及驗證對象來源是否成功啟動。
+本指南說明如何完成必要條件、連線您的[!DNL Delta Share]、指定來源表格、對應身分欄位，以及驗證對象來源是否成功啟動。
 
 來源為[!DNL Databricks]的對象會遵循與來源為Adobe Experience Platform和其他支援雲端來源的對象相同的治理和資料處理規則。
 
@@ -44,17 +44,18 @@ ht-degree: 8%
 
 建構您的對象表格，讓Collaboration可以發現對象並正確對應身分。
 
-* **成員資格資料表（必要）：**&#x200B;共用結構描述中的資料表，包含每個設定檔 — 對象配對的一列。 此資料表必須包含可對應至`AUDIENCE_ID`的資料行，以及至少一個支援的相符索引鍵資料行。 Collaboration使用此表格進行來源資料預覽和欄位對應。
+* **成員資格資料表（必要）：**&#x200B;共用結構描述中的資料表，包含每個設定檔 — 對象配對的一列。 此資料表必須包含`AUDIENCE_ID`資料行以及至少一個支援的相符索引鍵資料行。 Collaboration使用此表格進行來源資料預覽和欄位對應。
 * **中繼資料表格（選用）：**&#x200B;如果您維護個別的對象目錄（每個對象一列，包含對象ID、名稱、計數或類似的中繼資料），您可以提供此表格，讓Collaboration從中讀取對象定義，而非僅從成員資格表格推斷不同的對象ID。
 * **支援的相符金鑰：** `HASHED_EMAIL_SHA_256`、`HASHED_PHONE_SHA_256`、`HASHED_IPV4_SHA_256`、`CRM_ID`、`LOYALTY_ID`、`ADFIXUS_ID`，以及其他為您的Collaboration帳戶啟用的相符金鑰。
 * **雜湊需求：**&#x200B;所有相符索引鍵值都必須經過修剪、小寫和SHA256雜湊處理，才能儲存在[!DNL Databricks]中。 Collaboration不會在內嵌前將資料雜湊或標準化。
 * **資料行一致性：**&#x200B;成員資格資料表必須公開Collaboration可對應到您啟用的相符索引鍵的穩定資料行名稱。
+* **歷程記錄共用（建議）：**&#x200B;若要改善sourcing效能（尤其是大型資料表），請在共用對象資料表時啟用歷程記錄共用。 記錄共用可讓Collaboration使用一致的表格版本並行讀取資料。 若沒有歷史共用，受眾來源會使用較慢的單一查詢程式來完成。 如需詳細資訊，請參閱[啟用歷程記錄共用](#enable-history-sharing)。
 
 您也必須為Collaboration帳戶啟用成員資格表格中存在的所有相符金鑰。 若要新增或啟用比對金鑰，請參閱[設定比對金鑰](./onboard-account.md#set-up-match-keys)。
 
 ### 開始前所需的值 {#required-values}
 
-在啟動設定精靈之前，請先準備好下列值。
+開始設定工作流程之前，請先準備好下列值。
 
 
 | 值 | 說明 |
@@ -69,7 +70,7 @@ ht-degree: 8%
 
 ## 設定您的[!DNL Databricks]連線 {#configure-databricks-connection}
 
-設定工作流程是&#x200B;**[!UICONTROL 設定]**&#x200B;工作區內的多步驟精靈。 依序完成每個步驟。
+設定工作流程包括&#x200B;**[!UICONTROL 設定]**&#x200B;工作區中的多個步驟。 依序完成每個步驟。
 
 ### 新增資料連線 {#add-data-connection}
 
@@ -106,11 +107,11 @@ Collaboration會驗證共用並掛載至Adobe的工作區。 此步驟最多可�
 | **[!UICONTROL 提供者名稱]** | Adobe用來使用您共用的Unity Catalog提供者名稱。 檢視開始[&#128279;](#required-values)前所需的值。 |
 | **[!UICONTROL 共用名稱]** | 發佈至Adobe的[!DNL Delta Share]名稱。 |
 | **[!UICONTROL 結構描述]** | 共用中包含對象表格的綱要。 |
-| **[!UICONTROL 資料表]** | 結構描述中的表格名稱，其中包含對象成員資格列（對象中每個設定檔各一列）。 |
+| **[!UICONTROL 成員資格資料表]** | 結構描述中的表格名稱，其中包含對象成員資格列（對象中每個設定檔各一列）。 |
 | **[!UICONTROL 中繼資料表]** | 列出對象的表格（每個對象一列）。 |
 
 
-![此新增對象工作流程顯示Databricks連線 — 共用表單，其中包含提供者名稱、共用名稱、結構描述、資料表格和中繼資料表格欄位，以及[下一步]按鈕可用。](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
+![此新增對象工作流程顯示Databricks連線 — 共用表單，其中包含提供者名稱、共用名稱、結構描述、成員資格表格和中繼資料表格欄位，以及[下一步]按鈕可供使用。](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
 
 如果找不到共用或結構描述尚未顯示，則會出現錯誤訊息。 請向您的[!DNL Databricks]管理員確認值，然後再試一次。
 
@@ -171,7 +172,7 @@ Collaboration會驗證共用並掛載至Adobe的工作區。 此步驟最多可�
 
 ## 檢閱來源對象 {#review-sourced-audiences}
 
-在您完成設定精靈後，Collaboration會以非同步方式開始從您的[!DNL Databricks]表格取得對象。 瀏覽至&#x200B;**[!UICONTROL 設定] > [!UICONTROL 我的對象]**&#x200B;以監視進度。 貨源搜尋不會立即完成；所需時間取決於資料大小。
+完成設定工作流程後，Collaboration會開始以非同步方式從[!DNL Databricks]表格取得對象。 瀏覽至&#x200B;**[!UICONTROL 設定] > [!UICONTROL 我的對象]**&#x200B;以監視進度。 貨源搜尋不會立即完成；所需時間取決於資料大小。
 
 ### 監控對象來源進度 {#monitor-sourcing-progress}
 
@@ -181,11 +182,13 @@ Collaboration會驗證共用並掛載至Adobe的工作區。 此步驟最多可�
 
 >[!TIP]
 >
->對象來源時間會因您的成員資格表格大小，以及您是否使用中繼資料表格進行對象探索而有所不同。 較大的資料集可能需要更長的時間才會出現在&#x200B;**[!UICONTROL 我的對象]**&#x200B;工作區中。
+>若要改善對象來源效能（尤其是大型表格），請啟用歷史記錄共用。 這可讓Collaboration從一致的表格版本同時讀取資料。 不過，跨雲端共用使用單一查詢程式，即使歷史共用已啟用。
+>
+>對象來源時間也取決於成員資格表格大小和中繼資料導向的對象探索等因素。 較大的資料集可能需要更長的時間才會出現在&#x200B;**[!UICONTROL 我的對象]**&#x200B;中。 如需詳細資訊，請參閱[啟用歷程記錄共用](#enable-history-sharing)。
 
 ### 檢視來源對象詳細資料 {#view-audience-details}
 
-來源補充完成後，您的[!DNL Databricks]對象會與其他連線來源的對象一起出現在&#x200B;**[!UICONTROL 我的對象]**&#x200B;標籤中。 選取列專案或&#x200B;**[!UICONTROL 檢視對象]**&#x200B;以開啟特定對象的詳細資料檢視。
+來源補充完成後，您的[!DNL Databricks]對象會與其他連線來源的對象一起出現在&#x200B;**[!UICONTROL 我的對象]**&#x200B;標籤中。 Select列專案或&#x200B;**[!UICONTROL 檢視對象]**&#x200B;以開啟特定對象的詳細資料檢視。
 
 ![設定工作區中的「我的對象」索引標籤會顯示對象表格，包括來源為「資料庫差異共用」的對象表格，且有可選取的核取方塊和可用的列動作。](../../assets/setup/databricks-audience-sourcing/databricks-my-audiences-row-actions.png)
 
@@ -216,11 +219,13 @@ Collaboration會驗證共用並掛載至Adobe的工作區。 此步驟最多可�
 
 設定和使用[!DNL Databricks Delta Share]對象來源時，請注意下列限制：
 
-* **僅原生共用：** UI僅支援原生資料庫對資料庫[!DNL Delta Sharing]。 配置精靈中無法使用持有人權杖和OIDC驗證流程。
-* **沒有精靈中的資料表瀏覽器：**&#x200B;您必須手動輸入資料表名稱。 當您預覽表格時，Collaboration會驗證表格名稱；它不會自動列出共用中的所有表格。
+* **僅原生共用：** UI僅支援原生資料庫對資料庫[!DNL Delta Sharing]。 配置工作流程中無法使用持有人權杖和OIDC驗證流程。
+* **手動資料表名稱專案：**&#x200B;您必須手動輸入資料表名稱。 當您預覽表格時，Collaboration會驗證表格名稱；它不會自動列出共用中的所有表格。
 * **中繼資料表格列限制：**&#x200B;當您使用中繼資料表格進行對象探索時，Collaboration會從該表格匯入最多100,000個對象列。 如果您的目錄超過此限制，請聯絡Adobe支援。
 * **符合索引鍵條件約束：**&#x200B;一旦為資料連線啟用符合索引鍵，就無法移除它。 您可以將相符金鑰新增至現有的連線，但無法停用或刪除它們。 若要變更作用中的比對金鑰，您必須[刪除資料連線](./manage-data-connection.md#delete-data-connection)並建立新的連線。
 * **必要的成員資格表格：**&#x200B;即使您使用中繼資料表格進行對象探索，也必須指定成員資格表格。 Collaboration會在擷取期間從成員資格表格中讀取身分列。
+* **大型資料表建議使用歷程記錄共用：**&#x200B;若要改善大型資料表的sourcing效能，請啟用歷程記錄共用。 這可讓Collaboration同時讀取資料。 如果沒有歷史共用，sourcing會使用較慢的單一查詢程式。 如需詳細資訊，請參閱[啟用歷程記錄共用](#enable-history-sharing)。
+* **跨雲端共用：**&#x200B;當您的[!DNL Databricks]提供者和Adobe工作區使用不同的雲端環境時，無論是否啟用歷程記錄共用，sourcing都會使用單一查詢程式。 例如，當您的提供者使用[!DNL Azure]，而Adobe工作區使用AWS時，即適用。 不需要額外設定。
 
 ## 疑難排解 {#troubleshooting}
 
@@ -240,16 +245,32 @@ Collaboration會驗證共用並掛載至Adobe的工作區。 此步驟最多可�
 
 **欄位對應驗證區塊進度**
 
-* 確認您的成員資格資料表包含可對應至&#x200B;**`AUDIENCE_ID`**&#x200B;的資料行。
-* 請確定至少兩個身分欄位已完全對應（來源和目標）。
+* 確認您的成員資格資料表包含`AUDIENCE_ID`資料行以及至少一個支援的相符索引鍵資料行。
+* 確認至少有一個支援的相符索引鍵同時對應了來源欄位和目標欄位。
 * 使用&#x200B;**[!UICONTROL 預覽來源資料]**&#x200B;來驗證資料行名稱是否符合您啟用的比對金鑰。
 
 **對象未出現或來源搜尋所花的時間比預期長**
 
+* 確認您的表格已與歷史記錄共用。 執行`SHOW ALL IN SHARE <share_name>;`並檢查`history_sharing`是否為`ENABLED`。 如果停用歷程記錄共用，請使用`WITH HISTORY`重新新增資料表。 如需詳細資訊，請參閱[啟用歷程記錄共用](#enable-history-sharing)。
 * 來源時間會隨著資料量而調整。 大型成員資格表格預期會延長處理時間。
 * 如果對象未在24小時內出現，請檢查&#x200B;**[!UICONTROL 我的資料連線]**&#x200B;索引標籤，以取得連線上的錯誤指標。
 * 確認您的成員資格資料表結構和欄位對應符合[準備您的對象資料](#prepare-audience-data)中的要求。
 * 如果問題仍然存在，請聯絡Adobe客戶支援，並提供資料連線名稱和表格詳細資訊。
+
+**啟用歷程記錄共用失敗**
+
+如果您的工作區拒絕`ALTER TABLE`命令，請從共用中移除資料表，並加入具有歷程記錄的資料表。 將`<share_name>`、`<catalog>`、`<schema>`和`<table>`取代為您的共用名稱和資料表識別碼。
+
+>[!IMPORTANT]
+>
+> 請勿在Adobe sourcing執行期間移除並重新新增表格。
+
+```sql
+ALTER SHARE <share_name> REMOVE TABLE <catalog>.<schema>.<table>;
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+重新新增資料表之後，[請確認已啟用歷程記錄共用](#enable-history-sharing)。
 
 **資料連線在初始成功後顯示失敗狀態**
 
@@ -273,28 +294,62 @@ Collaboration會驗證共用並掛載至Adobe的工作區。 此步驟最多可�
 * 包含結構描述和資料表的[!DNL Delta Share]將由Collaboration讀取。
 * 成員資格表格，每個設定檔 — 對象配對有一列，**`AUDIENCE_ID`**&#x200B;欄和相符索引鍵。
 * 選用的中繼資料表格（如果您打算使用中繼資料導向的對象探索）。
+* 已為共用中的每個表格啟用歷程記錄共用（建議）。
 
 ### 發佈共用 {#publish}
 
 請依照您組織的[!DNL Databricks Delta Sharing]程式，授予Adobe的消費者帳戶存取共用的許可權。 確切步驟取決於您的[!DNL Databricks]部署和治理模型。 一般而言：
 
 1. 在Unity Catalog中，建立或識別包含對象結構描述和表格的共用。
-2. 將方案（或個別表格）新增至共用。
+2. 將結構描述或個別表格新增至您的資料庫共用。 Adobe建議您為每個表格啟用記錄共用。 如需詳細資訊，請參閱[啟用歷程記錄共用](#enable-history-sharing)。
 3. 使用原生Databricks-to-Databricks共用將共用授與Adobe的[!DNL Databricks]消費者帳戶。
-4. 向您的Adobe連絡人確認可在消費者端看到共用，並注意Collaboration設定精靈的提供者名稱和共用名稱。
-5. 有關[!DNL Delta Sharing]上的[!DNL Databricks]產品檔案，請參閱[資料庫差異共用檔案](https://docs.databricks.com/aws/en/delta-sharing)。
+4. 向您的Adobe聯絡人確認可在消費者端看到共用，並注意Collaboration設定工作流程的提供者名稱和共用名稱。
+
+>[!NOTE]
+>
+> 如需產品指示，請參閱[資料庫差異共用檔案](https://docs.databricks.com/aws/en/delta-sharing){target="_blank"}。
+
+### 啟用歷程記錄共用 {#enable-history-sharing}
+
+若要改善大型表格的sourcing效能，請為每個對象表格啟用歷史共用。 這可讓Collaboration使用一致的表格版本並行讀取資料。 若沒有歷程記錄共用，Collaboration會使用較慢的單一查詢程式。
+
+跨雲端共用使用單一查詢讀取，即使已啟用歷程記錄亦然。 如需詳細資訊，請參閱[已知限制](#known-limitations)。
+
+歷程記錄共用可讓Adobe存取您共用的舊版表格，但不能存取其他表格。 當您為已與Adobe共用的表格啟用記錄共用時，不需要授與額外的存取權。
+
+在您的[!DNL Databricks]工作區中使用下列SQL命令。 將`<share_name>`、`<catalog>`、`<schema>`和`<table>`取代為您的共用名稱和資料表識別碼。
+
+若要新增含有歷程記錄的表格，請執行：
+
+```sql
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+若要啟用已共用之表格的歷史記錄共用，請執行：
+
+```sql
+ALTER SHARE <share_name> ALTER TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+若要驗證歷程記錄共用，請執行：
+
+```sql
+SHOW ALL IN SHARE <share_name>;
+```
+
+確認每個對象表格的`history_sharing`為`ENABLED`，包括中繼資料表格（若您使用中繼資料表格）。 歷史記錄共用會在下次sourcing執行時生效。
 
 ### 收集Collaboration的[!DNL Databricks]詳細資料 {#collect-databricks-details}
 
 發佈共用後，請確定您擁有Collaboration設定工作流程可用的提供者名稱、共用名稱、結構描述和表格名稱。
 
-在啟動Collaboration設定精靈之前，請先收集下列詳細資料。
+在啟動Collaboration設定工作流程之前，請先收集下列詳細資料。
 
 | 欄位 | 說明 | 範例 |
-| ------| ----------- | ------- |
+| ------ | ----------- | ------- |
 | 提供者名稱 | Adobe Unity Catalog中繼存放區中的提供者識別碼（來自Adobe上線） | `your_org_provider` |
 | 共用名稱 | 已發佈[!DNL Delta Share]的名稱 | `audience_share_prod` |
-| 結構描述 | 結構描述 | `collaboration_audiences` |
+| 結構描述 | 共用中包含對象表格的綱要。 | `collaboration_audiences` |
 | 成員資格表格 | 包含設定檔對象成員資格列的表格 | `audience_members` |
 | 中繼資料表格（選擇性） | 列出對象的表格（每個對象一列） | `audience_catalog` |
 
