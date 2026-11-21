@@ -2,7 +2,7 @@
 title: 最新Real-Time CDP Collaboration發行說明
 description: 遵循Real-Time CDP Collaboration的最新發行版本
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限可用性" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/tw/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
 product_v2:
@@ -22,20 +22,41 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
+source-git-commit: c5031db11e6dd8d965439f0f5860a0710d2a56d1
 workflow-type: tm+mt
-source-wordcount: 2255
-ht-degree: 4%
-
+source-wordcount: '2587'
+ht-degree: 3%
 ---
-
 # 最新Real-Time CDP Collaboration發行說明
 
 {{limited-availability-release-note}}
 
-**上次更新日期**：2026年8月。
+**上次更新日期**：2026年11月。
 
 下列發行說明涵蓋Adobe Real-Time CDP Collaboration中發行的功能。 Collaboration版本會在持續傳遞模式上運作，允許大約每月發行。 這些發行說明會經常更新，請務必定期檢視。
+
+## 2026 年 11 月 {#november-2026}
+
+您現在可以將[!DNL The Trade Desk]的付費媒體內容新增到第一方設定檔，並改善大型[!DNL Databricks]對象表格的sourcing效能。
+
+| 功能 | 說明 |
+| ------- | ----------- |
+| [!BADGE Alpha]{type=Informative} [!DNL The Trade Desk]設定檔擴充 | 您現在可以將[!DNL The Trade Desk]的付費媒體內容新增到第一方設定檔，以進行對象建立和個人化。 如需詳細資訊，請參閱[交易台設定檔擴充](../collaborate/advertising-platforms/trade-desk-profile-enrichment.md)。 |
+| [!DNL Databricks]對象來源的歷史記錄共用 | 您現在可以啟用歷程記錄共用，改善大型[!DNL Databricks]資料表的對象來源效能。 此效能改善不適用於跨雲端共用。 如需詳細資訊，請參閱[啟用歷程記錄共用](../setup/configure-databricks-audience-sourcing.md#enable-history-sharing)。 |
+
+{style="table-layout:auto"}
+
+## 2026 年 10 月 {#october-2026}
+
+您現在可以在Real-Time CDP Collaboration中管理身分解析、建立擴充對象，以及使用自助式廣告記錄來源取得。
+
+| 功能 | 說明 |
+| ------- | ----------- |
+| Epsilon核心ID身分解析 | 現在，即使您的組織使用不同的識別碼，您仍可識別與共同作業人員共用的人員。 使用Epsilon核心ID來解析合格對象資料連線中的身分識別，而無需為每個合作夥伴建立自訂整合。 此功能僅適用於在美國布建的Collaboration帳戶。 如需詳細資訊，請參閱[設定及管理身分解析](../setup/identity-resolution.md)。 |
+| 自助式廣告記錄檔來源 | 您現在可以直接從[!DNL Google Cloud Storage]、[!DNL Azure Blob Storage]或[!DNL Azure Data Lake Storage Gen2]取得廣告曝光（廣告記錄）資料，以測量行銷活動績效。 如此一來，您就不需要透過Adobe Experience Platform取得第一個來源廣告記錄檔。 如需詳細資訊，請參閱[Google雲端儲存設定](../setup/configure-gcs-adlog-sourcing.md)和[Azure儲存設定](../setup/configure-azure-adlog-sourcing.md)。 |
+| [!BADGE Beta]{type=Informative}對象擴展 | 現在，您可以在共同作業人員母體中找到與來源對象類似的設定檔，而不需公開基礎對象資料。 使用這些設定檔為新潛在客戶建立擴充對象。 如需詳細資訊，請參閱[建立擴充對象](../collaborate/expand.md)。 |
+
+{style="table-layout:auto"}
 
 ## 2026 年 8 月 {#august-2026}
 
@@ -45,6 +66,7 @@ Real-Time CDP Collaboration現在支援[!DNL Amazon Marketing Cloud] (AMC)測量
 
 | 功能 | 說明 |
 | ------- | ----------- |
+| [!UICONTROL 資料Collaboration]的其他資料使用標籤 | 您現在可以在對象來源期間套用資料使用限制，以防止將標示為敏感且受規管的健康資料來源至Collaboration。 [!UICONTROL 資料Collaboration]行銷動作現在支援S1、S2、PSPD和RHD資料使用標籤。 現有的C4、C5和C9標籤支援保持不變。 如需詳細資訊，請參閱[對象來源控管](../setup/onboard-audiences.md#governance-policy-and-enforcement-actions)。 |
 | [!DNL AMC]測量報告 | 直接在Collaboration中使用[!DNL AMC]資料來測量Amazon Ads行銷活動的效能。 您可以從[!DNL AMC]專案中的&#x200B;**[!UICONTROL 測量]**&#x200B;索引標籤建立&#x200B;**行銷活動摘要**&#x200B;和&#x200B;**歸因**&#x200B;報告，以評估行銷活動績效並了解轉換歸因。 如需詳細資訊，請參閱[建立Amazon Marketing Cloud測量報告](../collaborate/advertising-platforms/amc-measure.md)。 |
 | 符合巢狀設定檔屬性的索引鍵對應 | 您現在可以將比對索引鍵對應到巢狀內嵌於清單型設定檔欄位中的欄位，例如`devices`陣列中的裝置ID，而不需要預先平面化或重組資料。 Collaboration會分別比對及計算巢狀欄位中的每個值。 巢狀欄位目前僅支援比對索引鍵，不支援做為設定檔屬性。 如需詳細資訊，請參閱[對應欄位](../setup/onboard-audiences.md#map-fields)。 |
 | 位置層級轉換報表 | 歸因報表現在包含依位置&#x200B;**的**&#x200B;轉換，顯示行銷活動ID中每個位置ID的轉換計數和轉換值。 這會為您提供多個版位的行銷活動個別結果。 先前的&#x200B;**[!UICONTROL 預估收入]**&#x200B;量度標籤已更新為&#x200B;**[!UICONTROL 轉換值]**，以更明確說明。 如需詳細資訊，請參閱[依位置轉換](../collaborate/measure.md#conversions-by-placement)。 |
@@ -143,7 +165,7 @@ Real-Time CDP Collaboration現在可供&#x200B;**歐洲、中東和非洲(EMEA))
 
 ## 2025 年 7 月 {#july-2025}
 
-Real-time CDP Collaboration現在支援品牌對品牌共同作業。 共同作業人員現在可以建立連線，無論他們是廣告商或發佈者。 這樣可提供更具彈性的共同作業機會，並讓品牌得以運用彼此的資料和見解。 若要進一步瞭解品牌對品牌共同作業和廣告商對發佈商共同作業之間的差異，請閱讀[共同作業模式](../overview/collaboration-patterns.md)指南。
+Real-Time CDP Collaboration現在支援品牌對品牌共同作業。 共同作業人員現在可以建立連線，無論他們是廣告商或發佈者。 這樣可提供更具彈性的共同作業機會，並讓品牌得以運用彼此的資料和見解。 若要進一步瞭解品牌對品牌共同作業和廣告商對發佈商共同作業之間的差異，請閱讀[共同作業模式](../overview/collaboration-patterns.md)指南。
 
 * 共同作業人員現在可以使用[私人連線邀請](../connect/establishing-connections.md#private-connection-invites)互相連線。 與共同作業人員共用您帳戶的唯一連執行緒式碼，然後共同作業人員就可以使用該程式碼直接與您連線。 這是品牌對品牌共同作業的核心功能，可讓共同作業人員建立超越廣告商探索&#x200B;**[!UICONTROL 探索共同作業人員]**&#x200B;目錄的連線。
 * [自助服務目的地](../destinations/overview.md)現在可供廣告商和發佈者使用。
