@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
 source-wordcount: '4152'
-ht-degree: 16%
+ht-degree: 17%
 ---
 # Source和管理對象
 
@@ -71,7 +71,7 @@ ht-degree: 16%
 
 接下來，您將選擇資料連線的來源。 可用的來源包括：
 
-* **Adobe Experience Platform**：選取此選項，即可從Adobe Experience Platform引進您的對象。
+* **Adobe Experience Platform**： Select此選項可從Adobe Experience Platform引進您的對象。
 * **CSV檔案**：上傳包含您對象資料的CSV檔案，以便快速且直接地擷取資料。 請參閱[上傳CSV檔案以取得對象來源](./upload-csv-audience-sourcing.md)指南以開始。
 * **Amazon Web Services**：直接從S3儲存貯體連線至您的Amazon S3儲存體，以取得對象資料。 如需逐步指示，請參閱[設定AWS S3以取得對象來源](./configure-aws-s3-audience-sourcing.md)指南。
 * **Snowflake**：使用您的Snowflake資料倉儲，順暢地提取對象資料。 請參閱[設定 [!DNL Snowflake] 對象來源](./configure-snowflake-audience-sourcing.md)指南。
@@ -79,13 +79,13 @@ ht-degree: 16%
 * **[!DNL Databricks Delta Share]**：連線至您的[!DNL Databricks Delta Share]，以從您的[!DNL Databricks]環境取得第一方對象資料。 請參閱[設定 [!DNL Databricks Delta Share] 對象來源](./configure-databricks-audience-sourcing.md)指南。
 * **Adobe Audience Manager**：從Adobe Audience ManagerSource您的對象區段。 若要開始使用，請參閱[設定Adobe Audience Manager以取得對象來源](./configure-aam-audience-sourcing.md)指南。
 
-選取您的資料來源，然後選取&#x200B;**[!UICONTROL 下一步]**。
+Select您的資料來源，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
 ![反白顯示Adobe Experience Platform選項的「新增對象」工作區。](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
 #### 選取沙箱 {#select-sandbox}
 
-選取資料來源後，您必須選取沙箱，其中包含您要用於Collaboration的對象。 從可用沙箱清單中選取沙箱，然後選取&#x200B;**[!UICONTROL 下一步]**
+選取資料來源後，您必須選取沙箱，其中包含您要用於Collaboration的對象。 從可用沙箱清單中Select沙箱，然後選取&#x200B;**[!UICONTROL 下一步]**
 
 ![已選取沙箱的「新增對象」工作區。](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
 
@@ -129,7 +129,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="目標欄位"
->abstract="目標欄位可識別Collaboration如何使用對應的來源資料。 預設提供帳戶層級的比對索引鍵。 用於身分解析的名稱和郵寄位址列位在資料連線設定期間提供，不需要帳戶層級的啟用。"
+>abstract="目標欄位可識別 Collaboration 如何使用對應的來源資料。 預設提供帳戶層級的比對索引鍵。 用於身分解析的名稱和郵寄地址欄位會在資料連線設定期間提供，不需要帳戶層級的啟用。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
