@@ -38,7 +38,7 @@ ht-degree: 1%
 
 在您授與或使用虛擬對象存取權之前，請確認您符合下列需求。
 
-* 針對虛擬對象授權，建立與共同作業人員](/help/guide/connect/establishing-connections.md)之間的使用中[連線。
+* 針對虛擬對象授權，建立與共同作業人員[&#128279;](/help/guide/connect/establishing-connections.md)之間的使用中連線。
 * 如果您提供對象，請確認該對象可供共用。
 * 若要確認哪些動作可用，請檢閱與您共用的對象授予許可權。
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 接著，選取&#x200B;**[!UICONTROL 對象存取]**，然後選擇提供者所共用的對象選項。
 
-選項包含提供者名稱。 在此範例中，從FrameSix Media ]**選取**[!UICONTROL 。
+選項包含提供者名稱。 在此範例中，從FrameSix Media **選取**。
 
 最後，檢閱共用對象及其存取詳細資訊。
 
